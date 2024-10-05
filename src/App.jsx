@@ -1,35 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import './fonts.css';
+import { useState } from "react";
+// import Footer from "./components/Footer/Footer.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+// import LandingPage from "./pages/landing-page/landing-page.jsx";
+import { useEffect } from "react";
+import axios from "axios";
+import { DOMAIN } from "./domain.js";
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
+  const [eventarray, setEventarray] = useState([]);
+  useEffect(() => {
+    axios.get(`${DOMAIN}allevents/`)
+      .then((response) => {
+        setEventarray(response.data);
+        console.log(response.data.competitions);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <main className="main-bg">
+      <Router>
+        <Navbar />
+        {/* <Routes>
+                    <Route path="/" element={<LandingPage />} />
+        </Routes> */}
+        {/* <Footer /> */}
+      </Router>
+    </main>
+  );
+};
 
-export default App
+export default App;
