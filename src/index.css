@@ -10,8 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #030a17;
-  background-image: url("assets/sponsors/stars.webp");
+  background-color: #0d1116;
+  /* background-image: url("assets/sponsors/stars.webp"); */
 }
 
 code {
