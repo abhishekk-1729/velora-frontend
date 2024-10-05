@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import trystlogo from "../../assets/Navbar/TrystLogo.png";
 import Tryst24 from "../../assets/Navbar/TRYST.png";
+import Company from "../../assets/Navbar/company.png";
 import profileicon from "../../assets/Navbar/IconButton.png";
 import navbarmenu from "../../assets/Navbar/navbarmenu.png";
 import crossmenu from "../../assets/Navbar/crossmenu.png";
@@ -99,32 +100,22 @@ function Navbar() {
           className="navbartrystlogo"
           onClick={() => handleNavbarOptionClick("")}
         >
-          <img className="trystlogoimg" src={trystlogo}></img>
-          <img className="tryst2024img" src={Tryst24}></img>
+          {/* <img className="trystlogoimg" src={trystlogo}></img> */}
+          <img className="tryst2024img" src={Company}></img>
         </div>
         <div className="navbaroptions-container">
           <div className="navbaricons">
-            <a
-              className={`navbaroption ${
-                selectedOption === "CAP" ? "navbaroption-selected" : ""
-              }`}
-              href="https://cap.tryst-iitd.org/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CAP
-            </a>
             {[
               "About",
-              "Guests",
-              "Pronites",
-              "Events",
-              "Sponsors",
+              "FAQs",
+
+              "Pricing",
               "Contact Us",
+              "Dashboard",
+              "Log in/Sign up",
             ].map(
               (option) =>
-                // Render "Pronites" tab only if userProfile's category is "general"
-                !(option === "Pronites" && userProfile.category !== "general") && (
+                (
                   <div
                     key={option}
                     className={`navbaroption ${
@@ -137,31 +128,6 @@ function Navbar() {
                 )
             )}
           </div>
-          <div
-            className="navbarprofile"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            onClick={handleClick}
-            style={{
-              transform: isHovered || isClicked ? "scale(1)" : "scale(1)",
-              transformStyle:
-                isHovered || isClicked ? "preserve-3d" : "preserve-3d",
-              transition:
-                isHovered || isClicked ? "all 0.3s ease" : "all 0.3s ease",
-            }}
-          >
-            <Link to="/login">
-              <img
-                src={
-                  isHovered
-                    ? profilehov
-                    : isClicked
-                    ? profileclicked
-                    : profileicon
-                }
-              ></img>
-            </Link>
-          </div>
           <button className="navbarmenu" onClick={handleShowNavbar}>
             <img src={showNavOptions ? crossmenu : navbarmenu}></img>
           </button>
@@ -171,16 +137,15 @@ function Navbar() {
         className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}
       >
         {[
-          "About",
-          "Guests",
-          "Pronites",
-          "Events",
-          "Sponsors",
-          "Contact Us",
+              "About",
+              "FAQs",
+
+              "Contact Us",
+              "Dashboard",
+              "Sign up/Log in",
         ].map(
           (option) =>
-            !(option === "Pronites" && userProfile.category !== "general") && (
-              <div
+(              <div
                 key={option}
                 className={`navbaroption ${
                   selectedMobileOption === option

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    background-color: #151b23; /* Updated background color */
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px; /* Increased border radius */
+    border: 2px solid #3d444d; /* Added border color */
+    max-width: 1200px;
+    margin: 20px;
+    width: calc(100% - 40px); /* Full width minus the margin */
+    height: 80vh; /* Take most of the screen height */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: rotateY(10deg); /* Slight tilt effect on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle at var(--x, 50%) var(--y, 50%), 
+      rgba(255, 20, 147, 0.2),  /* Reduced opacity for a more subtle glow */
+      transparent 80%  /* Increased the gradient's radius */
+    );
+    border-radius: 20px; /* Match the card's border radius */
+    pointer-events: none;
+    opacity: var(--opacity, 0); /* Control visibility using CSS variable */
+    transition: opacity 0.3s ease, background-position 0.3s ease;
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    flex: 1;
+    justify-content: space-between; /* Added to control spacing */
+  }
+  
+  .reverse {
+    flex-direction: row-reverse; /* Reverses the direction for 'right' image position */
+  }
+  
+  .card-image {
+    width: 300px; /* Make image bigger since it's now full-screen */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .reverse .card-image {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  
+  .card-text {
+    flex: 1;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .card-action a {
+    margin-top: 15px;
+    color: #39a2db;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .card-action a:hover {
+    text-decoration: underline;
+  }
+  
