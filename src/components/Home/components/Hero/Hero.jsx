@@ -1,9 +1,30 @@
 import React from "react";
-// import "./Hero.css";
+import "./Hero.css";
 
 function Hero() {
   return <>
-<p>hi</p>
+    <div className="hero">
+        <div className="hero-content">
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+
+
+
+
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+    <p>hi</p>
+
+    </div>
+    </div>
   </>;
 }
 

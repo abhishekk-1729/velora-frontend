@@ -10,8 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #0d1116;
+  background-color: #070508;
   /* background-image: url("assets/sponsors/stars.webp"); */
+  /* background-image:  url("../src/components/Home/components/Hero/home_background.jpg"); */
+  background-size: cover;  
+
 }
 
 code {

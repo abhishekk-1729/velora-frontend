@@ -1,108 +1,87 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  .card {
-    background-color: #151b23; /* Updated background color */
+.card {
+    background-color: #1c1c1c;
     color: #fff;
     padding: 20px;
-    border-radius: 20px; /* Increased border radius */
-    border: 2px solid #3d444d; /* Added border color */
-    max-width: 1200px;
-    margin: 20px;
-    width: calc(100% - 40px); /* Full width minus the margin */
-    height: 80vh; /* Take most of the screen height */
+    border-radius: 10px;
+    width: calc(100% - 8rem); /* Full width minus 4rem margin on both sides */
+    height: calc(100% - 6rem); /* Increased height */
+    margin: 4rem; /* Margin from all directions */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .card:hover {
-    transform: rotateY(10deg); /* Slight tilt effect on hover */
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+  .card-content {
+    display: flex; /* Use flexbox to split content */
+    align-items: center;
+    justify-content: space-between;
+    flex: 1; /* Allow it to take the full height of the card */
+    padding: 1rem; /* Inner padding */
+    gap: 2rem; /* Increased gap between the two halves */
   }
   
-  .card::before {
+  .card-image-container {
+    flex: 1; /* Left part for image */
+    padding-right: 1rem; /* Space between image and text */
+  }
+  
+  .card-text {
+    flex: 1; /* Right part for text */
+    padding-left: 1rem; /* Space between image and text */
+  }
+  
+  .card-image {
+    width: 100%; /* Adjust to fill the left part */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 32px; /* Increased heading size */
+    font-weight: bold;
+    padding-top: 1rem; /* Required padding from the top */
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 20px; /* Increased paragraph size */
+  }
+  
+  /* Glow overlay styles */
+  .glow-overlay {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(
-      circle at var(--x, 50%) var(--y, 50%), 
-      rgba(255, 20, 147, 0.2),  /* Reduced opacity for a more subtle glow */
-      transparent 80%  /* Increased the gradient's radius */
-    );
-    border-radius: 20px; /* Match the card's border radius */
+    border-radius: 10px;
     pointer-events: none;
-    opacity: var(--opacity, 0); /* Control visibility using CSS variable */
-    transition: opacity 0.3s ease, background-position 0.3s ease;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease;
+    z-index: 0; /* Ensure it appears below the content */
   }
   
-  .card-content {
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    position: relative;
-    flex: 1;
-    justify-content: space-between; /* Added to control spacing */
+  .card:hover .glow-overlay {
+    opacity: 1; /* Show overlay when hovered */
   }
   
-  .reverse {
-    flex-direction: row-reverse; /* Reverses the direction for 'right' image position */
-  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column; /* Stack image and text vertically on smaller screens */
+    }
   
-  .card-image {
-    width: 300px; /* Make image bigger since it's now full-screen */
-    height: auto;
-    margin-right: 20px;
-    border-radius: 5px;
-  }
+    .card-image-container {
+      margin-bottom: 1rem; /* Space between image and text when stacked */
+    }
   
-  .reverse .card-image {
-    margin-right: 0;
-    margin-left: 20px;
-  }
-  
-  .card-text {
-    flex: 1;
-  }
-  
-  .card h2 {
-    margin: 0;
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .card p {
-    margin-top: 10px;
-    font-size: 20px;
-  }
-  
-  .card-action a {
-    margin-top: 15px;
-    color: #39a2db;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-  }
-  
-  .card-action a:hover {
-    text-decoration: underline;
+    .card {
+      height: calc(100vh - 6rem); /* Adjust height for mobile */
+    }
   }
   
