@@ -1,0 +1,87 @@
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(100% - 8rem); /* Full width minus 4rem margin on both sides */
+    height: calc(100% - 6rem); /* Increased height */
+    margin: 4rem; /* Margin from all directions */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-content {
+    display: flex; /* Use flexbox to split content */
+    align-items: center;
+    justify-content: space-between;
+    flex: 1; /* Allow it to take the full height of the card */
+    padding: 1rem; /* Inner padding */
+    gap: 2rem; /* Increased gap between the two halves */
+  }
+  
+  .card-image-container {
+    flex: 1; /* Left part for image */
+    padding-right: 1rem; /* Space between image and text */
+  }
+  
+  .card-text {
+    flex: 1; /* Right part for text */
+    padding-left: 1rem; /* Space between image and text */
+  }
+  
+  .card-image {
+    width: 100%; /* Adjust to fill the left part */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 32px; /* Increased heading size */
+    font-weight: bold;
+    padding-top: 1rem; /* Required padding from the top */
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 20px; /* Increased paragraph size */
+  }
+  
+  /* Glow overlay styles */
+  .glow-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease;
+    z-index: 0; /* Ensure it appears below the content */
+  }
+  
+  .card:hover .glow-overlay {
+    opacity: 1; /* Show overlay when hovered */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card-content {
+      flex-direction: column; /* Stack image and text vertically on smaller screens */
+    }
+  
+    .card-image-container {
+      margin-bottom: 1rem; /* Space between image and text when stacked */
+    }
+  
+    .card {
+      height: calc(100vh - 6rem); /* Adjust height for mobile */
+    }
+  }
+  

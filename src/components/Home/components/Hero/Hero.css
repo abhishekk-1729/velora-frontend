@@ -9,16 +9,24 @@
     /* background-color: #030a17; */
     /* background-repeat: no-repeat; */
     background-size: cover;  
-    background-image:  url("./home_background.jpg");
 
-    color: white;
+    /* background-image:  url("./home_background.jpg"); */
+
+    /* color: white; */
     height: '100vh';
     width: '100vw';
     overflow: 'hidden'
 }
-
+/* 
 .hero-content{
     margin: 4rem;
     padding: 2rem;
  
-}
+} */
+
+
+/* Hover effect for the Contact Sales button */
+/* .hero_cta_contact_sales:hover .hero_cta_img {
+    content: url("./right_arrow.png");
+  }
+   */

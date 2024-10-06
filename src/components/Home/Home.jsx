@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import Card from "./components/Card/Card";
+import Card2 from "./components/Card/Card2";
 import Hero from "./components/Hero/Hero";
 import HeroLast from "./components/HeroLast/HeroLast";
 
@@ -54,6 +55,16 @@ function Home() {
             glowColor: "rgba(255, 255, 0, 0.2)" // Subtle Neon Yellow Glow
         }
     ];
+
+    const value2 = {
+        key: "5",
+        direction: "left",
+        color: "#ffff00", // Neon Yellow
+        heading: "Card 5",
+        text: "This is the fifth card.",
+        image: "https://via.placeholder.com/100",
+        glowColor: "rgba(255, 255, 0, 0.2)" // Subtle Neon Yellow Glow
+    }
     
       return (
     <>
@@ -69,7 +80,15 @@ function Home() {
           glowColor = {value.glowColor}
         />
       ))}
-      <HeroLast/>
+              <Card2 
+          direction={value2.direction} 
+          color={value2.color} 
+          heading={value2.heading} 
+          text={value2.text} 
+        //   image = {value.image}
+          glowColor = {value2.glowColor}
+        />
+      {/* <HeroLast/> */}
     </>
   );
 }
