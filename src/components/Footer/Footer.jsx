@@ -33,8 +33,8 @@ const Footer = () => {
     { name: "About", id: "about" },
     { name: "Pricing", id: "pricing" },
     { name: "Log in/Sign up", id: "login" },
-    { name: "Dashboard", id: "dashboard" },
-    { name: "Contact us", id: "contact" },
+    // { name: "Dashboard", id: "dashboard" },
+    // { name: "Contact us", id: "contact" },
   ];
 
   const quickLinks2 = ["Privacy Policy", "Terms and Conditions", "FAQs"];
@@ -49,7 +49,7 @@ const Footer = () => {
         const ipResponse = await axios.get('https://ipinfo.io?token=3cf3dd2719879c'); // Replace with your token
         const city = ipResponse.data.city;
         console.log(city)
-
+// e add
         // Step 2: Get weather data using the OpenWeatherMap API
         const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a1964ed700a53a98ef27460766bb040e`); // Replace with your API key
         const weather = weatherResponse.data;

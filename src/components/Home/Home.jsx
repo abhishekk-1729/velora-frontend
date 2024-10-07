@@ -17,142 +17,79 @@ function Home() {
     glowColor: "rgba(255, 255, 0, 0.2)", // Subtle Neon Yellow Glow
   };
 
+  const qualities = [
+    {
+      id: "delivery",
+      key: "1",
+      direction: "right",
+      color: "#3FBA50", // Green
+      heading_text: "Websites delivered in 4 weeks",
+      text: "With Velora, your websites are delivered in just 4 weeks after the final UI approval, ensuring you meet your deadlines with ease.",
+      image: "/assets/home/delivery",
+      glowColor: "rgba(63, 186, 80, 0.2)", // Green Glow
+    },
+    {
+      id: "design",
+      key: "2",
+      direction: "left",
+      color: "#32B4AE", // Teal
+      heading_text: "Designed with precision",
+      text: "Our expert designers create beautiful, responsive websites that ensure a seamless user experience across all devices.",
+      image: "/assets/home/design",
+      glowColor: "rgba(50, 180, 174, 0.2)", // Teal Glow
+    },
+    {
+      id: "performance",
+      key: "3",
+      direction: "right",
+      color: "#F778BB", // Pink
+      heading_text: "Performance optimized",
+      text: "Velora websites are engineered for speed and efficiency, ensuring optimal performance that keeps your users engaged.",
+      image: "/assets/home/performance",
+      glowColor: "rgba(247, 120, 187, 0.2)", // Pink Glow
+    },
+    {
+      id: "no_no_code",
+      key: "4",
+      direction: "left",
+      color: "#FFD33D", // Yellow
+      heading_text: "Code that matters",
+      text: "No reliance on no-code tools. We build custom, scalable websites with full control over code for enhanced flexibility.",
+      image: "/assets/home/no_no_code",
+      glowColor: "rgba(255, 211, 61, 0.2)", // Yellow Glow
+    },
+    {
+      id: "service",
+      key: "5",
+      direction: "right",
+      color: "#DD594F", // Red
+      heading_text: "Dedicated support and service",
+      text: "We provide ongoing support to ensure your website functions perfectly, with a team always ready to assist you.",
+      image: "/assets/home/service",
+      glowColor: "rgba(221, 89, 79, 0.2)", // Red Glow
+    }
+  ];
+  
+
   return (
     <>
       <Hero />
       <Navigation_quality />
-      <Card2
-        id = "quality_1"
-        direction="left"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
+      {qualities.map((value) => (
+        
+        <Card2
+        id={value.id}
+          direction={value.direction} 
+          color={value.color} 
+          heading={value.heading_text} 
+          text={value.text} 
         //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-
-      <Card2
-      id = "quality_2"
-        direction="right"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
-        //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-      <Card2
-      id = "quality_3"
-        direction="left"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
-        //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-
-      <Card2
-      id = "quality_4"
-        direction="right"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
-        //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-      <Card2
-      id = "quality_5"
-        direction="left"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
-        //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-
-      <Card2
-      id = "quality_6"
-        direction="right"
-        color={value2.color}
-        heading={value2.heading}
-        text={value2.text}
-        //   image = {value.image}
-        glowColor={value2.glowColor}
-      />
-
+          glowColor = {value.glowColor}
+        />
+      ))}      
       <HeroLast />
     </>
   );
 }
 
 export default Home;
-{
-  /* {uniqueValues.map((value) => (
-        
-        <Card
-          direction={value.direction} 
-          color={value.color} 
-          heading={value.heading} 
-          text={value.text} 
-        //   image = {value.image}
-          glowColor = {value.glowColor}
-        />
-      ))} */
-}
-{
-  /* <Card2 
-          direction={value2.direction} 
-          color={value2.color} 
-          heading={value2.heading} 
-          text={value2.text} 
-        //   image = {value.image}
-          glowColor = {value2.glowColor}
-        /> */
-}
-
-// const uniqueValues = [
-//     {
-//       key: "1",
-//       direction: "left",
-//       color: "#39ff14", // Neon Green
-//       heading: "Card 1",
-//       text: "This is the first card.",
-//       image: "/new2.png",
-//       glowColor: "rgba(57, 255, 20, 0.2)", // Subtle Neon Green Glow
-//     },
-//     {
-//       key: "2",
-//       direction: "right",
-//       color: "#ff073a", // Neon Red
-//       heading: "Card 2",
-//       text: "This is the second card.",
-//       image: "https://via.placeholder.com/100",
-//       glowColor: "rgba(255, 7, 58, 0.2)", // Subtle Neon Red Glow
-//     },
-//     {
-//       key: "3",
-//       direction: "left",
-//       color: "#00f9ff", // Neon Cyan
-//       heading: "Card 3",
-//       text: "This is the third card.",
-//       image: "https://via.placeholder.com/100",
-//       glowColor: "rgba(0, 249, 255, 0.2)", // Subtle Neon Cyan Glow
-//     },
-//     {
-//       key: "4",
-//       direction: "right",
-//       color: "#ff00ff", // Neon Pink
-//       heading: "Card 4",
-//       text: "This is the fourth card.",
-//       image: "https://via.placeholder.com/100",
-//       glowColor: "rgba(255, 0, 255, 0.2)", // Subtle Neon Pink Glow
-//     },
-//     {
-//       key: "5",
-//       direction: "left",
-//       color: "#ffff00", // Neon Yellow
-//       heading: "Card 5",
-//       text: "This is the fifth card.",
-//       image: "https://via.placeholder.com/100",
-//       glowColor: "rgba(255, 255, 0, 0.2)", // Subtle Neon Yellow Glow
-//     },
-//   ];

@@ -54,14 +54,13 @@ const Hero = () => {
         {/* Hero Heading */}
         <div className="hero_heading flex flex-col gap-4">
           <div className="hero_main_heading">
-            <h1 className="text-[57.6px] sm:text-[96px] font-semibold leading-[80px] text-[#F0F6FC]">
-              Let's build from here
+            <h1 className="sm:text-[85px] text-[57.6px]  font-semibold leading-[80px] text-[#F0F6FC]">
+            Join the growing Velora community
             </h1>
           </div>
-          <div className="hero_sub_heading">
+          <div className="hero_sub_heading lg:pr-64">
             <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-              The world's leading AI-powered developer platform.
-            </h2>
+            Whether launching a startup or enhancing your online presence, Velora empowers businesses to thrive. Join us to create innovative websites that drive success.            </h2>
           </div>
         </div>
 

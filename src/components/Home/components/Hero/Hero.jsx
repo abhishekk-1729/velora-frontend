@@ -55,12 +55,12 @@ const Hero = () => {
         <div className="hero_heading flex flex-col lg:gap-8">
           <div className="hero_main_heading">
             <h1 className="text-[57.6px] sm:text-[96px] font-semibold leading-[80px] text-[#F0F6FC]">
-              Let's build from here
+            Let’s Innovate Together
             </h1>
           </div>
           <div className="hero_sub_heading">
             <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-              The world's leading AI-powered developer platform.
+            Empowering New Ventures with Exceptional Website Solutions
             </h2>
           </div>
         </div>
@@ -99,7 +99,7 @@ const Hero = () => {
               >
                 <div>
                   <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Request to Connect
+                  Get your Website
                   </h4>
                 </div>
               </button>
@@ -132,40 +132,27 @@ const Hero = () => {
         <div className="hero_quality flex flex-col gap-8">
           <div className="hero_quality_heading">
             <h3 className="text-[20px] font-normal leading-[28px] text-[#9198A1]">
-              Trusted by the world's leading organizations
+            Trusted by Businesses for Unmatched Delivery, Design, and Performance ↘︎
             </h3>
           </div>
-          <div className="hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6">
-            <div className="quality_1">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 1
+          <div className=" text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+              <h2 className="">
+              Fast Delivery
               </h2>
-            </div>
-            <div className="quality_2">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 2
+   
+              <h2 className=" ">
+              Precise Design
               </h2>
-            </div>
-            <div className="quality_3">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 3
+              <h2 className=" ">
+              Great Performance
               </h2>
-            </div>
-            <div className="quality_4">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 4
+              <h2 className=" ">
+              Custom Code
               </h2>
-            </div>
-            <div className="quality_5">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 5
+              <h2 className="">
+              Top-Notch Service
               </h2>
-            </div>
-            <div className="quality_6">
-              <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-                Quality 6
-              </h2>
-            </div>
+
           </div>
         </div>
       </div>
