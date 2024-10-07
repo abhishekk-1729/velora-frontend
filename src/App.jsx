@@ -3,7 +3,7 @@ import "./App.css";
 import './fonts.css';
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
-import About from "./components/About/aboutus";
+import About from "./components/About/aboutus.jsx";
 import ContactUs from "./components/ContactUs/ContactUs.jsx";
 import FAQs from "./components/FAQs/FAQs.jsx";
 import Pricing from "./components/Pricing/Pricing.jsx";

@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-function About() {
+const About = () => {
   return (
 <div className=" md:mx-16 p-16 text-[#ffffff] my-10">
 <div className="flex flex-col  mb-8">
