@@ -48,7 +48,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="hero ">
+    <div className="hero_section">
       {/* Hero Content */}
       <div className="mx-8 sm:mx-16 mt-32 mb-16 p-4 flex flex-col gap-16">
         {/* Hero Heading */}

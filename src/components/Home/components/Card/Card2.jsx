@@ -1,6 +1,7 @@
 import React from "react";
 
 const Card2 = ({
+  id = "#quality_2",
   image = "/new2.png",
   direction,
   heading,
@@ -11,10 +12,11 @@ const Card2 = ({
   const isLeftDirection = direction === "left";
 
   return (
-    <div
-      className={`mt-4 mb-24 bg-[#151b23] p-8 md:p-20 flex ${
+   <div  id = {id} className="pt-32">
+    <div 
+      className={`  bg-[#151b23] p-8 md:p-20 flex ${
         isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
-      } gap-16 flex-col  mx-8 sm:mx-16 rounded-2xl`}
+      } gap-16 flex-col  mx-8 sm:mx-16 rounded-2xl `}
     >
       {/* Card Image */}
       <div className="card_image lg:w-1/2">
@@ -40,6 +42,7 @@ const Card2 = ({
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 };
