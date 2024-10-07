@@ -1,56 +1,47 @@
-import React, { useState } from 'react';
-import './Card2.css';
+import React from "react";
 
-const Card = ({ direction = 'left', color = '#ffffff', heading = 'Heading', text = 'Sample text goes here.', image = '/new2.png', glowColor = 'rgba(0, 123, 255, 0.2)' }) => {
-  const [gradientPosition, setGradientPosition] = useState({ x: '50%', y: '50%' });
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseMove = (e) => {
-    const card = e.currentTarget;
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    setGradientPosition({ x: `${x}px`, y: `${y}px` });
-  };
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+const Card2 = ({
+  image = "/new2.png",
+  direction,
+  heading,
+  color,
+  text,
+  glowColor,
+}) => {
+  const isLeftDirection = direction === "left";
 
   return (
-    <div 
-      className="card"
-      onMouseMove={handleMouseMove}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      style={{
-        '--x': gradientPosition.x,
-        '--y': gradientPosition.y,
-      }}
+    <div
+      className={`mt-4 mb-24 bg-[#151b23] p-8 md:p-20 flex ${
+        isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
+      } gap-16 flex-col  mx-8 sm:mx-16 rounded-2xl`}
     >
-      <div className={`card-content ${direction === 'right' ? 'reverse' : ''}`}>
-        <div className="card-image-container">
-          <img src={image} alt="Placeholder" className="card-image" />
-        </div>
-        <div className="card-text">
-          <h2 style={{ color }}>{heading}</h2>
-          <p>{text}</p>
-        </div>
+      {/* Card Image */}
+      <div className="card_image lg:w-1/2">
+        <img src={image} alt={heading} className="w-full h-auto rounded-md" />
       </div>
 
-      {/* Glow effect that does not overlap the image */}
-      <div 
-        className={`glow-overlay ${isHovered ? 'visible' : ''}`}
-        style={{
-          background: `radial-gradient(circle at var(--x, 50%) var(--y, 50%), ${glowColor}, transparent 80%)`,
-        }}
-      />
+      {/* Card Content */}
+      <div className="card_content flex flex-col gap-4 w-full max-w-lg">
+        <div className="card_content_heading">
+          <h2
+            className={`text-[48px] font-[500] leading-[52px] font-mona-sans`}
+            style={{ color: color }}
+          >
+            {heading}
+          </h2>
+        </div>
+        <div className="card_content_text">
+          <p
+            className="text-[24px] font-[500] leading-[32px] font-mona-sans"
+            style={{ color: "#9198a1" }}
+          >
+            {text}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Card;
+export default Card2;

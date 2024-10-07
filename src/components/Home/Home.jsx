@@ -4,7 +4,7 @@ import Card from "./components/Card/Card";
 import Card2 from "./components/Card/Card2";
 import Hero from "./components/Hero/Hero";
 import HeroLast from "./components/HeroLast/HeroLast";
-
+import Example from "../Navigation_quality/Navigation_quality"
 
 function Home() {
 
@@ -57,11 +57,11 @@ function Home() {
     ];
 
     const value2 = {
-        key: "5",
-        direction: "left",
-        color: "#ffff00", // Neon Yellow
-        heading: "Card 5",
-        text: "This is the fifth card.",
+        key: "6",
+        direction: "right",
+        color: "#32B4AE", // Neon Yellow
+        heading: "Empowering the developers",
+        text: "GitHub Advanced Security enables you to find icklynnn.  ou to find icklynn  ou to find  you to find icklynnn.  ou to find icklynn  ou to find icklynn",
         image: "https://via.placeholder.com/100",
         glowColor: "rgba(255, 255, 0, 0.2)" // Subtle Neon Yellow Glow
     }
@@ -70,8 +70,28 @@ function Home() {
     <>
       <Hero />
       {/* Map over the uniqueValues array */}
+      <Example/>
+      <Card2 
+          direction="left"
+          color={value2.color} 
+          heading={value2.heading} 
+          text={value2.text} 
+        //   image = {value.image}
+          glowColor = {value2.glowColor}
+        />
+
+<Card2 
+          direction="right"
+          color={value2.color} 
+          heading={value2.heading} 
+          text={value2.text} 
+        //   image = {value.image}
+          glowColor = {value2.glowColor}
+        />
+
       {uniqueValues.map((value) => (
-        <Card 
+        
+        <Card
           direction={value.direction} 
           color={value.color} 
           heading={value.heading} 
@@ -88,7 +108,8 @@ function Home() {
         //   image = {value.image}
           glowColor = {value2.glowColor}
         />
-      {/* <HeroLast/> */}
+      <HeroLast/>
+
     </>
   );
 }
