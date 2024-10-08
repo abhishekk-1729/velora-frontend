@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../Navbar/Navbar';
 
 function Pricing() {
   const [amount, setAmount] = useState(200);
@@ -77,6 +78,7 @@ function Pricing() {
   };
 
   return (
+    <><Navbar/>
     <div className='text-[#ffffff] m-8 md:m-16'>
       <div className='text-[#ffffff] mb-10'>
         Get your website today at: {amount}$
@@ -85,6 +87,7 @@ function Pricing() {
         Pay Now
       </button>
     </div>
+    </>
   );
 }
 

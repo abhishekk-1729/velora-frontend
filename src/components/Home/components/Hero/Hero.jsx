@@ -55,7 +55,7 @@ const Hero = () => {
         <div className="hero_heading flex flex-col lg:gap-8">
           <div className="hero_main_heading">
             <h1 className="text-[57.6px] sm:text-[96px] font-semibold leading-[80px] text-[#F0F6FC]">
-            Let’s Innovate Together
+            Let's Innovate Together
             </h1>
           </div>
           <div className="hero_sub_heading">
@@ -132,7 +132,7 @@ const Hero = () => {
         <div className="hero_quality flex flex-col gap-8">
           <div className="hero_quality_heading">
             <h3 className="text-[20px] font-normal leading-[28px] text-[#9198A1]">
-            Trusted by Businesses for Unmatched Delivery, Design, and Performance ↘︎
+            Trusted by Businesses for Unmatched Delivery, Design and Performance ↘︎
             </h3>
           </div>
           <div className=" text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">

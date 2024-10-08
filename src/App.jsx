@@ -3,7 +3,7 @@ import "./App.css";
 import './fonts.css';
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
-import About from "./components/About/aboutus.jsx";
+import About from "./components/About/aboutus";
 import ContactUs from "./components/ContactUs/ContactUs.jsx";
 import FAQs from "./components/FAQs/FAQs.jsx";
 import Pricing from "./components/Pricing/Pricing.jsx";
@@ -15,12 +15,12 @@ const App = () => {
   return (
     <main className="main-bg">
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
        <Route path="/about" element={<About />} />
        <Route path="/pricing" element={<Pricing />} />
        <Route path="/login" element={<Login />} />
+       <Route path="/contact" element={<ContactUs />} />
          {/* <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/faqs" element={<FAQs />} />
           

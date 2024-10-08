@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
-import Card from "./components/Card/Card";
+
 import Card2 from "./components/Card/Card2";
 import Hero from "./components/Hero/Hero";
 import HeroLast from "./components/HeroLast/HeroLast";
 import Navigation_quality from "../Navigation_quality/Navigation_quality";
+import Navbar from "../Navbar/Navbar";
 
 function Home() {
   const value2 = {
@@ -73,17 +74,20 @@ function Home() {
 
   return (
     <>
+            <Navbar />
+
       <Hero />
       <Navigation_quality />
       {qualities.map((value) => (
         
         <Card2
-        id={value.id}
+        key={value.id}
+          id={value.id}
           direction={value.direction} 
           color={value.color} 
           heading={value.heading_text} 
           text={value.text} 
-        //   image = {value.image}
+          // image = {value.image}
           glowColor = {value.glowColor}
         />
       ))}      

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Card.css';
+// import './Card.css';
 
 const Card = ({ direction = 'left', color = '#ffffff', heading = 'Heading', text = 'Sample text goes here.', image = '/new2.png', glowColor = 'rgba(0, 123, 255, 0.2)' }) => {
   const [gradientPosition, setGradientPosition] = useState({ x: '50%', y: '50%' });

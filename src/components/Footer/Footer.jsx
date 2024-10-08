@@ -31,10 +31,10 @@ const capitalizeWords = (str) => {
 const Footer = () => {
   const quickLinks1 = [
     { name: "About", id: "about" },
+    { name: "Dashboard", id: "dashboard" },
+    { name: "Contact us", id: "contact" },
     { name: "Pricing", id: "pricing" },
-    { name: "Log in/Sign up", id: "login" },
-    // { name: "Dashboard", id: "dashboard" },
-    // { name: "Contact us", id: "contact" },
+    { name: "Log In", id: "login" },
   ];
 
   const quickLinks2 = ["Privacy Policy", "Terms and Conditions", "FAQs"];
@@ -94,7 +94,8 @@ const Footer = () => {
         <div class="my-6 bg-[#8a919a] border-0 w-full h-[1px] lg:w-[1px] lg:h-auto"></div>
 
         <div className="flex md:w-2/4 ">
-          <div className="flex flex-col items-start  py-4 w-1/2 md:px-8">
+          
+          <div className="flex flex-col   py-4 w-1/2 md:px-8">
             <div className="mb-6 flex">
               <div className="border-b-2 pb-1 border-[#783ec7]">
                 Quick links
@@ -108,7 +109,7 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="flex flex-col items-start  py-4 w-1/2 md:px-8">
+          <div className="flex flex-col  py-4 w-1/2 md:px-8">
             <div className="mb-6 flex">
               <div className="border-b-2 pb-1 border-[#783ec7]">Docs</div>
             </div>
@@ -121,11 +122,13 @@ const Footer = () => {
               </div>
             ))}
           </div>
+
         </div>
+
         <div className="flex flex-col py-4  md:w-1/4">
           <div className=" mb-6  flex">
             <div className="flex border-b-2 border-[#783ec7] pb-1">
-            <img src={cloud} alt="Weather" className="pr-2" />
+            {/* <img src={cloud} alt="Weather" className="pr-2" /> */}
               <div>{weatherData?weatherData.city:"Delhi"}</div>
             </div>
           </div>
@@ -141,7 +144,9 @@ const Footer = () => {
           </div>
           <div className="mb-2">Humidity: {weatherData?weatherData.humidity:"hum"}% Wind: {weatherData?weatherData.wind:"wind"} km/h</div>
         </div>
+
       </div>
+
       <div className="bg-[#151b23] text-[#8a919a] py-6 px-8 sm:px-16 flex flex-col md:flex-row justify-between gap-2">
         <div>&copy; 2024 Velora.com. All rights reserved.</div>
         <div className="flex gap-4 px-2">

@@ -83,7 +83,8 @@ function Navbar() {
   }, [showNavOptions]);
 
   return (
-    <Container className={`navbar ${isNavbarVisible ? "navbar-visible" : "navbar-hidden"}`}>
+    <Container className={`navbar ${isNavbarVisible ? "navbar-visible" : "navbar-hidden"} `}>
+      
       <div className={showNavOptions ? "nav-mobile-bg" : "hidden-nav-mobile-bg"}>
         <img src={NavMobileBg} alt="" className="nav-effect-back" />
       </div>
@@ -95,14 +96,16 @@ function Navbar() {
         <div className="navbaroptions-container">
           <div className="navbaricons">
             {[
-              "About",
+              "Company Info",
+              "Dashboard",
+              "contact",
               "Pricing",
-              isLoggedIn ? "Logout" : "Log in/Sign up",
+              isLoggedIn ? "Logout" : "Log in",
             ].map((option) => (
               <div
                 key={option}
                 className={`navbaroption ${selectedOption === option ? "navbaroption-selected" : ""}`}
-                onClick={() => handleNavbarOptionClick(option=="Log in/Sign up"?"login":option)}
+                onClick={() => handleNavbarOptionClick(option=="Log in"?"login":option)}
               >
                 {option}
               </div>
@@ -113,6 +116,7 @@ function Navbar() {
           </button>
         </div>
       </div>
+
       <div className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}>
         {[
           "About",

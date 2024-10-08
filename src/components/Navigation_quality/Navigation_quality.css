@@ -1,0 +1,9 @@
+.nav {
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; /* Full width */
+    background-color: #151b23; /* Background color */
+    z-index: 1000; /* Ensure it appears above other content */
+    transition: background-color 0.3s; /* Smooth transition for color changes */
+  }
+  

@@ -98,7 +98,7 @@ const Hero = () => {
               >
                 <div>
                   <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Request to Connect
+                  Get your Website
                   </h4>
                 </div>
               </button>

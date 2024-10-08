@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './Navigation_quality.css'; // Add any custom styles here
 
 const sections = ['Delivery', 'Design', 'Performance', 'No No Code', 'Service'];
+const sections2 = ['Contact Sales', 'Login'];
 
 const tag = {'Delivery':'delivery','Design':'design','Performance':'performance', 'No No Code':'no_no_code','Service':'service'}
+const tag2 = {'Contact Sales':'contact','Login':'login'}
 
 const Navigation_quality = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -51,8 +53,11 @@ const Navigation_quality = () => {
 
   return (
     <nav
-    className={`nav ${isSticky ? 'lg:sticky lg:top-0 lg:bg-[#151b23]' : 'hidden'} flex  pl-16 p-6 gap-8 items-center`}
+    className={`nav ${isSticky ? 'lg:sticky lg:top-0 lg:bg-[#151b23]' : 'hidden'} flex  px-16 p-5  items-center justify-between`}
     >
+      <div className='flex gap-8'>
+
+
       {sections.map((section) => (
         <div
           key={section}
@@ -68,6 +73,23 @@ const Navigation_quality = () => {
           </a>
         </div>
       ))}
+            </div>
+            <div className='flex gap-8'>
+            {sections2.map((section) => (
+        <div
+          key={section}
+          className={`nav_content flex py-2 justify-center items-center`}
+        >
+          <a
+            href={`/${tag2[section]}`}
+            className="text-white text-[16px] font-[400] leading-[24px] font-mona-sans"
+          >
+            {section}
+          </a>
+        </div>
+      ))}
+
+            </div>
     </nav>
   );
 };
