@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import Navbar from "../Navbar/Navbar";
+import image from "/new.png"
 
 const About = () => {
   return (
