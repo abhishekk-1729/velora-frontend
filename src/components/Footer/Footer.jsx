@@ -51,7 +51,7 @@ const Footer = () => {
         console.log(city)
 // e add
         // Step 2: Get weather data using the OpenWeatherMap API
-        const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a1964ed700a53a98ef27460766bb040e`); // Replace with your API key
+        const weatherResponse = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a1964ed700a53a98ef27460766bb040`); // Replace with your API key
         const weather = weatherResponse.data;
 
         // Update state with weather data

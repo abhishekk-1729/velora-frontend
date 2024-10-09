@@ -82,7 +82,7 @@ function ContactUs() {
 
             <div className="flex flex-col  md:w-3/4 gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d]">
               {/* Name Input */}
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 text-[#ffffff]">
                 <label htmlFor="form_name" className="text-white">
                   Name (Required)
                 </label>
@@ -92,7 +92,7 @@ function ContactUs() {
                   placeholder="Your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full p-3 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-lg focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   required
                 />
               </div>
@@ -108,7 +108,7 @@ function ContactUs() {
                   placeholder="you@company.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full p-3 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border  rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                   required
                 />
                 {emailError && (
@@ -127,7 +127,7 @@ function ContactUs() {
                   placeholder="123-456-7890"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  className="w-full p-3 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                 />
                 {phoneError && (
                   <span className="text-red-500">{phoneError}</span>
@@ -144,7 +144,7 @@ function ContactUs() {
                   placeholder="Your Address"
                   value={address}
                   onChange={(e) => setAddress(e.target.value)}
-                  className="w-full p-3 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   rows="3"
                 />
               </div>
@@ -159,7 +159,7 @@ function ContactUs() {
                   placeholder="Your Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="w-full p-3 border border-gray-400 rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   rows="5"
                 />
               </div>
