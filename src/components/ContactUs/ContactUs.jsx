@@ -177,6 +177,7 @@ function ContactUs() {
 
 
           <div className="flex-col md:w-1/4  ">
+
             <div className="flex flex-col gap-2 p-4 border-2 border-dotted border-gray-500">
               {/* <img src={nss} alt="" className="h-[60px]" /> */}
               <div>

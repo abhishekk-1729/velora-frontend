@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate, useNavigate ,useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
-const SignUp = () => {
+const EnterDetails = () => {
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
 
+  const location = useLocation();
+  const {email_pass} = location.state || {}; // Destructure with fallback
 
   const [email, setEmail] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
@@ -32,7 +34,7 @@ const SignUp = () => {
       setIsOtpSent(true); // Show OTP input field after successful request
     } catch (err) {
     }
-    navigate("/emailverify",{state:{email_pass:email}});
+    // navigate("/emailverify",{state:{email_pass:email}});
 
   };
 
@@ -54,7 +56,7 @@ const SignUp = () => {
           <div class="login_main px-8 flex flex-col items-center gap-8">
             <div class="login_main_heading text-center">
               <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
-                First, enter your email
+                Enter Details
               </h1>
             </div>
 
@@ -64,31 +66,61 @@ const SignUp = () => {
 
 
               <div class="login_main_content_phoneoremail flex flex-col gap-4">
-                <div className="hero_cta_email_text flex gap-4">
-                  <button
+                  <div
                     onClick={() => setIsEmailMode(true)}
                     className={`text-[14px] font-semibold leading-[21px] ${
                       isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
                     }`}
                   >
-                    Email Address
-                  </button>{" "}
-                </div>
+                    Name
+                  </div>{" "}
 
                 <div className="hero_cta_content flex flex-col">
-                  {/* Email/Phone Signup */}
+                 
                   <div className="hero_cta_email_signup flex flex-col gap-4">
-                    <div className="hero_cta_email_input ">
                       <input
-                        type={isEmailMode ? "email" : "tel"} // Change input type based on mode
-                        placeholder={
-                          isEmailMode ? "you@company.com" : "123-456-7890"
-                        } // Change placeholder
+                        type={"text"} // Change input type based on mode
+                        placeholder="John Doe" // Change placeholder
                         value={email} // Bind the input value to state
                         onChange={(e) => setEmail(e.target.value)} // Update state on input change
                         className="w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
                       />
-                    </div>
+
+                    <div
+                    onClick={() => setIsEmailMode(true)}
+                    className={`text-[14px] font-semibold leading-[21px] ${
+                      isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
+                    }`}
+                  >
+                    Phone Number
+                  </div>{" "}
+
+                  <input
+                        type={"text"} // Change input type based on mode
+                        placeholder="John Doe" // Change placeholder
+                        value={email} // Bind the input value to state
+                        onChange={(e) => setEmail(e.target.value)} // Update state on input change
+                        className="w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                      />
+                    <div
+                    onClick={() => setIsEmailMode(true)}
+                    className={`text-[14px] font-semibold leading-[21px] ${
+                      isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
+                    }`}
+                  >
+                    Address
+                  </div>{" "}
+
+                  <input
+                        type={"text"} // Change input type based on mode
+                        placeholder="John Doe" // Change placeholder
+                        value={email} // Bind the input value to state
+                        onChange={(e) => setEmail(e.target.value)} // Update state on input change
+                        className="w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                      />
+
+
+                
 
                     <button
                       onClick={handleEmailSubmit} // Call the function on button click
@@ -96,7 +128,7 @@ const SignUp = () => {
                     >
                       <div>
                         <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                          Continue
+                          Login
                         </h4>
                       </div>
                     </button>
@@ -110,45 +142,6 @@ const SignUp = () => {
               </div>
 
               {/* <!-- Login Content - OR --> */}
-              <div class="login_main_content_or flex items-center gap-4">
-                <div class="border border-gray-300 w-full h-[1px]"></div>
-                <div class="text-white">OR</div>
-                <div class="border border-gray-300 w-full h-[1px]"></div>
-              </div>
-
-              <div class="login_main_content_others flex flex-col gap-4 w-full">
-                {/* <!-- Button 1 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
-                  <div>
-                    <img src="/svg/google.svg" alt="" height={30} width={30} />
-                  </div>
-                  <div class="text-[#ffffff]">Continue with Google</div>
-                </button>
-                {/* <!-- Button 2 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px]">
-                  <div>
-                    <img
-                      src="/svg/apple-white.svg"
-                      alt=""
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                  <div class="text-[#ffffff]">Continue with Apple</div>
-                </button>
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
-                  <div>
-                    <img
-                      src="/svg/microsoft.svg"
-                      alt=""
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                  <div class="text-[#ffffff]">Continue with Microsoft</div>
-                </button>
-              </div>
-
             </div>
           </div>
         </div>
@@ -206,4 +199,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default EnterDetails;

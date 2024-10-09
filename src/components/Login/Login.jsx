@@ -113,7 +113,7 @@ const Login = () => {
     <>
       <Navbar />
       <div className="flex justify-center">
-        <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
+        <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] my-6  ">
           <div class="login_image flex justify-center p-2">
             <img
               src="company.png"
@@ -123,7 +123,7 @@ const Login = () => {
             ></img>
           </div>
 
-          <div class="login_main px-8 flex flex-col items-center gap-8">
+          <div class="login_main px-8 flex flex-col items-center gap-6">
             <div class="login_main_heading text-center">
               <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
                 Sign in to Velora
@@ -131,7 +131,7 @@ const Login = () => {
             </div>
 
             {/* <!-- Login Content --> */}
-            <div class="login_main_content flex flex-col gap-6 ">
+            <div class="login_main_content flex flex-col gap-4 ">
               {/* <!-- Login Content - Others --> */}
               <div class="login_main_content_others flex flex-col gap-4 w-full">
                 {/* <!-- Button 1 --> */}
@@ -201,7 +201,7 @@ const Login = () => {
                         } // Change placeholder
                         value={emailOrPhone} // Bind the input value to state
                         onChange={(e) => setEmailOrPhone(e.target.value)} // Update state on input change
-                        className="w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                        className="bg-[#0D1116] w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-[#ffffff] placeholder-gray-500"
                       />
                     </div>
 

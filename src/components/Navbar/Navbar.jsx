@@ -98,14 +98,15 @@ function Navbar() {
             {[
               "Company Info",
               "Dashboard",
-              "contact",
+              "Contact",
               "Pricing",
+              "Refer and Earn",
               isLoggedIn ? "Logout" : "Log in",
             ].map((option) => (
               <div
                 key={option}
                 className={`navbaroption ${selectedOption === option ? "navbaroption-selected" : ""}`}
-                onClick={() => handleNavbarOptionClick(option=="Log in"?"login":option)}
+                onClick={() => handleNavbarOptionClick(option=="Log in"?"login":option=="Refer and Earn"?"referAndEarn":option=="Company Info"?"about":option)}
               >
                 {option}
               </div>

@@ -4,89 +4,14 @@ import Navbar from "../Navbar/Navbar";
 import { useLocation } from 'react-router-dom';
 
 const EmailVerify = () => {
-  const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
-  const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
-  const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
-
   const location = useLocation();
-  const { email_pass} = location.state || {}; // Destructure with fallback
-
-  const handleConnectRequest = async () => {
-    if (!emailOrPhone) {
-      alert("Please enter a valid Email or Phone Number."); // Alert for empty input
-      return;
-    }
-
-    const apiEndpoint = isEmailMode
-      ? "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendEmail"
-      : "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendMessage"; // Replace with your phone API endpoint
-
-    const body = isEmailMode
-      ? { email: emailOrPhone }
-      : { phone: emailOrPhone, message: "Hi bro" };
-    try {
-      const response = await fetch(apiEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(body), // Sending input in the request body
-      });
-
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-
-      const data = await response.json();
-      setResponseMessage(data.message || "Request sent successfully!"); // Update response message
-      alert("Request sent successfully!"); // Alert on success
-    } catch (error) {
-      setResponseMessage("Failed to send request. Please try again."); // Handle error
-      alert("Failed to send request. Please try again."); // Alert on failure
-    }
-  };
-
-  const toggleMode = () => {
-    setIsEmailMode(!isEmailMode); // Toggle between Email and Phone mode
-  };
-
-  const [email, setEmail] = useState("");
+  const {email_pass} = location.state || {}; // Destructure with fallback
   const [otp, setOtp] = useState("");
-  const [isOtpSent, setIsOtpSent] = useState(false);
-  const [error, setError] = useState("");email_pass
   const navigate = useNavigate(); // Use useNavigate for redirection
-
-  // Function to handle the email submission
-  const handleEmailSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-
-    try {
-      const response = await fetch(
-        "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/auth/loginOrSignup",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email }),
-        }
-      );
-
-      if (!response.ok) {
-        throw new Error("Failed to send OTP. Please try again.");
-      }
-
-      setIsOtpSent(true); // Show OTP input field after successful request
-    } catch (err) {
-      setError(err.message);
-    }
-  };
 
   // Function to handle OTP verification
   const handleOtpSubmit = async (e) => {
     e.preventDefault();
-    setError("");
 
     try {
       const response = await fetch(
@@ -96,7 +21,7 @@ const EmailVerify = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ email, otp }),
+          body: JSON.stringify({ "email":email_pass, "otp":otp }),
         }
       );
 
@@ -107,9 +32,8 @@ const EmailVerify = () => {
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
-      navigate("/"); // Redirect to the main page
+      navigate("/enterDetails", {state:{email_pass:email_pass}}); // Redirect to the main page
     } catch (err) {
-      setError(err.message);
     }
   };
 
@@ -128,7 +52,7 @@ const EmailVerify = () => {
           </div>
 
           <div class="login_main px-8 flex flex-col items-center gap-8">
-            <div class="login_main_heading text-center flex flex-col gap-4">
+            <div class="login_main_heading text-center flex flex-col gap-4 ">
               <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
               Check your email for a code
               </h1>
@@ -152,18 +76,18 @@ const EmailVerify = () => {
                   <div className="hero_cta_email_signup flex flex-col gap-4 ">
                     <div className="hero_cta_email_input ">
                       <input
-                        type={isEmailMode ? "email" : "tel"} // Change input type based on mode
+                        type={"email"} // Change input type based on mode
                         placeholder={
                           "Enter Code"
                         } // Change placeholder
-                        value={emailOrPhone} // Bind the input value to state
-                        onChange={(e) => setEmailOrPhone(e.target.value)} // Update state on input change
+                        value={otp} // Bind the input value to state
+                        onChange={(e) => setOtp(e.target.value)} // Update state on input change
                         className="w-full p-4 border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
                       />
                     </div>
 
                     <button
-                      onClick={handleConnectRequest} // Call the function on button click
+                      onClick={handleOtpSubmit} // Call the function on button click
                       className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                     >
                       <div>
