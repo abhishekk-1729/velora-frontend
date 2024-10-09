@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
-const Login = () => {
+const SignUp = () => {
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
-
   const handleConnectRequest = async () => {
     if (!emailOrPhone) {
       alert("Please enter a valid Email or Phone Number."); // Alert for empty input
@@ -40,6 +39,7 @@ const Login = () => {
       setResponseMessage("Failed to send request. Please try again."); // Handle error
       alert("Failed to send request. Please try again."); // Alert on failure
     }
+    navigate("/emailverify",{state:{email_pass:emailOrPhone}});
   };
 
   const toggleMode = () => {
@@ -126,48 +126,14 @@ const Login = () => {
           <div class="login_main px-8 flex flex-col items-center gap-8">
             <div class="login_main_heading text-center">
               <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
-                Sign in to Velora
+                First, enter your email
               </h1>
             </div>
 
             {/* <!-- Login Content --> */}
             <div class="login_main_content flex flex-col gap-6 ">
               {/* <!-- Login Content - Others --> */}
-              <div class="login_main_content_others flex flex-col gap-4 w-full">
-                {/* <!-- Button 1 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
-                  <div>
-                    <img src="/svg/google.svg" alt="" height={30} width={30} />
-                  </div>
-                  <div class="text-[#ffffff]">Sign in with Google</div>
-                </button>
-                {/* <!-- Button 2 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px]">
-                  <div>
-                    <img
-                      src="/svg/apple-white.svg"
-                      alt=""
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                  <div class="text-[#ffffff]">Sign in with Apple</div>
-                </button>
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
-                  <div>
-                    <img src="/svg/microsoft.svg" alt="" height={30} width={30} />
-                  </div>
-                  <div class="text-[#ffffff]">Sign in with Microsoft</div>
-                </button>
 
-              </div>
-
-              {/* <!-- Login Content - OR --> */}
-              <div class="login_main_content_or flex items-center gap-4">
-                <div class="border border-gray-300 w-full h-[1px]"></div>
-                <div class="text-white">OR</div>
-                <div class="border border-gray-300 w-full h-[1px]"></div>
-              </div>
 
               <div class="login_main_content_phoneoremail flex flex-col gap-4">
                 <div className="hero_cta_email_text flex gap-4">
@@ -179,15 +145,6 @@ const Login = () => {
                   >
                     Email Address
                   </button>{" "}
-                  /
-                  <button
-                    onClick={() => setIsEmailMode(false)}
-                    className={`text-[14px] font-semibold leading-[21px] ${
-                      !isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
-                    }`}
-                  >
-                    Phone Number
-                  </button>
                 </div>
 
                 <div className="hero_cta_content flex flex-col">
@@ -211,7 +168,7 @@ const Login = () => {
                     >
                       <div>
                         <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                          Sign in with Phone
+                          Continue
                         </h4>
                       </div>
                     </button>
@@ -220,15 +177,50 @@ const Login = () => {
               </div>
 
               <div class="login_main_content_magic text-white ">
-                We'll send you a magic code over email for a password-free sign in.
+                We'll send you a magic code over email for a password-free sigup
+                in.
               </div>
 
-              <div class="login_main_content_signup text-white">
-                New to Velora? Click here to {" "}
-                <a href="/signup" class="text-blue-500">
-                   Sign Up
-                </a>
+              {/* <!-- Login Content - OR --> */}
+              <div class="login_main_content_or flex items-center gap-4">
+                <div class="border border-gray-300 w-full h-[1px]"></div>
+                <div class="text-white">OR</div>
+                <div class="border border-gray-300 w-full h-[1px]"></div>
               </div>
+
+              <div class="login_main_content_others flex flex-col gap-4 w-full">
+                {/* <!-- Button 1 --> */}
+                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
+                  <div>
+                    <img src="/svg/google.svg" alt="" height={30} width={30} />
+                  </div>
+                  <div class="text-[#ffffff]">Continue with Google</div>
+                </button>
+                {/* <!-- Button 2 --> */}
+                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px]">
+                  <div>
+                    <img
+                      src="/svg/apple-white.svg"
+                      alt=""
+                      height={30}
+                      width={30}
+                    />
+                  </div>
+                  <div class="text-[#ffffff]">Continue with Apple</div>
+                </button>
+                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
+                  <div>
+                    <img
+                      src="/svg/microsoft.svg"
+                      alt=""
+                      height={30}
+                      width={30}
+                    />
+                  </div>
+                  <div class="text-[#ffffff]">Continue with Microsoft</div>
+                </button>
+              </div>
+
             </div>
           </div>
         </div>
@@ -286,4 +278,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;
