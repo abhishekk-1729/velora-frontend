@@ -41,7 +41,7 @@ const EnterDetails = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="flex justify-center">
         <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
           <div class="login_image flex justify-center p-2">

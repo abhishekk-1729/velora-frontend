@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       {" "}
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={`my-16 `}>
         <div
           className={`  card  p-8 md:p-20 flex 

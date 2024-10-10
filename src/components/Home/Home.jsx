@@ -74,7 +74,7 @@ function Home() {
 
   return (
     <>
-            <Navbar />
+            {/* <Navbar /> */}
 
       <Hero />
       <Navigation_quality />
