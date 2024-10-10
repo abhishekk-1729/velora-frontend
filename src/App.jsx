@@ -27,7 +27,7 @@ const App = () => {
     <main className="main-bg">
       <Router>{
       showHeader?<Header setShowHeader={setShowHeader}/>:<></>}
-
+<Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
        <Route path="/about" element={<About />} />

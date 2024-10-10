@@ -23,7 +23,7 @@ const ReferAndEarn = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="my-16">
         <div className="card p-8 md:p-20 flex lg:flex-row gap-16 flex-col mx-8 sm:mx-16">
           {/* Card Image */}

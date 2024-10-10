@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 function Status() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="mx-8 lg:mx-32 my-16 text-[#ffffff]">
         <div className="text-center text-[60px]">Status</div>
         <div className="flex justify-center">
