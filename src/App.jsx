@@ -17,6 +17,7 @@ import ReferAndEarn from "./components/ReferAndEarn/ReferAndEarn";
 import Header from "./components/Header/Header";
 import { useState } from "react";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Pay from "./components/Pay/Pay.jsx";
 
 const App = () => {
 
@@ -39,6 +40,7 @@ const App = () => {
        <Route path="/status" element={<Status />} />
        <Route path="/enterDetails" element={<EnterDetails />} />
        <Route path="/referAndEarn" element={<ReferAndEarn />} />
+       <Route path="/pay" element={<Pay />} />
          {/* <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/faqs" element={<FAQs />} />
           
