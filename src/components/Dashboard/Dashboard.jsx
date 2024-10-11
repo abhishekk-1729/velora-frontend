@@ -105,7 +105,7 @@ function Dashboard() {
                     disabled="true"
                     id="form_phone"
                     type="tel"
-                    placeholder="123-456-7890"
+                    placeholder="+918755273773"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
@@ -122,7 +122,7 @@ function Dashboard() {
                   <textarea
                     disabled="true"
                     id="form_address"
-                    placeholder="Your Address"
+                    placeholder="NA"
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"

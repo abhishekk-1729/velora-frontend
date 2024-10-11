@@ -1274,6 +1274,7 @@ function ContactUs() {
                   }}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-lg focus:outline-none focus:border-blue-500  placeholder-gray-500 mb-4"
                   required
+                  maxLength={100}
                 />
               </div>
 
@@ -1293,17 +1294,17 @@ function ContactUs() {
                   }}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border  rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500 mb-4"
                   required
-                  pattern={"[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"}
+                  maxLength={100}
                 />
               </div>
 
               {/* Phone Input */}
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2  ">
                 <label htmlFor="form_phone" className="text-white">
                   Phone <span className="text-[#D82E5A]">*</span>
                 </label>
-                <div className="flex">
-                  <div className="py-3 px-2 border border-[#3D444D] rounded-md rounded-l-md border-r-none rounded-r-none focus:outline-none focus:border-blue-500 text-gray-900 flex bg-[#0d1116] border-r-0 text-gray ">
+                <div className="flex border border-[#3D444D] rounded-md focus-within:border-blue-500 ">
+                  <div className="py-3 px-2  rounded-md rounded-l-md  rounded-r-none focus:outline-none  text-gray-900 flex bg-[#0d1116] text-gray     ">
                     <div className="card flex justify-content-center">
                       <Dropdown
                         value={selectedItem}
@@ -1353,35 +1354,17 @@ function ContactUs() {
                     } // Change placeholder
                     value={isEmailMode ? email : phone}
                     onChange={(e) => {
-                      isEmailMode
-                        ? setEmail(e.target.value)
-                        : setPhone(e.target.value);
+                    
+                        setPhone(e.target.value)
                     }} //
-                    className="w-full p-3 pr-16 lg:pr-8 border border-[#3D444D]   border-l-0 rounded-md  rounded-l-none  text-gray-900 placeholder-gray-500 focus:outline-none bg-[#0d1116] text-[#6b7280]"
+                    className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none  text-gray-900 placeholder-gray-500 focus:outline-none bg-[#0d1116] text-[#6b7280]    "
                     required
-                    pattern={"[0-9]{11}"}
+                    pattern={"[0-9]{5,11}"}
+                    title="Please enter a valid phone number with 5 to 11 digits."
                   />
+                    
                 </div>
 
-                {/* <input
-                  id="form_phone"
-                  type="tel"
-                  placeholder="123-456-7890"
-                  value={phone}
-                  onChange={(e) => {
-                    setTextState(0);
-                    setPhone(e.target.value);
-                  }}
-                  className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500 mb-4"
-                  pattern={
-                    
-                      "[0-9]{10}"
-                  }
-
-                /> */}
-                {phoneError && (
-                  <span className="text-red-500">{phoneError}</span>
-                )}
               </div>
 
               {/* Address TextArea */}
