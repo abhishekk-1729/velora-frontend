@@ -47,11 +47,15 @@
 }
 
 .custom-dropdown-panel {
-  width: 245px; /* Set the width as per your needs */
+  width: 250px; /* Set the width as per your needs */
 
   margin-left: -8px;
   padding: 8px;
-  
+  border-radius: 8px;
+  margin-top: 8px;
+  /* margin-bottom: px; */
+  top: auto;
+  bottom: auto ;
 
 
 }
@@ -72,11 +76,12 @@
 .p-dropdown-filter.p-inputtext.p-component {
   /* margin-right:-10px; */
   background-color: #f4f4f4; /* Light background color */
-  border: 1px solid #9c27b0; /* Border with custom color */
   color: #333; /* Text color */
   padding: 10px; /* Add padding to make the input bigger */
   border-radius: 8px; /* Rounded corners */
   font-size: 14px; /* Adjust the font size */
+  outline: none;
+ 
 }
 
 /* Change the placeholder text color in the filter input */
@@ -90,11 +95,8 @@
   padding: 12px 15px; /* Increase padding for dropdown items */
   font-size: 15px; /* Adjust the font size */
   color: #333; /* Text color */
+  
 }
 
-/* Hover effect for dropdown options */
-.p-dropdown-panel .p-dropdown-item:hover {
-  background-color: #e0e0e0; /* Light gray background on hover */
-  color: #000; /* Dark text color on hover */
-}
+
 

@@ -70,7 +70,7 @@ function Dashboard() {
                     disabled="true"
                     id="form_name"
                     type="text"
-                    placeholder="Your Name"
+                    placeholder="Abhishek Kumar"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-lg focus:outline-none focus:border-blue-500  placeholder-gray-500"
@@ -86,7 +86,7 @@ function Dashboard() {
                     disabled="true"
                     id="form_email"
                     type="email"
-                    placeholder="you@company.com"
+                    placeholder="abhikriitd@gmail.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border  rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
