@@ -1,56 +1,50 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./App.css";
-import './fonts.css';
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Home from "./components/Home/Home.jsx";
-import About from "./components/About/aboutus";
-import ContactUs from "./components/ContactUs/ContactUs.jsx";
-import FAQs from "./components/FAQs/FAQs.jsx";
-import Pricing from "./components/Pricing/Pricing.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Login from "./components/Login/Login.jsx";
-import SignUp from "./components/SignUp/SignUp.jsx";
-import EmailVerify from "./components/EmailVerify/EmailVerify.jsx";
-import EnterDetails from "./components/EnterDetails/EnterDetails";
-import Status from "./components/Status/Status";
-import ReferAndEarn from "./components/ReferAndEarn/ReferAndEarn";
+import "./fonts.css";
 import Header from "./components/Header/Header";
 import { useState } from "react";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Pay from "./components/Pay/Pay.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import routes from "./routes";
 
 const App = () => {
-
-  const [showHeader,setShowHeader] = useState(true);
-
+  const [showHeader, setShowHeader] = useState(true);
+  const location = useLocation(); // Get the current location
+  console.log(location);
+  const shouldHideNavFooter = () => {
+    // Convert the incoming pathname to lowercase
+    const currentPath = location.pathname.toLowerCase();
+    
+    // Check if the current path matches any route in the routes array
+    const matchingRoute = routes.find(route => route.path.toLowerCase() === currentPath);
+    
+    // If no matching route is found, or if the found route has noNavFooter set to true, return true
+    return !matchingRoute || (matchingRoute.noNavFooter === true);
+  };
+  
+  
+  console.log(shouldHideNavFooter());
   return (
     <main className="main-bg">
-      <Router>{
-      showHeader?<Header setShowHeader={setShowHeader}/>:<></>}
-<Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-       <Route path="/about" element={<About />} />
-       <Route path="/pricing" element={<Pricing />} />
-       <Route path="/login" element={<SignUp />} >
-       {/* <Route path="emailverify" element={<EmailVerify />} /> */}
-       </Route>
-       <Route path="/contact" element={<ContactUs />} />
-       <Route path="/dashboard" element={<Dashboard />} />
-       <Route path="/signup" element={<SignUp />} />
-       <Route path="/signup/emailverify" element={<EmailVerify />} />
+      {showHeader && !shouldHideNavFooter() ? (
+        <Header setShowHeader={setShowHeader} />
+      ) : (
+        <></>
+      )}
 
-       <Route path="/status" element={<Status />} />
-       <Route path="/enterDetails" element={<EnterDetails />} />
-       <Route path="/referAndEarn" element={<ReferAndEarn />} />
-       <Route path="/pay" element={<Pay />} />
-         {/* <Route path="/contactUs" element={<ContactUs />} />
-          <Route path="/faqs" element={<FAQs />} />
-          
-          <Route path="/footer" element={<Footer />} /> */}
-        </Routes>
-        <Footer />
-      </Router>
+      {!shouldHideNavFooter() && <Navbar />}
+      <Routes>
+        {routes.map(({ path, element }) => (
+          <Route key={path} path={path} element={element} />
+        ))}
+      </Routes>
+      {/* Conditionally render Footer */}
+      {!shouldHideNavFooter() && <Footer />}
     </main>
   );
 };

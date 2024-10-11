@@ -137,8 +137,7 @@ const EnterDetails = () => {
               </div>
 
               <div class="login_main_content_magic text-white ">
-                We'll send you a magic code over email for a password-free sigup
-                in.
+                You'll be redirected to the home page after successful login
               </div>
 
               {/* <!-- Login Content - OR --> */}
