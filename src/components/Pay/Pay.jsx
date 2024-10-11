@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -18,17 +18,22 @@ function Pay() {
 
   const navigate = useNavigate();
 
+  
+
   // Mock function to simulate coupon API call
   const verifyCoupon = async () => {
     // This function will hit your backend API to verify the coupon code
     try {
-      const response = await fetch("http://localhost:8000/api/v1/verify-coupon", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ couponCode, email_pass }),
-      });
+      const response = await fetch(
+        "http://localhost:8000/api/v1/verify-coupon",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ couponCode, email_pass }),
+        }
+      );
       const data = await response.json();
 
       if (data.verified) {
@@ -52,7 +57,6 @@ function Pay() {
     setCouponStatus("Apply");
     setIsCouponVerified(false);
   };
-
 
   const Paynow = async () => {
     const body = {
@@ -161,7 +165,7 @@ function Pay() {
               />
               <button
                 onClick={verifyCoupon}
-                className={`py-3 bg-[#0D1116] w-full flex justify-end pr-4 ${
+                className={`py-3 bg-[#0D1116]  flex justify-end p-4 ${
                   isCouponVerified
                     ? "text-green-600"
                     : couponStatus === "Invalid"

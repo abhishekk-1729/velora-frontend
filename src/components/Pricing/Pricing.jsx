@@ -159,7 +159,9 @@ function Pricing() {
                 ))}
               </div>
               <button
-                onClick={()=>{navigate("/pay",{state:{emailPass:email,isAdvance:true}})}}
+              // if you not logged in you'll go to login
+                onClick={()=>{navigate("/login",{state:{isPricing:true}})}}
+                // onClick={()=>{navigate("/pay")}}
                 className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out my-4"
               >
                 <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">

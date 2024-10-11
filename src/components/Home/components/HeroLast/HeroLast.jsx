@@ -2,17 +2,21 @@ import React, { useState } from "react";
 import "./HeroLast.css";
 import greater_than from "./greater_than.png";
 import { Link } from "react-router-dom";
+import { ThreeDots } from "react-loader-spinner";
+
 
 const Hero = () => {
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
+  const [textState,setTextState] = useState(0);
 
   const handleConnectRequest = async () => {
     if (!emailOrPhone) {
       alert("Please enter a valid Email or Phone Number."); // Alert for empty input
       return;
     }
+    setTextState(1);
 
     const apiEndpoint = isEmailMode 
       ? "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendEmail" 
@@ -36,7 +40,9 @@ const Hero = () => {
 
       const data = await response.json();
       setResponseMessage(data.message || "Request sent successfully!"); // Update response message
-      alert("Request sent successfully!"); // Alert on success
+      // alert("Request sent successfully!"); // Alert on success
+      setTextState(2);
+
     } catch (error) {
       setResponseMessage("Failed to send request. Please try again."); // Handle error
       alert("Failed to send request. Please try again."); // Alert on failure
@@ -94,12 +100,22 @@ const Hero = () => {
 
               <button
                 onClick={handleConnectRequest} // Call the function on button click
-                className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex items-center lg:rounded-r-md lg:rounded-l-none hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
+                className="hero_cta_signup_content px-6 py-3 flex justify-center rounded-lg bg-[#783ec7] flex items-center lg:rounded-r-md lg:rounded-l-none hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
               >
-                <div>
+                <div className="flex justify-center px-8">
+                
                   <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Get your Website
-                  </h4>
+                  {textState==0?"Get you website":textState==1?<ThreeDots
+                
+                visible={true}
+                height="24"
+                width="24"
+                color="#ffffff"
+                radius="4"
+                ariaLabel="three-dots-loading"
+                wrapperStyle={{}}
+                wrapperClass="lg:px-12"
+              />:"We'll reach out to you!"}                  </h4>
                 </div>
               </button>
             </div>

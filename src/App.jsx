@@ -11,18 +11,20 @@ import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import routes from "./routes";
+import { matchPath } from "react-router-dom";
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
   const location = useLocation(); // Get the current location
   console.log(location);
   const shouldHideNavFooter = () => {
-    // Convert the incoming pathname to lowercase
     const currentPath = location.pathname.toLowerCase();
     
-    // Check if the current path matches any route in the routes array
-    const matchingRoute = routes.find(route => route.path.toLowerCase() === currentPath);
-    
+    // Check if the current path matches any route in the routes array, accounting for dynamic paths
+    const matchingRoute = routes.find(route => {
+      return matchPath({ path: route.path.toLowerCase(), exact: true }, currentPath);
+    });
+  
     // If no matching route is found, or if the found route has noNavFooter set to true, return true
     return !matchingRoute || (matchingRoute.noNavFooter === true);
   };
@@ -31,7 +33,7 @@ const App = () => {
   console.log(shouldHideNavFooter());
   return (
     <main className="main-bg">
-      {showHeader && !shouldHideNavFooter() ? (
+      {showHeader  ? (
         <Header setShowHeader={setShowHeader} />
       ) : (
         <></>

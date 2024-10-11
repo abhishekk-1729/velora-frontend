@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import nss from "/company.png";
 import axios from "axios";
+import { ThreeDots } from "react-loader-spinner";
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -9,6 +10,7 @@ function ContactUs() {
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
   const [message, setMessage] = useState("");
+  const [textState,setTextState] = useState(0);
 
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState("");
@@ -49,6 +51,8 @@ function ContactUs() {
 
       // Hit the API
       try {
+        setTextState(1);
+
         const response = await fetch("/contactUs", {
           method: "POST",
           headers: {
@@ -58,10 +62,13 @@ function ContactUs() {
         });
 
         if (response.ok) {
-          alert("Form submitted successfully");
+          // alert("Form submitted successfully");
+          
+
         } else {
           alert("Error submitting form");
         }
+        setTextState(2);
       } catch (error) {
         alert("Error submitting form");
       }
@@ -91,7 +98,8 @@ function ContactUs() {
                   type="text"
                   placeholder="Your Name"
                   value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={(e) => {        setTextState(0);
+;                    setName(e.target.value)}}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-lg focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   required
                 />
@@ -107,7 +115,7 @@ function ContactUs() {
                   type="email"
                   placeholder="you@company.com"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {        setTextState(0);setEmail(e.target.value)}}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border  rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                   required
                 />
@@ -126,7 +134,7 @@ function ContactUs() {
                   type="tel"
                   placeholder="123-456-7890"
                   value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
+                  onChange={(e) => {        setTextState(0);setPhone(e.target.value)}}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                 />
                 {phoneError && (
@@ -143,7 +151,7 @@ function ContactUs() {
                   id="form_address"
                   placeholder="Your Address"
                   value={address}
-                  onChange={(e) => setAddress(e.target.value)}
+                  onChange={(e) => {        setTextState(0);setAddress(e.target.value)}}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   rows="3"
                 />
@@ -158,7 +166,7 @@ function ContactUs() {
                   id="form_message"
                   placeholder="Your Message"
                   value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  onChange={(e) => {        setTextState(0);setMessage(e.target.value)}}
                   className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"
                   rows="5"
                 />
@@ -170,8 +178,18 @@ function ContactUs() {
                 className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
               >
                 <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Submit
-                </h4>
+                {textState==0?"Submit":textState==1?<ThreeDots
+                
+                visible={true}
+                height="24"
+                width="24"
+                color="#ffffff"
+                radius="4"
+                ariaLabel="three-dots-loading"
+                wrapperStyle={{}}
+                wrapperClass="lg:px-12"
+              />:"We'll reach out to you!"}
+</h4>
               </button>
             </div>
 

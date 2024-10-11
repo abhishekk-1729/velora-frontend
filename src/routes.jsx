@@ -23,8 +23,8 @@ const routes = [
     { path: "/login/emailverify", element: <EmailVerify /> },
     { path: "/contact", element: <ContactUs /> },
     { path: "/dashboard", element: <Dashboard /> },
-    { path: "/status", element: <Status /> },
-    { path: "/enterDetails", element: <EnterDetails /> },
+    { path: "/status/:id", element: <Status />},
+    { path: "/signup/enterDetails", element: <EnterDetails /> },
     { path: "/referAndEarn", element: <ReferAndEarn /> },
     { path: "/pay", element: <Pay /> },
     { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer

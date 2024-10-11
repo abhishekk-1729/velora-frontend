@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Navigate, useNavigate ,useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
 const EnterDetails = () => {
-  const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
-
+    
+    const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
+  
   const location = useLocation();
   const {email_pass} = location.state || {}; // Destructure with fallback
-
   const [email, setEmail] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
+  useEffect(()=>{
+    if(!email_pass){
+        navigate("/signup")
+    }
+  })
+
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
@@ -46,7 +52,7 @@ const EnterDetails = () => {
         <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
           <div class="login_image flex justify-center p-2">
             <img
-              src="company.png"
+              src="/company.png"
               alt="Company Logo"
               height={200}
               width={200}

@@ -4,13 +4,12 @@ import nss from "/company.png";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
 
-
 function Dashboard() {
+//   to access this page you should be logged in
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
-  const [message, setMessage] = useState("");
   const [personal, setPersonal] = useState(true);
 
   const [emailError, setEmailError] = useState("");
@@ -41,7 +40,7 @@ function Dashboard() {
 
         <div className="gap-4 flex-row  md:w-full p-8">
           <div className="mb-8 flex gap-4">
-          <button
+            <button
               className={`py-2 ${
                 personal ? "border-b-2 border-[#15B886]" : ""
               }`}
@@ -133,65 +132,63 @@ function Dashboard() {
               </>
             ) : (
               <div>
+                <div class="relative overflow-x-auto">
+                  <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                    <thead class="text-s text-gray-700 uppercasebg-[#151B23] dark:text-gray-400">
+                      <tr>
+                        <th scope="col" class="px-6 py-3">
+                          Service Id
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                          Total Amount
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                          Advance Status
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                          Total Amount Status
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                          Status
+                        </th>
+                      </tr>
+                    </thead>
 
-
-
-<div class="relative overflow-x-auto">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead class="text-s text-gray-700 uppercasebg-[#151B23] dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    Service Id
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Total Amount
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Advance Status
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Total Amount Status
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Status
-                </th>
-            </tr>
-        </thead>
-    
-        <tbody>
-        {service_data.map((value) => {
-                  return (
-                    <tr class=" bg-[#0151B23]">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        {value.service_id}
-                    </th>
-                    <td class="px-6 py-4">
-                    {value.total_amount}
-                    </td>
-                    <td class="px-6 py-4">
-                    {value.advance_status}
-                    </td>
-                    <td class="px-6 py-4">
-                    {value.total_amount_status}
-                    </td>
-                    <td class="px-6 py-4">
-                    <div>
-                   <button onClick={()=>{navigate("/status", {state:{service_id:value.service_id}})}}
-            
-              className={`text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff] '}`}>
-              Check Status
-            </button>
-                      </div>
-                    </td>
-                </tr>
-    
-                  );
-                })}
-
-        </tbody>
-    </table>
-</div>
-
+                    <tbody>
+                      {service_data.map((value) => {
+                        return (
+                          <tr class=" bg-[#0151B23]">
+                            <th
+                              scope="row"
+                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                            >
+                              {value.service_id}
+                            </th>
+                            <td class="px-6 py-4">{value.total_amount}</td>
+                            <td class="px-6 py-4">{value.advance_status}</td>
+                            <td class="px-6 py-4">
+                              {value.total_amount_status}
+                            </td>
+                            <td class="px-6 py-4">
+                              <div>
+                                <button
+                                  onClick={() => {
+                                    navigate(`/status/${value.service_id}`, {
+                                      state: { service_id: value.service_id },
+                                    });
+                                  }}
+                                  className={`text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff] '}`}
+                                >
+                                  Check Status
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
               </div>
             )}
           </div>

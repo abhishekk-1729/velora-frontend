@@ -103,7 +103,7 @@ const Login = () => {
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
-      navigate("/"); // Redirect to the main page
+      navigate("/login/emailverify",{state:{isPricing:isPricing}}); 
     } catch (err) {
       setError(err.message);
     }
@@ -225,15 +225,15 @@ const Login = () => {
 
               <div class="login_main_content_signup text-white">
                 New to Velora? Click here to {" "}
-                <a href="/signup" class="text-blue-500">
+                <button class="text-blue-500" onClick={()=>{navigate("/signup"),{state:{isPricing:isPricing}}}}>
                    Sign Up
-                </a>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-
+``
       {/* <div className="flex justify-center items-center p-16 md:mx-16 text-[#ffffff] my-10">
       <div className="bg-[#151b23] shadow-md rounded-lg p-8 w-96">
         <h1 className="text-2xl font-semibold text-center mb-4">Login</h1>

@@ -85,7 +85,9 @@ const EmailVerify = () => {
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
-      navigate("/enterDetails", { state: { email_pass: email_pass } }); // Redirect to the next page
+// if not present in the database then don't navigate to signup just navigate to dashbaord or if pricing s aaya h then go to pricing
+      // PRICING S AAYA H TO PAY P JAEGA AGAR EXIST KRTA H AND AGAR NI KRTA H TO ENTER DETIALS P JAEGA WHICH AGAIN WILL GO TO PRICING IF ISPRCIING
+      navigate("/signup/enterDetails", { state: { email_pass: email_pass, isPricing:false} }); // Redirect to the next page
       setTextState(0);
     } catch (err) {
       setTextState(2);
@@ -134,13 +136,18 @@ const EmailVerify = () => {
           </div>
 
           <div className="login_main px-8 flex flex-col items-center gap-8">
+
             <div className="login_main_heading text-center flex flex-col gap-4">
+              <div className="">
+              </div>
               <h1 className="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
                 Check your email for a code
               </h1>
+              <div className="">
               <div className="login_main_content_magic text-white">
                 We've sent a 6-character code to {email_pass}. The code expires
                 shortly, so please enter it soon.
+              </div>
               </div>
             </div>
 

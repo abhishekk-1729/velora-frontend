@@ -1,23 +1,23 @@
 import React from "react";
-import image from "/new.png"
+import image from "/new.png";
 
 const NotFound = () => {
   return (
     <>
       {" "}
       {/* <Navbar /> */}
-      <div className={`my-24 `}>
-      <div class="login_image flex justify-center p-2">
-        <a href="/">
+      <div className={`my-14 `}>
+        <div class="login_image flex justify-center p-2 mb-2">
+          <a href="/">
             <img
               src="company.png"
               alt="Company Logo"
               height={200}
               width={200}
             ></img>
-            </a>
-          </div>
-          
+          </a>
+        </div>
+
         <div
           className={`  card  p-2 md:p-20 flex 
           lg:flex-row-reverse
@@ -47,45 +47,44 @@ const NotFound = () => {
                 className="text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
                 style={{ color: "#9198a1" }}
               >
-This page has vanished, like a website dream,           </p>
+                This page has vanished, like a website dream,{" "}
+              </p>
               <p
                 className="text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
                 style={{ color: "#9198a1" }}
               >
-Lost in the code, or so it would seem.           </p>
+                Lost in the code, or so it would seem.{" "}
+              </p>
               <p
                 className="text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
                 style={{ color: "#9198a1" }}
               >
-But fear not, dear builder, don't feel like a fool,           </p>
+                But fear not, dear builder, don't feel like a fool,{" "}
+              </p>
               <p
                 className="text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
                 style={{ color: "#9198a1" }}
               >
-Hit that big green button and return to our tool!           </p>
+                Hit that big green button and return to our tool!{" "}
+              </p>
             </div>
             <a href="/">
-          <div className="flex  ">
-           
-            <button 
-                       // Call the function on button click
-                      className="hero_cta_signup_content p-4 w-1/2 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
-                    >
-                      <div>
-                        <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                         Go to Home
-                        </h4>
-                      </div>
-                    </button>
-                  
-                    </div>
-                    </a>
+              <div className="flex  ">
+                <button
+                  // Call the function on button click
+                  className="hero_cta_signup_content p-4 w-1/2 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
+                >
+                  <div>
+                    <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
+                      Go to Home
+                    </h4>
+                  </div>
+                </button>
+              </div>
+            </a>
           </div>
-      
         </div>
       </div>
-
-
     </>
   );
 };
