@@ -1304,7 +1304,7 @@ function ContactUs() {
                   Phone <span className="text-[#D82E5A]">*</span>
                 </label>
                 <div className="flex border border-[#3D444D] rounded-md focus-within:border-blue-500 ">
-                  <div className="py-3 px-2  rounded-md rounded-l-md  rounded-r-none focus:outline-none  text-gray-900 flex bg-[#0d1116] text-gray     ">
+                  <div className="py-3 px-2  rounded-md rounded-l-md  rounded-r-none focus:outline-none   flex bg-[#0d1116]     ">
                     <div className="card flex justify-content-center">
                       <Dropdown
                         value={selectedItem}
@@ -1357,7 +1357,7 @@ function ContactUs() {
                     
                         setPhone(e.target.value)
                     }} //
-                    className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none  text-gray-900 placeholder-gray-500 focus:outline-none bg-[#0d1116] text-[#6b7280]    "
+                    className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none   placeholder-gray-500 focus:outline-none bg-[#0d1116]     "
                     required
                     pattern={"[0-9]{5,11}"}
                     title="Please enter a valid phone number with 5 to 11 digits."
