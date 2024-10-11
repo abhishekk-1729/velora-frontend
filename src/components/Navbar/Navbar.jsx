@@ -119,16 +119,21 @@ function Navbar() {
       </div>
 
       <div className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}>
+
+
         {[
-          "About",
-          "Pricing",
-          isLoggedIn ? "Logout" : "Sign up/Log in",
-        ].map((option) => (
-          <div
-            key={option}
-            className={`navbaroption ${selectedMobileOption === option ? "navbaroption-selected-mobile" : ""}`}
-            onClick={() => handleNavbarOptionClick(option)}
-          >
+              "About",
+              "Dashboard",
+              "Contact",
+              "Pricing",
+              "ReferAndEarn",
+              isLoggedIn ? "Logout" : "Login",
+            ].map((option) => (
+              <div
+                key={option}
+                className={`navbaroption ${selectedMobileOption === option ? "navbaroption-selected-mobile" : ""}`}
+                onClick={() => handleNavbarOptionClick(option)}
+              >
             {selectedMobileOption === option && (
               <img src={NavSelector} alt="" className="nav-effect-front" />
             )}

@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import { ThreeDots } from "react-loader-spinner";
+import { Outlet } from "react-router-dom";
 
 const SignUp = () => {
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
-
+  const [isLoader, setIsLoader] = useState(false);
 
   const [email, setEmail] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
+    setIsLoader(true);
     e.preventDefault();
 
     try {
@@ -30,12 +33,10 @@ const SignUp = () => {
       }
 
       setIsOtpSent(true); // Show OTP input field after successful request
-    } catch (err) {
-    }
-    navigate("/emailverify",{state:{email_pass:email}});
-
+    } catch (err) {}
+    navigate("/signup/emailverify", { state: { email_pass: email } });
+    setIsLoader(false);
   };
-
 
   return (
     <>
@@ -62,7 +63,6 @@ const SignUp = () => {
             <div class="login_main_content flex flex-col gap-6 ">
               {/* <!-- Login Content - Others --> */}
 
-
               <div class="login_main_content_phoneoremail flex flex-col gap-4">
                 <div className="hero_cta_email_text flex gap-4">
                   <button
@@ -80,7 +80,7 @@ const SignUp = () => {
                   <div className="hero_cta_email_signup flex flex-col gap-4">
                     <div className="hero_cta_email_input ">
                       <input
-                        type={isEmailMode ? "email" : "tel"} // Change input type based on mode
+                        type={"email"} // Change input type based on mode
                         placeholder={
                           isEmailMode ? "you@company.com" : "123-456-7890"
                         } // Change placeholder
@@ -92,11 +92,24 @@ const SignUp = () => {
 
                     <button
                       onClick={handleEmailSubmit} // Call the function on button click
-                      className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
+                      className="flex justify-center hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                     >
                       <div>
                         <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                          Continue
+                          {isLoader
+                            ? 
+                                <ThreeDots
+                                  visible={true}
+                                  height="24"
+                                  width="24"
+                                  color="#ffffff"
+                                  radius="4"
+                                  ariaLabel="three-dots-loading"
+                                  wrapperStyle={{}}
+                                  wrapperClass=""
+                                />
+                              
+                            : "Continue"}
                         </h4>
                       </div>
                     </button>
@@ -148,10 +161,10 @@ const SignUp = () => {
                   <div class="text-[#ffffff]">Continue with Microsoft</div>
                 </button>
               </div>
-
             </div>
           </div>
         </div>
+     
       </div>
 
       {/* <div className="flex justify-center items-center p-16 md:mx-16 text-[#ffffff] my-10">
@@ -202,6 +215,7 @@ const SignUp = () => {
         )}
       </div>
     </div> */}
+       {/* <Outlet /> */}
     </>
   );
 };

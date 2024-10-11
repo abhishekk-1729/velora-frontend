@@ -1,16 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { useLocation } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import { ThreeDots } from "react-loader-spinner";
 
 const EmailVerify = () => {
   const location = useLocation();
   const {email_pass} = location.state || {}; // Destructure with fallback
   const [otp, setOtp] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
-
+  const [textState, setTextState] = useState(0);
   // Function to handle OTP verification
+
+  useEffect(()=>{
+    if(!email_pass){
+      navigate("/login")
+    }
+  })
   const handleOtpSubmit = async (e) => {
+    setTextState(1)
     e.preventDefault();
 
     try {
@@ -26,14 +35,18 @@ const EmailVerify = () => {
       );
 
       if (!response.ok) {
+        setTextState(2)
         throw new Error("Invalid OTP. Please try again.");
       }
 
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
+      // toast.error("Login Succesful")
       navigate("/enterDetails", {state:{email_pass:email_pass}}); // Redirect to the main page
+      setTextState(0)
     } catch (err) {
+      setTextState(2)
     }
   };
 
@@ -81,18 +94,29 @@ const EmailVerify = () => {
                           "Enter Code"
                         } // Change placeholder
                         value={otp} // Bind the input value to state
-                        onChange={(e) => setOtp(e.target.value)} // Update state on input change
+                        onChange={(e) =>{ setTextState(0);setOtp(e.target.value)}} // Update state on input change
                         className="w-full p-4 border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
                       />
                     </div>
 
                     <button
                       onClick={handleOtpSubmit} // Call the function on button click
-                      className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
+                      className="hero_cta_signup_content flex justify-center  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                     >
                       <div>
                         <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                          Continue
+                          {textState==0?"Continue":textState==1?                                <ThreeDots
+                                  visible={true}
+                                  height="24"
+                                  width="24"
+                                  color="#ffffff"
+                                  radius="4"
+                                  ariaLabel="three-dots-loading"
+                                  wrapperStyle={{}}
+                                  wrapperClass=""
+                                />
+                              
+:"Enter the code again"}
                         </h4>
                       </div>
                     </button>
