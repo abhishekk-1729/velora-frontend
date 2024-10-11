@@ -103,6 +103,7 @@ const Login = () => {
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
+    //   if isPricing == True then just navigate to Pay
       navigate("/login/emailverify",{state:{isPricing:isPricing}}); 
     } catch (err) {
       setError(err.message);

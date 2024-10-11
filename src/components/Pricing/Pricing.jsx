@@ -169,7 +169,7 @@ function Pricing() {
                 </h4>
               </button>
               <div>
-                Note: You will have to pay 20% advance while purchasing.
+                Note: You will have to pay 20% advance.
               </div>
             </div>
           </div>
