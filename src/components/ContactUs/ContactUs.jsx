@@ -12,9 +12,6 @@ function ContactUs() {
   const [message, setMessage] = useState("");
   const [textState, setTextState] = useState(0);
   const [isEmailMode, setIsEmailMode] = useState(false);
-
-  const [emailError, setEmailError] = useState("");
-  const [phoneError, setPhoneError] = useState("");
   const [selectedItem, setSelectedItem] = useState({
     name: "India",
     image: "/svg/countries/in.svg",
@@ -1185,60 +1182,40 @@ function ContactUs() {
     // Add more countries as needed
   ];
   // Validation regex
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^[0-9]{10}$/;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const contactData = {
+      name: name, // e.g., "Abhishek Kumar"
+      email: email, // e.g., "abhikriitd"
+      message: message, // e.g., "Testing message"
+      phone_code: "+91", // Assuming the phone code is fixed, or you can also add a phone_code state if needed
+      phone_number: phone, // e.g., "8755273773"
+      address: address, // e.g., "Test Address"
+    };
 
-    // Validate email and phone
-    let valid = true;
-
-    if (!emailRegex.test(email)) {
-      setEmailError("Invalid email address");
-      valid = false;
-    } else {
-      setEmailError("");
-    }
-
-    if (phone && !phoneRegex.test(phone)) {
-      setPhoneError("Invalid phone number (10 digits)");
-      valid = false;
-    } else {
-      setPhoneError("");
-    }
-
-    if (valid) {
-      // Prepare the data to send
-      const contactData = {
-        name,
-        email,
-        phone,
-        address,
-        message,
-      };
-
-      // Hit the API
-      try {
-        setTextState(1);
-
-        const response = await fetch("/contactUs", {
+    // Hit the API
+    try {
+      setTextState(1);
+      const response = await fetch(
+        "http://localhost:8000/api/v1/contact/addContact",
+        {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(contactData),
-        });
-
-        if (response.ok) {
-          // alert("Form submitted successfully");
-        } else {
-          alert("Error submitting form");
         }
-        setTextState(2);
-      } catch (error) {
+      );
+
+      if (response.ok) {
+        alert("Form submitted successfully");
+      } else {
         alert("Error submitting form");
       }
+      setTextState(2);
+    } catch (error) {
+      alert("Error submitting form");
     }
   };
 
@@ -1254,8 +1231,7 @@ function ContactUs() {
           <div className="flex flex-col  md:w-3/4 gap-9   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d]">
             <form
               onSubmit={(e) => {
-                e.preventDefault();
-                handleSubmit();
+                handleSubmit(e);
               }}
             >
               {/* Name Input */}
@@ -1354,17 +1330,14 @@ function ContactUs() {
                     } // Change placeholder
                     value={isEmailMode ? email : phone}
                     onChange={(e) => {
-                    
-                        setPhone(e.target.value)
+                      setPhone(e.target.value);
                     }} //
                     className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none   placeholder-gray-500 focus:outline-none bg-[#0d1116]     "
                     required
                     pattern={"[0-9]{5,11}"}
                     title="Please enter a valid phone number with 5 to 11 digits."
                   />
-                    
                 </div>
-
               </div>
 
               {/* Address TextArea */}

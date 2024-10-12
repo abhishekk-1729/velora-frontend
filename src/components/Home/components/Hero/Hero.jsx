@@ -4,6 +4,8 @@ import greater_than from "./greater_than.png";
 import { Link } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import { Dropdown } from "primereact/dropdown";
+import endpoints from '../../../../configs/apiConfigs'; // Adjust path as necessary
+
 const Hero = () => {
   const [textState, setTextState] = useState(0);
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
@@ -38,13 +40,13 @@ const Hero = () => {
     setTextState(1);
 
     const apiEndpoint = isEmailMode
-      ? "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendEmail"
-      : "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendMessage";
+      ? endpoints.alertEmail
+      : endpoints.alertMessage;
 
-    const body = isEmailMode ? { email } : { phone, message: "Hi bro" };
+    const body = isEmailMode ? { email } : { phone};
 
     try {
-      const response = await fetch(apiEndpoint, {
+      const response = await fetch(endpoints.alertEmail, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

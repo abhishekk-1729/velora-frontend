@@ -1,0 +1,58 @@
+.custom-dropdown {
+    background-color: white; /* Set the background color */
+    color: #333; /* Optional: text color */
+  }
+
+  
+  .custom-dropdown-panel {
+    width: 250px; /* Set the width as per your needs */
+    margin-left: -8px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+    /* margin-bottom: px; */
+    top: auto;
+    bottom: auto ;
+  
+  
+  }
+
+  .custom-dropdown-panel .p-dropdown-items-wrapper::-webkit-scrollbar {
+    display: none;
+  
+  }
+  
+  .custom-dropdown .p-dropdown-label {
+    padding-right: 10px; /* Adjust this value to increase the gap */
+  }
+  
+  /* Assuming you're using a CSS file for styles */
+  /* DropdownStyles.css */
+  
+  
+  /* Style the filter input inside the dropdown */
+  .p-dropdown-filter.p-inputtext.p-component {
+    /* margin-right:-10px; */
+    background-color: #ffffff; /* Light background color */
+    color: #333; /* Text color */
+    padding: 10px; /* Add padding to make the input bigger */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 14px; /* Adjust the font size */
+    outline: none;
+   
+  }
+  
+  /* Change the placeholder text color in the filter input */
+  .p-dropdown-filter.p-inputtext.p-component::placeholder {
+    color: #aaa; /* Light gray placeholder color */
+  }
+  
+  
+  /* Style the options inside the dropdown */
+  .p-dropdown-panel .p-dropdown-item {
+    padding: 12px 15px; /* Increase padding for dropdown items */
+    font-size: 15px; /* Adjust the font size */
+    color: #333; /* Text color */
+    
+  }
+  

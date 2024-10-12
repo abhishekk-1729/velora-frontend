@@ -154,7 +154,10 @@ const EmailVerify = () => {
             <div className="login_main_content flex flex-col gap-6 w-full md:px-32">
               <div className="login_main_content_phoneoremail flex flex-col gap-4">
                 <div className="hero_cta_content flex flex-col">
+                <form onSubmit={handleOtpSubmit}>
+
                   <div className="hero_cta_email_signup flex flex-col gap-4">
+                    
                     <div className="hero_cta_email_input">
                       <input
                         type="text"
@@ -165,11 +168,13 @@ const EmailVerify = () => {
                           setOtp(e.target.value);
                         }}
                         className="w-full p-4 border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                        required
+                        maxLength={6}
                       />
                     </div>
 
                     <button
-                      onClick={handleOtpSubmit}
+                     type="submit"
                       className="hero_cta_signup_content flex justify-center w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                     >
                       <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
@@ -188,7 +193,9 @@ const EmailVerify = () => {
                           ) : "Enter the code again"}
                       </h4>
                     </button>
+                    
                   </div>
+                  </form>
                 </div>
               </div>
 

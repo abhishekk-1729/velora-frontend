@@ -65,33 +65,38 @@ const SignUp = () => {
 
               <div class="login_main_content_phoneoremail flex flex-col gap-4">
                 <div className="hero_cta_email_text flex gap-4">
-                  <button
-                    onClick={() => setIsEmailMode(true)}
+                  <div
+                   
                     className={`text-[14px] font-semibold leading-[21px] ${
                       isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
                     }`}
                   >
                     Email Address
-                  </button>{" "}
+                  </div>{" "}
                 </div>
 
                 <div className="hero_cta_content flex flex-col">
                   {/* Email/Phone Signup */}
+                  <form onSubmit={handleEmailSubmit}>
                   <div className="hero_cta_email_signup flex flex-col gap-4">
+                  
                     <div className="hero_cta_email_input ">
+                     
                       <input
-                        type={"email"} // Change input type based on mode
+                        type="email" // Change input type based on mode
                         placeholder={
                           isEmailMode ? "you@company.com" : "123-456-7890"
                         } // Change placeholder
                         value={email} // Bind the input value to state
                         onChange={(e) => setEmail(e.target.value)} // Update state on input change
                         className="w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                        required
+                        maxLength={100}
                       />
                     </div>
 
                     <button
-                      onClick={handleEmailSubmit} // Call the function on button click
+                     type="submit"
                       className="flex justify-center hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                     >
                       <div>
@@ -113,7 +118,9 @@ const SignUp = () => {
                         </h4>
                       </div>
                     </button>
+            
                   </div>
+                  </form>
                 </div>
               </div>
 
