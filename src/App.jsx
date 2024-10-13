@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import routes from "./routes";
 import { matchPath } from "react-router-dom";
+import { GoogleLogin } from "@react-oauth/google";
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
@@ -19,25 +20,33 @@ const App = () => {
   console.log(location);
   const shouldHideNavFooter = () => {
     const currentPath = location.pathname.toLowerCase();
-    
+
     // Check if the current path matches any route in the routes array, accounting for dynamic paths
-    const matchingRoute = routes.find(route => {
-      return matchPath({ path: route.path.toLowerCase(), exact: true }, currentPath);
+    const matchingRoute = routes.find((route) => {
+      return matchPath(
+        { path: route.path.toLowerCase(), exact: true },
+        currentPath
+      );
     });
-  
+
     // If no matching route is found, or if the found route has noNavFooter set to true, return true
-    return !matchingRoute || (matchingRoute.noNavFooter === true);
+    return !matchingRoute || matchingRoute.noNavFooter === true;
   };
-  
-  
+
   console.log(shouldHideNavFooter());
+
+  const responseMessage = (response) => {
+    console.log(response);
+  };
+  const errorMessage = (error) => {
+    console.log(error);
+  };
   return (
     <main className="main-bg">
-      {showHeader  ? (
-        <Header setShowHeader={setShowHeader} />
-      ) : (
-        <></>
-      )}
+      {/* <div>
+        <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
+      </div> */}
+      {/* {showHeader ? <Header setShowHeader={setShowHeader} /> : <></>} */}
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>

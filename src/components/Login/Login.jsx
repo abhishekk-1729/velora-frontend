@@ -1,11 +1,56 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import { useGoogleLogin } from "@react-oauth/google";
+import axios from "axios";
+import { useMsal } from "@azure/msal-react";
+import { loginRequest } from "../../authConfig";
+import { useIsAuthenticated } from "@azure/msal-react";
 
 const Login = () => {
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
+  const navigate = useNavigate(); // Use useNavigate for redirection
+
+  const checkDatabase = (email, name) => {
+    // if user exits in the database then first get a jwt token from the database
+    // then log in the user and then navigate to dashboard
+
+    // if not present then save in user_try_login and then
+    // navigate to enter details with name
+    navigate("/dashboard");
+  };
+  const login = useGoogleLogin({
+    onSuccess: (response) => {
+      if (response && response.access_token) {
+        axios
+          .get(
+            `https://www.googleapis.com/oauth2/v1/userinfo?access_token=${response.access_token}`,
+            {
+              headers: {
+                Authorization: `Bearer ${response.access_token}`,
+                Accept: "application/json",
+              },
+            }
+          )
+          .then((res) => {
+            checkDatabase(res.data.email, res.data.name);
+          })
+          .catch((err) => {});
+      }
+    },
+    onError: (error) => console.log("Login Failed:", error),
+  });
+  const { instance } = useMsal();
+
+  const microsoftlogin = () => {
+    instance.loginRedirect(loginRequest).catch((e) => {
+      console.log(e);
+    });
+  }; // console.log(e);
+
+  const isAuthenticated = useIsAuthenticated();
 
   const handleConnectRequest = async () => {
     if (!emailOrPhone) {
@@ -50,7 +95,6 @@ const Login = () => {
   const [otp, setOtp] = useState("");
   const [isOtpSent, setIsOtpSent] = useState(false);
   const [error, setError] = useState("");
-  const navigate = useNavigate(); // Use useNavigate for redirection
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
@@ -103,8 +147,8 @@ const Login = () => {
       const data = await response.json();
       localStorage.setItem("token", data.token); // Store token in local storage
       alert("Login successful!"); // Handle successful login
-    //   if isPricing == True then just navigate to Pay
-      navigate("/login/emailverify",{state:{isPricing:isPricing}}); 
+      //   if isPricing == True then just navigate to Pay
+      navigate("/login/emailverify", { state: { isPricing: isPricing } });
     } catch (err) {
       setError(err.message);
     }
@@ -114,7 +158,7 @@ const Login = () => {
     <>
       {/* <Navbar /> */}
       <div className="flex justify-center">
-        <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] my-6  ">
+        <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] my-12  ">
           <div class="login_image flex justify-center p-2">
             <img
               src="company.png"
@@ -136,7 +180,10 @@ const Login = () => {
               {/* <!-- Login Content - Others --> */}
               <div class="login_main_content_others flex flex-col gap-4 w-full">
                 {/* <!-- Button 1 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
+                <button
+                  onClick={login}
+                  class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
+                >
                   <div>
                     <img src="/svg/google.svg" alt="" height={30} width={30} />
                   </div>
@@ -154,13 +201,20 @@ const Login = () => {
                   </div>
                   <div class="text-[#ffffff]">Sign in with Apple</div>
                 </button>
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
+                <button
+                  onClick={microsoftlogin}
+                  class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
+                >
                   <div>
-                    <img src="/svg/microsoft.svg" alt="" height={30} width={30} />
+                    <img
+                      src="/svg/microsoft.svg"
+                      alt=""
+                      height={30}
+                      width={30}
+                    />
                   </div>
                   <div class="text-[#ffffff]">Sign in with Microsoft</div>
                 </button>
-
               </div>
 
               {/* <!-- Login Content - OR --> */}
@@ -221,20 +275,26 @@ const Login = () => {
               </div>
 
               <div class="login_main_content_magic text-white ">
-                We'll send you a magic code over email for a password-free sign in.
+                We'll send you a magic code over email for a password-free sign
+                in.
               </div>
 
               <div class="login_main_content_signup text-white">
-                New to Velora? Click here to {" "}
-                <button class="text-blue-500" onClick={()=>{navigate("/signup"),{state:{isPricing:isPricing}}}}>
-                   Sign Up
+                New to Velora? Click here to{" "}
+                <button
+                  class="text-blue-500"
+                  onClick={() => {
+                    navigate("/signup"), { state: { isPricing: isPricing } };
+                  }}
+                >
+                  Sign Up
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-``
+      ``
       {/* <div className="flex justify-center items-center p-16 md:mx-16 text-[#ffffff] my-10">
       <div className="bg-[#151b23] shadow-md rounded-lg p-8 w-96">
         <h1 className="text-2xl font-semibold text-center mb-4">Login</h1>

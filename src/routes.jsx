@@ -12,12 +12,15 @@ import ReferAndEarn from "./components/ReferAndEarn/ReferAndEarn";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Pay from "./components/Pay/Pay.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
+import GoogleLogin from "./components/GoogleLogin/GoogleLogin.jsx"
+// import MicrosoftLogin from "./components/GoogleLogin/MicrosoftLogin.jsx";
+import Microsoft from "./components/GoogleLogin/microsoft.jsx";
 
 const routes = [
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
     { path: "/pricing", element: <Pricing /> },
-    { path: "/login", element: <Login />},
+    { path: "/login", element: <Login />, noNavFooter: true},
     { path: "/signup", element: <SignUp /> },
     { path: "/signup/emailverify", element: <EmailVerify /> },
     { path: "/login/emailverify", element: <EmailVerify /> },
@@ -25,6 +28,8 @@ const routes = [
     { path: "/dashboard", element: <Dashboard /> },
     { path: "/status/:id", element: <Status />},
     { path: "/signup/enterDetails", element: <EnterDetails /> },
+    { path: "/googleLogin", element: <GoogleLogin /> },
+    { path: "/microsoftLogin", element: <Microsoft />, noNavFooter: true },
     { path: "/referAndEarn", element: <ReferAndEarn /> },
     { path: "/pay", element: <Pay /> },
     { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer
