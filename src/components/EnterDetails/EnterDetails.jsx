@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Navigate, useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { Dropdown } from "primereact/dropdown";
-import "./enterDetails.css";
+import "./EnterDetails.css";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
 
