@@ -14,7 +14,7 @@ export const msalConfig = {
     auth: {
         clientId: "97deaa7e-6413-4a91-b33c-9ab3d537ed97",
         // authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
-        redirectUri: "http://localhost:5173"
+        redirectUri: "https://velora-frontend.vercel.app"
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
