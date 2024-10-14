@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
+import { useAuth } from "../../store/auth";
+
 
 function Pricing() {
   const [name, setName] = useState("");
@@ -11,8 +13,11 @@ function Pricing() {
   const [message, setMessage] = useState("");
   const [personal, setPersonal] = useState(true);
 
+
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState("");
+
+  const {isLoggedIn,user} = useAuth();
 
   const deliverables = [
     "Get your website in 1 month",
@@ -23,9 +28,6 @@ function Pricing() {
     "1 year customer support",
   ];
 
-  // Validation regex
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^[0-9]{10}$/;
 
   const navigate = useNavigate();
   const service_data = [
@@ -160,12 +162,12 @@ function Pricing() {
               </div>
               <button
               // if you not logged in you'll go to login
-                onClick={()=>{navigate("/login",{state:{isPricing:true}})}}
+                onClick={()=>{isLoggedIn?navigate("/pay",{state:{user:user}, isAdvance:true}):navigate("/login",{state:{isPricing:true}})}}
                 // onClick={()=>{navigate("/pay")}}
                 className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out my-4"
               >
                 <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Join Velora Family Today / Sign In
+                  {isLoggedIn?"Join Velora Family Today": "Sign In"}
                 </h4>
               </button>
               <div>

@@ -1,26 +1,57 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { useMsal } from "@azure/msal-react";
 import { loginRequest } from "../../authConfig";
 import { useIsAuthenticated } from "@azure/msal-react";
+import { callMsGraph } from "../../graph";
+import "./login.css";
+import { ThreeDots } from "react-loader-spinner";
+import endpoints from "../../configs/apiConfigs";
+import { useAuth } from "../../store/auth";
 
 const Login = () => {
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
   const navigate = useNavigate(); // Use useNavigate for redirection
+  const [graphData, setGraphData] = useState(null);
+  const [isLoader, setIsLoader] = useState(false);
+  const {storeTokenInLS} = useAuth();
 
-  const checkDatabase = (email, name) => {
-    // if user exits in the database then first get a jwt token from the database
-    // then log in the user and then navigate to dashboard
+  const checkDatabase = async (email, name, location) => {
+    try {
+        const response = await fetch(endpoints.authLogin, { // Adjust the endpoint as needed
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, name, location }),
+        });
 
-    // if not present then save in user_try_login and then
-    // navigate to enter details with name
-    navigate("/dashboard");
-  };
+        console.log(email);
+
+        const data = await response.json();
+        console.log(data.success);
+
+        if (data.success) {
+            // If a token is returned, store it in local storage
+            if (data.token) {
+                storeTokenInLS(data.token); // Your function to store token
+                navigate('/'); // Navigate to home page
+            } 
+        } else {
+            // Handle any errors from the server response
+            navigate('/signup/enterDetails', {
+              state: { name_pass: name, email_pass: email },
+          });
+
+        }
+    } catch (error) {
+        console.error('Error checking database:', error);
+    }
+};
   const login = useGoogleLogin({
     onSuccess: (response) => {
       if (response && response.access_token) {
@@ -35,35 +66,80 @@ const Login = () => {
             }
           )
           .then((res) => {
-            checkDatabase(res.data.email, res.data.name);
+            checkDatabase(res.data.email, res.data.name, "h");
           })
           .catch((err) => {});
       }
     },
     onError: (error) => console.log("Login Failed:", error),
   });
-  const { instance } = useMsal();
 
+  const { instance, accounts } = useMsal();
   const microsoftlogin = () => {
     instance.loginRedirect(loginRequest).catch((e) => {
       console.log(e);
     });
   }; // console.log(e);
 
-  const isAuthenticated = useIsAuthenticated();
-
-  const handleConnectRequest = async () => {
-    if (!emailOrPhone) {
-      alert("Please enter a valid Email or Phone Number."); // Alert for empty input
-      return;
+  const RequestProfileData = () => {
+    if (accounts && accounts.length > 0) {
+      // Acquiring token silently
+      instance
+        .acquireTokenSilent({
+          ...loginRequest,
+          account: accounts[0],
+        })
+        .then((response) => {
+          // Fetching data from MS Graph
+          callMsGraph(response.accessToken).then((response) => {
+            setGraphData(response); // Set the graph data
+          });
+        })
+        .catch((error) => {
+          console.log("Token acquisition or API call failed: ", error);
+        });
+    } else {
+      console.log("No accounts available, cannot acquire token");
     }
+  };
+
+  // First useEffect to request data when accounts are available
+  useEffect(() => {
+    if (accounts && accounts.length > 0) {
+      // Call the request function when accounts are populated
+      RequestProfileData();
+    }
+  }, [accounts]); // Trigger only when accounts are ready
+
+  // Second useEffect to log graphData when it is set
+  useEffect(() => {
+    if (graphData) {
+      console.log("Graph Data:", graphData); // Log updated graph data
+    }
+  }, [graphData]); // Depend on graphData
+
+  useEffect(()=>{
+    if (sessionStorage.getItem("msal.account.keys") && graphData) {
+      console.log("nio");
+      const name1 = graphData.displayName;
+      const email1 = graphData.mail;
+      sessionStorage.clear();
+      setGraphData(null);
+      checkDatabase(email1,name1,"hi");
+    }
+  })
+
+  const handleConnectRequest = async (e) => {
+    e.preventDefault();
+    console.log("hi")
+    setIsLoader(true);
 
     const apiEndpoint = isEmailMode
-      ? "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendEmail"
+      ? endpoints.loginEmail
       : "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendMessage"; // Replace with your phone API endpoint
 
     const body = isEmailMode
-      ? { email: emailOrPhone }
+      ? { email: emailOrPhone, location: "Benguluru" }
       : { phone: emailOrPhone, message: "Hi bro" };
     try {
       const response = await fetch(apiEndpoint, {
@@ -73,31 +149,35 @@ const Login = () => {
         },
         body: JSON.stringify(body), // Sending input in the request body
       });
-
+      if(response.ok){
+        console.log("hiiiiiii");
+        // navigate("/");
+        navigate("/login/emailverify", { state: { email_pass: emailOrPhone } });
+      }
       if (!response.ok) {
+        setIsLoader(false);
         throw new Error("Network response was not ok");
       }
-
+      // navigate("/login/emailverify", { state: { email_pass: email } });
       const data = await response.json();
       setResponseMessage(data.message || "Request sent successfully!"); // Update response message
-      alert("Request sent successfully!"); // Alert on success
     } catch (error) {
       setResponseMessage("Failed to send request. Please try again."); // Handle error
-      alert("Failed to send request. Please try again."); // Alert on failure
     }
   };
 
-  const toggleMode = () => {
-    setIsEmailMode(!isEmailMode); // Toggle between Email and Phone mode
-  };
+  // const toggleMode = () => {
+  //   setIsEmailMode(!isEmailMode); // Toggle between Email and Phone mode
+  // };
 
   const [email, setEmail] = useState("");
   const [otp, setOtp] = useState("");
-  const [isOtpSent, setIsOtpSent] = useState(false);
-  const [error, setError] = useState("");
+  // const [isOtpSent, setIsOtpSent] = useState(false);
+  // const [error, setError] = useState("");
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
+    
     e.preventDefault();
     setError("");
 
@@ -157,9 +237,9 @@ const Login = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="flex justify-center">
-        <div class="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] my-12  ">
-          <div class="login_image flex justify-center p-2">
+      <div className="flex justify-center items-center h-screen">
+        <div className="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff]  ">
+          <div className="login_image flex justify-center p-2">
             <img
               src="company.png"
               alt="Company Logo"
@@ -168,42 +248,30 @@ const Login = () => {
             ></img>
           </div>
 
-          <div class="login_main px-8 flex flex-col items-center gap-6">
-            <div class="login_main_heading text-center">
-              <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
+          <div className="login_main px-8 flex flex-col items-center gap-6">
+            <div className="login_main_heading text-center">
+              <h1 className="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
                 Sign in to Velora
               </h1>
             </div>
 
             {/* <!-- Login Content --> */}
-            <div class="login_main_content flex flex-col gap-4 ">
+            <div className="login_main_content flex flex-col gap-4 ">
               {/* <!-- Login Content - Others --> */}
-              <div class="login_main_content_others flex flex-col gap-4 w-full">
+              <div className="login_main_content_others flex flex-col gap-4 w-full">
                 {/* <!-- Button 1 --> */}
                 <button
                   onClick={login}
-                  class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
+                  className="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
                 >
                   <div>
                     <img src="/svg/google.svg" alt="" height={30} width={30} />
                   </div>
-                  <div class="text-[#ffffff]">Sign in with Google</div>
-                </button>
-                {/* <!-- Button 2 --> */}
-                <button class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px]">
-                  <div>
-                    <img
-                      src="/svg/apple-white.svg"
-                      alt=""
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                  <div class="text-[#ffffff]">Sign in with Apple</div>
+                  <div className="text-[#ffffff]">Sign in with Google</div>
                 </button>
                 <button
                   onClick={microsoftlogin}
-                  class="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
+                  className="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
                 >
                   <div>
                     <img
@@ -213,18 +281,18 @@ const Login = () => {
                       width={30}
                     />
                   </div>
-                  <div class="text-[#ffffff]">Sign in with Microsoft</div>
+                  <div className="text-[#ffffff]">Sign in with Microsoft</div>
                 </button>
               </div>
 
               {/* <!-- Login Content - OR --> */}
-              <div class="login_main_content_or flex items-center gap-4">
-                <div class="border border-gray-300 w-full h-[1px]"></div>
-                <div class="text-white">OR</div>
-                <div class="border border-gray-300 w-full h-[1px]"></div>
+              <div className="login_main_content_or flex items-center gap-4">
+                <div className="border border-gray-300 w-full h-[1px]"></div>
+                <div className="text-white">OR</div>
+                <div className="border border-gray-300 w-full h-[1px]"></div>
               </div>
 
-              <div class="login_main_content_phoneoremail flex flex-col gap-4">
+              <div className="login_main_content_phoneoremail flex flex-col gap-4">
                 <div className="hero_cta_email_text flex gap-4">
                   <button
                     onClick={() => setIsEmailMode(true)}
@@ -234,55 +302,76 @@ const Login = () => {
                   >
                     Email Address
                   </button>{" "}
-                  /
-                  <button
+                  {/* / */}
+                  {/* <button
                     onClick={() => setIsEmailMode(false)}
                     className={`text-[14px] font-semibold leading-[21px] ${
                       !isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
                     }`}
                   >
                     Phone Number
-                  </button>
+                  </button> */}
                 </div>
 
                 <div className="hero_cta_content flex flex-col">
                   {/* Email/Phone Signup */}
-                  <div className="hero_cta_email_signup flex flex-col gap-4">
-                    <div className="hero_cta_email_input ">
-                      <input
-                        type={isEmailMode ? "email" : "tel"} // Change input type based on mode
-                        placeholder={
-                          isEmailMode ? "you@company.com" : "123-456-7890"
-                        } // Change placeholder
-                        value={emailOrPhone} // Bind the input value to state
-                        onChange={(e) => setEmailOrPhone(e.target.value)} // Update state on input change
-                        className="bg-[#0D1116] w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-[#ffffff] placeholder-gray-500"
-                      />
-                    </div>
-
-                    <button
-                      onClick={handleConnectRequest} // Call the function on button click
-                      className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
-                    >
-                      <div>
-                        <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                          Sign in with Phone
-                        </h4>
+                  <form onSubmit={(e)=>handleConnectRequest(e)}>
+                    <div className="hero_cta_email_signup flex flex-col gap-4">
+                      <div className="hero_cta_email_input ">
+                        <input
+                          type={isEmailMode ? "email" : "tel"} // Change input type based on mode
+                          placeholder={
+                            isEmailMode ? "you@company.com" : "123-456-7890"
+                          } // Change placeholder
+                          value={emailOrPhone} // Bind the input value to state
+                          onChange={(e) =>{ setIsLoader(false); setEmailOrPhone(e.target.value); }} // Update state on input change
+                          className="bg-[#0D1116] w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-[#ffffff] placeholder-gray-500"
+                          required
+                          // pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
+                          />
                       </div>
-                    </button>
-                  </div>
+
+                      <button
+                        type="submit"
+                        // Call the function on button click
+                        className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
+                      >
+                        <div>
+                          
+                          <h4 className="flex text-[16px] font-semibold leading-[16px] text-[#FFFFFF] justify-center">
+                           
+                          {isLoader
+                            ? 
+                                <ThreeDots
+                                  visible={true}
+                                  height="24"
+                                  width="24"
+                                  color="#ffffff"
+                                  radius="4"
+                                  ariaLabel="three-dots-loading"
+                                  wrapperStyle={{}}
+                                  wrapperClass=""
+                                />
+                              
+                            : "Sign in with Email"}
+
+                          </h4>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
 
-              <div class="login_main_content_magic text-white ">
+              <div className="login_main_content_magic text-white ">
                 We'll send you a magic code over email for a password-free sign
                 in.
               </div>
 
-              <div class="login_main_content_signup text-white">
+              <div className="login_main_content_signup text-white">
                 New to Velora? Click here to{" "}
                 <button
-                  class="text-blue-500"
+                  className="text-blue-500"
                   onClick={() => {
                     navigate("/signup"), { state: { isPricing: isPricing } };
                   }}
@@ -294,55 +383,6 @@ const Login = () => {
           </div>
         </div>
       </div>
-      ``
-      {/* <div className="flex justify-center items-center p-16 md:mx-16 text-[#ffffff] my-10">
-      <div className="bg-[#151b23] shadow-md rounded-lg p-8 w-96">
-        <h1 className="text-2xl font-semibold text-center mb-4">Login</h1>
-        {error && <p className="text-red-500 text-center mb-4">{error}</p>}
-
-        {!isOtpSent ? (
-          <form onSubmit={handleEmailSubmit}>
-            <label htmlFor="email" className="block text-white mb-2">
-              Email:
-            </label>
-            <input
-              type="email"
-              id="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="border rounded-md p-2 w-full mb-4 text-black"
-            />
-            <button
-              type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
-            >
-              Get OTP
-            </button>
-          </form>
-        ) : (
-          <form onSubmit={handleOtpSubmit}>
-            <label htmlFor="otp" className="block text-white mb-2">
-              Enter OTP:
-            </label>
-            <input
-              type="text"
-              id="otp"
-              value={otp}
-              onChange={(e) => setOtp(e.target.value)}
-              required
-              className="border rounded-md p-2 w-full mb-4 text-black"
-            />
-            <button
-              type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
-            >
-              Verify OTP
-            </button>
-          </form>
-        )}
-      </div>
-    </div> */}
     </>
   );
 };

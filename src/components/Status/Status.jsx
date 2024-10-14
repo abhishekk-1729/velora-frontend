@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar/Navbar";
+import { useAuth } from "../../store/auth";
+import { useLocation, useNavigate } from "react-router-dom";
+import endpoints from "../../configs/apiConfigs";
 
 function Status() {
   // this page will be accessible only when the user is logged in and the service id and user id user matches
   //   email
+
+  const navigate = useNavigate();
+  const { isLoggedIn, user, token } = useAuth();
+  const location = useLocation();
+  const { order_id } = location.state || {}; // Destructure with fallback
 
   const [state1, setState1] = useState(1);
   const [state2, setState2] = useState(1);
@@ -17,36 +24,68 @@ function Status() {
   const [state10, setState10] = useState(1);
   const [state11, setState11] = useState(1);
   const [state12, setState12] = useState(1);
-  const [lastCompleted, setlastCompleted] = useState(5);
+  const [lastCompleted, setlastCompleted] = useState(0);
   const [completed, setCompleted] = useState(1);
 
-  useEffect(() => {
-    const stateSetters = [
-      setState1,
-      setState2,
-      setState3,
-      setState4,
-      setState5,
-      setState6,
-      setState7,
-      setState8,
-      setState9,
-      setState10,
-      setState11,
-      setState12,
-    ];
+  const fetchStatus = async () => {
+    if (isLoggedIn) {
+      try {
+        const response = await fetch(endpoints.getStatus + order_id, {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
 
-    const updateStates = async () => {
-      for (let i = 0; i < lastCompleted; i++) {
-        stateSetters[i](0);
-        setCompleted(i+1);
-        await new Promise((resolve) => setTimeout(resolve, 500)); // 2 second delay
+        if (response.ok) {
+          const res_data = await response.json();
+          console.log(res_data.statuses[0].completed_steps);
+          setlastCompleted(res_data.statuses[0].completed_steps);
+        } else {
+          navigate("/login");
+        }
+      } catch (error) {
+        console.log(error);
       }
-    };
+    } else {
+      navigate("/login");
+    }
+  };
 
-    updateStates();
-  }, []); // useEffect depends on lastCompleted
-
+  useEffect(() => {
+    console.log("Component mounted");
+  
+    fetchStatus(); // Fetch status on component mount
+  }, []); // Empty dependency array to run only once on mount
+  
+  useEffect(() => {
+    if (lastCompleted > 0) {
+      const stateSetters = [
+        setState1,
+        setState2,
+        setState3,
+        setState4,
+        setState5,
+        setState6,
+        setState7,
+        setState8,
+        setState9,
+        setState10,
+        setState11,
+        setState12,
+      ];
+  
+      const updateStates = async () => {
+        for (let i = 0; i < lastCompleted; i++) {
+        stateSetters[i](0);
+          setCompleted(i + 2); // Update completed count
+          await new Promise((resolve) => setTimeout(resolve, 500)); // 500ms delay
+        }
+      };
+  
+      updateStates();
+    }
+  }, [lastCompleted]); // Add lastCompleted as a dependency
   return (
     <>
       {/* <Navbar /> */}
@@ -58,17 +97,8 @@ function Status() {
           </div>
         </div>
         <div className="mt-8 py-8 relative flex items-center justify-between gap-2">
-          <div
-            className={`flex flex-col items-center text-[${
-              "#15B886" 
-            }]`}
-          >
-            <img
-              src={"/tick-green.svg"}
-              alt=""
-              height={50}
-              width={50}
-            />
+          <div className={`flex flex-col items-center text-[${"#15B886"}]`}>
+            <img src={"/tick-green.svg"} alt="" height={50} width={50} />
             <p className="mt-2">Web Development</p>
             <p className="mt-2">24th July 2025 11:59PM</p>
           </div>
@@ -223,7 +253,7 @@ function Status() {
 
           <div
             className={`flex flex-col items-center text-[${
-              state5=== 0 ? "#15B886" : "#ffffff"
+              state5 === 0 ? "#15B886" : "#ffffff"
             }]`}
           >
             <img
@@ -251,7 +281,6 @@ function Status() {
             className="absolute bottom-0 left-0 h-1/2 w-[2px]"
             style={{ backgroundColor: state8 === 0 ? "#15B886" : "#ffffff" }}
           ></div>
-
         </div>
 
         <div
@@ -358,7 +387,6 @@ function Status() {
             <p className="mt-2">Web Development</p>
             <p className="mt-2">24th July 2025 11:59PM</p>
           </div>
-
           <div
             className="absolute top-0 left-0 h-1/2 w-[2px]"
             style={{ backgroundColor: state8 === 0 ? "#15B886" : "#ffffff" }}

@@ -1,33 +1,101 @@
-import React, { useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import nss from "/company.png";
-import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../store/auth";
+import endpoints from "../../configs/apiConfigs";
 
 function Dashboard() {
-//   to access this page you should be logged in
+  //   to access this page you should be logged in
+  const navigate = useNavigate();
+
+  const { isLoggedIn, user, token } = useAuth();
+  console.log(token);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
+  const [service_id, setServiceId] = useState("");
+  const [orderId, setOrderId] = useState("");
+  const [orders, setOrders] = useState([]);
+  const [service_data, set_service_data] = useState([]);
+
   const [personal, setPersonal] = useState(true);
 
-  const [emailError, setEmailError] = useState("");
-  const [phoneError, setPhoneError] = useState("");
 
-  // Validation regex
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^[0-9]{10}$/;
+  const createServiceData = (orders) => {
+    return orders.map(order => {
+        const totalAmount = order.total_amount; // Calculate total amount after discount
 
-  const navigate = useNavigate();
-  const service_data = [
-    {
-      service_id: "1",
-      total_amount: "1000",
-      advance_status: "Paid",
-      total_amount_status: "Due",
-    },
-  ];
+        return {
+            order_id: order.order_id, // Order ID
+            total_amount: totalAmount, // Total amount after discount
+            advance_status: "Paid", // Set advance status
+            total_amount_status: "Due" // Set total amount status
+        };
+    });
+};
+
+  const getAllOrders = async () => {
+    console.log(endpoints.getAllOrders);
+    // e.preventDefault();
+    try {
+      const response = await fetch(endpoints.getAllOrders, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      if (response.ok) {
+        const res_data = await response.json();
+        console.log("res_data");
+        console.log(res_data.orders);
+        setOrders(res_data.orders);
+      } else {
+        console.log("Not able to find the user");
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  console.log(endpoints.getUserById + user);
+  const getUserData = async () => {
+    console.log("hi");
+    try {
+      console.log("new");
+      const response = await fetch(endpoints.getUserById, {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      console.log(response);
+
+      if (response.ok) {
+        const res_data = await response.json();
+        console.log("res_data");
+        console.log(res_data);
+        setName(res_data.user.name);
+        setAddress(res_data.user.address);
+        setEmail(res_data.user.email);
+        setPhone(res_data.user.phone_code + res_data.user.phone_number);
+      } else {
+        console.log("Not able to find the user");
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    if (!isLoggedIn) {
+      navigate("/login");
+    }
+    getUserData();
+    getAllOrders();
+    set_service_data(createServiceData(orders));
+  }, [personal]);
 
   // Hit the API
   return (
@@ -53,9 +121,11 @@ function Dashboard() {
               className={`py-2 ${
                 !personal ? "border-b-2 border-[#15B886]" : ""
               }`}
-              onClick={() => setPersonal(false)}
+              onClick={(e) => {
+                setPersonal(false);
+              }}
             >
-              My Services
+              My Orders
             </button>
           </div>
 
@@ -70,7 +140,7 @@ function Dashboard() {
                     disabled="true"
                     id="form_name"
                     type="text"
-                    placeholder="Abhishek Kumar"
+                    placeholder={name}
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-lg focus:outline-none focus:border-blue-500  placeholder-gray-500"
@@ -86,15 +156,12 @@ function Dashboard() {
                     disabled="true"
                     id="form_email"
                     type="email"
-                    placeholder="abhikriitd@gmail.com"
+                    placeholder={email}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border  rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                     required
                   />
-                  {emailError && (
-                    <span className="text-red-500">{emailError}</span>
-                  )}
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -105,14 +172,11 @@ function Dashboard() {
                     disabled="true"
                     id="form_phone"
                     type="tel"
-                    placeholder="+918755273773"
+                    placeholder={phone}
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500 placeholder-gray-500"
                   />
-                  {phoneError && (
-                    <span className="text-red-500">{phoneError}</span>
-                  )}
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -122,7 +186,7 @@ function Dashboard() {
                   <textarea
                     disabled="true"
                     id="form_address"
-                    placeholder="NA"
+                    placeholder={address}
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                     className="bg-[#0D1116]  border-[#3D444D] w-full p-3 border rounded-md focus:outline-none focus:border-blue-500  placeholder-gray-500"
@@ -137,16 +201,16 @@ function Dashboard() {
                     <thead class="text-s text-gray-700 uppercasebg-[#151B23] dark:text-gray-400">
                       <tr>
                         <th scope="col" class="px-6 py-3">
-                          Service Id
+                          Order Id
                         </th>
                         <th scope="col" class="px-6 py-3">
-                          Total Amount
+                          Total Amount($)
                         </th>
                         <th scope="col" class="px-6 py-3">
-                          Advance Status
+                          Advance Status(20%)
                         </th>
                         <th scope="col" class="px-6 py-3">
-                          Total Amount Status
+                          Remaining Amount Status(80%)
                         </th>
                         <th scope="col" class="px-6 py-3">
                           Status
@@ -162,7 +226,7 @@ function Dashboard() {
                               scope="row"
                               class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                             >
-                              {value.service_id}
+                              {value.order_id}
                             </th>
                             <td class="px-6 py-4">{value.total_amount}</td>
                             <td class="px-6 py-4">{value.advance_status}</td>
@@ -173,8 +237,8 @@ function Dashboard() {
                               <div>
                                 <button
                                   onClick={() => {
-                                    navigate(`/status/${value.service_id}`, {
-                                      state: { service_id: value.service_id },
+                                    navigate(`/status/${value.order_id}`, {
+                                      state: { order_id: value.order_id },
                                     });
                                   }}
                                   className={`text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff] '}`}

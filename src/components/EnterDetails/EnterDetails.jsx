@@ -1,25 +1,28 @@
 import React, { useEffect, useState } from "react";
-import { Navigate, useNavigate ,useLocation } from "react-router-dom";
+import { Navigate, useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import { Dropdown } from "primereact/dropdown";
-import "./enterDetails.css"
+import "./enterDetails.css";
+import endpoints from "../../configs/apiConfigs";
+import { useAuth } from "../../store/auth";
 
 const EnterDetails = () => {
-    
-    const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
-  
+  const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
+
   const location = useLocation();
-  const {email_pass} = location.state || {}; // Destructure with fallback
+  const { email_pass, name_pass } = location.state || {}; // Destructure with fallback
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [name, setName] = useState("");
+  const [name, setName] = useState(name_pass?name_pass:"");
   const [address, setAddress] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
-  useEffect(()=>{
-    if(!email_pass){
-        navigate("/signup")
-    }
-  })
+  const [textState, setTextState] = useState(0);
+  const { storeTokenInLS } = useAuth();
+  //   useEffect(() => {
+  //     if (!email_pass) {
+  //       navigate("/signup");
+  //     }
+  //   }, []);
   const [selectedItem, setSelectedItem] = useState({
     name: "India",
     image: "/svg/countries/in.svg",
@@ -1190,33 +1193,52 @@ const EnterDetails = () => {
     // Add more countries as needed
   ];
 
-  // Function to handle the email submission
-  const handleEmailSubmit = async (e) => {
+  const handleSubmit = async (e) => {
+    setTextState(1);
     e.preventDefault();
+    console.log("hi");
 
     try {
-      const response = await fetch(
-        "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/auth/loginOrSignup",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ email }),
-        }
-      );
+      const response = await fetch(endpoints.addUser, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email_pass,
+          name: name,
+          address: address,
+          phone_code: selectedItem["phone_code"],
+          phone_number: phone,
+          location: "B",
+        }),
+      });
 
       if (!response.ok) {
-        throw new Error("Failed to send OTP. Please try again.");
+        setTextState(2);
+        throw new Error("Invalid OTP. Please try again.");
       }
 
-      setIsOtpSent(true); // Show OTP input field after successful request
+      const data = await response.json();
+      //   localStorage.setItem("token", data.token); // Store token in local storage
+      // if not present in the database then don't navigate to signup just navigate to dashbaord or if pricing s aaya h then go to pricing
+      // PRICING S AAYA H TO PAY P JAEGA AGAR EXIST KRTA H AND AGAR NI KRTA H TO ENTER DETIALS P JAEGA WHICH AGAIN WILL GO TO PRICING IF ISPRCIING
+      //   navigate("/signup/enterDetails", {
+      // state: { email_pass: email_pass, isPricing: false },
+      //   }); // Redirect to the next page
+      //   navigate("/dashboard");
+      console.log(data);
+      if (data.token) {
+        storeTokenInLS(data.token);
+        navigate("/");
+      }
+
+      setTextState(0);
     } catch (err) {
+      setTextState(2);
+      console.error("OTP verification failed:", err);
     }
-    // navigate("/emailverify",{state:{email_pass:email}});
-
   };
-
 
   return (
     <>
@@ -1243,9 +1265,8 @@ const EnterDetails = () => {
             <div class="login_main_content flex flex-col gap-6 ">
               {/* <!-- Login Content - Others --> */}
 
-
               <div class="login_main_content_phoneoremail flex flex-col gap-4">
-                <form onSubmit={handleEmailSubmit}>
+                <form onSubmit={(e) => handleSubmit(e)}>
                   <div
                     onClick={() => setIsEmailMode(true)}
                     className={`text-[14px] font-semibold leading-[21px] ${
@@ -1254,105 +1275,99 @@ const EnterDetails = () => {
                   >
                     Name
                   </div>{" "}
-
-                 
                   <div className="hero_cta_email_signup flex flex-col gap-4">
-                      <input
-                        type={"text"} // Change input type based on mode
-                        placeholder="John Doe" // Change placeholder
-                        value={name} // Bind the input value to state
-                        onChange={(e) => setName(e.target.value)} // Update state on input change
-                        className="w-full p-3  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
-                        required
-                        maxLength={100}
-                     />
-
+                    <input
+                      type={"text"} // Change input type based on mode
+                      placeholder="John Doe" // Change placeholder
+                      value={name} // Bind the input value to state
+                      onChange={(e) => setName(e.target.value)} // Update state on input change
+                      className="w-full p-3  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                      required
+                      maxLength={100}
+                    />
                     <div
-                    onClick={() => setIsEmailMode(true)}
-                    className={`text-[14px] font-semibold leading-[21px] ${
-                      isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
-                    }`}
-                  >
-                    Phone Number
-                  </div>{" "}
-
-                  <div className="flex border border-[#3D444D] rounded-md  ">
-                  <div className="py-3 px-2  rounded-md rounded-l-md  rounded-r-none focus:outline-none   flex   bg-[#ffffff]  ">
-                    <div className="card flex justify-content-center bg-[#ffffff]">
-                      <Dropdown
-                        value={selectedItem}
-                        onChange={(e) => setSelectedItem(e.value)}
-                        options={countryList1}
-                        virtualScrollerOptions={{ itemSize: 38 }}
-                        placeholder="+91"
-                        className="w-full md:w-14rem custom-dropdown"
-                        panelClassName="custom-dropdown-panel"
-                        valueTemplate={(option) =>
-                          option ? option.phone_code : ""
-                        } // Display only the country code
-                        itemTemplate={(option) => (
-                          <div className="flex items-center justify-between">
-                            <div className="flex">
-                              <img
-                                src={option.image} // Add the image URL from the option object
-                                alt={option.name}
-                                style={{
-                                  width: "20px",
-                                  marginRight: "10px",
-                                }} // Customize size and spacing
-                              />
-                              <span>{option.name} </span>
-                              {/* Display both code and name */}
-                            </div>
-                            {option.phone_code}
-                          </div>
-                        )}
-                        filter // Enable filtering
-                        filterBy="name,phone_code" // Filter by both name and code
-                        filterFunction={(option, search) => {
-                          const searchTerm = search.toLowerCase();
-                          return (
-                            option.name.toLowerCase().includes(searchTerm) ||
-                            option.phone_code.toLowerCase().includes(searchTerm)
-                          );
-                        }}
-                        // appendTo="body"
+                      onClick={() => setIsEmailMode(true)}
+                      className={`text-[14px] font-semibold leading-[21px] ${
+                        isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
+                      }`}
+                    >
+                      Phone Number
+                    </div>{" "}
+                    <div className="flex border border-[#3D444D] rounded-md  ">
+                      <div className="py-3 px-2  rounded-md rounded-l-md  rounded-r-none focus:outline-none   flex   bg-[#ffffff]  ">
+                        <div className="card flex justify-content-center bg-[#ffffff]">
+                          <Dropdown
+                            value={selectedItem}
+                            onChange={(e) => setSelectedItem(e.value)}
+                            options={countryList1}
+                            virtualScrollerOptions={{ itemSize: 38 }}
+                            placeholder="+91"
+                            className="w-full md:w-14rem custom-dropdown"
+                            panelClassName="custom-dropdown-panel"
+                            valueTemplate={(option) =>
+                              option ? option.phone_code : ""
+                            } // Display only the country code
+                            itemTemplate={(option) => (
+                              <div className="flex items-center justify-between">
+                                <div className="flex">
+                                  <img
+                                    src={option.image} // Add the image URL from the option object
+                                    alt={option.name}
+                                    style={{
+                                      width: "20px",
+                                      marginRight: "10px",
+                                    }} // Customize size and spacing
+                                  />
+                                  <span>{option.name} </span>
+                                  {/* Display both code and name */}
+                                </div>
+                                {option.phone_code}
+                              </div>
+                            )}
+                            filter // Enable filtering
+                            filterBy="name,phone_code" // Filter by both name and code
+                            filterFunction={(option, search) => {
+                              const searchTerm = search.toLowerCase();
+                              return (
+                                option.name
+                                  .toLowerCase()
+                                  .includes(searchTerm) ||
+                                option.phone_code
+                                  .toLowerCase()
+                                  .includes(searchTerm)
+                              );
+                            }}
+                            // appendTo="body"
+                          />
+                        </div>
+                      </div>
+                      <input
+                        type={"tel"} // Change input type based on mode
+                        placeholder={"123-456-7890"} // Change placeholder
+                        value={phone}
+                        onChange={(e) => {
+                          setPhone(e.target.value);
+                        }} //
+                        className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none   placeholder-black focus:outline-none text-black    "
+                        required
+                        pattern={"[0-9]{5,11}"}
+                        title="Please enter a valid phone number with 5 to 11 digits."
                       />
-                    </div>
-                  </div>
-                  <input
-                    type={ "tel"} // Change input type based on mode
-                    placeholder={
-                       "123-456-7890"
-                    } // Change placeholder
-                    value={ phone}
-                    onChange={(e) => {
-                    
-                        setPhone(e.target.value)
-                    }} //
-                    className="w-full p-3 pr-16 lg:pr-8  rounded-md  rounded-l-none   placeholder-black focus:outline-none text-black    "
-                    required
-                    pattern={"[0-9]{5,11}"}
-                    title="Please enter a valid phone number with 5 to 11 digits."
-                  />
-                    
-                </div>                    <div
-                    onClick={() => setIsEmailMode(true)}
-                    className={`text-[14px] font-semibold leading-[21px] ${
-                      isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
-                    }`}
-                  >
-                    Address
-                  </div>{" "}
-
-                  <textarea
-                       
-                        placeholder="Address" // Change placeholder
-                        value={address} // Bind the input value to state
-                        onChange={(e) => setAddress(e.target.value)} // Update state on input change
-                        className="w-full p-3  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
-                      />
-
+                    </div>{" "}
+                    <div
+                      onClick={() => setIsEmailMode(true)}
+                      className={`text-[14px] font-semibold leading-[21px] ${
+                        isEmailMode ? "text-[#bc8cff]" : "text-[#F0F6FC]"
+                      }`}
+                    >
+                      Address
+                    </div>{" "}
+                    <textarea
+                      placeholder="Address" // Change placeholder
+                      value={address} // Bind the input value to state
+                      onChange={(e) => setAddress(e.target.value)} // Update state on input change
+                      className="w-full p-3  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-gray-900 placeholder-gray-500"
+                    />
                     <button
                       type="submit" // Call the function on button click
                       className="hero_cta_signup_content  w-full p-3 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
@@ -1363,10 +1378,9 @@ const EnterDetails = () => {
                         </h4>
                       </div>
                     </button>
-
                   </div>
-                  </form>
-                </div>
+                </form>
+              </div>
 
               <div class="login_main_content_magic text-white ">
                 You'll be redirected to the home page after successful login
@@ -1377,7 +1391,6 @@ const EnterDetails = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

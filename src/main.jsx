@@ -8,15 +8,18 @@ import { BrowserRouter as Router } from "react-router-dom"; // Import Router
 import { PublicClientApplication } from "@azure/msal-browser";
 import { MsalProvider } from "@azure/msal-react";
 import { msalConfig } from "./authConfig";
+import { AuthProvider } from "./store/auth.jsx";
 
 const msalInstance = new PublicClientApplication(msalConfig);
 
 createRoot(document.getElementById("root")).render(
-  <GoogleOAuthProvider clientId="853195152469-64nk38p7q3run064k54ctd5jmic0qr9l.apps.googleusercontent.com">
+  <AuthProvider>
     <MsalProvider instance={msalInstance}>
-      <Router>
-        <App />
-      </Router>
+      <GoogleOAuthProvider clientId="853195152469-64nk38p7q3run064k54ctd5jmic0qr9l.apps.googleusercontent.com">
+        <Router>
+          <App />
+        </Router>
+      </GoogleOAuthProvider>
     </MsalProvider>
-   </GoogleOAuthProvider>
+  </AuthProvider>
 );

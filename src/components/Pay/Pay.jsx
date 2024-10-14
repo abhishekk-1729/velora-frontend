@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import { useLocation, useNavigate } from "react-router-dom";
+import endpoints from "../../configs/apiConfigs";
+import { useAuth } from "../../store/auth";
 
 function Pay() {
   const location = useLocation();
-  const { email_pass, isAdvance } = location.state || {}; // Destructure with fallback
+  const { user, isAdvance } = location.state || {}; // Destructure with fallback
 
   const [couponCode, setCouponCode] = useState("");
-  const [email] = useState(email_pass || "abhikriitd@gmail.com");
+  const [email] = useState(user || "abhikriitd@gmail.com");
   const [amount, setAmount] = useState(900); // Base amount
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
@@ -18,26 +20,28 @@ function Pay() {
 
   const navigate = useNavigate();
 
-  
+  const {token} = useAuth();
+
 
   // Mock function to simulate coupon API call
   const verifyCoupon = async () => {
     // This function will hit your backend API to verify the coupon code
     try {
       const response = await fetch(
-        "http://localhost:8000/api/v1/verify-coupon",
+        endpoints.verifyCoupon,
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`
           },
-          body: JSON.stringify({ couponCode, email_pass }),
+          body: JSON.stringify({coupon_code:couponCode }),
         }
       );
       const data = await response.json();
 
-      if (data.verified) {
-        setDiscount(data.discountPercentage);
+      if (data.success) {
+        setDiscount(data.discount_percent);
         setCouponStatus("Applied");
         setIsCouponVerified(true);
       } else {

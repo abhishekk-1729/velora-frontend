@@ -13,26 +13,30 @@ const endpoints = {
     signupEmail: `${API_BASE_URL}/auth/sendSignupOtp`,
     verifyOtp:  `${API_BASE_URL}/auth/verifyOtp`,
     verifyToken: `${API_BASE_URL}/auth/verifyToken`,
+    authLogin: `${API_BASE_URL}/auth/authLogin`,
+
+    //otp
+    getOtpCreatedAt: `${API_BASE_URL}/user/getOtpCreatedAt`,
 
     // contact
     addContact: `${API_BASE_URL}/contact/addContact`,
-    
+
     // user
     addUser: `${API_BASE_URL}/user/addUser`,
 
     // coupon
     verifyCoupon: `${API_BASE_URL}/coupon/verifyCoupon`,
-    getCouponsByUserId: (user_id) => `${API_BASE_URL}/coupon/getCouponsByUserId/${user_id}`,
+    getCouponsByUserId:  `${API_BASE_URL}/coupon/getCouponsByUserId/`,
 
     // order
     createOrder: `${API_BASE_URL}/order/createOrder`,
-    getAllOrders: (user_id)=> `${API_BASE_URL}/order/getAllOrders/user/${user_id}`,
+    getAllOrders:  `${API_BASE_URL}/order/getAllOrders/user`,
 
     // status
-    getStatus: (order_id) => `${API_BASE_URL}/status/getStatus/order/${order_id}`,
+    getStatus: `${API_BASE_URL}/status/getStatus/order/`,
 
     // dashbaord
-    getUserById: (id) => `${API_BASE_URL}/user/getUserById/${id}`,
+    getUserById: `${API_BASE_URL}/user/getUserById`,
 };
 
 export default endpoints;

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import nss from "/company.png";
-import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { ThreeDots } from "react-loader-spinner";
 import { Dropdown } from "primereact/dropdown";
+import endpoints from "../../configs/apiConfigs";
+import { useAuth } from "../../store/auth";
+
 function ContactUs() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -12,6 +12,8 @@ function ContactUs() {
   const [message, setMessage] = useState("");
   const [textState, setTextState] = useState(0);
   const [isEmailMode, setIsEmailMode] = useState(false);
+  const { isLoggedIn, user, token } = useAuth();
+
   const [selectedItem, setSelectedItem] = useState({
     name: "India",
     image: "/svg/countries/in.svg",
@@ -1182,6 +1184,45 @@ function ContactUs() {
     // Add more countries as needed
   ];
   // Validation regex
+  const getUserData = async () => {
+    console.log("hi");
+      try {
+        console.log("new")
+        const response = await fetch(endpoints.getUserById, {
+          method: "GET",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+
+        console.log(response);
+
+        if (response.ok) {
+          const res_data = await response.json();
+          console.log("res_data")
+          console.log(res_data)
+          setName(res_data.user.name);
+          setAddress(res_data.user.address);
+          setEmail(res_data.user.email);
+          setPhone(res_data.user.phone_number);
+          setSelectedItem({
+            name: "India",
+            image: "/svg/countries/in.svg",
+            code: "IN",
+            phone_code: res_data.user.phone_code
+          });
+        } else {
+          console.log("Not able to find the user");
+        }
+      } catch (error) {
+        console.log(error);
+      }
+  };
+
+
+  useEffect(()=>{
+    getUserData();
+  },[])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -1198,7 +1239,7 @@ function ContactUs() {
     try {
       setTextState(1);
       const response = await fetch(
-        "http://localhost:8000/api/v1/contact/addContact",
+        endpoints.addContact,
         {
           method: "POST",
           headers: {
@@ -1209,13 +1250,13 @@ function ContactUs() {
       );
 
       if (response.ok) {
-        alert("Form submitted successfully");
+        // alert("Form submitted successfully");
       } else {
-        alert("Error submitting form");
+        // alert("Error submitting form");
       }
       setTextState(2);
     } catch (error) {
-      alert("Error submitting form");
+      // alert("Error submitting form");
     }
   };
 

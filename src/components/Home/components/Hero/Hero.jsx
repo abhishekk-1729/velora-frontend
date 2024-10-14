@@ -22,18 +22,7 @@ const Hero = () => {
   });
   // List of international dialing codes
 
-  // Email and phone validation regex
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^[0-9]{10}$/;
-
   const handleConnectRequest = async () => {
-    // Validate Email or Phone input
-    if (isEmailMode) {
-      if (!email || !emailRegex.test(email)) {
-        setErrorMessage("Please enter a valid email address.");
-        return;
-      }
-    } 
 
     // If validation passes, reset error and proceed with request
     setErrorMessage("");
@@ -43,10 +32,10 @@ const Hero = () => {
       ? endpoints.alertEmail
       : endpoints.alertMessage;
 
-    const body = isEmailMode ? { email } : { phone};
+    const body = isEmailMode ? { email } : {phone: selectedItem.phone_code+phone};
 
     try {
-      const response = await fetch(endpoints.alertEmail, {
+      const response = await fetch(apiEndpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +52,7 @@ const Hero = () => {
       setTextState(2);
     } catch (error) {
       setResponseMessage("Failed to send request. Please try again.");
-      alert("Failed to send request. Please try again.");
+      // alert("Failed to send request. Please try again.");
     }
   };
 
@@ -1382,11 +1371,8 @@ const Hero = () => {
                           }} //
                           className="w-full p-3 pr-16 lg:pr-8 border border-gray-400 border-r-2 lg:border-r-0 border-l-0 rounded-md  rounded-l-none lg:rounded-r-none text-gray-900 placeholder-gray-500 focus:outline-none"
                           required
-                          pattern={
-                            isEmailMode
-                              ? "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
-                              : "[0-9]{11}"
-                          }
+                          pattern= "[0-9]{5,11}"
+                          
                         />
                       </div>
                     </>

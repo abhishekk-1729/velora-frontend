@@ -1,58 +1,54 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
-import trystlogo from "../../assets/Navbar/TrystLogo.png";
-import Tryst24 from "../../assets/Navbar/TRYST.png";
 import Company from "../../assets/Navbar/company.png";
-import profileicon from "../../assets/Navbar/IconButton.png";
 import navbarmenu from "../../assets/Navbar/navbarmenu.png";
 import crossmenu from "../../assets/Navbar/crossmenu.png";
 import NavEffect from "../../assets/Navbar/nav-mobile-effect.png";
 import NavSelector from "../../assets/Navbar/selector.png";
 import NavMobileBg from "../../assets/Navbar/Mobile Version_Nav Expanded.png";
-import profilehov from "../../assets/Navbar/profilehov.svg";
-import profileclicked from "../../assets/Navbar/profileClick.svg";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
+import { useAuth } from "../../store/auth";
 
 function Navbar() {
   const navigate = useNavigate();
   const [showNavOptions, setShowNavOptions] = useState(false);
   const [selectedOption, setSelectedOption] = useState(undefined);
-  const [selectedMobileOption, setSelectedMobileOption] = useState(selectedOption);
+  const [selectedMobileOption, setSelectedMobileOption] =
+    useState(selectedOption);
   const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
   // Check if user is logged in by checking localStorage
-  const isLoggedIn = !!localStorage.getItem('token');
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const handleClick = () => {
-    setIsClicked(true);
-    setIsHovered(false);
-    setTimeout(() => {
-      setIsClicked(false);
-    }, 1000);
-  };
+  const { isLoggedIn, LogoutUser } = useAuth();
 
   const handleShowNavbar = () => {
     setShowNavOptions(!showNavOptions);
   };
 
+//   useEffect(()=>{
+//     LogoutUser();
+// },[LogoutUser]);
+
+  const navigationList = {
+    'Login' : "login",
+    'Dashboard': 'dashboard',
+    'Refer And Earn': 'referAndEarn',
+    'Pricing': 'pricing',
+    'About':'about',
+    'Contact':'contact',
+    "":""
+  }
+
   const handleNavbarOptionClick = (option) => {
     if (option === "Logout") {
-      localStorage.removeItem('token'); // Clear token from localStorage
+      LogoutUser();
+      localStorage.removeItem("token"); // Clear token from localStorage
       navigate("/"); // Redirect to the main page or home
     } else {
       setSelectedOption(option);
-      navigate(`/${option}`);
+      navigate(`/${navigationList[option]}`);
     }
     if (showNavOptions) {
       setSelectedMobileOption(option);
@@ -83,29 +79,39 @@ function Navbar() {
   }, [showNavOptions]);
 
   return (
-    <Container className={`navbar ${isNavbarVisible ? "navbar-visible" : "navbar-hidden"} `}>
-      
-      <div className={showNavOptions ? "nav-mobile-bg" : "hidden-nav-mobile-bg"}>
+    <Container
+      className={`navbar ${
+        isNavbarVisible ? "navbar-visible" : "navbar-hidden"
+      } `}
+    >
+      <div
+        className={showNavOptions ? "nav-mobile-bg" : "hidden-nav-mobile-bg"}
+      >
         <img src={NavMobileBg} alt="" className="nav-effect-back" />
       </div>
 
       <div className="navbarheader">
-        <div className="navbartrystlogo" onClick={() => handleNavbarOptionClick("")}>
+        <div
+          className="navbartrystlogo"
+          onClick={() => handleNavbarOptionClick("")}
+        >
           <img className="tryst2024img" src={Company} alt="Company Logo" />
         </div>
         <div className="navbaroptions-container">
           <div className="navbaricons">
             {[
               "About",
-              "Dashboard",
-              "Contact",
               "Pricing",
-              "ReferAndEarn",
+              "Contact",
+              "Refer And Earn",
+              isLoggedIn && "Dashboard",
               isLoggedIn ? "Logout" : "Login",
-            ].map((option) => (
+            ].filter(Boolean).map((option) => (
               <div
                 key={option}
-                className={`navbaroption ${selectedOption === option ? "navbaroption-selected" : ""}`}
+                className={`navbaroption ${
+                  selectedOption === option ? "navbaroption-selected" : ""
+                }`}
                 onClick={() => handleNavbarOptionClick(option)}
               >
                 {option}
@@ -113,34 +119,39 @@ function Navbar() {
             ))}
           </div>
           <button className="navbarmenu" onClick={handleShowNavbar}>
-            <img src={showNavOptions ? crossmenu : navbarmenu} alt="Menu Icon" />
+            <img
+              src={showNavOptions ? crossmenu : navbarmenu}
+              alt="Menu Icon"
+            />
           </button>
         </div>
       </div>
 
-      <div className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}>
-
-
+      <div
+        className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}
+      >
         {[
               "About",
-              "Dashboard",
-              "Contact",
               "Pricing",
+              "Contact",
               "ReferAndEarn",
+              isLoggedIn && "Dashboard",
               isLoggedIn ? "Logout" : "Login",
-            ].map((option) => (
-              <div
-                key={option}
-                className={`navbaroption ${selectedMobileOption === option ? "navbaroption-selected-mobile" : ""}`}
-                onClick={() => handleNavbarOptionClick(option)}
-              >
+            ].filter(Boolean).map((option) => (
+          <div
+            key={option}
+            className={`navbaroption ${
+              selectedMobileOption === option
+                ? "navbaroption-selected-mobile"
+                : ""
+            }`}
+            onClick={() => handleNavbarOptionClick(option)}
+          >
             {selectedMobileOption === option && (
               <img src={NavSelector} alt="" className="nav-effect-front" />
             )}
             {option}
-            {selectedMobileOption === option && (
-              <img src={NavEffect} alt="" />
-            )}
+            {selectedMobileOption === option && <img src={NavEffect} alt="" />}
           </div>
         ))}
       </div>
