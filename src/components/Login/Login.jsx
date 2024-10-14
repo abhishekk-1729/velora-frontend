@@ -6,7 +6,7 @@ import { useMsal } from "@azure/msal-react";
 import { loginRequest } from "../../authConfig";
 import { useIsAuthenticated } from "@azure/msal-react";
 import { callMsGraph } from "../../graph";
-import "./login.css";
+import "./Login.css";
 import { ThreeDots } from "react-loader-spinner";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
