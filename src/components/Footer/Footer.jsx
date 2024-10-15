@@ -78,7 +78,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-[#0d1116] text-[#8a919a] flex flex-col lg:flex-row lg:gap-8 mx-8  ">
+      <div className="bg-[#0d1116] text-[#8a919a] flex flex-col lg:flex-row lg:gap-8 mx-4 lg:mx-8  ">
         <div className="flex-col py-4 lg:w-1/4">
           <div className="flex flex-col gap-2">
             <img src={nss} alt="" className="h-[80px] md:h-[120px] lg:h-[60px]" />

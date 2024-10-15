@@ -33,7 +33,7 @@ const Card2 = ({
       <div
         className={`  card bg-[#151b23] p-8 md:p-20 flex ${
           isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
-        } gap-16 flex-col mx-8 sm:mx-16 rounded-2xl border border-[#3d444d] ${isVisible ? 'slide-in' : 'slide-out'}`}
+        } gap-16 flex-col mx-4 lg:mx-8 rounded-2xl border border-[#3d444d] ${isVisible ? 'slide-in' : 'slide-out'}`}
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setIsHovered(true)}  // Set hover to true
         onMouseLeave={() => setIsHovered(false)} // Set hover to false
