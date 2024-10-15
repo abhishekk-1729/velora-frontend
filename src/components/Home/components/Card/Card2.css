@@ -49,8 +49,8 @@
     height: 100%;
     background: radial-gradient(
       circle at var(--x, 50%) var(--y, 50%),
-      var(--glow-color, rgba(255, 255, 255, 0.5)),
-      transparent var(--glow-radius, 100%)
+      var(--glow-color),
+      transparent var(--glow-radius, 70%)
     );
     pointer-events: none;
     opacity: var(--opacity, 0);

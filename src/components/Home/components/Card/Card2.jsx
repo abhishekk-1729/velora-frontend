@@ -12,7 +12,7 @@ const Card2 = ({
   isVisible, // New prop to trigger animation
 }) => {
   const isLeftDirection = direction === "left";
-  const [gradientPosition, setGradientPosition] = useState({ x: "50%", y: "50%" });
+  const [gradientPosition, setGradientPosition] = useState({ x: "50%", y: "100%" });
   const [isHovered, setIsHovered] = useState(false);
 
   // Handle mouse move to track cursor position
