@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 
 import Card2 from "./components/Card/Card2";
@@ -68,29 +68,76 @@ function Home() {
       text: "We provide ongoing support to ensure your website functions perfectly, with a team always ready to assist you.",
       image: "/assets/home/service",
       glowColor: "rgba(221, 89, 79, 0.2)", // Red Glow
-    }
+    },
   ];
-  
+
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [visibleCards, setVisibleCards] = useState(new Array(qualities.length).fill(false)); // Track visibility of each card
+
+
+  useEffect(() => {
+    // Function to check window size
+    const checkScreenSize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024); // 1024px is a large screen size
+    };
+
+    // Set initial screen size
+    checkScreenSize();
+
+    // Add event listener to handle resize events
+    window.addEventListener("resize", checkScreenSize);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const index = parseInt(entry.target.dataset.index);
+          setVisibleCards((prev) => {
+            const updated = [...prev];
+            updated[index] = true; // Set the corresponding card to visible
+            return updated;
+          });
+          observer.unobserve(entry.target); // Stop observing the card
+        }
+      });
+    });
+
+    const cardElements = document.querySelectorAll(".card"); // Select all cards
+    cardElements.forEach((card, index) => {
+      card.dataset.index = index; // Add index for tracking visibility
+      observer.observe(card);
+    });
+
+    return () => {
+      observer.disconnect(); // Clean up the observer
+    };
+  }, []);
 
   return (
     <>
-            {/* <Navbar /> */}
-
+      {/* <Navbar /> */}
       <Hero />
-      <Navigation_quality />
-      {qualities.map((value) => (
-        
+      {isLargeScreen && <Navigation_quality />}{" "}
+      {/* Show navigation only on large screens */}
+      {qualities.map((value,index) => (
         <Card2
-        key={value.id}
+          key={value.id}
           id={value.id}
-          direction={value.direction} 
-          color={value.color} 
-          heading={value.heading_text} 
-          text={value.text} 
+          direction={value.direction}
+          color={value.color}
+          heading={value.heading_text}
+          text={value.text}
           // image = {value.image}
-          glowColor = {value.glowColor}
+          glowColor={value.glowColor}
+          isVisible={visibleCards[index]} // Pass visibility state to Card2
         />
-      ))}      
+      ))}
       <HeroLast />
     </>
   );

@@ -8,7 +8,8 @@ const Card2 = ({
   heading,
   color,
   text,
-  glowColor = "rgba(255, 255, 255, 0.5)" // Default glow color
+  glowColor = "rgba(255, 255, 255, 0.5)", // Default glow color
+  isVisible, // New prop to trigger animation
 }) => {
   const isLeftDirection = direction === "left";
   const [gradientPosition, setGradientPosition] = useState({ x: "50%", y: "50%" });
@@ -27,12 +28,12 @@ const Card2 = ({
   return (
     <div
       id={id}
-      className={` pt-32 `}
+      className={`pt-16 md:pt-24 lg:pt-32 `}
     >
       <div
         className={`  card bg-[#151b23] p-8 md:p-20 flex ${
           isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
-        } gap-16 flex-col mx-8 sm:mx-16 rounded-2xl border border-[#3d444d]`}
+        } gap-16 flex-col mx-8 sm:mx-16 rounded-2xl border border-[#3d444d] ${isVisible ? 'slide-in' : 'slide-out'}`}
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setIsHovered(true)}  // Set hover to true
         onMouseLeave={() => setIsHovered(false)} // Set hover to false

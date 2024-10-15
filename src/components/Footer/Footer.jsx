@@ -78,10 +78,10 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-[#0d1116] text-[#8a919a] flex flex-col md:flex-row md:gap-16 mx-8 sm:mx-16 ">
-        <div className="flex-col py-4 md:w-1/4">
+      <div className="bg-[#0d1116] text-[#8a919a] flex flex-col lg:flex-row lg:gap-8 mx-8  ">
+        <div className="flex-col py-4 lg:w-1/4">
           <div className="flex flex-col gap-2">
-            <img src={nss} alt="" className="h-[60px] pr-8" />
+            <img src={nss} alt="" className="h-[80px] md:h-[120px] lg:h-[60px]" />
             <div className=" ">HSR Layout, Bangalore, India - 560103</div>
             <div className=" ">Contact: +91 8755273773</div>
             <div className="">
@@ -93,9 +93,9 @@ const Footer = () => {
 
         <div class="my-6 bg-[#8a919a] border-0 w-full h-[1px] lg:w-[1px] lg:h-auto"></div>
 
-        <div className="flex md:w-2/4 ">
+        <div className="flex lg:w-2/4 gap-2 ">
           
-          <div className="flex flex-col   py-4 w-1/2 md:px-8">
+          <div className="flex flex-col   py-4 w-1/2 lg:px-8">
             <div className="mb-6 flex">
               <div className="border-b-2 pb-1 border-[#783ec7]">
                 Quick links
@@ -109,7 +109,7 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="flex flex-col  py-4 w-1/2 md:px-8">
+          <div className="flex flex-col  py-4 w-1/2 lg:px-8">
             <div className="mb-6 flex">
               <div className="border-b-2 pb-1 border-[#783ec7]">Docs</div>
             </div>
@@ -125,7 +125,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-col py-4  md:w-1/4">
+        <div className="flex flex-col py-4  lg:w-1/4">
           <div className=" mb-6  flex">
             <div className="flex border-b-2 border-[#783ec7] pb-1">
             {/* <img src={cloud} alt="Weather" className="pr-2" /> */}
