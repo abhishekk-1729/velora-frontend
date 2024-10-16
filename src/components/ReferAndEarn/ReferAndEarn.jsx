@@ -34,7 +34,7 @@ const [coupon_code,setCouponCode] = useState("");
 
   useEffect(() => {
     getCouponCode();
-  });
+  },[isLoggedIn, user, token]);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(coupon_code).then(
@@ -93,7 +93,7 @@ const [coupon_code,setCouponCode] = useState("");
                     }}
                     className="py-2 px-8 border border-dotted text-center inline-bloc bg-[#151B23]"
                   >
-                    {isLoggedIn ? <>{coupon_code}</> : <>{"LOGIN TO VIEW"}</>}
+                    {isLoggedIn ? <>{coupon_code?coupon_code:"Loading..."}{}</> : <>{"LOGIN TO VIEW"}</>}
                   </button>
                   <button
                     onClick={handleCopy}
