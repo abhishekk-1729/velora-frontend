@@ -196,7 +196,7 @@ function Dashboard() {
             </>
           ) : (
             <div>
-              {orders.length==0 ? (
+              {orders.length ? (
                 <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff] mb-64 lg:mb-32">
                   <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
