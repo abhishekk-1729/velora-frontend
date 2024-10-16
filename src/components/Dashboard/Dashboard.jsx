@@ -128,10 +128,9 @@ function Dashboard() {
             </button>
           </div>
 
-            {personal ? (
-              <>
-                        <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
-
+          {personal ? (
+            <>
+              <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
                 <div className="flex flex-col gap-2 text-[#ffffff]">
                   <label htmlFor="form_name" className="text-white">
                     Name
@@ -193,16 +192,15 @@ function Dashboard() {
                     rows="3"
                   />
                 </div>
-                </div>
-              </>
-            ) : (
-              <div>
-                {orders.length ? (
-                                          <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
-
+              </div>
+            </>
+          ) : (
+            <div>
+              {orders.length ? (
+                <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
                   <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                      <thead class="text-s text-gray-700 uppercasebg-[#151B23] dark:text-gray-400">
+                      <thead class="text-s text-gray-700 uppercase bg-[#151B23] dark:text-gray-400">
                         <tr>
                           <th scope="col" class="px-6 py-3">
                             Order Id
@@ -257,13 +255,17 @@ function Dashboard() {
                       </tbody>
                     </table>
                   </div>
+                </div>
+              ) : (
+                <>
+                  <div className="flex flex-col justify-center items-center text-[24px] lg:p-16 ">
+                    <div>No orders yet...</div>
+                    <a className="text-[#6EB0BE] underline" href="/pricing">Order Now</a>
                   </div>
-                ) : (
-                  <><div className="flex justify-center items-center text-[40px] lg:p-32 ">No orders yet...</div></>
-                )}
-              </div>
-            )}
-         
+                </>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </>
