@@ -51,7 +51,7 @@ const App = () => {
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>
-      <Route  path="/about" element={<About/>} />
+      {/* <Route  path="/about" element={<About/>} /> */}
         {routes.map(({ path, element }) => (
           <Route key={path} path={path} element={element} />
         ))}
