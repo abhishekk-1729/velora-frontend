@@ -56,13 +56,15 @@ const [coupon_code,setCouponCode] = useState("");
     <>
       {/* <Navbar /> */}
       <div className="my-16">
-        <div className="card p-8 md:p-20 flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16">
+        <div className="card p-8 md:p-20 flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16 items-center">
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img
-              src={image}
+              src={"refer.png"}
               alt="Heading_About"
-              className="w-full h-auto rounded-md"
+              className="rounded-md"
+              height={600}
+              width={600}
             />
           </div>
 
