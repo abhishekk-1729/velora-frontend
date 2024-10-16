@@ -42,12 +42,13 @@ const App = () => {
   const errorMessage = (error) => {
     console.log(error);
   };
+  const isHomePage = location.pathname === "/";
   return (
     <main className="main-bg">
       {/* <div>
         <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
       </div> */}
-      {showHeader&&!shouldHideNavFooter()  ? <Header setShowHeader={setShowHeader} /> : <></>}
+ {isHomePage && showHeader && <Header setShowHeader={setShowHeader} />}
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>

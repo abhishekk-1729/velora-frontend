@@ -1410,7 +1410,7 @@ const Hero = () => {
             {/* Contact Sales Button */}
             <div className="hero_cta_contact_sales px-6 py-3 border rounded-lg border-[#bc8cff] bg-[#0d1116] hover:border-white flex justify-center">
               <Link
-                to="/contact_us"
+                to="/contact"
                 className="hero_cta_contact_sales_content flex gap-2 items-center"
               >
                 <div>
