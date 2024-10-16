@@ -1230,7 +1230,7 @@ const EnterDetails = () => {
       console.log(data);
       if (data.token) {
         storeTokenInLS(data.token);
-        navigate("/");
+        navigate("/dashboard");
       }
 
       setTextState(0);

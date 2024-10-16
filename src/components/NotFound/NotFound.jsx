@@ -21,19 +21,21 @@ const NotFound = () => {
         <div
           className={`  card  p-2 md:p-20 flex 
           lg:flex-row-reverse
-        gap-16 flex-col mx-4 lg:mx-16`}
+        gap-16 flex-col mx-4 lg:mx-16 items-center`}
         >
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img
-              src={image}
+              src={"4047.png"}
               alt={"Heading_About"}
-              className="w-full h-auto rounded-md"
+              className="rounded-md"
+              height={600}
+              width={600}
             />
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 w-full max-w-lg">
+          <div className="card_content flex flex-col gap-8 lg:w-1/2 px-4 lg:px-32">
             <div className="card_content_heading">
               <h2
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}

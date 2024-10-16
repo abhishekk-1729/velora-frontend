@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 w-full lg:max-w-lg">
+          <div className="card_content flex flex-col gap-8 lg:w-1/2 px-4 lg:px-16">
             <div className="card_content_heading">
               <h2
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
