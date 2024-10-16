@@ -259,7 +259,7 @@ function Dashboard() {
                   </div>
                   </div>
                 ) : (
-                  <><div className="flex justify-center items-center text-[40px] lg:p-32 ">No orders yet</div></>
+                  <><div className="flex justify-center items-center text-[40px] lg:p-32 ">No orders yet...</div></>
                 )}
               </div>
             )}
