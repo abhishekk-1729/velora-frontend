@@ -435,7 +435,7 @@ function Status() {
           </div>
         ) : (
           <>
-            <div className="status flex flex-col gap-6 p-2 m-4">
+            <div className="status flex flex-col gap-6 my-4 mx-2">
               {statusContent.map((item, index) => (
                 <div
                   key={index}
