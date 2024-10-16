@@ -47,7 +47,7 @@ const App = () => {
       {/* <div>
         <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
       </div> */}
-      {showHeader ? <Header setShowHeader={setShowHeader} /> : <></>}
+      {showHeader&&!shouldHideNavFooter()  ? <Header setShowHeader={setShowHeader} /> : <></>}
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>
