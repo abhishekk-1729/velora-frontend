@@ -258,7 +258,7 @@ function Dashboard() {
                 </div>
               ) : (
                 <>
-                  <div className="flex flex-col justify-center items-center text-[24px] lg:p-16 ">
+                  <div className="flex flex-col justify-center items-center text-[24px] lg:p-16 mb-64 lg:mb-32">
                     <div>No orders yet...</div>
                     <a className="text-[#6EB0BE] underline" href="/pricing">Order Now</a>
                   </div>
