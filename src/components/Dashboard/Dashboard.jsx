@@ -20,19 +20,18 @@ function Dashboard() {
 
   const [personal, setPersonal] = useState(true);
 
-
   const createServiceData = (orders) => {
-    return orders.map(order => {
-        const totalAmount = order.total_amount; // Calculate total amount after discount
+    return orders.map((order) => {
+      const totalAmount = order.total_amount; // Calculate total amount after discount
 
-        return {
-            order_id: order.order_id, // Order ID
-            total_amount: totalAmount, // Total amount after discount
-            advance_status: "Paid", // Set advance status
-            total_amount_status: "Due" // Set total amount status
-        };
+      return {
+        order_id: order.order_id, // Order ID
+        total_amount: totalAmount, // Total amount after discount
+        advance_status: "Paid", // Set advance status
+        total_amount_status: "Due", // Set total amount status
+      };
     });
-};
+  };
 
   const getAllOrders = async () => {
     console.log(endpoints.getAllOrders);
@@ -129,9 +128,9 @@ function Dashboard() {
             </button>
           </div>
 
-          <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
-            {personal ? (
-              <>
+          {personal ? (
+            <>
+              <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
                 <div className="flex flex-col gap-2 text-[#ffffff]">
                   <label htmlFor="form_name" className="text-white">
                     Name
@@ -193,69 +192,80 @@ function Dashboard() {
                     rows="3"
                   />
                 </div>
-              </>
-            ) : (
-              <div>
-                <div class="relative overflow-x-auto">
-                  <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                    <thead class="text-s text-gray-700 uppercasebg-[#151B23] dark:text-gray-400">
-                      <tr>
-                        <th scope="col" class="px-6 py-3">
-                          Order Id
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                          Total Amount($)
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                          Advance Status(20%)
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                          Remaining Amount Status(80%)
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                          Status
-                        </th>
-                      </tr>
-                    </thead>
-
-                    <tbody>
-                      {service_data.map((value) => {
-                        return (
-                          <tr class=" bg-[#0151B23]">
-                            <th
-                              scope="row"
-                              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                            >
-                              {value.order_id}
-                            </th>
-                            <td class="px-6 py-4">{value.total_amount}</td>
-                            <td class="px-6 py-4">{value.advance_status}</td>
-                            <td class="px-6 py-4">
-                              {value.total_amount_status}
-                            </td>
-                            <td class="px-6 py-4">
-                              <div>
-                                <button
-                                  onClick={() => {
-                                    navigate(`/status/${value.order_id}`, {
-                                      state: { order_id: value.order_id },
-                                    });
-                                  }}
-                                  className={`text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff] '}`}
-                                >
-                                  Check Status
-                                </button>
-                              </div>
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
               </div>
-            )}
-          </div>
+            </>
+          ) : (
+            <div>
+              {orders.length ? (
+                <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
+                  <div class="relative overflow-x-auto">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                      <thead class="text-s text-gray-700 uppercase bg-[#151B23] dark:text-gray-400">
+                        <tr>
+                          <th scope="col" class="px-6 py-3">
+                            Order Id
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                            Total Amount($)
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                            Advance Status(20%)
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                            Remaining Amount Status(80%)
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                            Status
+                          </th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        {service_data.map((value) => {
+                          return (
+                            <tr class=" bg-[#0151B23]">
+                              <th
+                                scope="row"
+                                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                              >
+                                {value.order_id}
+                              </th>
+                              <td class="px-6 py-4">{value.total_amount}</td>
+                              <td class="px-6 py-4">{value.advance_status}</td>
+                              <td class="px-6 py-4">
+                                {value.total_amount_status}
+                              </td>
+                              <td class="px-6 py-4">
+                                <div>
+                                  <button
+                                    onClick={() => {
+                                      navigate(`/status/${value.order_id}`, {
+                                        state: { order_id: value.order_id },
+                                      });
+                                    }}
+                                    className={`text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff] '}`}
+                                  >
+                                    Check Status
+                                  </button>
+                                </div>
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <div className="flex flex-col justify-center items-center text-[24px] lg:p-16 ">
+                    <div>No orders yet...</div>
+                    <a className="text-[#6EB0BE] underline" href="/pricing">Order Now</a>
+                  </div>
+                </>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </>
