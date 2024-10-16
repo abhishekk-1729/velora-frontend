@@ -134,7 +134,7 @@ function Navbar() {
               "About",
               "Pricing",
               "Contact",
-              "ReferAndEarn",
+              "Refer And Earn",
               isLoggedIn && "Dashboard",
               isLoggedIn ? "Logout" : "Login",
             ].filter(Boolean).map((option) => (
