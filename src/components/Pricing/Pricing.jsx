@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../../store/auth";
+import Footer from "../Footer/Footer";
+import "./Pricing.css"
 
 
 function Pricing() {
@@ -121,8 +123,9 @@ function Pricing() {
 
   return (
     <>
-      {/* <Navbar /> */}
-      <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-4 mb-16 ">
+    <div className="pricing_main">
+      <Navbar />
+      <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-4 pb-32 ">
         <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#ffffff] text-center ">
           Discover our flat pricing
         </h1>
@@ -177,6 +180,8 @@ function Pricing() {
           </div>
         </div>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }

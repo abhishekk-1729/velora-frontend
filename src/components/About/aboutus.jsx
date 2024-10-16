@@ -10,7 +10,7 @@ const About = () => {
       {/* <Navbar /> */}
       <div className={` `}>
         <div
-          className={`  card  p-8 md:p-20 flex 
+          className={`  card p-2 md:p-20 flex 
           lg:flex-row-reverse
         gap-16 flex-col mx-4 lg:mx-16`}
         >
@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 lg:w-1/2 px-4 lg:px-16">
+          <div className="card_content flex flex-col gap-8 lg:w-1/2 ">
             <div className="card_content_heading">
               <h2
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={`p-8 md:p-20 mx-4 lg:mx-16`}>
+      <div className={`p-2 md:p-20 mx-4 lg:mx-16 my-32`}>
         <div className="flex justify-center mb-16">
           <h2
             className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}

@@ -1,0 +1,15 @@
+.pricing_main {
+    background-image: url("pricing_9.png");
+    background-size: cover; /* This makes the image cover the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image within the div */
+}
+
+@media only screen and (max-width: 768px) {
+    .pricing_main {
+      background-image: url("bg-pricing-phone-2.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }

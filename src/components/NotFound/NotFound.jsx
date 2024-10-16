@@ -6,7 +6,7 @@ const NotFound = () => {
     <>
       {" "}
       {/* <Navbar /> */}
-      <div className={`my-14 `}>
+      <div className={`my-16 `}>
         <div class="login_image flex justify-center p-2 mb-2">
           <a href="/">
             <img
@@ -35,7 +35,7 @@ const NotFound = () => {
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 lg:w-1/2 px-4 lg:px-32">
+          <div className=" card_content flex flex-col gap-8 lg:w-1/2">
             <div className="card_content_heading">
               <h2
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}

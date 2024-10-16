@@ -139,6 +139,12 @@ function Home() {
         />
       ))}
       <HeroLast />
+      <div className="flex justify-center px-4">
+      <img src="footer_image.png" alt=""
+      height={600} 
+      width={600} 
+      />
+      </div>
     </>
   );
 }

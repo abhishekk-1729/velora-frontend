@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import { useAuth } from "../../store/auth";
 import { useLocation, useNavigate } from "react-router-dom";
 import endpoints from "../../configs/apiConfigs";
+import "./Status.css"
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+
 
 function Status() {
   // this page will be accessible only when the user is logged in and the service id and user id user matches
@@ -122,7 +126,8 @@ function Status() {
 
   return (
     <>
-      {/* <Navbar /> */}
+    <div class="status_main">
+      <Navbar />
       <div className="mx-4 lg:mx-32 my-16 text-[#ffffff]">
         <div className="text-center text-[60px]">Status</div>
         <div className="flex justify-center">
@@ -515,6 +520,8 @@ function Status() {
           </div>
         }
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }

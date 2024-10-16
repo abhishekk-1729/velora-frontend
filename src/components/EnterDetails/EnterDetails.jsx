@@ -1363,6 +1363,7 @@ const EnterDetails = () => {
                       Address
                     </div>{" "}
                     <textarea
+                    required
                       placeholder="Address" // Change placeholder
                       value={address} // Bind the input value to state
                       onChange={(e) => setAddress(e.target.value)} // Update state on input change

@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import { useLocation, useNavigate } from "react-router-dom";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
+import Footer from "../Footer/Footer";
+import "./Pay.css"
 
 function Pay() {
   const location = useLocation();
@@ -143,8 +145,10 @@ function Pay() {
 
   return (
     <>
-      {/* <Navbar /> */}
-      <div className="flex flex-col items-center mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-8 mb-16">
+    <div className="pay_main">
+      <Navbar />
+
+      <div className="flex flex-col items-center mx-4 lg:mx-16 px-4 pt-16 pb-32 text-[#8a919a] gap-8 ">
         <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#ffffff] text-center">
           {`Pay ${isAdvance ? "Advance" : "Remaining"}`}
         </h1>
@@ -213,6 +217,8 @@ function Pay() {
           </div>
         </div>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }

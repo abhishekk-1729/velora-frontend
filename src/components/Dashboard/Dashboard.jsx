@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../store/auth";
 import endpoints from "../../configs/apiConfigs";
-
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import "./Dashboard.css"
 function Dashboard() {
   //   to access this page you should be logged in
   const navigate = useNavigate();
@@ -99,11 +101,15 @@ function Dashboard() {
   // Hit the API
   return (
     <>
-      {/* <Navbar /> */}
+    <div className="dashboard_main">
+      <Navbar />
+
       <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 lg:p-16 text-[#8a919a] gap-16 mb-16 ">
-        <h1 className="text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
+        
+        <div className=" flex justify-center gap-2 items-center text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
+          {/* <img src="dashboard_img.png" alt="" height={60} width={60}/> */}
           Dashboard
-        </h1>
+        </div>
 
         <div className="gap-4 flex-row  w-full">
           <div className="mb-8 flex gap-4">
@@ -130,7 +136,7 @@ function Dashboard() {
 
           {personal ? (
             <>
-              <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
+              <div className="min-h-[500px] flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff]">
                 <div className="flex flex-col gap-2 text-[#ffffff]">
                   <label htmlFor="form_name" className="text-white">
                     Name
@@ -197,7 +203,7 @@ function Dashboard() {
           ) : (
             <div>
               {orders.length ? (
-                <div className="flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff] mb-64 lg:mb-32">
+                <div className="min-h-[500px] flex flex-col  gap-6   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d] text-[#ffffff] ">
                   <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                       <thead class="text-s text-gray-700 uppercase bg-[#151B23] dark:text-gray-400">
@@ -258,7 +264,7 @@ function Dashboard() {
                 </div>
               ) : (
                 <>
-                  <div className="flex flex-col justify-center items-center text-[24px] lg:p-16 mb-64 lg:mb-32">
+                  <div className="min-h-[500px] flex flex-col pt-24 items-center text-[24px]">
                     <div>No orders yet...</div>
                     <a className="text-[#6EB0BE] underline" href="/pricing">Order Now</a>
                   </div>
@@ -268,6 +274,8 @@ function Dashboard() {
           )}
         </div>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }

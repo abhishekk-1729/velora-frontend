@@ -1,5 +1,5 @@
-.status_main {
-    background-image: url("bg-phone-dash-3.png");
+.dashboard_main {
+    background-image: url("dash-2.png");
     background-size: cover; /* This makes the image cover the entire div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image within the div */
@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .status_main {
+    .dashboard_main {
       background-image: url("bg-phone-dash-3.png");
       background-size: cover;  /* or 100% 100% if you want it stretched */
       background-repeat: no-repeat;

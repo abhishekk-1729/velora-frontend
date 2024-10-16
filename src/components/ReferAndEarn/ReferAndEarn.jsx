@@ -69,7 +69,7 @@ const [coupon_code,setCouponCode] = useState("");
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 lg:w-1/2 lg:px-32">
+          <div className="card_content flex flex-col gap-8 lg:w-1/2">
             <div className="card_content_heading">
               <h2
                 className="text-[48px] font-[500] leading-[52px] font-mona-sans font-bold"

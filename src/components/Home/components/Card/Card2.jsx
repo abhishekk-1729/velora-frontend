@@ -33,7 +33,7 @@ const Card2 = ({
       <div
         className={`  card bg-[#151b23] p-8 md:p-20 flex ${
           isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
-        } gap-16 flex-col mx-4 lg:mx-16 rounded-2xl border border-[#3d444d] ${isVisible ? 'slide-in' : 'slide-out'}`}
+        } gap-20 flex-col mx-4 lg:mx-16 rounded-2xl border border-[#3d444d] ${isVisible ? 'slide-in' : 'slide-out'}`}
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setIsHovered(true)}  // Set hover to true
         onMouseLeave={() => setIsHovered(false)} // Set hover to false
@@ -50,7 +50,7 @@ const Card2 = ({
         </div>
 
         {/* Card Content */}
-        <div className="card_content flex flex-col gap-8 lg:w-1/2 lg:px-32">
+        <div className="card_content flex flex-col gap-8 lg:w-1/2">
           <div className="card_content_heading">
             <h2
               className={`text-[48px] font-[500] leading-[52px] font-mona-sans`}

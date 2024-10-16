@@ -19,19 +19,19 @@ import Microsoft from "./components/GoogleLogin/microsoft.jsx";
 const routes = [
     { path: "/", element: <Home /> },
     { path: "/about", element: <About /> },
-    { path: "/pricing", element: <Pricing /> },
+    { path: "/pricing", element: <Pricing /> ,noNavFooter: true},
     { path: "/login", element: <Login />, noNavFooter: true},
     { path: "/signup", element: <SignUp />, noNavFooter: true },
     { path: "/signup/emailverify", element: <EmailVerify />,noNavFooter: true },
     { path: "/login/emailverify", element: <EmailVerify />,noNavFooter: true },
-    { path: "/contact", element: <ContactUs /> },
-    { path: "/dashboard", element: <Dashboard /> },
-    { path: "/status/:id", element: <Status />},
+    { path: "/contact", element: <ContactUs /> ,noNavFooter: true},
+    { path: "/dashboard", element: <Dashboard /> ,noNavFooter: true},
+    { path: "/status/:id", element: <Status />, noNavFooter: true},
     { path: "/signup/enterDetails", element: <EnterDetails />,noNavFooter:true },
     { path: "/googleLogin", element: <GoogleLogin /> },
     { path: "/microsoftLogin", element: <Microsoft />, noNavFooter: true },
     { path: "/referAndEarn", element: <ReferAndEarn /> },
-    { path: "/pay", element: <Pay /> },
+    { path: "/pay", element: <Pay />  , noNavFooter: true },
     { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer
   ];
   

@@ -3,6 +3,9 @@ import { ThreeDots } from "react-loader-spinner";
 import { Dropdown } from "primereact/dropdown";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import "./ContactUs.css"
 
 function ContactUs() {
   const [name, setName] = useState("");
@@ -1262,7 +1265,8 @@ function ContactUs() {
 
   return (
     <>
-      {/* <Navbar /> */}
+    <div className="contact_main">
+      <Navbar />
       <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-16 mb-16 ">
         <h1 className="text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
           We would love to hear from you!
@@ -1529,6 +1533,8 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      </div>
+      <Footer/>
     </>
   );
 }
