@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import routes from "./routes";
 import { matchPath } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
+import About from "./components/About/aboutus";
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
@@ -50,6 +51,7 @@ const App = () => {
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>
+      <Route  path="/about" element={<About/>} />
         {routes.map(({ path, element }) => (
           <Route key={path} path={path} element={element} />
         ))}

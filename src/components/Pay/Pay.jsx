@@ -144,7 +144,7 @@ function Pay() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="flex flex-col items-center mx-8 sm:mx-16 p-4 md:p-16 text-[#8a919a] gap-8 my-20">
+      <div className="flex flex-col items-center mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-8 mb-16">
         <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#ffffff] text-center">
           {`Pay ${isAdvance ? "Advance" : "Remaining"}`}
         </h1>

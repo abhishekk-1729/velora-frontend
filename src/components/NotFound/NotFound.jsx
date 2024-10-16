@@ -21,7 +21,7 @@ const NotFound = () => {
         <div
           className={`  card  p-2 md:p-20 flex 
           lg:flex-row-reverse
-        gap-16 flex-col mx-8 sm:mx-16`}
+        gap-16 flex-col mx-4 lg:mx-16`}
         >
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">

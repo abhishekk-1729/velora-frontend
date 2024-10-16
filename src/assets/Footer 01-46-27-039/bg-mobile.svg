@@ -1,0 +1,51 @@
+<svg width="375" height="433" viewBox="0 0 375 433" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_34_81)">
+<rect x="580" y="434.614" width="393" height="87.4425" transform="rotate(-180 580 434.614)" fill="url(#paint0_angular_34_81)"/>
+<rect width="393" height="87.4425" transform="matrix(1 8.74228e-08 8.74228e-08 -1 -206 434.614)" fill="url(#paint1_angular_34_81)"/>
+<g filter="url(#filter0_bf_34_81)">
+<rect x="481.75" y="385.489" width="589.5" height="117.9" transform="rotate(-180 481.75 385.489)" fill="black" fill-opacity="0.01"/>
+</g>
+<g filter="url(#filter1_f_34_81)">
+<ellipse cx="181.596" cy="397.279" rx="196.5" ry="43.7212" transform="rotate(-180 181.596 397.279)" fill="#802392"/>
+</g>
+<line x1="-0.00133333" y1="1.5" x2="374.999" y2="0.500002" stroke="url(#paint2_linear_34_81)"/>
+</g>
+<defs>
+<filter id="filter0_bf_34_81" x="-206" y="169.339" width="786" height="314.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="49.125"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_34_81"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_34_81" result="shape"/>
+<feGaussianBlur stdDeviation="22.3519" result="effect2_foregroundBlur_34_81"/>
+</filter>
+<filter id="filter1_f_34_81" x="-260.529" y="107.933" width="884.25" height="578.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="122.812" result="effect1_foregroundBlur_34_81"/>
+</filter>
+<radialGradient id="paint0_angular_34_81" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(776.5 430.929) rotate(90) scale(91.1269 196.5)">
+<stop offset="0.0481199" stop-color="#030A17" stop-opacity="0.134694"/>
+<stop offset="0.596373" stop-color="#030A17" stop-opacity="0.798748"/>
+<stop offset="0.737598" stop-color="#030A17" stop-opacity="0.983913"/>
+<stop offset="0.742537" stop-color="#802392" stop-opacity="0.990389"/>
+<stop offset="0.749867" stop-color="#802392"/>
+<stop offset="0.987778" stop-color="#802392" stop-opacity="0.2"/>
+</radialGradient>
+<radialGradient id="paint1_angular_34_81" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(196.5 -3.68438) rotate(90) scale(91.1269 196.5)">
+<stop offset="0.0481199" stop-color="#030A17" stop-opacity="0.134694"/>
+<stop offset="0.596373" stop-color="#030A17" stop-opacity="0.798748"/>
+<stop offset="0.737598" stop-color="#030A17" stop-opacity="0.983913"/>
+<stop offset="0.742537" stop-color="#802392" stop-opacity="0.990389"/>
+<stop offset="0.749867" stop-color="#802392"/>
+<stop offset="0.987778" stop-color="#802392" stop-opacity="0.2"/>
+</radialGradient>
+<linearGradient id="paint2_linear_34_81" x1="0" y1="1.00255" x2="375" y2="1.00255" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFFBFF" stop-opacity="0"/>
+<stop offset="0.503314" stop-color="#FFFBFF"/>
+<stop offset="1" stop-color="#FFFBFF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_34_81">
+<rect width="375" height="433" fill="white"/>
+</clipPath>
+</defs>
+</svg>

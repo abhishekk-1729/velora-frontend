@@ -56,7 +56,7 @@ const [coupon_code,setCouponCode] = useState("");
     <>
       {/* <Navbar /> */}
       <div className="my-16">
-        <div className="card p-8 md:p-20 flex lg:flex-row gap-16 flex-col mx-8 sm:mx-16">
+        <div className="card p-8 md:p-20 flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16">
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img
@@ -67,7 +67,7 @@ const [coupon_code,setCouponCode] = useState("");
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 w-full max-w-lg">
+          <div className="card_content flex flex-col gap-8 w-full lg:max-w-lg">
             <div className="card_content_heading">
               <h2
                 className="text-[48px] font-[500] leading-[52px] font-mona-sans font-bold"

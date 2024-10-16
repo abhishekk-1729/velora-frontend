@@ -1263,12 +1263,12 @@ function ContactUs() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="flex flex-col items-center  mx-8 sm:mx-16 p-4 md:p-16 text-[#8a919a] gap-16 mb-16 ">
+      <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-16 mb-16 ">
         <h1 className="text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
           We would love to hear from you!
         </h1>
 
-        <div className="flex flex-col gap-4 md:flex-row md:gap-20 md:w-full">
+        <div className="flex flex-col gap-4 md:flex-row md:gap-8 lg:gap-20 md:w-full">
           <div className="flex flex-col  md:w-3/4 gap-9   p-2 md:p-8 bg-[#151B23] rounded-lg border border-[#3d444d]">
             <form
               onSubmit={(e) => {

@@ -158,8 +158,8 @@ const SignUp = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="flex justify-center">
-        <div className="login mx-8 sm:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
+      <div className="flex justify-center items-center h-screen">
+        <div className="login mx-4 lg:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
           <div className="login_image flex justify-center p-2">
             <img
               src="company.png"

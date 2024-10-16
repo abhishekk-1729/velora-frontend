@@ -101,12 +101,12 @@ function Dashboard() {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="flex flex-col items-center  mx-8 sm:mx-16 p-4 md:p-16 text-[#8a919a] gap-16 mb-16 ">
+      <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 lg:p-16 text-[#8a919a] gap-16 mb-16 ">
         <h1 className="text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
           Dashboard
         </h1>
 
-        <div className="gap-4 flex-row  md:w-full p-8">
+        <div className="gap-4 flex-row  w-full">
           <div className="mb-8 flex gap-4">
             <button
               className={`py-2 ${

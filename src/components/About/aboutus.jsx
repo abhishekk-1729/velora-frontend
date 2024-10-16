@@ -8,14 +8,14 @@ const About = () => {
     <>
       {" "}
       {/* <Navbar /> */}
-      <div className={`my-16 `}>
+      <div className={` `}>
         <div
           className={`  card  p-8 md:p-20 flex 
           lg:flex-row-reverse
-        gap-16 flex-col mx-8 sm:mx-16`}
+        gap-16 flex-col mx-4 lg:mx-16`}
         >
           {/* Card Image */}
-          <div className="flex card_image lg:w-1/2 items-center justify-center">
+          <div className="flex card_image w-full lg:w-1/2 items-center justify-center">
             <img
               src={image}
               alt={"Heading_About"}
@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           {/* Card Content */}
-          <div className="card_content flex flex-col gap-8 w-full max-w-lg">
+          <div className="card_content flex flex-col gap-8 w-full lg:max-w-lg">
             <div className="card_content_heading">
               <h2
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={`p-8 md:p-20 mx-8 sm:mx-16`}>
+      <div className={`p-8 md:p-20 mx-4 lg:mx-16`}>
         <div className="flex justify-center mb-16">
           <h2
             className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
@@ -59,7 +59,7 @@ const About = () => {
           </h2>
         </div>
         
-          <div className="p-16 border-4 border-dotted border-gray-500 text-[#9198a1] text-[20px] font-[500] leading-[32px] font-mona-sans text-justify">
+          <div className="p-2 border-4 border-dotted border-gray-500 text-[#9198a1] text-[20px] font-[500] leading-[32px] font-mona-sans text-justify">
           Founded in 2024, Velora specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
           </div>
  
