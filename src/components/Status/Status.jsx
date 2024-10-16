@@ -128,7 +128,7 @@ function Status() {
     <>
     <div class="status_main">
       <Navbar />
-      <div className="mx-4 lg:mx-32 my-16 text-[#ffffff]">
+      <div className="mx-4 lg:mx-32 my-16 text-[#ffffff] pb-36">
         <div className="text-center text-[60px]">Status</div>
         <div className="flex justify-center">
           <div className="text-center text-[20px] border border-dotted inline-block p-4">
@@ -440,7 +440,7 @@ function Status() {
           </div>
         ) : (
           <>
-            <div className="status flex flex-col gap-6 my-4 mx-2">
+            <div className="status flex flex-col gap-6 my-4 mx-2 ">
               {statusContent.map((item, index) => (
                 <div
                   key={index}
