@@ -91,7 +91,7 @@ const EmailVerify = () => {
       const data = await response.json();
       if (data.token) {
         storeTokenInLS(data.token);
-        navigate("/");
+        navigate("/dashboard");
       }
       else{
         // navigate to the addDetails page

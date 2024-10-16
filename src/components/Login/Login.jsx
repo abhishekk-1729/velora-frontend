@@ -39,7 +39,7 @@ const Login = () => {
             // If a token is returned, store it in local storage
             if (data.token) {
                 storeTokenInLS(data.token); // Your function to store token
-                navigate('/'); // Navigate to home page
+                navigate('/dashboard'); // Navigate to home page
             } 
         } else {
             // Handle any errors from the server response
