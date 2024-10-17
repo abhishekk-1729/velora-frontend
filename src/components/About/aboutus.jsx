@@ -12,12 +12,12 @@ const About = () => {
         <div
           className={`  card p-2 md:p-20 flex 
           lg:flex-row-reverse
-        gap-16 flex-col mx-4 lg:mx-16`}
+        gap-16 flex-col mx-4 lg:mx-16 justify-center items-center`}
         >
           {/* Card Image */}
           <div className="flex card_image w-full lg:w-1/2 items-center justify-center">
             <img
-              src={image}
+              src={"about-img.png"}
               alt={"Heading_About"}
               className="w-full h-auto rounded-md"
             />
@@ -30,7 +30,7 @@ const About = () => {
                 className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
                 style={{ color: "#ffffff" }}
               >
-                {"Changing the world through personalised digital experience"}
+                {"Where Digital Seeds Become Powerful Experiences"}
               </h2>
             </div>
             <div className="card_content_text">
