@@ -49,7 +49,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className={`p-2 md:p-20 mx-4 lg:mx-16 my-32`}>
+<div className="pt-28 pb-44">
+      <div className={`p-2 md:p-20 mx-4 lg:mx-16`}>
         <div className="flex justify-center mb-16">
           <h2
             className={`text-[48px] font-[500] leading-[52px] font-mona-sans font-bold`}
@@ -63,6 +64,7 @@ const About = () => {
           Founded in 2024, Velora specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
           </div>
  
+      </div>
       </div>
       {/* <div className=" md:mx-16 p-16 text-[#ffffff] my-10">
 <div className="flex flex-col  mb-8">

@@ -17,7 +17,7 @@ import GoogleLogin from "./components/GoogleLogin/GoogleLogin.jsx"
 import Microsoft from "./components/GoogleLogin/microsoft.jsx";
 
 const routes = [
-    { path: "/", element: <Home /> },
+    { path: "/", element: <Home />, noNavFooter:true },
     { path: "/about", element: <About /> },
     { path: "/pricing", element: <Pricing /> ,noNavFooter: true},
     { path: "/login", element: <Login />, noNavFooter: true},

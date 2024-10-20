@@ -51,9 +51,29 @@ const Navigation_quality = () => {
     };
   }, []);
 
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => {
+    // Function to check window size
+    const checkScreenSize = () => {
+      setIsLargeScreen(window.innerWidth >= 1024); // 1024px is a large screen size
+    };
+
+    // Set initial screen size
+    checkScreenSize();
+
+    // Add event listener to handle resize events
+    window.addEventListener("resize", checkScreenSize);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, []);
+
   return (
     <nav
-    className={`nav ${isSticky ? 'lg:sticky lg:top-0 lg:bg-[#151b23]' : 'hidden'} flex  px-16 p-5  items-center justify-between`}
+    className={`nav ${isSticky ? 'lg:sticky lg:top-0 lg:bg-[#151b23]' : 'hidden'} flex  lg:px-16 p-4 lg:p-5  items-center justify-between`}
     >
       <div className='flex gap-8'>
 
@@ -61,9 +81,11 @@ const Navigation_quality = () => {
       {sections.map((section) => (
         <div
           key={section}
-          className={`nav_content flex py-2 justify-center items-center ${
+          className={`${isLargeScreen?`nav_content flex py-2 justify-center items-center ${
             activeSection === tag[section] ? 'border-b-2 border-white' : ''
-          }`}
+          }`:`nav_content flex py-2 justify-center items-center ${
+            activeSection === tag[section] ? 'border-b-2 border-white' : 'hidden'
+          }`}`}
         >
           <a
             href={`/#${tag[section]}`}

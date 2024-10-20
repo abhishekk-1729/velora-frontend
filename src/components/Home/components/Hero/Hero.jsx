@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import { Dropdown } from "primereact/dropdown";
 import endpoints from '../../../../configs/apiConfigs'; // Adjust path as necessary
+import Navbar from "../../../Navbar/Navbar";
 
 const Hero = () => {
   const [textState, setTextState] = useState(0);
@@ -1224,13 +1225,15 @@ const Hero = () => {
     // Add more countries as needed
   ];
   return (
+    
     <div className="hero_section">
+   
       {/* Hero Content */}
-      <div className="mx-4 lg:mx-16 mt-32 mb-16 px-4 lg:py-4 flex flex-col gap-20">
+      <div className="lg:mx-16 pt-44 lg:pt-32 mb-16 px-4 lg:pb-4 flex flex-col gap-4 lg:gap-20">
         {/* Hero Heading */}
-        <div className="hero_heading flex flex-col lg:gap-6">
+        <div className="hero_heading flex flex-col gap-2 lg:gap-6">
           <div className="hero_main_heading">
-            <h1 className="text-[57.6px] lg:text-[96px] font-semibold leading-[80px] text-[#F0F6FC]">
+            <h1 className="text-[57.6px] lg:text-[96px] font-bold leading-[80px] text-[#F0F6FC]">
               Let's Innovate Together
             </h1>
           </div>
@@ -1430,14 +1433,14 @@ const Hero = () => {
         </div>
 
         {/* Hero Quality */}
-        <div className="hero_quality flex flex-col gap-8">
+        <div className="hero_quality flex flex-col gap-8 mt-8 lg:mt-0">
           <div className="hero_quality_heading">
             <h3 className="text-[20px] font-normal leading-[28px] text-[#9198A1]">
               Trusted by Businesses for Unmatched Delivery, Design and
               Performance ↘︎
             </h3>
           </div>
-          <div className=" text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          <div className="text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
             <h2 className="">Fast Delivery</h2>
 
             <h2 className=" ">Precise Design</h2>

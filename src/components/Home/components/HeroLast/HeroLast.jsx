@@ -4,7 +4,7 @@ import greater_than from "./greater_than.png";
 import { Link } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import { Dropdown } from "primereact/dropdown";
-import endpoints from '../../../../configs/apiConfigs'; // Adjust path as necessary
+import endpoints from "../../../../configs/apiConfigs"; // Adjust path as necessary
 
 const Hero = () => {
   const [textState, setTextState] = useState(0);
@@ -23,7 +23,6 @@ const Hero = () => {
   // List of international dialing codes
 
   const handleConnectRequest = async () => {
-
     // If validation passes, reset error and proceed with request
     setErrorMessage("");
     setTextState(1);
@@ -32,7 +31,9 @@ const Hero = () => {
       ? endpoints.alertEmail
       : endpoints.alertMessage;
 
-    const body = isEmailMode ? { email } : {phone: selectedItem.phone_code+phone};
+    const body = isEmailMode
+      ? { email }
+      : { phone: selectedItem.phone_code + phone };
 
     try {
       const response = await fetch(apiEndpoint, {
@@ -1227,17 +1228,24 @@ const Hero = () => {
   return (
     <div className="hero_section">
       {/* Hero Content */}
-      <div className="mx-4 lg:mx-16 mt-16 mb-16 p-4 flex flex-col gap-16">
+      <div className=" lg:mx-16 mt-16 mb-16 p-4 flex flex-col gap-16">
         {/* Hero Heading */}
         <div className="hero_heading flex flex-col gap-4">
-          <div className="hero_main_heading">
-            <h1 className="sm:text-[85px] text-[57.6px]  font-semibold leading-[80px] text-[#F0F6FC]">
-            Join the growing Velora community
+          <div className="hero_main_heading flex justify-center items-center">
+            <h1 className="text-[48px] lg:text-[85px] leading-[55px] lg:leading-[88px] text-[#F0F6FC] w-full font-bold">
+              Join the growing Velora community
             </h1>
+            <div className="lg:m-8 img-move ">
+            <img src="herolast-bg.png" alt="" height={300} width={300} />
+            </div>
           </div>
+        
           <div className="hero_sub_heading lg:pr-64">
-            <h2 className="text-[24px] font-normal leading-[32px] text-[#9198A1]">
-            Whether launching a startup or enhancing your online presence, Velora empowers businesses to thrive. Join us to create innovative websites that drive success.            </h2>
+            <h2 className="text-[20px] lg:text-[24px] font-normal leading-[32px] text-[#9198A1]">
+              Whether launching a startup or enhancing your online presence,
+              Velora empowers businesses to thrive. Join us to create innovative
+              websites that drive success.{" "}
+            </h2>
           </div>
         </div>
 
@@ -1372,8 +1380,7 @@ const Hero = () => {
                           }} //
                           className="w-full p-3 pr-16 lg:pr-8 border border-gray-400 border-r-2 lg:border-r-0 border-l-0 rounded-md  rounded-l-none lg:rounded-r-none text-gray-900 placeholder-gray-500 focus:outline-none"
                           required
-                          pattern= "[0-9]{5,11}"
-                          
+                          pattern="[0-9]{5,11}"
                         />
                       </div>
                     </>
@@ -1429,7 +1436,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

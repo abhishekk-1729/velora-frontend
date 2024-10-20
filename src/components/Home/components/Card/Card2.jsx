@@ -28,7 +28,7 @@ const Card2 = ({
   return (
     <div
       id={id}
-      className={`pt-16 md:pt-24 lg:pt-32 `}
+      className={`pt-36 md:pt-28 lg:pt-40  `}
     >
       <div
         className={`  card bg-[#151b23] p-8 md:p-20 flex ${

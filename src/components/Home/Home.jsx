@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import HeroLast from "./components/HeroLast/HeroLast";
 import Navigation_quality from "../Navigation_quality/Navigation_quality";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer"
 
 function Home() {
   const value2 = {
@@ -15,7 +16,8 @@ function Home() {
     heading: "Empowering the developers",
     text: "GitHub Advanced Security enables you to find icklynnn.  ou to find icklynn  ou to find  you to find icklynnn.  ou to find icklynn  ou to find icklynn",
     image: "https://via.placeholder.com/100",
-    glowColor: "rgba(255, 255, 0, 0.2)", // Subtle Neon Yellow Glow
+    glowColor: "rgba(255, 255, 0, 0.2)", // Subtle Neon Yellow Glow,
+    bg_class:"card_1"
   };
 
   const qualities = [
@@ -27,7 +29,8 @@ function Home() {
       heading_text: "Websites delivered in 4 weeks",
       text: "With Velora, your websites are delivered in just 4 weeks after the final UI approval, ensuring you meet your deadlines with ease.",
       image: "/assets/home/delivery",
-      glowColor: "rgba(63, 186, 80, 0.2)", // Green Glow
+      glowColor: "rgba(63, 186, 80, 0.2)", // Green Glow,
+      bg_class:"card_2"
     },
     {
       id: "design",
@@ -37,7 +40,8 @@ function Home() {
       heading_text: "Designed with precision",
       text: "Our expert designers create beautiful, responsive websites that ensure a seamless user experience across all devices.",
       image: "/assets/home/design",
-      glowColor: "rgba(50, 180, 174, 0.2)", // Teal Glow
+      glowColor: "rgba(50, 180, 174, 0.2)", // Teal Glow,
+      bg_class:"card_3"
     },
     {
       id: "performance",
@@ -47,7 +51,8 @@ function Home() {
       heading_text: "Performance optimized",
       text: "Velora websites are engineered for speed and efficiency, ensuring optimal performance that keeps your users engaged.",
       image: "/assets/home/performance",
-      glowColor: "rgba(247, 120, 187, 0.2)", // Pink Glow
+      glowColor: "rgba(247, 120, 187, 0.2)", // Pink Glow,
+      bg_class:"card_4"
     },
     {
       id: "no_no_code",
@@ -58,7 +63,9 @@ function Home() {
       text: "No reliance on no-code tools. We build custom, scalable websites with full control over code for enhanced flexibility.",
       image: "/assets/home/no_no_code",
       glowColor: "rgba(255, 211, 61, 0.2)", // Yellow Glow
+      bg_class:"card_5"
     },
+    
     {
       id: "service",
       key: "5",
@@ -68,6 +75,7 @@ function Home() {
       text: "We provide ongoing support to ensure your website functions perfectly, with a team always ready to assist you.",
       image: "/assets/home/service",
       glowColor: "rgba(221, 89, 79, 0.2)", // Red Glow
+      bg_class:"card_6"
     },
   ];
 
@@ -120,12 +128,14 @@ function Home() {
   }, []);
 
   return (
-    <>
-      {/* <Navbar /> */}
+    <><div className="hero_bg">
+      <Navbar />
       <Hero />
-      {isLargeScreen && <Navigation_quality />}{" "}
+      </div>
+      {<Navigation_quality />}{" "}
       {/* Show navigation only on large screens */}
       {qualities.map((value,index) => (
+        <div className={`${value.key==1?"card_1":value.key==2?"card_2":value.key==3?"card_3":value.key==4?"card_4":value.key==5?"card_5":""}`}>
         <Card2
           key={value.id}
           id={value.id}
@@ -136,15 +146,18 @@ function Home() {
           // image = {value.image}
           glowColor={value.glowColor}
           isVisible={visibleCards[index]} // Pass visibility state to Card2
+          
         />
+        </div>
       ))}
       <HeroLast />
-      <div className="flex justify-center px-4">
+      <Footer/>
+      {/* <div className="flex justify-center px-4">
       <img src="footer_image.png" alt=""
       height={600} 
       width={600} 
       />
-      </div>
+      </div> */}
     </>
   );
 }
