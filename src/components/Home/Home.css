@@ -24,37 +24,81 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+    .card_1 {
+      background-image: url("bg-home-phone-1_2.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
 
 .card_2{
-    background-image: url("home-bg-2_2.png");
+    background-image: url("bg-home-2_6.png");
     background-size: cover; /* This makes the image cover the entire div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image within the div */
 
 }
 
+@media only screen and (max-width: 768px) {
+    .card_2 {
+      background-image: url("bg-home-phone-2_5.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
 
 .card_3{
-    background-image: url("home-bg-3_2.png");
+    background-image: url("home-bg-3_7.png");
     background-size: cover; /* This makes the image cover the entire div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image within the div */
 
 }
 
+
+@media only screen and (max-width: 768px) {
+    .card_3 {
+      background-image: url("bg-home-phone-3_4.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
 
 .card_4{
-    background-image: url("home-bg-1.png");
+    background-image: url("bg-home-4_2.png");
     background-size: cover; /* This makes the image cover the entire div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image within the div */
 
 }
+
+@media only screen and (max-width: 768px) {
+    .card_4 {
+      background-image: url("bg-home-phone-4_2.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
 
 .card_5{
-    background-image: url("home-bg-1.png");
+    background-image: url("bg-home-5_8.png");
     background-size: cover; /* This makes the image cover the entire div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image within the div */
 
 }
+
+@media only screen and (max-width: 768px) {
+    .card_5 {
+      background-image: url("bg-home-phone-5_2.png");
+      background-size: cover;  /* or 100% 100% if you want it stretched */
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
