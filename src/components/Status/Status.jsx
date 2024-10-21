@@ -126,7 +126,7 @@ function Status() {
 
   return (
     <>
-    <div class="status_main">
+    <div class="status_main bg-[#24292F]">
       <Navbar />
       <div className="mx-4 lg:mx-32 my-16 text-[#ffffff] pb-36">
         <div className="text-center text-[60px]">Status</div>
