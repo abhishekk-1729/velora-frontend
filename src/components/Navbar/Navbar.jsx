@@ -95,7 +95,7 @@ function Navbar() {
           className="navbartrystlogo"
           onClick={() => handleNavbarOptionClick("")}
         >
-          <img className="tryst2024img" src={Company} alt="Company Logo" />
+          <img className="tryst2024im" src={Company} alt="Company Logo"/>
         </div>
         <div className="navbaroptions-container">
           <div className="navbaricons">

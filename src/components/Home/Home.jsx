@@ -163,3 +163,21 @@ function Home() {
 }
 
 export default Home;
+
+// .hero_bg {
+//   background-image: url("status-bg-4.png");
+//   background-size: cover; /* This makes the image cover the entire div */
+//   background-repeat: no-repeat; /* Prevents the image from repeating */
+//   background-position: center center; /* Centers the image within the div */
+
+// }
+
+// @media only screen and (max-width: 768px) {
+//   .status_main {
+//     background-image: url("bg-status-phone.png");
+//     background-size: cover;  /* or 100% 100% if you want it stretched */
+//     background-repeat: no-repeat;
+//     background-position: center center;
+//   }
+// }
+

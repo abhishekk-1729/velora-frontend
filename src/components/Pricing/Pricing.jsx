@@ -9,7 +9,7 @@ import "./Pricing.css"
 
 function Pricing() {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("abhikriitd@gmail.com");
+  const [email, setEmail] = useState("support@thefirstweb.com");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
   const [message, setMessage] = useState("");
@@ -45,7 +45,7 @@ function Pricing() {
   const Paynow = async () => {
     const body = {
       amount: amount, // in the smallest unit, e.g., 200 means ₹2.00
-      email: "abhikriitd@gmail.com",
+      email: "support@thefirstweb.com",
       currency: "INR",
       receipt: "receipt#1",
     };
@@ -105,7 +105,7 @@ function Pricing() {
         },
         prefill: {
           name: "Abhishek",
-          email: "abhikriitd@gmail.com",
+          email: "support@thefirstweb.com",
           contact: "9999999999",
         },
         theme: {
