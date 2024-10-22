@@ -11,7 +11,7 @@ function Pay() {
   const { user, isAdvance } = location.state || {}; // Destructure with fallback
 
   const [couponCode, setCouponCode] = useState("");
-  const [email] = useState(user || "abhikriitd@gmail.com");
+  const [email] = useState(user || "support@thefirstweb.com");
   const [amount, setAmount] = useState(900); // Base amount
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
@@ -127,7 +127,7 @@ function Pay() {
         },
         prefill: {
           name: "Abhishek",
-          email: "abhikriitd@gmail.com",
+          email: "support@thefirstweb.com",
           contact: "9999999999",
         },
         theme: {

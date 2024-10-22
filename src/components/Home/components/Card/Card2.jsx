@@ -27,10 +27,10 @@ const Card2 = ({
   };
 
   return (
-    <div id={id} className={`pt-36 md:pt-28 lg:pt-40  `}>
+    <div id={id} className={`pt-36 md:pt-28 lg:pt-40`}>
       {/* p-8 md:p-20 */}
       <div
-        className={`  card bg-[#151b23]  flex ${
+        className={`card bg-[#151b23] min-h-[60vh]  flex ${
           isLeftDirection ? "lg:flex-row" : "lg:flex-row-reverse"
         } flex-col mx-4 lg:mx-16 rounded-2xl border border-[#3d444d] ${
           isVisible ? "slide-in" : "slide-out"
