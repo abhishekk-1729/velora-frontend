@@ -170,7 +170,7 @@ function Pricing() {
                 className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out my-4"
               >
                 <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  {isLoggedIn?"Join Velora Family Today": "Sign In"}
+                  {isLoggedIn?"Join The First Web Family Today": "Sign In"}
                 </h4>
               </button>
               <div>

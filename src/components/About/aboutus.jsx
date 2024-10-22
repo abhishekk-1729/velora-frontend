@@ -38,7 +38,7 @@ const About = () => {
                 className="text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
                 style={{ color: "#9198a1" }}
               >
-                Founded in 2024, Velora specializes in creating dynamic websites
+                Founded in 2024, The First Web specializes in creating dynamic websites
                 tailored to meet the unique needs of businesses. Our passionate
                 team is dedicated to helping organizations establish a strong
                 online presence through innovative and user-friendly solutions.
@@ -61,7 +61,7 @@ const About = () => {
         </div>
         
           <div className="p-2 border-4 border-dotted border-gray-500 text-[#9198a1] text-[20px] font-[500] leading-[32px] font-mona-sans text-justify">
-          Founded in 2024, Velora specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
+          Founded in 2024, The First Web specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
           </div>
  
       </div>
@@ -77,7 +77,7 @@ const About = () => {
 
             <div className="about  flex justify-center items-center text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
             style={{ color: "#9198a1" }}>
-     Founded in 2024, Velora specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
+     Founded in 2024, The First Web specializes in creating dynamic websites tailored to meet the unique needs of businesses. Our passionate team is dedicated to helping organizations establish a strong online presence through innovative and user-friendly solutions. With a focus on discipline, smart work, and hard work, we ensure that every project is executed with precision and integrity. At Velora, we value the importance of doing the right things to foster lasting relationships with our clients and contribute to their success.
     </div>
     </div>
 
@@ -92,7 +92,7 @@ const About = () => {
   className="about flex justify-center items-center text-[20px] font-[500] leading-[32px] font-mona-sans text-justify"
   style={{ color: "#9198a1" }}
 >
-At Velora, our mission is to empower businesses by providing exceptional web solutions that drive growth and success. We are committed to changing the world by making it easier for organizations to connect with their audiences and achieve their goals. Through our unwavering dedication to discipline, smart work, and hard work, we aim to deliver high-quality services that exceed expectations. We believe in the power of technology to transform businesses and are here to support them in every possible way.
+At The First Web, our mission is to empower businesses by providing exceptional web solutions that drive growth and success. We are committed to changing the world by making it easier for organizations to connect with their audiences and achieve their goals. Through our unwavering dedication to discipline, smart work, and hard work, we aim to deliver high-quality services that exceed expectations. We believe in the power of technology to transform businesses and are here to support them in every possible way.
 </div>
     </div>
     </div> */}

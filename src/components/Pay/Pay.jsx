@@ -96,7 +96,7 @@ function Pay() {
         key: "rzp_test_Y2wy8t1wD1AFaA", // Replace with your Razorpay key_id
         amount: data.amount, // Amount in smallest unit (paise for INR)
         currency: "INR",
-        name: "Velora",
+        name: "The First Web",
         description: "Test Transaction",
         order_id: data.id, // This is the order_id from Razorpay order API
         handler: async (response) => {
@@ -156,7 +156,7 @@ function Pay() {
         <div className="p-1 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-[#F0F6FC]">
           <div className="flex flex-col p-8 md:p-12 bg-[#151B23] rounded-lg">
             <div className="flex justify-center font-bold text-[25px] md:text-[30px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Velora Web Services
+              The First Web Web Services
             </div>
 
             <label htmlFor="form_coupon" className="text-white my-4">

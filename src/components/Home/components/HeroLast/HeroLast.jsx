@@ -1233,7 +1233,7 @@ const Hero = () => {
         <div className="hero_heading flex flex-col gap-4">
           <div className="hero_main_heading flex justify-center items-center">
             <h1 className="text-[48px] lg:text-[85px] leading-[55px] lg:leading-[88px] text-[#F0F6FC] w-full font-bold">
-              Join the growing Velora community
+              Join the growing The First Web community
             </h1>
             <div className="lg:m-8 img-move ">
             <img src="herolast-bg.png" alt="" height={300} width={300} />
@@ -1243,7 +1243,7 @@ const Hero = () => {
           <div className="hero_sub_heading lg:pr-64">
             <h2 className="text-[20px] lg:text-[24px] font-normal leading-[32px] text-[#9198A1]">
               Whether launching a startup or enhancing your online presence,
-              Velora empowers businesses to thrive. Join us to create innovative
+              The First Web empowers businesses to thrive. Join us to create innovative
               websites that drive success.{" "}
             </h2>
           </div>

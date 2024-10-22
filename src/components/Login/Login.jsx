@@ -251,7 +251,7 @@ const Login = () => {
           <div className="login_main px-8 flex flex-col items-center gap-6">
             <div className="login_main_heading text-center">
               <h1 className="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
-                Sign in to Velora
+                Sign in to The First Web
               </h1>
             </div>
 
@@ -369,7 +369,7 @@ const Login = () => {
               </div>
 
               <div className="login_main_content_signup text-white">
-                New to Velora? Click here to{" "}
+                New to The First Web? Click here to{" "}
                 <button
                   className="text-blue-500"
                   onClick={() => {

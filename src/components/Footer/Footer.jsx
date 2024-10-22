@@ -148,7 +148,7 @@ const Footer = () => {
       </div>
 
       <div className="bg-[#151b23] text-[#8a919a] py-6 px-8 sm:px-16 flex flex-col md:flex-row justify-between gap-2">
-        <div>&copy; 2024 Velora.com. All rights reserved.</div>
+        <div>&copy; 2024 The First Web.com. All rights reserved.</div>
         <div className="flex gap-4 px-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1464,7 +1464,7 @@ function ContactUs() {
               <div>
                 <div>Email:</div>
                 <div className="hover:underline">
-                  <a href="mailto:support@velora.com">support@velora.com</a>
+                  <a href="mailto:support@The First Web.com">support@velora.com</a>
                 </div>
               </div>
               <div>
