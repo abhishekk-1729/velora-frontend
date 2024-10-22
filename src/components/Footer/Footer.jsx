@@ -109,7 +109,7 @@ const Footer = () => {
               alt=""
               className="h-3rem md:h-[120px] lg:h-4rem"
             />
-            <div className=" ">The First Web, HSR Layout, Bangalore, India - 560103</div>
+            <div className=" ">HSR Layout, Bangalore, India - 560103</div>
             <div className=" ">Contact: +91 8755273773</div>
             <div className="">
               Email:{" "}
