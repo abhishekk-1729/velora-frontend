@@ -5,7 +5,7 @@ import company from "../../assets/Footer/company.png";
 import axios from "axios";
 import { format, formatDistanceToNow, formatRelative } from "date-fns";
 import { enUS } from "date-fns/locale";
-
+import { useAuth } from "../../store/auth";
 // Function to format date in the required format
 const formatDateTime = (date) => {
   const day = format(date, "d");
@@ -35,6 +35,8 @@ const capitalizeWords = (str) => {
 };
 
 const Footer = () => {
+  const {setCountry} = useAuth();
+
   const quickLinks1 = [
     { name: "About", id: "about" },
     { name: "Dashboard", id: "dashboard" },
@@ -69,7 +71,10 @@ const Footer = () => {
           "https://ipinfo.io?token=3cf3dd2719879c"
         ); // Replace with your tokenabhikriitd@
         const city = ipResponse.data.city;
+        const country = ipResponse.data.country;
         console.log(city);
+        console.log(country);
+        setCountry(country);
         // e add
         // Step 2: Get weather data using the OpenWeatherMap API
         const weatherResponse = await axios.get(

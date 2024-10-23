@@ -5,9 +5,11 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { useAuth } from "../../store/auth";
 import Footer from "../Footer/Footer";
 import "./Pricing.css"
-
+import { useEffect } from "react";
 
 function Pricing() {
+  
+  const {country} = useAuth();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("support@thefirstweb.com");
   const [phone, setPhone] = useState("");
@@ -40,11 +42,23 @@ function Pricing() {
       total_amount_status: "Due",
     },
   ];
-  const [amount, setAmount] = useState(200);
+  const [discounted_amount, setDiscounted_amount] = useState(899);
+  const [amount, setAmount] = useState(999);
+  const [currency, setCurrency] = useState("$");
+
+  useEffect(()=>{
+    console.log(country);
+    if(country == "IN"){
+      setCurrency("₹");
+      setAmount(amount*80);
+      setDiscounted_amount(discounted_amount*80);
+    }
+
+  },[country])
 
   const Paynow = async () => {
     const body = {
-      amount: amount, // in the smallest unit, e.g., 200 means ₹2.00
+      amount: discounted_amount, // in the smallest unit, e.g., 200 means ₹2.00
       email: "support@thefirstweb.com",
       currency: "INR",
       receipt: "receipt#1",
@@ -149,9 +163,9 @@ function Pricing() {
                 </div>
                 <div className="mb-8 flex gap-2 items-center">
                   <div className="text-[40px] line-through font-bold text-[#cfd0d2]">
-                    $999
+                    {currency}{amount}
                   </div>
-                  <div className="font-bold">$899</div>
+                  <div className="font-bold">{currency}{discounted_amount}</div>
                   <div>Per Website</div>
                 </div>
               </div>
