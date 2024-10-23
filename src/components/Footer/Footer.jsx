@@ -46,15 +46,15 @@ const Footer = () => {
   const quickLinks2 = [
     {
       name: "Privacy Policy",
-      link: "https://drive.google.com/file/d/1JLOCsOWQKzdyWlb-CwrWUft7j0K17ADJ/view?usp=sharing",
+      id: "privacypolicy",
     },
     {
       name: "Terms and Conditions",
-      link: "https://drive.google.com/file/d/1ji-cV53QzxKSl6GKObsbLmd_DDfDJJnI/view?usp=sharing",
+      id: "termsandconditions",
     },
     {
       name: "FAQs",
-      link: "https://drive.google.com/file/d/1q77bC00HEh4TCkcOdpgVdY4wSl9Pxx--/view?usp=sharing",
+      id: "faqs",
     },
   ];
 
@@ -141,7 +141,7 @@ const Footer = () => {
             </div>
             {quickLinks2.map((link, index) => (
               <div key={index}>
-                <a href={link.link} target="_blank">
+                <a href={link.id}>
                   {link.name}
                 </a>
                 <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 w-full bg-white" />
