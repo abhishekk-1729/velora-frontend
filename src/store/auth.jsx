@@ -6,7 +6,7 @@ export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem("token"));
-  const [country, setCountry] = useState("");
+  const [country, setCountry] = useState("IN");
   const [user, setUser] = useState("");
   const [isLoading, setIsLoading] = useState(true);
   const authorizationToken = `Bearer ${token}`;
