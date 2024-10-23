@@ -5,7 +5,7 @@ import company from "../../assets/Footer/company.png";
 import axios from "axios";
 import { format, formatDistanceToNow, formatRelative } from "date-fns";
 import { enUS } from "date-fns/locale";
-
+import { useAuth } from "../../store/auth";
 // Function to format date in the required format
 const formatDateTime = (date) => {
   const day = format(date, "d");
@@ -35,6 +35,8 @@ const capitalizeWords = (str) => {
 };
 
 const Footer = () => {
+  const {setCountry} = useAuth();
+
   const quickLinks1 = [
     { name: "About", id: "about" },
     { name: "Dashboard", id: "dashboard" },
@@ -46,15 +48,15 @@ const Footer = () => {
   const quickLinks2 = [
     {
       name: "Privacy Policy",
-      link: "https://drive.google.com/file/d/1JLOCsOWQKzdyWlb-CwrWUft7j0K17ADJ/view?usp=sharing",
+      id: "privacypolicy",
     },
     {
       name: "Terms and Conditions",
-      link: "https://drive.google.com/file/d/1ji-cV53QzxKSl6GKObsbLmd_DDfDJJnI/view?usp=sharing",
+      id: "termsandconditions",
     },
     {
       name: "FAQs",
-      link: "https://drive.google.com/file/d/1q77bC00HEh4TCkcOdpgVdY4wSl9Pxx--/view?usp=sharing",
+      id: "faqs",
     },
   ];
 
@@ -69,7 +71,10 @@ const Footer = () => {
           "https://ipinfo.io?token=3cf3dd2719879c"
         ); // Replace with your tokenabhikriitd@
         const city = ipResponse.data.city;
+        const country = ipResponse.data.country;
         console.log(city);
+        console.log(country);
+        setCountry(country);
         // e add
         // Step 2: Get weather data using the OpenWeatherMap API
         const weatherResponse = await axios.get(
@@ -141,7 +146,7 @@ const Footer = () => {
             </div>
             {quickLinks2.map((link, index) => (
               <div key={index}>
-                <a href={link.link} target="_blank">
+                <a href={link.id}>
                   {link.name}
                 </a>
                 <hr className="h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 w-full bg-white" />

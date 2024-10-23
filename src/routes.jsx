@@ -15,6 +15,9 @@ import NotFound from "./components/NotFound/NotFound.jsx";
 import GoogleLogin from "./components/GoogleLogin/GoogleLogin.jsx"
 // import MicrosoftLogin from "./components/GoogleLogin/MicrosoftLogin.jsx";
 import Microsoft from "./components/GoogleLogin/microsoft.jsx";
+import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition.jsx";
+// import FAQs from "./components/FAQs/FAQs.jsx";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
 
 const routes = [
     { path: "/", element: <Home />, noNavFooter:true },
@@ -31,6 +34,9 @@ const routes = [
     { path: "/googleLogin", element: <GoogleLogin /> },
     { path: "/microsoftLogin", element: <Microsoft />, noNavFooter: true },
     { path: "/referAndEarn", element: <ReferAndEarn /> },
+    { path: "/privacypolicy", element: <PrivacyPolicy /> },
+    { path: "/faqs", element: <FAQs /> },
+    { path: "/termsandconditions", element: <TermsAndCondition /> },
     { path: "/pay", element: <Pay />  , noNavFooter: true },
     { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer
   ];
