@@ -16,13 +16,22 @@ function Pay() {
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
   const [isCouponVerified, setIsCouponVerified] = useState(false);
-
+  const [currency, setCurrency] = useState("$")
   const platformFees = (amount - (amount * discount) / 100) * 0.02;
   const totalAmount = amount - (amount * discount) / 100 + platformFees;
 
   const navigate = useNavigate();
 
-  const {token} = useAuth();
+  const {token, country} = useAuth();
+  console.log(country);
+
+  useEffect(()=>{
+    console.log(country);
+    if(country=="IN"){
+      setCurrency("₹");
+      setAmount(amount*80);
+    }
+  },[country])
 
 
   // Mock function to simulate coupon API call
@@ -188,7 +197,7 @@ function Pay() {
             <div className="flex flex-col gap-2 mt-4">
               <div className="flex items-center gap-4 justify-between">
                 <div>Amount</div>
-                <div>{`$${amount}`}</div>
+                <div>{`${currency}${amount}`}</div>
               </div>
               <div className="flex items-center gap-4 justify-between">
                 <div>Coupon Discount</div>
@@ -196,11 +205,11 @@ function Pay() {
               </div>
               <div className="flex items-center gap-4 justify-between">
                 <div>Platform Fees (2%)</div>
-                <div>{`$${platformFees.toFixed(2)}`}</div>
+                <div>{`${currency}${platformFees.toFixed(2)}`}</div>
               </div>
               <div className="flex items-center gap-4 justify-between">
                 <div>Total</div>
-                <div>{`$${totalAmount.toFixed(2)}`}</div>
+                <div>{`${currency}${totalAmount.toFixed(2)}`}</div>
               </div>
             </div>
 
@@ -209,7 +218,7 @@ function Pay() {
               className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out my-4"
             >
               <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                Pay {`$${totalAmount.toFixed(2)}`}
+                Pay {`${currency}${totalAmount.toFixed(2)}`}
               </h4>
             </button>
 

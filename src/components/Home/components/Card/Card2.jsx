@@ -46,23 +46,20 @@ const Card2 = ({
         }}
       >
         {/* Card Image */}
-        <div className="card_image lg:w-1/2 relative pl-12 pt-16">
-          {" "}
-          {/* Padding for the parent */}
-          <div className="relative w-full h-full">
-            {" "}
-            {/* Wrapper for image with relative positioning */}
+        {/* <div className="card_image lg:w-1/2 relative pl-12 pt-16"> */}
+          {/* <div className="relative w-full h-full">
             <img
               src={image}
               alt={heading}
               className="w-full h-full rounded-tl-xl absolute right-0 bottom-0 border-y border-l border-[#3d444d] " // Shadow and position adjustments
             />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         {/* <video src="code_editor_video.mov" autoplay muted loop playsinline controls="controls"></video> */}
 
         {/* Card Content */}
-        <div className="card_content flex flex-col gap-8 lg:w-1/2 p-8 md:p-28">
+        {/* lg:w-1/2 */}
+        <div className="card_content flex flex-col gap-8 p-8 md:p-28">  
           <div className="card_content_heading">
             <h2
               className={`text-[48px] font-[500] leading-[52px] font-mona-sans`}

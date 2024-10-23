@@ -8,9 +8,11 @@ import endpoints from "../../configs/apiConfigs";
 const ReferAndEarn = () => {
 //   const coupon_code = "NEWNET50"; // Replace with the content you want to copy
 const [coupon_code,setCouponCode] = useState("");
+  const [amount, setAmount] = useState(100);
+  const [currency, setCurrency] = useState("$")  
   const [copyStatus, setCopyStatus] = useState("TAP TO COPY");
   const [copyStatusImage, setCopyStatusImage] = useState("/copy1.png");
-  const { isLoggedIn, user, token } = useAuth();
+  const { isLoggedIn, user, token, country } = useAuth();
   const navigate = useNavigate();
 
   const getCouponCode = async () => {
@@ -52,6 +54,13 @@ const [coupon_code,setCouponCode] = useState("");
     );
   };
 
+  useEffect(()=>{
+    if(country=="IN"){
+      setCurrency("₹");
+      setAmount(amount*80);
+    }
+  },[country])
+
   return (
     <>
       {/* <Navbar /> */}
@@ -82,7 +91,7 @@ const [coupon_code,setCouponCode] = useState("");
               <div className="text-[16px] font-[500] leading-[32px] font-mona-sans text-justify">
                 <p>
                   Share this referral code to a friend and get a chance to earn
-                  up to $100. T&C Applied
+                  up to {currency}{amount}. T&C Applied
                 </p>
 
                 <div className="flex flex-col gap-2 items-center my-4">
