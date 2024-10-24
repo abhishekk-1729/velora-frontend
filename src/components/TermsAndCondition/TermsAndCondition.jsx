@@ -13,7 +13,7 @@ function TermsAndCondition() {
   
     "<div><h>4. Project Duration</h><p>The First Web will make every effort to complete the project within 30 days. However, actual delivery time may vary depending on the complexity of the project and the responsiveness of the client.</p></div>",
   
-    "<div><h>5. Payment Terms</h><ul><li>Advance Payment: Paid at the time of purchase to start the project.</li><li>Final Payment: Paid upon completion of the project, prior to the delivery of the final website.</li></ul></div>",
+    "<div><h>5. Payment Terms</h><ul><li>Advance Payment: Paid at the time of purchase to start the project.</li><li>Final Payment: Paid upon completion of the project, prior to the delivery of the final website.</li><li>The payment will me made through Razorpay. Business name mentioned is ABHISHEK KUMAR</li></ul></div>",
   
     "<div><h>6. Client Involvement</h><p>To ensure a smooth and rapid delivery, it is essential that the client remains in communication throughout the website development process. Delays in response may extend the project timeline.</p></div>",
   
