@@ -82,7 +82,7 @@ const Login = () => {
   }; // console.log(e);
 
   const RequestProfileData = () => {
-    if (accounts && accounts.length > 0) {
+    if (sessionStorage && accounts && accounts.length > 0) {
       // Acquiring token silently
       instance
         .acquireTokenSilent({
@@ -107,7 +107,7 @@ const Login = () => {
   useEffect(() => {
     if (accounts && accounts.length > 0) {
       // Call the request function when accounts are populated
-      RequestProfileData();
+      RequestProfileData()
     }
   }, [accounts]); // Trigger only when accounts are ready
 
