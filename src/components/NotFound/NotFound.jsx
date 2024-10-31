@@ -7,7 +7,7 @@ const NotFound = () => {
       {" "}
       {/* <Navbar /> */}
       <div className={`my-16 `}>
-        <div class="login_image flex justify-center p-2 mb-2">
+        <div className="login_image flex justify-center p-2 mb-2">
           <a href="/">
             <img
               src="company.png"

@@ -1,6 +1,7 @@
 // src/config/apiConfig.js
 
-const API_BASE_URL = 'https://www.backend.thefirstweb.com/api/v1'; // Replace with your actual API base URL
+const API_BASE_URL = 'http://localhost:8000/api/v1'; // Replace with your actual API base URL
+// const API_BASE_URL = 'https://www.backend.thefirstweb.com/api/v1'; // Replace with your actual API base URL
 
 // Define your endpoints
 const endpoints = {
@@ -34,6 +35,7 @@ const endpoints = {
 
     // status
     getStatus: `${API_BASE_URL}/status/getStatus/order/`,
+    getStatusDates: `${API_BASE_URL}/status/getStatusDates/order/`,
 
     // dashbaord
     getUserById: `${API_BASE_URL}/user/getUserById`,

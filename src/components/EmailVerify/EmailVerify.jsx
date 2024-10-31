@@ -45,7 +45,7 @@ const EmailVerify = () => {
         }
       }
     } catch (error) {
-      console.error("Error fetching OTP validity:", error);
+      // console.error("Error fetching OTP validity:", error);
     }
   };
 
@@ -99,7 +99,7 @@ const EmailVerify = () => {
       }
     } catch (err) {
       setTextState(2);
-      console.error("OTP verification failed:", err);
+      // console.error("OTP verification failed:", err);
     }
   };
 
@@ -122,7 +122,7 @@ const EmailVerify = () => {
       setRemainingTime(20); // Reset the cooldown period to 20 seconds
       setTimerExpired(false); // Reset the timer expired flag
     } catch (err) {
-      console.error("Failed to request new OTP:", err);
+      // console.error("Failed to request new OTP:", err);
     }
   };
 

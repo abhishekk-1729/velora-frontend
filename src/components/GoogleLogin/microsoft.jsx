@@ -27,8 +27,6 @@ const ProfileContent = () => {
             });
     }
 
-    console.log(accounts)
-
     return (
         <>
             <h5 className="card-title">Welcome {accounts[0].username}</h5>

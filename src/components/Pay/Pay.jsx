@@ -16,22 +16,17 @@ function Pay() {
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
   const [isCouponVerified, setIsCouponVerified] = useState(false);
-  const [currency, setCurrency] = useState("$")
   const platformFees = (amount - (amount * discount) / 100) * 0.02;
   const totalAmount = amount - (amount * discount) / 100 + platformFees;
 
   const navigate = useNavigate();
 
-  const {token, country} = useAuth();
-  console.log(country);
+  const {token, country, currency, currencyChange} = useAuth();
 
   useEffect(()=>{
-    console.log(country);
-    if(country=="IN"){
-      setCurrency("₹");
-      setAmount(amount*80);
-    }
-  },[country])
+      setAmount(amount*currencyChange);
+
+  },[currencyChange])
 
 
   // Mock function to simulate coupon API call
@@ -61,7 +56,6 @@ function Pay() {
         setIsCouponVerified(false);
       }
     } catch (error) {
-      console.log("Error:", error);
       setCouponStatus("Invalid");
     }
   };
@@ -147,7 +141,6 @@ function Pay() {
       const rzp = new window.Razorpay(options);
       rzp.open();
     } catch (error) {
-      console.log("Error:", error);
       alert("Payment initiation failed");
     }
   };
@@ -165,7 +158,7 @@ function Pay() {
         <div className="p-1 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-[#F0F6FC]">
           <div className="flex flex-col p-8 md:p-12 bg-[#151B23] rounded-lg">
             <div className="flex justify-center font-bold text-[25px] md:text-[30px] bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
-              The First Web Web Services
+              The First Web Services
             </div>
 
             <label htmlFor="form_coupon" className="text-white my-4">

@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 function Pricing() {
   
-  const {country} = useAuth();
+  const {country, currency, currencyChange} = useAuth();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("support@thefirstweb.com");
   const [phone, setPhone] = useState("");
@@ -30,6 +30,7 @@ function Pricing() {
     "No No-Code software used",
     "High Performance",
     "1 year customer support",
+    "upto 50 screens & 30 APIs"
   ];
 
 
@@ -42,19 +43,19 @@ function Pricing() {
       total_amount_status: "Due",
     },
   ];
-  const [discounted_amount, setDiscounted_amount] = useState(899);
-  const [amount, setAmount] = useState(999);
-  const [currency, setCurrency] = useState("$");
 
-  useEffect(()=>{
-    console.log(country);
-    if(country == "IN"){
-      setCurrency("₹");
-      setAmount(amount*80);
-      setDiscounted_amount(discounted_amount*80);
-    }
+  const baseAmount = 999;
+  const baseDiscountedAmount = 899;
 
-  },[country])
+  const [amount, setAmount] = useState(0); // Start with 0 to avoid flicker
+  const [discounted_amount, setDiscounted_amount] = useState(0); // Start with 0 to avoid flicker
+
+  useEffect(() => {
+    // Calculate amounts based on currencyChange
+    setAmount(baseAmount * currencyChange);
+    setDiscounted_amount(baseDiscountedAmount * currencyChange);
+  }, [currencyChange]);
+
 
   const Paynow = async () => {
     const body = {
@@ -130,7 +131,6 @@ function Pricing() {
       const rzp = new window.Razorpay(options);
       rzp.open();
     } catch (error) {
-      console.log("Error:", error);
       alert("Payment initiation failed");
     }
   };

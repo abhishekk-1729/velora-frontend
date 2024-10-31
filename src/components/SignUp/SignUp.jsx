@@ -31,10 +31,8 @@ const SignUp = () => {
             body: JSON.stringify({ email:email1, name:name1, location:location1 }),
         });
 
-        console.log(email1);
 
         const data = await response.json();
-        console.log(data.success);
 
         if (data.success) {
             // If a token is returned, store it in local storage
@@ -50,7 +48,7 @@ const SignUp = () => {
 
         }
     } catch (error) {
-        console.error('Error checking database:', error);
+        // console.error('Error checking database:', error);
     }
 };
   const login = useGoogleLogin({
@@ -72,7 +70,6 @@ const SignUp = () => {
           .catch((err) => {});
       }
     },
-    onError: (error) => console.log("Login Failed:", error),
   });
 
   const handleEmailSubmit = async (e) => {
@@ -104,9 +101,8 @@ const SignUp = () => {
   const { instance, accounts } = useMsal();
   const microsoftlogin = () => {
     instance.loginRedirect(loginRequest).catch((e) => {
-      console.log(e);
     });
-  }; // console.log(e);
+  }; 
 
   const RequestProfileData = () => {
     if (accounts && accounts.length > 0) {
@@ -123,10 +119,8 @@ const SignUp = () => {
           });
         })
         .catch((error) => {
-          console.log("Token acquisition or API call failed: ", error);
         });
     } else {
-      console.log("No accounts available, cannot acquire token");
     }
   };
 
@@ -141,13 +135,11 @@ const SignUp = () => {
   // Second useEffect to log graphData when it is set
   useEffect(() => {
     if (graphData) {
-      console.log("Graph Data:", graphData); // Log updated graph data
     }
   }, [graphData]); // Depend on graphData
 
   useEffect(()=>{
     if (sessionStorage.getItem("msal.account.keys") && graphData) {
-      console.log("nio");
       const name1 = graphData.displayName;
       const email1 = graphData.mail;
       sessionStorage.clear();

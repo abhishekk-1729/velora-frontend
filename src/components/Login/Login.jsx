@@ -18,40 +18,37 @@ const Login = () => {
   const navigate = useNavigate(); // Use useNavigate for redirection
   const [graphData, setGraphData] = useState(null);
   const [isLoader, setIsLoader] = useState(false);
-  const {storeTokenInLS} = useAuth();
+  const { storeTokenInLS } = useAuth();
 
   const checkDatabase = async (email, name, location) => {
     try {
-        const response = await fetch(endpoints.authLogin, { // Adjust the endpoint as needed
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email, name, location }),
-        });
+      const response = await fetch(endpoints.authLogin, {
+        // Adjust the endpoint as needed
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, name, location }),
+      });
 
-        console.log(email);
+      const data = await response.json();
 
-        const data = await response.json();
-        console.log(data.success);
-
-        if (data.success) {
-            // If a token is returned, store it in local storage
-            if (data.token) {
-                storeTokenInLS(data.token); // Your function to store token
-                navigate('/dashboard'); // Navigate to home page
-            } 
-        } else {
-            // Handle any errors from the server response
-            navigate('/signup/enterDetails', {
-              state: { name_pass: name, email_pass: email },
-          });
-
+      if (data.success) {
+        // If a token is returned, store it in local storage
+        if (data.token) {
+          storeTokenInLS(data.token); // Your function to store token
+          navigate("/dashboard"); // Navigate to home page
         }
+      } else {
+        // Handle any errors from the server response
+        navigate("/signup/enterDetails", {
+          state: { name_pass: name, email_pass: email },
+        });
+      }
     } catch (error) {
-        console.error('Error checking database:', error);
+      // console.error('Error checking database:', error);
     }
-};
+  };
   const login = useGoogleLogin({
     onSuccess: (response) => {
       if (response && response.access_token) {
@@ -71,15 +68,12 @@ const Login = () => {
           .catch((err) => {});
       }
     },
-    onError: (error) => console.log("Login Failed:", error),
   });
 
   const { instance, accounts } = useMsal();
   const microsoftlogin = () => {
-    instance.loginRedirect(loginRequest).catch((e) => {
-      console.log(e);
-    });
-  }; // console.log(e);
+    instance.loginRedirect(loginRequest).catch((e) => {});
+  };
 
   const RequestProfileData = () => {
     if (sessionStorage && accounts && accounts.length > 0) {
@@ -95,11 +89,8 @@ const Login = () => {
             setGraphData(response); // Set the graph data
           });
         })
-        .catch((error) => {
-          console.log("Token acquisition or API call failed: ", error);
-        });
+        .catch((error) => {});
     } else {
-      console.log("No accounts available, cannot acquire token");
     }
   };
 
@@ -107,31 +98,28 @@ const Login = () => {
   useEffect(() => {
     if (accounts && accounts.length > 0) {
       // Call the request function when accounts are populated
-      RequestProfileData()
+      RequestProfileData();
     }
   }, [accounts]); // Trigger only when accounts are ready
 
   // Second useEffect to log graphData when it is set
   useEffect(() => {
     if (graphData) {
-      console.log("Graph Data:", graphData); // Log updated graph data
     }
   }, [graphData]); // Depend on graphData
 
-  useEffect(()=>{
+  useEffect(() => {
     if (sessionStorage.getItem("msal.account.keys") && graphData) {
-      console.log("nio");
       const name1 = graphData.displayName;
       const email1 = graphData.mail;
       sessionStorage.clear();
       setGraphData(null);
-      checkDatabase(email1,name1,"hi");
+      checkDatabase(email1, name1, "hi");
     }
-  })
+  });
 
   const handleConnectRequest = async (e) => {
     e.preventDefault();
-    console.log("hi")
     setIsLoader(true);
 
     const apiEndpoint = isEmailMode
@@ -149,8 +137,7 @@ const Login = () => {
         },
         body: JSON.stringify(body), // Sending input in the request body
       });
-      if(response.ok){
-        console.log("hiiiiiii");
+      if (response.ok) {
         // navigate("/");
         navigate("/login/emailverify", { state: { email_pass: emailOrPhone } });
       }
@@ -177,7 +164,6 @@ const Login = () => {
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
-    
     e.preventDefault();
     setError("");
 
@@ -315,7 +301,7 @@ const Login = () => {
 
                 <div className="hero_cta_content flex flex-col">
                   {/* Email/Phone Signup */}
-                  <form onSubmit={(e)=>handleConnectRequest(e)}>
+                  <form onSubmit={(e) => handleConnectRequest(e)}>
                     <div className="hero_cta_email_signup flex flex-col gap-4">
                       <div className="hero_cta_email_input ">
                         <input
@@ -324,11 +310,14 @@ const Login = () => {
                             isEmailMode ? "you@company.com" : "123-456-7890"
                           } // Change placeholder
                           value={emailOrPhone} // Bind the input value to state
-                          onChange={(e) =>{ setIsLoader(false); setEmailOrPhone(e.target.value); }} // Update state on input change
+                          onChange={(e) => {
+                            setIsLoader(false);
+                            setEmailOrPhone(e.target.value);
+                          }} // Update state on input change
                           className="bg-[#0D1116] w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-[#ffffff] placeholder-gray-500"
                           required
                           // pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
-                          />
+                        />
                       </div>
 
                       <button
@@ -337,24 +326,21 @@ const Login = () => {
                         className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                       >
                         <div>
-                          
                           <h4 className="flex text-[16px] font-semibold leading-[16px] text-[#FFFFFF] justify-center">
-                           
-                          {isLoader
-                            ? 
-                                <ThreeDots
-                                  visible={true}
-                                  height="24"
-                                  width="24"
-                                  color="#ffffff"
-                                  radius="4"
-                                  ariaLabel="three-dots-loading"
-                                  wrapperStyle={{}}
-                                  wrapperClass=""
-                                />
-                              
-                            : "Sign in with Email"}
-
+                            {isLoader ? (
+                              <ThreeDots
+                                visible={true}
+                                height="24"
+                                width="24"
+                                color="#ffffff"
+                                radius="4"
+                                ariaLabel="three-dots-loading"
+                                wrapperStyle={{}}
+                                wrapperClass=""
+                              />
+                            ) : (
+                              "Sign in with Email"
+                            )}
                           </h4>
                         </div>
                       </button>

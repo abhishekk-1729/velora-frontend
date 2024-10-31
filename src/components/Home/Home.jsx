@@ -135,7 +135,7 @@ function Home() {
       {<Navigation_quality />}{" "}
       {/* Show navigation only on large screens */}
       {qualities.map((value,index) => (
-        <div className={`${value.key==1?"card_1":value.key==2?"card_2":value.key==3?"card_3":value.key==4?"card_4":value.key==5?"card_5":""}`}>
+        <div key={value.id} className={`${value.key==1?"card_1":value.key==2?"card_2":value.key==3?"card_3":value.key==4?"card_4":value.key==5?"card_5":""}`}>
         <Card2
           key={value.id}
           id={value.id}

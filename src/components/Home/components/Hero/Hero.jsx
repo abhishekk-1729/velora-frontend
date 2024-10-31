@@ -1440,7 +1440,7 @@ const Hero = () => {
               Performance ↘︎
             </h3>
           </div>
-          <div className="text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          <div className="text-[#] text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
             <h2 className="">Fast Delivery</h2>
 
             <h2 className=" ">Precise Design</h2>

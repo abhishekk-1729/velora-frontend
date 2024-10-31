@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
-import Company from "../../assets/Navbar/company.png";
+import Company from "../../assets/Navbar/company4.png";
 import navbarmenu from "../../assets/Navbar/navbarmenu.png";
 import crossmenu from "../../assets/Navbar/crossmenu.png";
 import NavEffect from "../../assets/Navbar/nav-mobile-effect.png";
@@ -21,11 +21,13 @@ function Navbar() {
   const [isClicked, setIsClicked] = useState(false);
 
   // Check if user is logged in by checking localStorage
-  const { isLoggedIn, LogoutUser } = useAuth();
+  const { isLoggedIn, LogoutUser, navItems } = useAuth();
 
   const handleShowNavbar = () => {
     setShowNavOptions(!showNavOptions);
   };
+
+  
 
 //   useEffect(()=>{
 //     LogoutUser();
@@ -95,18 +97,11 @@ function Navbar() {
           className="navbartrystlogo"
           onClick={() => handleNavbarOptionClick("")}
         >
-          <img className="tryst2024im" src={Company} alt="Company Logo"/>
+          <img className="tryst2024img" src={Company} alt="Company Logo"/>
         </div>
         <div className="navbaroptions-container">
           <div className="navbaricons">
-            {[
-              "About",
-              "Pricing",
-              "Contact",
-              "Refer And Earn",
-              isLoggedIn && "Dashboard",
-              isLoggedIn ? "Logout" : "Login",
-            ].filter(Boolean).map((option) => (
+            {navItems.filter(Boolean).map((option) => (
               <div
                 key={option}
                 className={`navbaroption ${
@@ -130,14 +125,7 @@ function Navbar() {
       <div
         className={showNavOptions ? "navbariconsmobile" : "hiddenmobiletoggle"}
       >
-        {[
-              "About",
-              "Pricing",
-              "Contact",
-              "Refer And Earn",
-              isLoggedIn && "Dashboard",
-              isLoggedIn ? "Logout" : "Login",
-            ].filter(Boolean).map((option) => (
+        {navItems.filter(Boolean).map((option) => (
           <div
             key={option}
             className={`navbaroption ${

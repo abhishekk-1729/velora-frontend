@@ -1196,7 +1196,6 @@ const EnterDetails = () => {
   const handleSubmit = async (e) => {
     setTextState(1);
     e.preventDefault();
-    console.log("hi");
 
     try {
       const response = await fetch(endpoints.addUser, {
@@ -1227,7 +1226,6 @@ const EnterDetails = () => {
       // state: { email_pass: email_pass, isPricing: false },
       //   }); // Redirect to the next page
       //   navigate("/dashboard");
-      console.log(data);
       if (data.token) {
         storeTokenInLS(data.token);
         navigate("/dashboard");
@@ -1236,7 +1234,7 @@ const EnterDetails = () => {
       setTextState(0);
     } catch (err) {
       setTextState(2);
-      console.error("OTP verification failed:", err);
+    //   console.error("OTP verification failed:", err);
     }
   };
 
@@ -1244,8 +1242,8 @@ const EnterDetails = () => {
     <>
       {/* <Navbar /> */}
       <div className="flex justify-center">
-        <div class="login mx-4 lg:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
-          <div class="login_image flex justify-center p-2">
+        <div className="login mx-4 lg:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8 ">
+          <div className="login_image flex justify-center p-2">
             <img
               src="/company.png"
               alt="Company Logo"
@@ -1254,18 +1252,18 @@ const EnterDetails = () => {
             ></img>
           </div>
 
-          <div class="login_main px-8 flex flex-col items-center gap-8">
-            <div class="login_main_heading text-center">
-              <h1 class="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
+          <div className="login_main px-8 flex flex-col items-center gap-8">
+            <div className="login_main_heading text-center">
+              <h1 className="text-[35px] md:text-[48px] lg:text-[48px] font-[500] leading-[52px] font-mona-sans">
                 Enter Details
               </h1>
             </div>
 
             {/* <!-- Login Content --> */}
-            <div class="login_main_content flex flex-col gap-6 ">
+            <div className="login_main_content flex flex-col gap-6 ">
               {/* <!-- Login Content - Others --> */}
 
-              <div class="login_main_content_phoneoremail flex flex-col gap-4">
+              <div className="login_main_content_phoneoremail flex flex-col gap-4">
                 <form onSubmit={(e) => handleSubmit(e)}>
                   <div
                     onClick={() => setIsEmailMode(true)}
@@ -1383,7 +1381,7 @@ const EnterDetails = () => {
                 </form>
               </div>
 
-              <div class="login_main_content_magic text-white ">
+              <div className="login_main_content_magic text-white ">
                 You'll be redirected to the home page after successful login
               </div>
 
