@@ -78,7 +78,7 @@ function Pay() {
     try {
       // Call your backend to create an order
       const response = await fetch(
-        `http://localhost:8000/api/v1/payment/create-order`,
+        `https://www.backend.thefirstweb.com/api/v1/payment/create-order`,
         {
           method: "POST",
           headers: {
@@ -111,7 +111,7 @@ function Pay() {
           };
 
           const verificationResponse = await fetch(
-            `http://localhost:8000/api/v1/payment/verify-payment`,
+            `https://www.backend.thefirstweb.com/api/v1/payment/verify-payment`,
             {
               method: "POST",
               headers: {
