@@ -39,6 +39,10 @@ const endpoints = {
 
     // dashbaord
     getUserById: `${API_BASE_URL}/user/getUserById`,
+
+    // 
+    verifyPayment: `${API_BASE_URL}/payment/verify-payment`,
+    create_Order: `${API_BASE_URL}/payment/create-order`
 };
 
 export default endpoints;

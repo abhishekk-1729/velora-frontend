@@ -9,21 +9,12 @@ import "./ContactUs.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
 
 function ContactUs() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [address, setAddress] = useState("");
+
   const [message, setMessage] = useState("");
   const [textState, setTextState] = useState(0);
   const [isEmailMode, setIsEmailMode] = useState(false);
-  const { isLoggedIn, user, token } = useAuth();
+  const { token, name, email, phone, address, selectedItem } = useAuth();
 
-  const [selectedItem, setSelectedItem] = useState({
-    name: "India",
-    image: "/svg/countries/in.svg",
-    code: "IN",
-    phone_code: "+91",
-  });
 
   const countryList1 = [
     {
@@ -1188,35 +1179,6 @@ function ContactUs() {
     // Add more countries as needed
   ];
   // Validation regex
-  const getUserData = async () => {
-    try {
-      const response = await fetch(endpoints.getUserById, {
-        method: "GET",
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-
-      if (response.ok) {
-        const res_data = await response.json();
-        setName(res_data.user.name);
-        setAddress(res_data.user.address);
-        setEmail(res_data.user.email);
-        setPhone(res_data.user.phone_number);
-        setSelectedItem({
-          name: "India",
-          image: "/svg/countries/in.svg",
-          code: "IN",
-          phone_code: res_data.user.phone_code,
-        });
-      } else {
-      }
-    } catch (error) {}
-  };
-
-  useEffect(() => {
-    getUserData();
-  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

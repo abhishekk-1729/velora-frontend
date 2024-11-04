@@ -164,7 +164,7 @@ function Status() {
 
   return (
     <>
-      <div className="status_main bg-[#151b23]">
+      <div className="status_main">
         <Navbar />
         <div className="mx-4 lg:mx-32 my-16 text-[#ffffff] pb-36">
           <div className="py-4 flex justify-center gap-2 items-center text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center">

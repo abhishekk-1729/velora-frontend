@@ -9,7 +9,7 @@ import "./Dashboard.css";
 
 function Dashboard() {
   const navigate = useNavigate();
-  const { isLoggedIn, user, token } = useAuth();
+  const { isLoggedIn, user, token, currency, currencyChange } = useAuth();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -21,10 +21,11 @@ function Dashboard() {
 
   const createServiceData = (orders) => {
     return orders.map((order) => {
-      const totalAmount = order.total_amount; // Calculate total amount after discount
+      const totalAmount = Math.floor(order.total_amount*currencyChange); // Calculate total amount after discount
       return {
-        order_id: order.order_id, // Order ID
-        total_amount: totalAmount, // Total amount after discount
+        order_id: order.order_id, // Order ID,
+        date: order.date, 
+        total_amount: order.total_amount, // Total amount after discount
         advance_status: "Paid", // Set advance status
         total_amount_status: "Due", // Set total amount status
       };
@@ -44,6 +45,7 @@ function Dashboard() {
       if (response.ok) {
         const res_data = await response.json();
         setOrders(res_data.orders);
+        console.log(res_data)
       } else {
         // Handle error if needed
       }
@@ -199,10 +201,13 @@ function Dashboard() {
                         <thead className="text-s text-gray-700 uppercase bg-[#151B23] dark:text-gray-400">
                           <tr>
                             <th scope="col" className="px-6 py-3">
+                              Date Created
+                            </th>
+                            <th scope="col" className="px-6 py-3">
                               Order Id
                             </th>
                             <th scope="col" className="px-6 py-3">
-                              Total Amount($)
+                              Total Amount({currency})
                             </th>
                             <th scope="col" className="px-6 py-3">
                               Advance Status(20%)
@@ -219,6 +224,7 @@ function Dashboard() {
                         <tbody>
                           {service_data.map((value) => (
                             <tr className="bg-[#0151B23]" key={value.order_id}>
+                              <td className="px-6 py-4">{value.date}</td>
                               <td className="px-6 py-4">{value.order_id}</td>
                               <td className="px-6 py-4">
                                 {value.total_amount}
