@@ -1,21 +1,21 @@
 .hero_section {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    /* background-color: #030a17; */
-    /* background-repeat: no-repeat; */
-    background-size: cover;  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* background-color: #030a17; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 
-    /* background-image:  url("./home_background.jpg"); */
+  /* background-image:  url("./home_background.jpg"); */
 
-    color: white;
-    height: '100vh';
-    width: '100vw';
-    overflow: 'hidden'
+  color: white;
+  height: "100vh";
+  width: "100vw";
+  overflow: "hidden";
 }
 /* 
 .hero-content{
@@ -23,7 +23,6 @@
     padding: 2rem;
  
 } */
-
 
 /* Hover effect for the Contact Sales button */
 /* .hero_cta_contact_sales:hover .hero_cta_img {
@@ -48,20 +47,17 @@
 
 .custom-dropdown-panel {
   width: 250px; /* Set the width as per your needs */
-
+  background-color: white;
   margin-left: -8px;
   padding: 8px;
   border-radius: 8px;
   margin-top: 8px;
   /* margin-bottom: px; */
   top: auto;
-  bottom: auto ;
-
-
+  bottom: auto;
 }
 .custom-dropdown-panel .p-dropdown-items-wrapper::-webkit-scrollbar {
   display: none;
-
 }
 
 .custom-dropdown .p-dropdown-label {
@@ -70,7 +66,6 @@
 
 /* Assuming you're using a CSS file for styles */
 /* DropdownStyles.css */
-
 
 /* Style the filter input inside the dropdown */
 .p-dropdown-filter.p-inputtext.p-component {
@@ -81,7 +76,6 @@
   border-radius: 8px; /* Rounded corners */
   font-size: 14px; /* Adjust the font size */
   outline: none;
- 
 }
 
 /* Change the placeholder text color in the filter input */
@@ -89,14 +83,9 @@
   color: #aaa; /* Light gray placeholder color */
 }
 
-
 /* Style the options inside the dropdown */
 .p-dropdown-panel .p-dropdown-item {
   padding: 12px 15px; /* Increase padding for dropdown items */
   font-size: 15px; /* Adjust the font size */
   color: #333; /* Text color */
-  
 }
-
-
-

@@ -15,7 +15,7 @@ function Home() {
     color: "#32B4AE", // Neon Yellow
     heading: "Empowering the developers",
     text: "GitHub Advanced Security enables you to find icklynnn.  ou to find icklynn  ou to find  you to find icklynnn.  ou to find icklynn  ou to find icklynn",
-    image: "https://via.placeholder.com/100",
+    image: "0",
     glowColor: "rgba(255, 255, 0, 0.2)", // Subtle Neon Yellow Glow,
     bg_class:"card_1"
   };
@@ -28,7 +28,7 @@ function Home() {
       color: "#3FBA50", // Green
       heading_text: "Websites delivered in 4 weeks",
       text: "With The First Web, your websites are delivered in just 4 weeks after the final UI approval, ensuring you meet your deadlines with ease.",
-      image: "/assets/home/delivery",
+      image: "cardj.svg",
       glowColor: "rgba(63, 186, 80, 0.2)", // Green Glow,
       bg_class:"card_2"
     },
@@ -39,7 +39,7 @@ function Home() {
       color: "#32B4AE", // Teal
       heading_text: "Designed with precision",
       text: "Our expert designers create beautiful, responsive websites that ensure a seamless user experience across all devices.",
-      image: "/assets/home/design",
+      image: "",
       glowColor: "rgba(50, 180, 174, 0.2)", // Teal Glow,
       bg_class:"card_3"
     },
@@ -50,7 +50,7 @@ function Home() {
       color: "#F778BB", // Pink
       heading_text: "Performance optimized",
       text: "The First Web websites are engineered for speed and efficiency, ensuring optimal performance that keeps your users engaged.",
-      image: "/assets/home/performance",
+      image: "",
       glowColor: "rgba(247, 120, 187, 0.2)", // Pink Glow,
       bg_class:"card_4"
     },
@@ -61,7 +61,7 @@ function Home() {
       color: "#FFD33D", // Yellow
       heading_text: "Code that matters",
       text: "No reliance on no-code tools. We build custom, scalable websites with full control over code for enhanced flexibility.",
-      image: "/assets/home/no_no_code",
+      image: "cardq.svg",
       glowColor: "rgba(255, 211, 61, 0.2)", // Yellow Glow
       bg_class:"card_5"
     },
@@ -73,7 +73,7 @@ function Home() {
       color: "#DD594F", // Red
       heading_text: "Dedicated support and service",
       text: "We provide ongoing support to ensure your website functions perfectly, with a team always ready to assist you.",
-      image: "/assets/home/service",
+      image: "card11.svg",
       glowColor: "rgba(221, 89, 79, 0.2)", // Red Glow
       bg_class:"card_6"
     },
@@ -143,7 +143,7 @@ function Home() {
           color={value.color}
           heading={value.heading_text}
           text={value.text}
-          // image = {value.image}
+          image = {value.image}
           glowColor={value.glowColor}
           isVisible={visibleCards[index]} // Pass visibility state to Card2
           

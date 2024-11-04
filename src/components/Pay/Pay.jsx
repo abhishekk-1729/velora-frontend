@@ -69,8 +69,8 @@ function Pay() {
 
   const Paynow = async () => {
     const body = {
-      amount: totalAmount, // in the smallest unit, e.g., 200 means ₹2.00
-      email: email_pass,
+      amount: 100, // in the smallest unit, e.g., 200 means ₹2.00
+      email: email,
       currency: "INR",
       receipt: "receipt#1",
     };
@@ -91,13 +91,13 @@ function Pay() {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-
+      console.log(response)
       const data = await response.json();
 
       // Open Razorpay Checkout
       const options = {
-        key: "rzp_test_Y2wy8t1wD1AFaA", // Replace with your Razorpay key_id
-        amount: data.amount, // Amount in smallest unit (paise for INR)
+        key: "rzp_live_MlxWqnBX5fORCU", // Replace with your Razorpay key_id
+        amount: 100, // Amount in smallest unit (paise for INR)
         currency: "INR",
         name: "The First Web",
         description: "Test Transaction",
@@ -123,7 +123,7 @@ function Pay() {
 
           const verificationData = await verificationResponse.json();
           if (verificationData.status === "ok") {
-            window.location.href = "/payment-success"; // Redirect on success
+            navigate("/dashboard");
           } else {
             alert("Payment verification failed");
           }
@@ -138,7 +138,9 @@ function Pay() {
         },
       };
 
+      console.log(options);
       const rzp = new window.Razorpay(options);
+      console.log("hi");
       rzp.open();
     } catch (error) {
       alert("Payment initiation failed");

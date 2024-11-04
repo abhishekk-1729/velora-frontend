@@ -36,9 +36,10 @@ function Status() {
     "UI Started",
     "UI Completed",
     "UI Review",
-    "Development Started",
-    "Development Completed",
     "Initial Quality Check",
+    "Development Completed",
+
+    "Development Started",
     "Deployment Started",
     "Deployment Completed",
     "Precision Review",
@@ -68,6 +69,7 @@ function Status() {
     "To be completed",
   ]);
 
+  
   const fetchStatus = async () => {
     if (isLoggedIn) {
       try {
@@ -81,6 +83,7 @@ function Status() {
         if (response.ok) {
           const res_data = await response.json();
           setlastCompleted(res_data.completed_steps);
+          console.log(res_data.statuses);
           setProjectDate(res_data.statuses);
         } else {
           navigate("/login");
@@ -161,7 +164,7 @@ function Status() {
 
   return (
     <>
-      <div className="status_main bg-[#0D1116]">
+      <div className="status_main bg-[#151b23]">
         <Navbar />
         <div className="mx-4 lg:mx-32 my-16 text-[#ffffff] pb-36">
           <div className="py-4 flex justify-center gap-2 items-center text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center">

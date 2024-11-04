@@ -1309,7 +1309,7 @@ const Hero = () => {
                               virtualScrollerOptions={{ itemSize: 38 }}
                               placeholder="+91"
                               className="w-full md:w-14rem custom-dropdown"
-                              panelClassName="custom-dropdown-panel"
+                              panelClassName="custom-dropdown-panel bg-[#ffffff]"
                               valueTemplate={(option) =>
                                 option ? option.phone_code : ""
                               } // Display only the country code
