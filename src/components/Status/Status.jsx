@@ -11,9 +11,9 @@ function Status() {
   //   email
 
   const navigate = useNavigate();
-  const { isLoggedIn, user, token } = useAuth();
+  const { isLoggedIn, user, token, currency, email, currencyOriginal, name, service_id, phone } = useAuth();
   const location = useLocation();
-  const { order_id } = location.state || {}; // Destructure with fallback
+  const { order_id, totalAmount } = location.state || {}; // Destructure with fallback
 
   const [state1, setState1] = useState(1);
   const [state2, setState2] = useState(1);
@@ -29,6 +29,7 @@ function Status() {
   const [state12, setState12] = useState(1);
   const [lastCompleted, setlastCompleted] = useState(0);
   const [completed, setCompleted] = useState(1);
+  const [remainingAmount, setRemainingAmount] = useState(800);
 
   const projectSteps = [
     "Advance Payment",
@@ -85,6 +86,7 @@ function Status() {
           setlastCompleted(res_data.completed_steps);
           console.log(res_data.statuses);
           setProjectDate(res_data.statuses);
+          setRemainingAmount(res_data.remainingAmount);
         } else {
           navigate("/login");
         }
@@ -161,6 +163,127 @@ function Status() {
   ];
 
   const progressPercentage = ((lastCompleted + 1) / 15) * 100;
+
+  const completeOrder = async (user, service_id, discount, totalAmountOrder) => {
+    const url = endpoints.createOrder; // Assuming endpoints.createOrder contains your API URL
+    console.log(couponCode)
+
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                user_id: user, // Assuming user is an object with an id property
+                service_id,
+                discount,
+                totalAmountOrder,
+                currencyChange,
+                couponCode,
+                email
+            }),
+        });
+
+        if (!response.ok) {
+            throw new Error(`Error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+
+        if (data.success) {
+            console.log('Order created successfully:', data.order);
+            // Handle successful order creation (e.g., update UI, notify user)
+            return data.order; // Return the created order for further use
+        } else {
+            console.error('Failed to create order:', data.message);
+            // Handle error response
+        }
+    } catch (error) {
+        console.error('An error occurred while creating the order:', error);
+        // Handle network or other errors
+    }
+};
+
+  const Paynow = async () => {
+    const body = {
+      amount: remainingAmount, // in the smallest unit, e.g., 200 means ₹2.00
+      email: email,
+      currency: currencyOriginal,
+      receipt: "receipt#1",
+    };
+
+    try {
+      // Call your backend to create an order
+      const response = await fetch(
+        endpoints.create_Order,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(body), // Sending input in the request body
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      const data = await response.json();
+
+      // Open Razorpay Checkout
+      const options = {
+        key: "rzp_live_MlxWqnBX5fORCU", // Replace with your Razorpay key_id
+        amount: remainingAmount, // Amount in smallest unit (paise for INR)
+        currency: currencyOriginal,
+        name: "The First Web",
+        description: "Test Transaction",
+        order_id: data.id, // This is the order_id from Razorpay order API
+        handler: async (response) => {
+          // Verify payment on your server
+          const paymentData = {
+            razorpay_order_id: response.razorpay_order_id,
+            razorpay_payment_id: response.razorpay_payment_id,
+            razorpay_signature: response.razorpay_signature
+          };
+
+          const verificationResponse = await fetch(
+            endpoints.verifyPayment,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(paymentData),
+            }
+          );
+
+          const verificationData = await verificationResponse.json();
+          console.log(verificationData);
+          if (verificationData.status === "ok") {
+            // completeOrder(user, service_id, 10, totalAmount);
+            navigate("/dashboard");
+          } else {
+            alert("Payment verification failed");
+          }
+        },
+        prefill: {
+          name: name,
+          email: email,
+          contact: phone,
+        },
+        theme: {
+          color: "#0d1116",
+        },
+      };
+
+      const rzp = new window.Razorpay(options);
+      rzp.open();
+    } catch (error) {
+      alert("Payment initiation failed");
+    }
+  };
+
 
   return (
     <>
@@ -546,12 +669,12 @@ function Status() {
           )}
           <div className="lg:px-64 m-8 ">
             <button
-              onClick={() => {}} // Call the function on button click
+              onClick={() => Paynow()}
               className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#783EC7] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
             >
               <div>
                 <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                  Pay Remaining: 800$
+                  Pay Remaining: {remainingAmount} {currency}
                 </h4>
               </div>
             </button>
@@ -570,7 +693,7 @@ function Status() {
           </div>
           {
             <div className="flex justify-center">
-              Link is: https://ramukiwebsite.com
+              Link: We are working on it...
             </div>
           }
         </div>

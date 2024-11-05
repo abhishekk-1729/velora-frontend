@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { useMsal } from "@azure/msal-react";
@@ -11,14 +11,17 @@ import { ThreeDots } from "react-loader-spinner";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
 
+
 const Login = () => {
+  const location = useLocation();
+  const { isPricing } = location.state || {}; // Destructure with fallback
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
   const navigate = useNavigate(); // Use useNavigate for redirection
   const [graphData, setGraphData] = useState(null);
   const [isLoader, setIsLoader] = useState(false);
-  const { storeTokenInLS } = useAuth();
+  const { storeTokenInLS, userLocation } = useAuth();
 
   const checkDatabase = async (email, name, location) => {
     try {
@@ -37,7 +40,12 @@ const Login = () => {
         // If a token is returned, store it in local storage
         if (data.token) {
           storeTokenInLS(data.token); // Your function to store token
-          navigate("/dashboard"); // Navigate to home page
+          if(isPricing){
+            navigate("/pricing");
+          }
+          else{
+          navigate("/dashboard"); // Navigate to home page}
+        }
         }
       } else {
         // Handle any errors from the server response
@@ -63,7 +71,7 @@ const Login = () => {
             }
           )
           .then((res) => {
-            checkDatabase(res.data.email, res.data.name, "h");
+            checkDatabase(res.data.email, res.data.name, userLocation);
           })
           .catch((err) => {});
       }
@@ -127,7 +135,7 @@ const Login = () => {
       : "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendMessage"; // Replace with your phone API endpoint
 
     const body = isEmailMode
-      ? { email: emailOrPhone, location: "Benguluru" }
+      ? { email: emailOrPhone, location: userLocation }
       : { phone: emailOrPhone, message: "Hi bro" };
     try {
       const response = await fetch(apiEndpoint, {

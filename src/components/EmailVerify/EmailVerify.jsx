@@ -14,7 +14,7 @@ const EmailVerify = () => {
   const [timerExpired, setTimerExpired] = useState(false); // To show the "Request new code" button
   const [textState, setTextState] = useState(0);
   const navigate = useNavigate();
-  const { storeTokenInLS } = useAuth();
+  const { storeTokenInLS, userLocation } = useAuth();
 
   // Fetch OTP validity and calculate the remaining time
   const fetchOtpValidity = async () => {
@@ -112,7 +112,7 @@ const EmailVerify = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: email_pass, location: "Bengaluru" }),
+        body: JSON.stringify({ email: email_pass, location: userLocation}),
       });
 
       if (!response.ok) {

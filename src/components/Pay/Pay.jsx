@@ -68,7 +68,7 @@ function Pay() {
   const totalAmountOrder = 899*(1-(0.01*discount))*1.02.toFixed(2);
   console.log(currencyChange);
   console.log(couponCode)
-console.log(email);
+
   const createOrder = async (user, service_id, discount, totalAmountOrder) => {
     const url = endpoints.createOrder; // Assuming endpoints.createOrder contains your API URL
     console.log(couponCode)
@@ -112,9 +112,9 @@ console.log(email);
 
   const Paynow = async () => {
     const body = {
-      amount: 1, // in the smallest unit, e.g., 200 means ₹2.00
+      amount: totalAmount, // in the smallest unit, e.g., 200 means ₹2.00
       email: email,
-      currency: "INR",
+      currency: currencyOriginal,
       receipt: "receipt#1",
     };
 
@@ -139,8 +139,8 @@ console.log(email);
       // Open Razorpay Checkout
       const options = {
         key: "rzp_live_MlxWqnBX5fORCU", // Replace with your Razorpay key_id
-        amount: 1, // Amount in smallest unit (paise for INR)
-        currency: "INR",
+        amount: totalAmount, // Amount in smallest unit (paise for INR)
+        currency: currencyOriginal,
         name: "The First Web",
         description: "Test Transaction",
         order_id: data.id, // This is the order_id from Razorpay order API

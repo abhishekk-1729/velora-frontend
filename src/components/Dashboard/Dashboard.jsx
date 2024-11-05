@@ -239,7 +239,7 @@ function Dashboard() {
                                 <button
                                   onClick={() => {
                                     navigate(`/status/${value.order_id}`, {
-                                      state: { order_id: value.order_id },
+                                      state: { order_id: value.order_id, totalAmount: value.total_amount },
                                     });
                                   }}
                                   className="text-[14px] font-semibold leading-[21px] bg-[#15B886] p-2 rounded-lg text-[#ffffff]"

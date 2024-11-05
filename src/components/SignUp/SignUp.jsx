@@ -18,7 +18,7 @@ const SignUp = () => {
   const [isLoader, setIsLoader] = useState(false);
   const [email, setEmail] = useState("");
   const navigate = useNavigate(); // Use useNavigate for redirection
-  const {storeTokenInLS} = useAuth();
+  const {storeTokenInLS, userLocation} = useAuth();
   const [graphData, setGraphData] = useState(null);
 
   const checkDatabase = async (email1, name1, location1) => {
@@ -84,7 +84,7 @@ const SignUp = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ email:email,location:"hyderabad" }),
+          body: JSON.stringify({ email:email,location:userLocation }),
         }
       );
 

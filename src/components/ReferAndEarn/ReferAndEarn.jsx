@@ -7,11 +7,12 @@ import endpoints from "../../configs/apiConfigs";
 
 const ReferAndEarn = () => {
 //   const coupon_code = "NEWNET50"; // Replace with the content you want to copy
-  const [amount, setAmount] = useState(100);
+const { isLoggedIn, user, token, country, coupon_code, currency, currencyChange } = useAuth();
+
+  const [amount, setAmount] = useState(100*currencyChange);
  
   const [copyStatus, setCopyStatus] = useState("TAP TO COPY");
   const [copyStatusImage, setCopyStatusImage] = useState("/copy1.png");
-  const { isLoggedIn, user, token, country, coupon_code, currency } = useAuth();
   const navigate = useNavigate();
 
 //   useEffect(() => {
@@ -34,11 +35,11 @@ const ReferAndEarn = () => {
     );
   };
 
-  useEffect(()=>{
-    if(country=="IN"){
-      setAmount(amount*80);
-    }
-  },[country])
+  // useEffect(()=>{
+  //   if(country=="IN"){
+  //     setAmount(amount*80);
+  //   }
+  // },[country])
 
 
   return (

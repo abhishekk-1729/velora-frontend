@@ -2,8 +2,8 @@ import React from 'react'
 
 function SocialMedia() {
   return (
-    <div>
-              <div className="flex gap-4 px-2">
+    <div >
+              <div className="flex gap-4 justify-between px-2">
           <a href="https://wa.link/6a335k" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"

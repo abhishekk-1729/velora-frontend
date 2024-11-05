@@ -1,5 +1,6 @@
 import React, { useEffect, useState, createContext, useContext } from "react";
 import endpoints from "../configs/apiConfigs";
+import axios from "axios";
 
 export const AuthContext = createContext();
 
@@ -10,7 +11,8 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [currencyChange, setCurrencyChange] = useState(1);
-  const [currencyOriginal, setCurrencyOriginal] = useState("INR");
+  const [userLocation, setUserLocation] = useState("Newyork");
+  const [currencyOriginal, setCurrencyOriginal] = useState("USD");
   const [navItems, setNavItems] = useState([
     "About",
     "Pricing",
@@ -18,11 +20,12 @@ export const AuthProvider = ({ children }) => {
     "Refer And Earn",
     "Login",
   ]);
-  const [currency, setCurrency] = useState("₹");
+  const [currency, setCurrency] = useState("$");
   const [coupon_code, setCouponCode] = useState("");
   const [exchange, setExchange] = useState(1);
 
   // Update currency based on country
+  const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
     const fetchWeatherData = async () => {
@@ -31,43 +34,68 @@ export const AuthProvider = ({ children }) => {
         const ipResponse = await axios.get(
           "https://ipinfo.io?token=3cf3dd2719879c"
         ); // Replace with your tokenabhikriitd@
+        const city = ipResponse.data.city;
+        setUserLocation(city);
         const country = ipResponse.data.country;
         setCountry(country);
+        // e add
+        // Step 2: Get weather data using the OpenWeatherMap API
+        const weatherResponse = await axios.get(
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a1964ed700a53a98ef27460766bb040`
+        ); // Replace with your API key
+        const weather = weatherResponse.data;
+
+        // Update state with weather data
+        setWeatherData({
+          city: ipResponse.data.city,
+          weather: capitalizeWords(weather.weather[0].description),
+          temp: weather.main.temp,
+          humidity: weather.main.humidity,
+          wind: weather.wind.speed,
+          icon: `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`, // Weather icon
+        });
       } catch (err) {
+        // console.error(err);
       }
     };
 
     fetchWeatherData();
-
-    const convertUSDtoINR = async () => {
-      const apiKey = '3942bd72b59141498e021df2a01a20b7'; // Replace with your actual API key
-      const url = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
-  
-      try {
-          const response = await fetch(url);
-          const data = await response.json();
-          const exchangeRate = data.rates.INR; // Get the exchange rate for INR
-          setExchange(exchangeRate);
-      } catch (error) {
-      }
-  };
-
-  convertUSDtoINR();
-
   }, []);
 
-  useEffect(() => {
-    if(country === "IN"){
-      setCurrency("₹");
-      setCurrencyChange(exchange);
-      setCurrencyOriginal("INR");
-    }
-    else{
-      setCurrency("$");
-      setCurrencyChange(1);
-      setCurrencyOriginal("USD");
-    }
-  },[country]);
+  const capitalizeWords = (str) => {
+    return str
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+
+
+  // useEffect(() => {
+  //   const convertUSDtoINR = async () => {
+  //     const apiKey = "3942bd72b59141498e021df2a01a20b7"; // Replace with your actual API key
+  //     const url = `https://openexchangerates.org/api/latest.json?app_id=${apiKey}`;
+
+  //     try {
+  //       const response = await fetch(url);
+  //       const data = await response.json();
+  //       const exchangeRate = data.rates.INR; // Get the exchange rate for INR
+  //       setExchange(exchangeRate);
+  //     } catch (error) {}
+  //   };
+  //   convertUSDtoINR();
+  // }, []);
+
+  // useEffect(() => {
+  //   if (country === "IN") {
+  //     setCurrency("₹");
+      // setCurrencyChange(exchange);
+  //     setCurrencyOriginal("INR");
+  //   } else {
+  //     setCurrency("$");
+  //     setCurrencyChange(1);
+  //     setCurrencyOriginal("USD");
+  //   }
+  // }, [country]);
 
   const isLoggedIn = !!token;
 
@@ -206,13 +234,14 @@ export const AuthProvider = ({ children }) => {
         currency,
         currencyChange,
         currencyOriginal,
-        name, 
-        email, 
-        phone, 
-        address, 
+        name,
+        email,
+        phone,
+        address,
         selectedItem,
-        service_id
-        
+        service_id,
+        userLocation,
+        weatherData,
       }}
     >
       {children}

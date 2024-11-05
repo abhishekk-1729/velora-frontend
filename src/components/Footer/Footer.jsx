@@ -1,42 +1,54 @@
 import React, { useEffect, useState } from "react";
 import cloud from "../../assets/images/logo/cloud.png";
-import moon from "../../assets/images/logo/nightmode.png";
 import company from "../../assets/Footer/company.png";
-import axios from "axios";
-import { format, formatDistanceToNow, formatRelative } from "date-fns";
-import { enUS } from "date-fns/locale";
+import { format } from "date-fns";
 import { useAuth } from "../../store/auth";
 import SocialMedia from "../SocialMedia/SocialMedia";
 // Function to format date in the required format
+
 const formatDateTime = (date) => {
-  const day = format(date, "d");
-  const month = format(date, "MMMM");
-  const year = format(date, "yyyy");
-  const hour = format(date, "h:mm aa");
-  const weekday = format(date, "EEEE");
+  if (!date) return "";
 
-  // Get the appropriate suffix for the day
-  const suffix =
-    day === "1" || day === "21" || day === "31"
-      ? "st"
-      : day === "2" || day === "22"
-      ? "nd"
-      : day === "" || day === "23"
-      ? "rd"
-      : "th";
-
-  return `${weekday} ${hour}, ${day}${suffix} ${month}, ${year}`;
+  const options = {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZone: "UTC", // Set the time zone to UTC
+  };
+  return new Intl.DateTimeFormat("en-US", options).format(date);
 };
 
-const capitalizeWords = (str) => {
-  return str
-    .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-};
+// const formatDateTime = () => {
+//   const nowUtc = new Date(); // Current date in UTC
 
+//   // Format each part of the date/time in UTC format
+//   const day = format(nowUtc, "d");
+//   const month = format(nowUtc, "MMMM");
+//   const year = format(nowUtc, "yyyy");
+//   const hour = format(nowUtc, "h:mm aa 'UTC'"); // Always in UTC with AM/PM
+//   const weekday = format(nowUtc, "EEEE");
+
+//   // Determine the appropriate suffix for the day
+//   const suffix =
+//     day === "1" || day === "21" || day === "31"
+//       ? "st"
+//       : day === "2" || day === "22"
+//       ? "nd"
+//       : day === "3" || day === "23"
+//       ? "rd"
+//       : "th";
+
+//   return `${weekday}, ${hour}, ${day}${suffix} ${month}, ${year}`;
+// };
+
+// Test the output
+console.log(formatDateTime());
+  
 const Footer = () => {
-  const { setCountry, navItems } = useAuth();
+  const { setCountry, navItems, weatherData, userLocation } = useAuth();
   const quickLinks = {
     "About": "about",
     "Dashboard": "dashboard",
@@ -67,47 +79,7 @@ const Footer = () => {
     },
   ];
 
-  const [weatherData, setWeatherData] = useState(null);
-  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchWeatherData = async () => {
-      try {
-        // Step 1: Get the user's location based on IP
-        const ipResponse = await axios.get(
-          "https://ipinfo.io?token=3cf3dd2719879c"
-        ); // Replace with your tokenabhikriitd@
-        const city = ipResponse.data.city;
-        const country = ipResponse.data.country;
-        setCountry(country);
-        // e add
-        // Step 2: Get weather data using the OpenWeatherMap API
-        const weatherResponse = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a1964ed700a53a98ef27460766bb040`
-        ); // Replace with your API key
-        const weather = weatherResponse.data;
-
-        // Update state with weather data
-        setWeatherData({
-          city: ipResponse.data.city,
-          weather: capitalizeWords(weather.weather[0].description),
-          temp: weather.main.temp,
-          humidity: weather.main.humidity,
-          wind: weather.wind.speed,
-          icon: `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`, // Weather icon
-        });
-      } catch (err) {
-        setError("Error fetching weather data");
-        // console.error(err);
-      }
-    };
-
-    fetchWeatherData();
-  }, []);
-
-  // if (error) {
-  //   return <div>{error}</div>;
-  // }
 
   return (
     <>
@@ -164,7 +136,7 @@ const Footer = () => {
           <div className=" mb-6  flex">
             <div className="flex border-b-2 border-[#783ec7] pb-1">
               {/* <img src={cloud} alt="Weather" className="pr-2" /> */}
-              <div>{weatherData ? weatherData.city : "Delhi"}</div>
+              <div>{userLocation}</div>
             </div>
           </div>
           <div className="mb-2">{formatDateTime(new Date())}</div>
