@@ -73,7 +73,7 @@ function Pricing() {
                 <div className="flex flex-col gap-2">
                   {deliverables.map((value, index) => (
                     <div key={index} className="flex items-center gap-4">
-                      <img src="/plus.png" alt="" height={20} width={20} />
+                      <img src="plus.png" alt="" height={20} width={20} />
                       <div>{value}</div>
                     </div>
                   ))}
@@ -92,7 +92,7 @@ function Pricing() {
                   className="hero_cta_signup_content px-6 py-3 rounded-lg bg-[#783ec7] flex justify-center items-center hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out my-4"
                 >
                   <h4 className="text-[16px] font-semibold leading-[16px] text-[#FFFFFF]">
-                    {isLoggedIn ? "Join The First Web Family" : "Sign In"}
+                    {isLoggedIn ? "Join The First Web Family" : "Log In"}
                   </h4>
                 </button>
                 <div>Note: You will have to pay 20% advance.</div>

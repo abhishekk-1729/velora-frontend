@@ -263,7 +263,7 @@ const Login = () => {
                   </div>
                   <div className="text-[#ffffff]">Sign in with Google</div>
                 </button>
-                <button
+                {/* <button
                   onClick={microsoftlogin}
                   className="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
                 >
@@ -276,7 +276,7 @@ const Login = () => {
                     />
                   </div>
                   <div className="text-[#ffffff]">Sign in with Microsoft</div>
-                </button>
+                </button> */}
               </div>
 
               {/* <!-- Login Content - OR --> */}

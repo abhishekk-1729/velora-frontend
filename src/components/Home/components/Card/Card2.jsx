@@ -76,7 +76,7 @@ const Card2 = ({
             <img
               src={image?image:"cardu.svg"}
               alt={heading}
-              className={`lg:absolute ${isLeftDirection ? "lg:right-0 lg:bottom-0 lg:border-r lg:rounded-tr-xl" : "lg:left-0 lg:bottom-0 lg:border-l lg:rounded-tl-xl"} lg:border-t lg:border-[#3d444d]`}
+              className={`lg:absolute ${isLeftDirection ? "lg:left-0 lg:bottom-0 lg:border-r lg:rounded-tr-xl" : "lg:right-0 lg:bottom-0 lg:border-l lg:rounded-tl-xl"} lg:border-t lg:border-[#3d444d]`}
             />
           </div>
         </div>

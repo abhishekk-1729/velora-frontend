@@ -132,7 +132,7 @@ const EmailVerify = () => {
         <div className="login mx-4 lg:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8">
           <div className="login_image flex justify-center p-2">
             <img
-              src="/company.png"
+              src="company.png"
               alt="Company Logo"
               height={200}
               width={200}

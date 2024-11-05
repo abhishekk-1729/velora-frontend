@@ -31,7 +31,7 @@ function Header({ setShowHeader }) {
         </a>
       </div>
       <button className="ml-auto" onClick={() => setShowHeader(false)}>
-        <img src="/cross-white.png" alt="Close" height={20} width={20} />
+        <img src="cross-white.png" alt="Close" height={20} width={20} />
       </button>
     </div>
   );

@@ -9,10 +9,10 @@ const ReferAndEarn = () => {
 //   const coupon_code = "NEWNET50"; // Replace with the content you want to copy
 const { isLoggedIn, user, token, country, coupon_code, currency, currencyChange } = useAuth();
 
-  const [amount, setAmount] = useState(100*currencyChange);
+  const [amount, setAmount] = useState(50*currencyChange);
  
   const [copyStatus, setCopyStatus] = useState("TAP TO COPY");
-  const [copyStatusImage, setCopyStatusImage] = useState("/copy1.png");
+  const [copyStatusImage, setCopyStatusImage] = useState("copy1.png");
   const navigate = useNavigate();
 
 //   useEffect(() => {

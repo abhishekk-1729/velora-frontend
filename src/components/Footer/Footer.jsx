@@ -165,7 +165,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#151b23] text-[#8a919a] py-6 px-8 sm:px-16 flex flex-col md:flex-row justify-between gap-2">
+      <div className="bg-[#151b23] text-[#8a919a] py-6 px-4 lg:px-16 flex flex-col md:flex-row justify-between gap-2">
         <div>&copy; 2024 The First Web.com. All rights reserved.</div>
         <SocialMedia/>
       </div>

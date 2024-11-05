@@ -266,7 +266,7 @@ const SignUp = () => {
                   </div>
                   <div className="text-[#ffffff]">Continue with Apple</div>
                 </button> */}
-                <button 
+                {/* <button 
                 onClick={microsoftlogin}
                 className="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] ">
                   <div>
@@ -278,7 +278,7 @@ const SignUp = () => {
                     />
                   </div>
                   <div className="text-[#ffffff]">Continue with Microsoft</div>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

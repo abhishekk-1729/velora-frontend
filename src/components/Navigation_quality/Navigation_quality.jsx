@@ -11,7 +11,7 @@ const Navigation_quality = () => {
     "Delivery",
     "Design",
     "Performance",
-    "No No Code",
+    "No No-Code",
     "Service",
   ];
   const sections2 = ["Contact Sales", isLoggedIn ? "Logout" : "Login"];
@@ -20,7 +20,7 @@ const Navigation_quality = () => {
     Delivery: "delivery",
     Design: "design",
     Performance: "performance",
-    "No No Code": "no_no_code",
+    "No No-Code": "no_no_code",
     Service: "service",
   };
   const tag2 = { "Contact Sales": "contact", Login: "login" };

@@ -227,7 +227,7 @@ function Dashboard() {
                               <td className="px-6 py-4">{value.date}</td>
                               <td className="px-6 py-4">{value.order_id}</td>
                               <td className="px-6 py-4">
-                                {value.total_amount}
+                                {value.total_amount.toFixed(2)}
                               </td>
                               <td className="px-6 py-4">
                                 {value.advance_status}

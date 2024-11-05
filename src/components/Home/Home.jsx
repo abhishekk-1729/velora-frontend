@@ -26,7 +26,7 @@ function Home() {
       key: "1",
       direction: "right",
       color: "#3FBA50", // Green
-      heading_text: "Websites delivered in 4 weeks",
+      heading_text: "Websites delivered under a month",
       text: "With The First Web, your websites are delivered in just 4 weeks after the final UI approval, ensuring you meet your deadlines with ease.",
       image: "cardj.svg",
       glowColor: "rgba(63, 186, 80, 0.2)", // Green Glow,
@@ -39,7 +39,7 @@ function Home() {
       color: "#32B4AE", // Teal
       heading_text: "Designed with precision",
       text: "Our expert designers create beautiful, responsive websites that ensure a seamless user experience across all devices.",
-      image: "",
+      image: "cardff.svg",
       glowColor: "rgba(50, 180, 174, 0.2)", // Teal Glow,
       bg_class:"card_3"
     },
@@ -49,8 +49,8 @@ function Home() {
       direction: "right",
       color: "#F778BB", // Pink
       heading_text: "Performance optimized",
-      text: "The First Web websites are engineered for speed and efficiency, ensuring optimal performance that keeps your users engaged.",
-      image: "",
+      text: "The First Web websites are engineered for speed, efficiency and security, ensuring optimal performance that keeps your users engaged.",
+      image: "cardf2.svg",
       glowColor: "rgba(247, 120, 187, 0.2)", // Pink Glow,
       bg_class:"card_4"
     },

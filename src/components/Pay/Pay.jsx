@@ -11,12 +11,13 @@ function Pay() {
   const { isAdvance } = location.state || {}; // Destructure with fallback
   const [couponCode, setCouponCode] = useState(null);
   const advance = isAdvance?0.2:0.8;
-  const [amount, setAmount] = useState(899*advance); // Base amount
+  const [amount, setAmount] = useState(899); // Base amount
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
   const [isCouponVerified, setIsCouponVerified] = useState(false);
+  const totalAmountOrder = amount*(1-(0.01*discount))*1.02.toFixed(2);
   const platformFees = (amount - (amount * discount) / 100) * 0.02;
-  const totalAmount = parseInt(amount - (amount * discount) / 100 + platformFees);
+  const totalAmount = totalAmountOrder*advance | 0;
 
   const navigate = useNavigate();
   const { user, token, currency, currencyChange, currencyOriginal, name, phone, email, isLoggedIn, service_id } = useAuth();
@@ -65,7 +66,6 @@ function Pay() {
     setCouponStatus("Apply");
     setIsCouponVerified(false);
   };
-  const totalAmountOrder = 899*(1-(0.01*discount))*1.02.toFixed(2);
   console.log(currencyChange);
   console.log(couponCode)
 
@@ -245,7 +245,11 @@ function Pay() {
                   <div>{`${currency}${platformFees.toFixed(2)}`}</div>
                 </div>
                 <div className="flex items-center gap-4 justify-between">
-                  <div>Total</div>
+                  <div>Amount Payable</div>
+                  <div>{`${currency}${totalAmountOrder.toFixed(2)}`}</div>
+                </div>
+                <div className="flex items-center gap-4 justify-between">
+                  <div>Total Advance (20%)</div>
                   <div>{`${currency}${totalAmount}`}</div>
                 </div>
               </div>
