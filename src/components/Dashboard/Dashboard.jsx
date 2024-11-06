@@ -93,8 +93,8 @@ function Dashboard() {
       <div className="dashboard_main">
         <Navbar />
 
-        <div className="flex flex-col items-center mx-4 lg:mx-16 p-4 lg:p-16 text-[#8a919a] gap-16 mb-16">
-          <div className="flex justify-center gap-2 items-center text-[28px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center">
+        <div className="flex flex-col  mx-4 lg:mx-16 p-2 md:p-20 text-[#8a919a] gap-16 mb-16">
+          <div className="flex justify-center gap-2 items-center text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#ffffff] text-center ">
             Dashboard
           </div>
 

@@ -37,13 +37,30 @@ function Status() {
     "UI Started",
     "UI Completed",
     "UI Review",
-    "Initial Quality Check",
+    
     "Development Completed",
-
     "Development Started",
+    "Initial Quality Check",
+    "Precision Review",
     "Deployment Started",
     "Deployment Completed",
+    "Final Review",
+    "Launch Readiness",
+    "Remaining Payment",
+    "Website Delivery",
+  ];
+  const projectSteps1 = [
+    "Advance Payment",
+    "UI Discussion",
+    "UI Started",
+    "UI Completed",
+    "UI Review",
+    "Initial Quality Check",
+    "Development Started",
+    "Development Completed",
     "Precision Review",
+    "Deployment Started",
+    "Deployment Completed",
     "Final Review",
     "Launch Readiness",
     "Remaining Payment",
@@ -147,19 +164,19 @@ function Status() {
   }, []);
 
   const statusContent = [
-    { text: projectSteps[0], date: projectDate[0], state: 0 },
-    { text: projectSteps[1], date: projectDate[1], state: state1 },
-    { text: projectSteps[2], date: projectDate[2], state: state2 },
-    { text: projectSteps[3], date: projectDate[3], state: state3 },
-    { text: projectSteps[4], date: projectDate[4], state: state4 },
-    { text: projectSteps[5], date: projectDate[5], state: state5 },
-    { text: projectSteps[6], date: projectDate[6], state: state6 },
-    { text: projectSteps[7], date: projectDate[7], state: state7 },
-    { text: projectSteps[8], date: projectDate[8], state: state8 },
-    { text: projectSteps[9], date: projectDate[9], state: state9 },
-    { text: projectSteps[10], date: projectDate[10], state: state10 },
-    { text: projectSteps[11], date: projectDate[11], state: state11 },
-    { text: projectSteps[12], date: projectDate[12], state: state12 },
+    { text: projectSteps1[0], date: projectDate[0], state: 0 },
+    { text: projectSteps1[1], date: projectDate[1], state: state1 },
+    { text: projectSteps1[2], date: projectDate[2], state: state2 },
+    { text: projectSteps1[3], date: projectDate[3], state: state3 },
+    { text: projectSteps1[4], date: projectDate[4], state: state4 },
+    { text: projectSteps1[5], date: projectDate[5], state: state5 },
+    { text: projectSteps1[6], date: projectDate[6], state: state6 },
+    { text: projectSteps1[7], date: projectDate[7], state: state7 },
+    { text: projectSteps1[8], date: projectDate[8], state: state8 },
+    { text: projectSteps1[9], date: projectDate[9], state: state9 },
+    { text: projectSteps1[10], date: projectDate[10], state: state10 },
+    { text: projectSteps1[11], date: projectDate[11], state: state11 },
+    { text: projectSteps1[12], date: projectDate[12], state: state12 },
   ];
 
   const progressPercentage = ((lastCompleted + 1) / 15) * 100;
@@ -624,7 +641,7 @@ function Status() {
             </div>
           ) : (
             <>
-<div className="status flex flex-col gap-6 my-4 mx-2 ">
+<div className="status flex flex-col gap-6 my-4 mx-2 text-[12px] ">
   {statusContent.map((item, index) => (
     <div
       key={index}

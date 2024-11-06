@@ -46,7 +46,7 @@ const { isLoggedIn, user, token, country, coupon_code, currency, currencyChange 
     <>
       {/* <Navbar /> */}
       <div className="my-16">
-        <div className="card p-2 md:p-20 flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16 items-center">
+        <div className="card  flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16 p-2 md:p-20 items-center">
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img

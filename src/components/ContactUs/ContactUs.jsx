@@ -58,8 +58,9 @@ function ContactUs() {
     <>
       <div className="contact_main">
         <Navbar />
-        <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-16 mb-16 ">
-          <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
+        <div className="flex flex-col   mx-4 lg:mx-16 p-2 md:p-20 text-[#8a919a] gap-16 mb-16 ">
+         
+         <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
             We would love to hear from you!
           </h1>
 

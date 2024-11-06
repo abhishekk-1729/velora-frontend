@@ -36,7 +36,7 @@ function Pricing() {
     <>
       <div className="pricing_main">
         <Navbar />
-        <div className="flex flex-col items-center  mx-4 lg:mx-16 p-4 md:p-16 text-[#8a919a] gap-4 pb-32 ">
+        <div className="flex flex-col items-center  mx-4 lg:mx-16 p-2 md:p-20 text-[#8a919a] gap-4 pb-32 ">
           <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#ffffff] text-center ">
             Discover our flat pricing
           </h1>
