@@ -92,7 +92,9 @@ const Footer = () => {
               className="h-3rem md:h-[120px] lg:h-4rem"
             />
             <div className=" ">HSR Layout, Bangalore, India - 560103</div>
-            <div className=" ">Contact: +91 8868073773</div>
+            <div >
+                    Contact: {" "}<a  className="hover:underline" href="tel:+19254718097">+19254718097</a>
+                  </div>
             <div className="">
               Email:{" "}
               <a href="mailto:support@thefirstweb.com">

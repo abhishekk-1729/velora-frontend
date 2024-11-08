@@ -213,7 +213,7 @@ function ContactUs() {
                 <div>
                   <div>Phone:</div>
                   <div className="hover:underline">
-                    <a href="tel:+918755273773">+91 8868073773</a>
+                    <a href="tel:+19254718097">+19254718097</a>
                   </div>
                 </div>
                 <div>
