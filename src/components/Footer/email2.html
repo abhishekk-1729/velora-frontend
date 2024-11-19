@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        margin: 0;
+        /* padding: 20px; */
+      }
+
+      .complete {
+        background-color: #f0f4f9;
+        padding: 10px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        /* padding: 20px; */
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: white;
+      }
+
+      .banner {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: #e4a3d1;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+      .banner-container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .banner-text-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .banner-text {
+        margin: 0;
+        color: #902b72;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .banner-img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+      h3 {
+        color: #1d1d1f;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .th,
+      .td {
+        padding: 10px;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 14px;
+        text-align: left;
+      }
+
+      .th {
+        background-color: #f5f5f7;
+        font-weight: normal;
+      }
+
+      .no-border {
+        border-bottom: none;
+      }
+      ul {
+        padding-left: 20px;
+        margin-top: 10px;
+        color: #333;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      .button-container {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        /* margin-top: 20px; */
+      }
+
+      .break-line {
+        height: 5px;
+        width: 100%;
+        background-color: #f0f4f9;
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+
+      .button {
+        display: block;
+        width: 100%;
+        max-width: 250px;
+        padding: 12px;
+        margin: 10px auto;
+        margin-bottom: 0px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+
+      .button a {
+        background-color: #4caf50;       
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .green-button {
+        background-color: #00ac47;
+        color: white;
+      }
+
+      .blue-button {
+        background-color: #0b57d0;
+      }
+
+      .blue-button:hover {
+        background-color: #0069d9;
+      }
+
+      .mail-text {
+        text-align: center;
+        color: #902b72;
+        font-size: 12px;
+      }
+
+      .mail-text-div {
+        text-align: center;
+        color: #902b72;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+
+      .info-item {
+        margin-right: 15px;
+        /* Default margin for desktop view */
+      }
+
+      .contact-info a {
+        text-decoration: none;
+      }
+
+      .responsive-image {
+        width: 90px;
+        /* Default width */
+        height: 90px;
+        /* Default height */
+        border-radius: 50%;
+        /* Keeps rounded shape */
+        object-fit: cover;
+        /* Ensures image covers fully */
+        object-position: center;
+        /* Centers the image */
+      }
+
+      .signature-text {
+        font-size: 10px;
+        color: #333;
+        /* text-decoration: none; */
+      }
+
+      .contact-info-row {
+        font-size: 10px;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="complete">
+      <div class="container">
+        <div class="">
+          <img
+            src="https://www.thefirstweb.com/website.png"
+            alt=""
+            class="banner-img"
+          />
+        </div>
+
+        <div
+          style="
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          "
+        >
+          <p>
+            Did you know optimized hotel websites can increase direct bookings
+            by up to <strong>30%</strong>? I recently reviewed your
+            <a
+              style="text-decoration: none; color: black"
+              href="https://www.carltonarms.com/"
+              >website</a
+            >, and I found that your website provides information about and
+            allows booking at the Carlton Arms Hotel Here is my analysis which
+            could affect the performance:
+          </p>
+        </div>
+
+        <div class="break-line">
+          <br />
+        </div>
+
+        <div
+          style="
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          "
+        >
+          <h3>Website Health Check:</h3>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="th">Metric</th>
+                <th class="th">Your Score</th>
+                <th class="th">Competitor Benchmark</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="td">Mobile Optimization</td>
+                <td class="td">7/10</td>
+                <td class="td">9/10</td>
+              </tr>
+              <tr>
+                <td class="td">Loading Speed</td>
+                <td class="td">8/10</td>
+                <td class="td">9/10</td>
+              </tr>
+              <tr>
+                <td class="td">SEO Ranking</td>
+                <td class="td">6/10</td>
+                <td class="td">9/10</td>
+              </tr>
+              <tr>
+                <td class="td">User Experience</td>
+                <td class="td">7/10</td>
+                <td class="td">9/10</td>
+              </tr>
+              <tr>
+                <td class="td no-border">Booking Flow</td>
+                <td class="td no-border">7/10</td>
+                <td class="td no-border">8/10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="break-line">
+          <br />
+        </div>
+
+        <div
+          style="
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          "
+        >
+          <h3>Here’s What We Could Improve:</h3>
+
+          <img
+            src="https://www.thefirstweb.com/loading5.gif"
+            alt="Animation"
+            width="100%"
+            height="auto"
+            onerror="this.src='https://www.thefirstweb.com/founder.jpeg';"
+          />
+        </div>
+
+        <div class="break-line">
+          <br />
+        </div>
+
+        <div
+          style="
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          "
+        >
+          <div>
+            <p
+              style="
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+              "
+            >
+              Want to increase your hotel bookings?
+            </p>
+          <p>
+            Simply reply to this email, and we’ll handle the rest!
+          </p>
+          <div class="button-container">
+            <a
+              href="tel:+19254718097"
+              style="color: white; text-decoration: none; font-size: 16px"
+              target="_blank"
+              class="button blue-button"
+              >Give a Call</a
+            >
+          </div>
+        </div>
+      </div>
+
+        <div class="break-line">
+          <br />
+        </div>
+
+        <table
+          cellpadding="0"
+          cellspacing="0"
+          border="0"
+          style="
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          "
+        >
+          <tr>
+            <!-- Profile Image -->
+            <td
+              style="
+                text-align: center;
+                vertical-align: middle;
+                padding-left: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 5px;
+              "
+            >
+              <img
+                src="https://www.thefirstweb.com/founder.jpeg"
+                alt="Abhishek Kumar"
+                class="responsive-image"
+              />
+            </td>
+
+            <!-- Spacer -->
+            <td style="background-color: #ddd; width: 2px"></td>
+
+            <!-- Details Section -->
+            <td style="vertical-align: top; padding-left: 5px">
+              <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td
+                    style="font-size: 16px; font-weight: bold; color: #902b72"
+                  >
+                    Abhishek Kumar
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size: 14px; color: #666">
+                    Founder, The First Web
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    style="padding-top: 10px; text-align: left"
+                    class="contact-info-row"
+                  >
+                    <div style="text-align: left">
+                      <!-- Phone Section -->
+                      <div
+                        style="
+                          display: inline-block;
+                          vertical-align: top;
+                          width: 48%;
+                          min-width: 150px;
+                        "
+                      >
+                        <span style="font-weight: bold; color: #902b72">P</span>
+                        <a
+                          href="tel:+19254718097"
+                          style="color: #333; text-decoration: none"
+                          >+1 (925) 471-8097</a
+                        >
+                      </div>
+                      <!-- Website Section -->
+                      <div
+                        style="
+                          display: inline-block;
+                          vertical-align: top;
+                          width: 48%;
+                          min-width: 150px;
+                        "
+                      >
+                        <span style="font-weight: bold; color: #902b72">W</span>
+                        <a
+                          href="https://www.thefirstweb.com"
+                          style="color: #333; text-decoration: none"
+                          >www.thefirstweb.com</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="signature-text">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td
+                          style="
+                            font-weight: bold;
+                            color: #902b72;
+                            padding-right: 5px;
+                          "
+                        >
+                          E
+                        </td>
+                        <td>
+                          <a
+                            href="mailto:abhishek@thefirstweb.com"
+                            style="color: #333; text-decoration: none"
+                            >abhishek@thefirstweb.com</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="
+                            font-weight: bold;
+                            color: #902b72;
+                            padding-right: 5px;
+                            vertical-align: top;
+                          "
+                        >
+                          A
+                        </td>
+                        <td>HSR Layout Bangalore, India</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 5px">
+                    <!-- Social Media Icons -->
+                    <a
+                      href="https://wa.link/6a335k"
+                      style="text-decoration: none; margin-right: 5px"
+                    >
+                      <img
+                        src="https://www.thefirstweb.com/whatsapp.png"
+                        alt="WhatsApp"
+                        width="20"
+                        style="display: inline-block; border: 0"
+                      />
+                    </a>
+                    <a
+                      href="https://www.facebook.com/share/SGZk4Wj8Zg2b5Fo2/"
+                      style="text-decoration: none; margin-right: 5px"
+                    >
+                      <img
+                        src="https://www.thefirstweb.com/facebook.png"
+                        alt="Facebook"
+                        width="20"
+                        style="display: inline-block; border: 0"
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/thefirstweb"
+                      style="text-decoration: none; margin-right: 5px"
+                    >
+                      <img
+                        src="https://www.thefirstweb.com/instagram.png"
+                        alt="Instagram"
+                        width="20"
+                        style="display: inline-block; border: 0"
+                      />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/the-first-web"
+                      style="text-decoration: none; margin-right: 5px"
+                    >
+                      <img
+                        src="https://www.thefirstweb.com/linkedin.png"
+                        alt="LinkedIn"
+                        width="20"
+                        style="display: inline-block; border: 0"
+                      />
+                    </a>
+                    <a
+                      href="https://x.com/TheFirstWe49975?t=Me1IuJDg0szkyIRnJjD3Cw&s=08"
+                      style="text-decoration: none; margin-right: 5px"
+                    >
+                      <img
+                        src="https://www.thefirstweb.com/twitter.png"
+                        alt="Twitter"
+                        width="20"
+                        style="display: inline-block; border: 0"
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <div class="mail-text-div">
+          <a
+            href="https://www.thefirstweb.com"
+            target="_blank"
+            style="color: #902b72; text-decoration: none"
+            class="mail-text"
+            >www.thefirstweb.com</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

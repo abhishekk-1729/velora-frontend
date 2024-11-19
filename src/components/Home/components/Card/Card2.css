@@ -71,3 +71,20 @@
     }
   }
   
+
+/* Animation for sliding text from the bottom */
+@keyframes textSlideInFromBottom {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the text animation */
+.text-slide-in {
+  animation: textSlideInFromBottom 1s ease-out forwards;
+}

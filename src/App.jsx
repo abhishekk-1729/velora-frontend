@@ -18,7 +18,6 @@ import About from "./components/About/aboutus";
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
   const location = useLocation(); // Get the current location
-  console.log(location);
   const shouldHideNavFooter = () => {
     const currentPath = location.pathname.toLowerCase();
 
@@ -34,13 +33,10 @@ const App = () => {
     return !matchingRoute || matchingRoute.noNavFooter === true;
   };
 
-  console.log(shouldHideNavFooter());
 
   const responseMessage = (response) => {
-    console.log(response);
   };
   const errorMessage = (error) => {
-    console.log(error);
   };
   const isHomePage = location.pathname === "/";
   return (

@@ -16,7 +16,6 @@ import SignOutButton  from './SignOutButton';
  */
 const  MicrosoftLogin = (props) => {
     const isAuthenticated = useIsAuthenticated();
-    console.log(isAuthenticated)
 
     return (
         <>

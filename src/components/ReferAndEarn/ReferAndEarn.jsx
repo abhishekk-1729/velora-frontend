@@ -7,36 +7,17 @@ import endpoints from "../../configs/apiConfigs";
 
 const ReferAndEarn = () => {
 //   const coupon_code = "NEWNET50"; // Replace with the content you want to copy
-const [coupon_code,setCouponCode] = useState("");
-  const [amount, setAmount] = useState(100);
-  const [currency, setCurrency] = useState("$")  
+const { isLoggedIn, user, token, country, coupon_code, currency, currencyChange } = useAuth();
+
+  const [amount, setAmount] = useState(50*currencyChange);
+ 
   const [copyStatus, setCopyStatus] = useState("TAP TO COPY");
-  const [copyStatusImage, setCopyStatusImage] = useState("/copy1.png");
-  const { isLoggedIn, user, token, country } = useAuth();
+  const [copyStatusImage, setCopyStatusImage] = useState("copy1.png");
   const navigate = useNavigate();
 
-  const getCouponCode = async () => {
-    try {
-      const response = await fetch(endpoints.getCouponsByUserId+user, {
-        method: "GET",
-        headers: {
-            Authorization: `Bearer ${token}`,
-          },
-      });
-      if (response.ok) {
-        const res_data = await response.json();
-        console.log(res_data.coupons);
-        setCouponCode(res_data.coupons[0].coupon_code);
-        
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-    getCouponCode();
-  },[isLoggedIn, user, token]);
+//   useEffect(() => {
+//     getCouponCode();
+//   },[isLoggedIn, user, token]);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(coupon_code).then(
@@ -49,23 +30,23 @@ const [coupon_code,setCouponCode] = useState("");
         }, 5000); // Reset to "TAP TO COPY" after 5 seconds
       },
       (err) => {
-        console.error("Could not copy text: ", err);
+        // console.error("Could not copy text: ", err);
       }
     );
   };
 
-  useEffect(()=>{
-    if(country=="IN"){
-      setCurrency("₹");
-      setAmount(amount*80);
-    }
-  },[country])
+  // useEffect(()=>{
+  //   if(country=="IN"){
+  //     setAmount(amount*80);
+  //   }
+  // },[country])
+
 
   return (
     <>
       {/* <Navbar /> */}
       <div className="my-16">
-        <div className="card p-2 md:p-20 flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16 items-center">
+        <div className="card  flex lg:flex-row gap-16 flex-col mx-4 lg:mx-16 p-2 md:p-20 items-center">
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img
@@ -115,18 +96,22 @@ const [coupon_code,setCouponCode] = useState("");
               </div>
               <div className="text-[14px]">
                 <div>T&C:</div>
+                <br />
                 <div>
-                  1. The referral code is to be used at the time of advance
-                  payment.
+                1. If a customer uses a referral code, they will receive a 5% discount on the total order amount, and you will also earn cashback equal to that same amount.                </div>
+                <br />
+                <div>
+                  2. The referral code must be applied during the advance payment process.
                 </div>
+                <br />
                 <div>
-                  2. You can earn the rewards only in case of complete payment
-                  with the referral code.
+                  3. Rewards are only eligible for complete payments made using the referral code.
                 </div>
-                <div>3. You cannot use your own referral code.</div>
+                <br />
+                <div>4. You are not permitted to use your own referral code for any transactions.</div>
+                <br />
                 <div>
-                  4. This code can be used as many times and is valid till 30th
-                  Nov 2024.
+                  5. This referral code can be used multiple times and is valid until November 30, 2024.
                 </div>
               </div>
             </div>

@@ -18,12 +18,13 @@ import Microsoft from "./components/GoogleLogin/microsoft.jsx";
 import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition.jsx";
 // import FAQs from "./components/FAQs/FAQs.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
-
+import Logout from "./components/Logout/Logout.jsx";
 const routes = [
     { path: "/", element: <Home />, noNavFooter:true },
     { path: "/about", element: <About /> },
     { path: "/pricing", element: <Pricing /> ,noNavFooter: true},
     { path: "/login", element: <Login />, noNavFooter: true},
+    { path: "/logout", element: <Logout />, noNavFooter: true},
     { path: "/signup", element: <SignUp />, noNavFooter: true },
     { path: "/signup/emailverify", element: <EmailVerify />,noNavFooter: true },
     { path: "/login/emailverify", element: <EmailVerify />,noNavFooter: true },

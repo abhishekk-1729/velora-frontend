@@ -14,7 +14,7 @@ export const msalConfig = {
     auth: {
         clientId: "97deaa7e-6413-4a91-b33c-9ab3d537ed97",
         // authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
-        redirectUri: "https://www.thefirstweb.com"
+        redirectUri: "https://www.thefirstweb.com/login"
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
@@ -28,16 +28,16 @@ export const msalConfig = {
                 }		
                 switch (level) {
                     case LogLevel.Error:
-                        console.error(message);
+                        // console.error(message);
                         return;
                     case LogLevel.Info:
-                        console.info(message);
+                        // console.info(message);
                         return;
                     case LogLevel.Verbose:
-                        console.debug(message);
+                        // console.debug(message);
                         return;
                     case LogLevel.Warning:
-                        console.warn(message);
+                        // console.warn(message);
                         return;
                     default:
                         return;

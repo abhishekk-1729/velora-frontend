@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { useMsal } from "@azure/msal-react";
@@ -11,47 +11,52 @@ import { ThreeDots } from "react-loader-spinner";
 import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
 
+
 const Login = () => {
+  const location = useLocation();
+  const { isPricing } = location.state || {}; // Destructure with fallback
   const [emailOrPhone, setEmailOrPhone] = useState(""); // State to store email or phone input
   const [responseMessage, setResponseMessage] = useState(""); // State to store the response message
   const [isEmailMode, setIsEmailMode] = useState(true); // State to toggle between Email and Phone modes
   const navigate = useNavigate(); // Use useNavigate for redirection
   const [graphData, setGraphData] = useState(null);
   const [isLoader, setIsLoader] = useState(false);
-  const {storeTokenInLS} = useAuth();
+  const { storeTokenInLS, userLocation } = useAuth();
 
   const checkDatabase = async (email, name, location) => {
     try {
-        const response = await fetch(endpoints.authLogin, { // Adjust the endpoint as needed
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email, name, location }),
-        });
+      const response = await fetch(endpoints.authLogin, {
+        // Adjust the endpoint as needed
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, name, location }),
+      });
 
-        console.log(email);
+      const data = await response.json();
 
-        const data = await response.json();
-        console.log(data.success);
-
-        if (data.success) {
-            // If a token is returned, store it in local storage
-            if (data.token) {
-                storeTokenInLS(data.token); // Your function to store token
-                navigate('/dashboard'); // Navigate to home page
-            } 
-        } else {
-            // Handle any errors from the server response
-            navigate('/signup/enterDetails', {
-              state: { name_pass: name, email_pass: email },
-          });
-
+      if (data.success) {
+        // If a token is returned, store it in local storage
+        if (data.token) {
+          storeTokenInLS(data.token); // Your function to store token
+          if(isPricing){
+            navigate("/pricing");
+          }
+          else{
+          navigate("/dashboard"); // Navigate to home page}
         }
+        }
+      } else {
+        // Handle any errors from the server response
+        navigate("/signup/enterDetails", {
+          state: { name_pass: name, email_pass: email },
+        });
+      }
     } catch (error) {
-        console.error('Error checking database:', error);
+      // console.error('Error checking database:', error);
     }
-};
+  };
   const login = useGoogleLogin({
     onSuccess: (response) => {
       if (response && response.access_token) {
@@ -66,23 +71,20 @@ const Login = () => {
             }
           )
           .then((res) => {
-            checkDatabase(res.data.email, res.data.name, "h");
+            checkDatabase(res.data.email, res.data.name, userLocation);
           })
           .catch((err) => {});
       }
     },
-    onError: (error) => console.log("Login Failed:", error),
   });
 
   const { instance, accounts } = useMsal();
   const microsoftlogin = () => {
-    instance.loginRedirect(loginRequest).catch((e) => {
-      console.log(e);
-    });
-  }; // console.log(e);
+    instance.loginRedirect(loginRequest).catch((e) => {});
+  };
 
   const RequestProfileData = () => {
-    if (accounts && accounts.length > 0) {
+    if (sessionStorage && accounts && accounts.length > 0) {
       // Acquiring token silently
       instance
         .acquireTokenSilent({
@@ -95,11 +97,8 @@ const Login = () => {
             setGraphData(response); // Set the graph data
           });
         })
-        .catch((error) => {
-          console.log("Token acquisition or API call failed: ", error);
-        });
+        .catch((error) => {});
     } else {
-      console.log("No accounts available, cannot acquire token");
     }
   };
 
@@ -114,24 +113,21 @@ const Login = () => {
   // Second useEffect to log graphData when it is set
   useEffect(() => {
     if (graphData) {
-      console.log("Graph Data:", graphData); // Log updated graph data
     }
   }, [graphData]); // Depend on graphData
 
-  useEffect(()=>{
+  useEffect(() => {
     if (sessionStorage.getItem("msal.account.keys") && graphData) {
-      console.log("nio");
       const name1 = graphData.displayName;
       const email1 = graphData.mail;
       sessionStorage.clear();
       setGraphData(null);
-      checkDatabase(email1,name1,"hi");
+      checkDatabase(email1, name1, "hi");
     }
-  })
+  });
 
   const handleConnectRequest = async (e) => {
     e.preventDefault();
-    console.log("hi")
     setIsLoader(true);
 
     const apiEndpoint = isEmailMode
@@ -139,7 +135,7 @@ const Login = () => {
       : "https://hammerhead-app-yx4ws.ondigitalocean.app/api/v1/alert/sendMessage"; // Replace with your phone API endpoint
 
     const body = isEmailMode
-      ? { email: emailOrPhone, location: "Benguluru" }
+      ? { email: emailOrPhone, location: userLocation }
       : { phone: emailOrPhone, message: "Hi bro" };
     try {
       const response = await fetch(apiEndpoint, {
@@ -149,8 +145,7 @@ const Login = () => {
         },
         body: JSON.stringify(body), // Sending input in the request body
       });
-      if(response.ok){
-        console.log("hiiiiiii");
+      if (response.ok) {
         // navigate("/");
         navigate("/login/emailverify", { state: { email_pass: emailOrPhone } });
       }
@@ -177,7 +172,6 @@ const Login = () => {
 
   // Function to handle the email submission
   const handleEmailSubmit = async (e) => {
-    
     e.preventDefault();
     setError("");
 
@@ -269,7 +263,7 @@ const Login = () => {
                   </div>
                   <div className="text-[#ffffff]">Sign in with Google</div>
                 </button>
-                <button
+                {/* <button
                   onClick={microsoftlogin}
                   className="flex  gap-4 justify-center items-center py-2 border border-[#3d444d] rounded-2xl font-semibold leading-[16px] "
                 >
@@ -282,7 +276,7 @@ const Login = () => {
                     />
                   </div>
                   <div className="text-[#ffffff]">Sign in with Microsoft</div>
-                </button>
+                </button> */}
               </div>
 
               {/* <!-- Login Content - OR --> */}
@@ -315,7 +309,7 @@ const Login = () => {
 
                 <div className="hero_cta_content flex flex-col">
                   {/* Email/Phone Signup */}
-                  <form onSubmit={(e)=>handleConnectRequest(e)}>
+                  <form onSubmit={(e) => handleConnectRequest(e)}>
                     <div className="hero_cta_email_signup flex flex-col gap-4">
                       <div className="hero_cta_email_input ">
                         <input
@@ -324,11 +318,14 @@ const Login = () => {
                             isEmailMode ? "you@company.com" : "123-456-7890"
                           } // Change placeholder
                           value={emailOrPhone} // Bind the input value to state
-                          onChange={(e) =>{ setIsLoader(false); setEmailOrPhone(e.target.value); }} // Update state on input change
+                          onChange={(e) => {
+                            setIsLoader(false);
+                            setEmailOrPhone(e.target.value);
+                          }} // Update state on input change
                           className="bg-[#0D1116] w-full p-4  border border-gray-400 rounded-md lg:rounded-md focus:outline-none focus:border-blue-500 text-[#ffffff] placeholder-gray-500"
                           required
                           // pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
-                          />
+                        />
                       </div>
 
                       <button
@@ -337,24 +334,21 @@ const Login = () => {
                         className="hero_cta_signup_content  w-full p-4 rounded-lg bg-[#238636] items-center lg:rounded-md hover:shadow-[0_2px_8px_0_rgba(255,255,255,0.3)] transition-shadow duration-300 ease-in-out"
                       >
                         <div>
-                          
                           <h4 className="flex text-[16px] font-semibold leading-[16px] text-[#FFFFFF] justify-center">
-                           
-                          {isLoader
-                            ? 
-                                <ThreeDots
-                                  visible={true}
-                                  height="24"
-                                  width="24"
-                                  color="#ffffff"
-                                  radius="4"
-                                  ariaLabel="three-dots-loading"
-                                  wrapperStyle={{}}
-                                  wrapperClass=""
-                                />
-                              
-                            : "Sign in with Email"}
-
+                            {isLoader ? (
+                              <ThreeDots
+                                visible={true}
+                                height="24"
+                                width="24"
+                                color="#ffffff"
+                                radius="4"
+                                ariaLabel="three-dots-loading"
+                                wrapperStyle={{}}
+                                wrapperClass=""
+                              />
+                            ) : (
+                              "Sign in with Email"
+                            )}
                           </h4>
                         </div>
                       </button>

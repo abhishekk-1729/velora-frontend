@@ -9,7 +9,6 @@ function App() {
 
   const login = useGoogleLogin({
     onSuccess: (response) => {
-      console.log(response);
       setUser(response); // Ensure the response contains the access token
       if (response && response.access_token) {
         setLoading(true); // Start loading
@@ -24,19 +23,11 @@ function App() {
             }
           )
           .then((res) => {
-            
-            // console.log(res.data);
-            // setProfile(res.data);
-            // setLoading(false); // Stop loading when data is fetched
-          })
+                      })
           .catch((err) => {
-            // console.log("Failed to fetch profile:", err);
-            // setLoading(false); // Stop loading on error
           });
       }
-    },
-    onError: (error) => console.log("Login Failed:", error),
-  });
+    }  });
 
   return (
     <div>

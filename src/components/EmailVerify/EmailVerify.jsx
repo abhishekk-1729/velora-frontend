@@ -14,7 +14,7 @@ const EmailVerify = () => {
   const [timerExpired, setTimerExpired] = useState(false); // To show the "Request new code" button
   const [textState, setTextState] = useState(0);
   const navigate = useNavigate();
-  const { storeTokenInLS } = useAuth();
+  const { storeTokenInLS, userLocation } = useAuth();
 
   // Fetch OTP validity and calculate the remaining time
   const fetchOtpValidity = async () => {
@@ -45,7 +45,7 @@ const EmailVerify = () => {
         }
       }
     } catch (error) {
-      console.error("Error fetching OTP validity:", error);
+      // console.error("Error fetching OTP validity:", error);
     }
   };
 
@@ -99,7 +99,7 @@ const EmailVerify = () => {
       }
     } catch (err) {
       setTextState(2);
-      console.error("OTP verification failed:", err);
+      // console.error("OTP verification failed:", err);
     }
   };
 
@@ -112,7 +112,7 @@ const EmailVerify = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: email_pass, location: "Bengaluru" }),
+        body: JSON.stringify({ email: email_pass, location: userLocation}),
       });
 
       if (!response.ok) {
@@ -122,7 +122,7 @@ const EmailVerify = () => {
       setRemainingTime(20); // Reset the cooldown period to 20 seconds
       setTimerExpired(false); // Reset the timer expired flag
     } catch (err) {
-      console.error("Failed to request new OTP:", err);
+      // console.error("Failed to request new OTP:", err);
     }
   };
 
@@ -132,7 +132,7 @@ const EmailVerify = () => {
         <div className="login mx-4 lg:mx-16 flex flex-col gap-4 text-[#ffffff] mt-16 mb-24 md:p-8">
           <div className="login_image flex justify-center p-2">
             <img
-              src="/company.png"
+              src="company.png"
               alt="Company Logo"
               height={200}
               width={200}
