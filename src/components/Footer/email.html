@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f7;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .banner {
+        display: flex;
+        align-items: center; /* Aligns items vertically in the center */
+      }
+
+      .banner-image {
+        margin-right: 10px; /* Adds spacing between the image and text */
+      }
+
+      .break-line {
+        width: 100%;
+        height: 1px;
+        background-color: #ccc; /* Set your preferred color */
+        margin-top: 10px; /* Adjust as needed */
+      }
+
+      h3 {
+        color: #1d1d1f;
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+      th,
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 16px;
+        text-align: left;
+      }
+      th {
+        background-color: #f5f5f7;
+        font-weight: normal;
+      }
+      ul {
+        padding-left: 20px;
+        margin-top: 10px;
+        color: #333;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .button-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .break-line {
+        height: 3px;
+        width: 100%;
+        background-color: #902b72;
+      }
+
+      .banner-text {
+        color: #902b72;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      .banner-image {
+        height: 40px;
+        width: 40px;
+      }
+
+      .button {
+        display: block;
+        width: 100%;
+        max-width: 300px; /* Adjust width as needed */
+        padding: 12px;
+        margin: 10px auto;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .button a {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        /* color: inherit; */
+      }
+
+      .green-button {
+        background-color: #4caf50; /* Green */
+      }
+
+      .green-button:hover {
+        background-color: #45a049;
+      }
+
+      .blue-button {
+        background-color: #007bff; /* Blue */
+      }
+
+      .blue-button:hover {
+        background-color: #0069d9;
+      }
+
+      .signature {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #333;
+      }
+      .signature a {
+        color: #1d1d1f;
+        text-decoration: none;
+      }
+      .mail-text {
+        text-align: center;
+        color: #902b72;
+        font-size: 12px;
+      }
+      .mail-text-div {
+        text-align: center;
+        color: #902b72;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <img
+        src="https://www.thefirstweb.com/logo_2.png"
+          alt="Your Banner"
+          class="banner-image"
+        />
+        <div>
+          <p class="banner-text">The First Web</p>
+        </div>
+      </div>
+      <div class="break-line"></div>
+
+      <p>Hi {{ hotel_name }},</p>
+
+      <p>
+        Did you know optimized hotel websites can increase direct bookings by up
+        to <strong>30%</strong>? I recently reviewed
+        <a href="{{ hotel_website }}">{{ hotel_website }}</a>, and {{
+        metrics[0][0] }} Here is my analysis which could affect the performance:
+      </p>
+
+      <h3>Website Health Check:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Your Score</th>
+            <th>Competitor Benchmark</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for metric in metrics %}
+          <tr>
+            <td>{{ metric[1] }}</td>
+            <td>{{ metric[2] }}/10</td>
+            <td>{{ metric[3] }}/10</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <h3>Here’s What We Could Improve:</h3>
+      <ul>
+        {% for metric in metrics %}
+        <li><strong>{{ metric[1] }}</strong> – {{ metric[4] }}</li>
+        {% endfor %}
+      </ul>
+
+      <h3>Take the Next Step Toward More Bookings:</h3>
+      <div class="button-container">
+        <!-- Green Button -->
+        <a
+          href="https://www.thefirstweb.com/contact"
+          class="button green-button"
+          style="color: white; text-decoration: none; font-size: 16px"
+          target="_blank"
+          >Get a Free, Detailed Assessment</a
+        >
+        <a
+          href="tel:+19254718097"
+          class="button blue-button"
+          style="color: white; text-decoration: none; font-size: 16px"
+          target="_blank"
+          >Give a Call</a
+        >
+      </div>
+
+      <p>
+        I’d love to discuss how we can bring these improvements to
+        {{hotel_name}}. Simply reply to this email, and we’ll handle the rest!
+      </p>
+
+      <div class="signature">
+        Best regards,<br />
+        Abhishek Kumar<br />
+        The First Web<br />
+        Email:
+        <a href="mailto:abhishek@thefirstweb.com" style="text-decoration: underline; color: blue;">abhishek@thefirstweb.com</a
+        ><br />
+        Contact: <a href="tel:+19254718097" style="text-decoration: underline; color: blue;">+1 (925) 471-8097</a>
+      </div>
+      <div class="mail-text-div">
+        <a
+          href="https://www.thefirstweb.com"
+          target="_blank"
+          class="mail-text"
+          style="color: #902b72; text-decoration: none"
+          >www.thefirstweb.com</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
