@@ -14,7 +14,7 @@ SMTP_SERVER = 'smtp.gmail.com'  # Replace with your SMTP server
 SMTP_PORT = 587  # Common port for TLS
 EMAIL_ADDRESS = 'abhishek@thefirstweb.com'  # Replace with your email
 EMAIL_PASSWORD = 'ojli raor eeqr amdk'  # Replace with your app-specific password or email password
-openai.api_key = "key"
+openai.api_key = "keym"
 # 1. Extract Emails
 def extract_emails(url):
     response = requests.get(url)
