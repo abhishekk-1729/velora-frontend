@@ -14,7 +14,7 @@ SMTP_SERVER = 'smtp.gmail.com'  # Replace with your SMTP server
 SMTP_PORT = 587  # Common port for TLS
 EMAIL_ADDRESS = 'abhishek@thefirstweb.com'  # Replace with your email
 EMAIL_PASSWORD = 'ojli raor eeqr amdk'  # Replace with your app-specific password or email password
-openai.api_key = "key"
+openai.api_key = "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"
 # 1. Extract Emails
 def extract_emails(url):
     response = requests.get(url)
@@ -35,9 +35,25 @@ def get_website_metrics(url):
         "User Experience",
         "Booking Flow"
     ]
+
+    prompt = f"""
+    Analyze the website at {url}.
+
+    1. Determine if this is a hotel website. Respond with "YES" or "NO".
+    2. If this is a hotel website, does it provide booking functionality on its platform? Respond with "YES" or "NO".
+    3. Suggest improvements to the website's usability, functionality, or design in bullet points.
+
+    Output format:
+    Is Hotel: <YES/NO>
+    Provides Booking: <YES/NO or N/A>
+    Improvements:
+    - Bullet point 1
+    - Bullet point 2
+    """
+
     
     valid_response = False
-    max_attempts = 5
+    max_attempts = 1
     attempts = 0
     
     while not valid_response and attempts < max_attempts:
@@ -46,15 +62,15 @@ def get_website_metrics(url):
         response = openai.chat.completions.create(
     model="gpt-4",
     messages=[
-        {"role": "system", "content": "You are an expert in website analysis. For the following task, you are required to analyze a hotel website and provide scores for the following metrics: Mobile Optimization, Loading Speed, SEO Ranking, User Experience, and Booking Flow. Your response must ONLY include these 5 metrics in this exact format: [Website Description: 'Short one-line description about what this website does starting as- I found that your website ...', Metric Name: 'Mobile Optimization', Your Score: X, Competitor Score: Y, Improvement Suggestion: 'Short one-line improvement with a numeric benefit']. Do not include any other text, explanation, or details."},
-        {"role": "user", "content": f"Analyze the website {url} and provide scores for the five metrics listed in the prompt. Include Website Description every time while providing the scores"}
+        {"role": "system", "content": "You are an expert in website analysis. For the following task, you are required to analyze a hotel website and provide the response that whether this website belogs to a hotel or not. And if they provide booking functionality on their websites. And some suggestions"},
+        {"role": "user", "content": prompt}
     ]
 )        
         response_content = response.choices[0].message.content
         print(response_content)
         metrics = parse_metrics_response(response_content)
-        print("metrics")
-        print(metrics)
+        # print("metrics")
+        # print(metrics)
         if metrics and len(metrics) == len(metrics_to_check):
             valid_response = True
     
@@ -67,25 +83,25 @@ def get_website_metrics(url):
 def parse_metrics_response(response_content):
     metrics = []
     lines = response_content.split("\n")
-    print(lines)
+    # print(lines)
     
     for line in lines:
         # Remove surrounding brackets and strip whitespace
         line = line.strip().strip("[]")
-        print(line)
+        # print(line)
         
         if line:
             try:
                 # Split the line into individual key-value pairs
                 metric_info = {}
                 parts = line.split(", ")
-                print(parts)
+                # print(parts)
                 
                 for part in parts:
-                    print(part)
+                    # print(part)
                     key, value = part.split(": ", 1)
-                    print(key)
-                    print(value)
+                    # print(key)
+                    # print(value)
                     key = key.strip()  # Remove any leading/trailing whitespace
                     value = value.strip().strip("'")  # Remove leading/trailing whitespace and quotes
                     # print(value)
@@ -130,16 +146,23 @@ def generate_email(hotel_name, hotel_website, metrics):
     
     return subject, email_body
 # Example Usage
-url = "https://www.carltonarms.com/"
-# emails = extract_emails(url)
-# print(emails)
-# validated_emails = [email for email in emails if validate_email(email)]
-# issues = identify_website_issues(url)
-# metrics = get_website_metrics(url)
-subject, email_content = generate_email("Hotel Owner", url, "metrics")
-# print(email_content)
-to_email = "abhikriitd@gmail.com"
-# send an email from support@thefirstweb.com to abhikriitd@gmail with these subject and html email content
+# url1 = "https://www.carltonarms.com/"
+url2 = "http://www.scudderhillhouse.com/"
+urls = [url2]
+
+
+# send_email(to_email, "Abhishek, is this your website?", email_content)
+for url in urls:
+    get_website_metrics(url)
+    # emails = extract_emails(url)
+    # print(emails)
+    # validated_emails = [email for email in emails if validate_email(email)]
+    # issues = identify_website_issues(url)
+    # metrics = get_website_metrics(url)
+    subject, email_content = generate_email("Hotel Owner", url, "metrics")
+    # print(email_content)
+    to_email = "abhikriitd@gmail.com"
+    # send an email from support@thefirstweb.com to abhikriitd@gmail with these subject and html email content
 
 def send_email(to_email, subject, html_content):
     print(html_content)
@@ -162,5 +185,3 @@ def send_email(to_email, subject, html_content):
             print("Email sent successfully.")
     except Exception as e:
         print(f"Failed to send email: {e}")
-
-send_email(to_email, "Abhishek, is this your website?", email_content)

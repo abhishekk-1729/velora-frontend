@@ -23,6 +23,8 @@
     "http-proxy-middleware": "^3.0.3",
     "install": "^0.13.0",
     "npm": "^10.9.0",
+    "openai": "^4.73.0",
+    "pandas": "^0.0.3",
     "postcss": "^8.4.47",
     "primereact": "^10.8.4",
     "react": "^18.3.1",
