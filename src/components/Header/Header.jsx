@@ -2,11 +2,14 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "../../store/auth";
 import Countdown from "./Countdown";
 import FlipText from "./FlipText";
+import { useNavigate } from "react-router-dom";
+
 
 function Header({ setShowHeader }) {
   const { currency, currencyChange } = useAuth();
   const baseAmount = 999;
   const baseDiscountedAmount = 899;
+  const navigate = useNavigate();
 
   const [amount, setAmount] = useState(0); // Start with 0 to avoid flicker
   const [discounted_amount, setDiscounted_amount] = useState(0); // Start with 0 to avoid flicker
@@ -33,9 +36,9 @@ function Header({ setShowHeader }) {
           .
         </span>{" "}
         Go to{" "}
-        <a href="/pricing" className="underline">
+        <button  className="underline" onClick={()=>{navigate("/pricing")}}>
           Pricing
-        </a>
+        </button>
       </div>
 
       <button className="ml-auto" onClick={() => setShowHeader(false)}>
