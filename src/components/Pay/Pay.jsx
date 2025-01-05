@@ -15,6 +15,7 @@ function Pay() {
   const [discount, setDiscount] = useState(0); // Discount percentage
   const [couponStatus, setCouponStatus] = useState("Apply"); // 'Apply', 'Applied', or 'Invalid'
   const [isCouponVerified, setIsCouponVerified] = useState(false);
+  const amountAfterDiscount = amount*(1-(0.01*discount))
   const totalAmountOrder = amount*(1-(0.01*discount))*1.02.toFixed(2);
   const platformFees = (amount - (amount * discount) / 100) * 0.02;
   const totalAmount = totalAmountOrder*advance | 0;
@@ -241,9 +242,14 @@ function Pay() {
                   <div>{`${discount}%`}</div>
                 </div>
                 <div className="flex items-center gap-4 justify-between">
+                  <div>Amount after Discount</div>
+                  <div>{`${currency}${amountAfterDiscount}`}</div>
+                </div>
+                <div className="flex items-center gap-4 justify-between">
                   <div>Platform Fees (2%)</div>
                   <div>{`${currency}${platformFees.toFixed(2)}`}</div>
                 </div>
+                <div className="border-t border-dashed border-white my-2"></div>
                 <div className="flex items-center gap-4 justify-between">
                   <div>Amount Payable</div>
                   <div>{`${currency}${totalAmountOrder.toFixed(2)}`}</div>

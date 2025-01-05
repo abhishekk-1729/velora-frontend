@@ -10,7 +10,7 @@ const NotFound = () => {
         <div className="login_image flex justify-center p-2 mb-2">
           <a href="/">
             <img
-              src="company.png"
+              src="/company.png"
               alt="Company Logo"
               height={200}
               width={200}
@@ -26,7 +26,7 @@ const NotFound = () => {
           {/* Card Image */}
           <div className="flex card_image lg:w-1/2 items-center justify-center">
             <img
-              src={"4047.png"}
+              src={"/4047.png"}
               alt={"Heading_About"}
               className="rounded-md"
               height={600}

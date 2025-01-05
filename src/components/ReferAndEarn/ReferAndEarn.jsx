@@ -111,7 +111,7 @@ const { isLoggedIn, user, token, country, coupon_code, currency, currencyChange 
                 <div>4. You are not permitted to use your own referral code for any transactions.</div>
                 <br />
                 <div>
-                  5. This referral code can be used multiple times and is valid until November 30, 2024.
+                  5. This referral code can be used multiple times and is valid until January 31, 2025.
                 </div>
               </div>
             </div>
