@@ -45,7 +45,7 @@ const CouponPopup = ({ isOpen, setIsOpen }) => {
   return (
     isOpen && (
       <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-[200]">
-        <div className="bg-[#0d1116] rounded-lg shadow-lg w-full max-w-3xl flex flex-col md:flex-row mx-2">
+        <div className="bg-[#0d1116] rounded-lg shadow-lg w-full max-w-3xl flex flex-col md:flex-row mx-4">
           {/* Left Part - Image */}
           <div className="hidden md:block md:w-1/2">
             <img
@@ -56,18 +56,18 @@ const CouponPopup = ({ isOpen, setIsOpen }) => {
           </div>
 
           {/* Right Part - Content */}
-          <div className="w-full md:w-1/2 p-6 relative">
+          <div className="w-full md:w-1/2 md:p-4 relative">
             {/* Close Button */}
             <button
-              className="absolute top-4 right-4 text-[#9198A1] text-2xl hover:text-gray-400"
+              className="absolute top-1 right-4 text-[#9198A1] text-2xl hover:text-gray-400"
               onClick={handleClose}
             >
               ✖
             </button>
 
-            <div className="bg-[#0d1116] text-white flex flex-col items-center justify-center p-8 rounded-lg shadow-lg max-w-md mx-auto gap-2">
+            <div className="bg-[#0d1116] text-white flex flex-col items-center justify-center p-4 md:p-8 rounded-lg shadow-lg max-w-md mx-auto gap-2">
               {/* First Div */}
-              <div className="text-xl font-semibold mb-4">
+              <div className="text-xl font-semibold my-4">
                 NEW YEAR, NEW WEBSITE
               </div>
 
