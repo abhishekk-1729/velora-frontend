@@ -9,6 +9,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer"
 
 function Home() {
+
   const value2 = {
     key: "6",
     direction: "right",
@@ -127,11 +128,13 @@ function Home() {
     };
   }, []);
 
+
   return (
     <><div className="hero_bg">
       <Navbar />
       <Hero />
       </div>
+      
       {<Navigation_quality />}{" "}
       {/* Show navigation only on large screens */}
       {qualities.map((value,index) => (

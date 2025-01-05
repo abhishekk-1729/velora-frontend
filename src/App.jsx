@@ -14,6 +14,7 @@ import routes from "./routes";
 import { matchPath } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import About from "./components/About/aboutus";
+import Popup from "./components/Popup/Popup"
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
@@ -38,19 +39,23 @@ const App = () => {
   };
   const errorMessage = (error) => {
   };
-  const isHomePage = location.pathname === "/";
+  const isHomePage = location.pathname === "/" || location.pathname === "/pricing" || location.pathname === "/pay";
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <main className="main-bg">
       {/* <div>
         <GoogleLogin onSuccess={responseMessage} onError={errorMessage} />
       </div> */}
- {isHomePage && showHeader && <Header setShowHeader={setShowHeader} />}
+ {!isOpen && isHomePage && showHeader && <Header setShowHeader={setShowHeader} />}
+
+ {<Popup isOpen={isOpen} setIsOpen={setIsOpen}/>}
 
       {!shouldHideNavFooter() && <Navbar />}
       <Routes>
       {/* <Route  path="/about" element={<About/>} /> */}
         {routes.map(({ path, element }) => (
-          <Route key={path} path={path} element={element} />
+          <Route key={path} path={path} element={element}/>
         ))}
       </Routes>
       {/* Conditionally render Footer */}

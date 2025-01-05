@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import endpoints from "../../../../configs/apiConfigs"; // Adjust path as necessary
 import EnterPhone from "../../../EnterPhone/EnterPhone";
+import HeroQualityExamples from "./Quality"
 
 const Hero = () => {
   const [textState, setTextState] = useState(0);
@@ -48,7 +49,9 @@ const Hero = () => {
   };
 
   return (
+    
     <div className="hero_section">
+      
       {/* Hero Content */}
       <div className="lg:mx-16 pt-44 lg:pt-32 mb-16 px-4 lg:pb-4 flex flex-col gap-4 lg:gap-20">
         {/* Hero Heading */}
@@ -203,14 +206,7 @@ const Hero = () => {
               Performance ↘︎
             </h3>
           </div>
-          <div className="text-[#] text-[22px] font-normal leading-[32px] text-[#9198A1] hero_quality_examples grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
-            <h2 className="">Fast Delivery</h2>
-
-            <h2 className=" ">Precise Design</h2>
-            <h2 className=" ">Great Performance</h2>
-            <h2 className=" ">Custom Code</h2>
-            <h2 className="">Top-Notch Service</h2>
-          </div>
+          <HeroQualityExamples/>
         </div>
       </div>
     </div>

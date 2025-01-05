@@ -19,6 +19,9 @@ import TermsAndCondition from "./components/TermsAndCondition/TermsAndCondition.
 // import FAQs from "./components/FAQs/FAQs.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
 import Logout from "./components/Logout/Logout.jsx";
+import AdminChat from "./components/Chat/AdminChat.jsx"
+import Chat from "./components/Chat/ChatBot.jsx"
+
 const routes = [
     { path: "/", element: <Home />, noNavFooter:true },
     { path: "/about", element: <About /> },
@@ -39,6 +42,9 @@ const routes = [
     { path: "/faqs", element: <FAQs /> },
     { path: "/termsandconditions", element: <TermsAndCondition /> },
     { path: "/pay", element: <Pay />  , noNavFooter: true },
+    { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer
+    { path: "chat", element:<Chat/>, noNavFooter: true },  // Specify this route should not show Navbar or Footer
+    { path: "adminChat", element:<AdminChat/>, noNavFooter: true },  // Specify this route should not show Navbar or Footer
     { path: "*", element: <NotFound />, noNavFooter: true },  // Specify this route should not show Navbar or Footer
   ];
   

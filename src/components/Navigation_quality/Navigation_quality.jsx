@@ -100,7 +100,7 @@ const Navigation_quality = () => {
   return (
     <nav
       className={`nav ${
-        isSticky ? "lg:sticky lg:top-0 lg:bg-[#151b23]" : "hidden"
+        isSticky ? "lg:sticky lg:top-0 lg:bg-[#151b23] z-[2]" : "hidden"
       } flex  lg:px-16 p-4 lg:p-5  items-center justify-between`}
     >
       <div className="flex gap-8">
