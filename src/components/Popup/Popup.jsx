@@ -11,6 +11,15 @@ const CouponPopup = ({ isOpen, setIsOpen }) => {
   });
   const [copyStatus, setCopyStatus] = useState("TAP TO COPY");
   const [copyStatusImage, setCopyStatusImage] = useState("copy1.png");
+  const [a, setA] = useState(1)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setA(0);
+    }, 2000); // 2-second delay
+
+    return () => clearTimeout(timer); // Cleanup timer if the component unmounts
+  }, []);
 
   const handleCopy = () => {
     navigator.clipboard.writeText("FIRSTWEB25").then(
@@ -47,7 +56,7 @@ const CouponPopup = ({ isOpen, setIsOpen }) => {
       <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-[200]">
         <div className="bg-[#0d1116] rounded-lg shadow-lg w-full max-w-3xl flex flex-col md:flex-row mx-4">
           {/* Left Part - Image */}
-          <div className="hidden md:block md:w-1/2">
+          <div className={`${a==0?"hidden":""}  md:block md:w-1/2`}>
             <img
               src="popupbg4.png"
               alt="Coupon"
@@ -56,7 +65,7 @@ const CouponPopup = ({ isOpen, setIsOpen }) => {
           </div>
 
           {/* Right Part - Content */}
-          <div className="w-full md:w-1/2 md:p-4 relative">
+          <div className={`${a==1?"hidden":""} md:block w-full md:w-1/2 md:p-4 relative`}>
             {/* Close Button */}
             <button
               className="absolute top-1 right-4 text-[#9198A1] text-2xl hover:text-gray-400"
