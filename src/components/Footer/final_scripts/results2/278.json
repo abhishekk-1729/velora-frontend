@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and text scale properly on smaller screens and test with mobile emulators to improve responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add meta descriptions, proper header tags (H1, H2), and improve internal linking for better SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider adding more intuitive navigation and clearer calls to action for a smoother experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps or providing a clearer progress indicator.",
+    "tips": [
+        "Consider adding social proof such as guest reviews and testimonials to increase trust.",
+        "Ensure the website is fully accessible by checking for any compliance with WCAG guidelines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases information about Lake Lodge Kosher Resort, providing booking options and resort details."
+}

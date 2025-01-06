@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(508) 674-3326"
+    ],
+    "emails": [
+        "info@allegiancebandb.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "https://www.booking.com",
+    "category": "others",
+    "ifOthersThenWhat": "bed and breakfast",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve the mobile responsiveness by ensuring that all content is properly resized and accessible on smaller screens without horizontal scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve loading speed on mobile and desktop devices.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve the SEO by adding more relevant keywords to the page titles, meta descriptions, and header tags. Also, make sure that alt attributes are present for all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation by making the menu more visible and accessible on mobile devices to enhance user flow.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation and making the booking button more prominent.",
+    "tips": [
+        "Ensure accessibility features are in place for visually impaired users.",
+        "Consider adding customer testimonials to build trust and improve conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation at Allegiance Bed & Breakfast with options for online booking through third-party platforms."
+}

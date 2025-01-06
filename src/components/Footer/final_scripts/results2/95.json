@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 555-123-4567"
+    ],
+    "emails": [
+        "contact@highlandparkmotella.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure buttons and navigation are touch-friendly and that text scales correctly on all screen sizes.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and minimize JavaScript to speed up page loading.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant keywords, alt text for images, and meta descriptions to improve search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the readability of text by increasing contrast and using a larger font size for headings.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and adding clear steps for the user.",
+    "tips": [
+        "Consider adding customer reviews or testimonials to increase trust.",
+        "Implement a mobile-first design approach."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel accommodation bookings and related information."
+}

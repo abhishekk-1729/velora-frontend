@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-945-0100"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all images are optimized for mobile to reduce loading time and improve performance.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and asynchronous loading for scripts to improve page speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more descriptive alt text to images and ensure all pages have unique, optimized meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility by adding clear navigation labels and options for users with disabilities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the checkout process by reducing the number of steps required to complete the booking.",
+    "tips": [
+        "Improve mobile performance by compressing images.",
+        "Ensure consistent navigation across all pages.",
+        "Optimize page load times by reducing server requests."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking and information for Conrad New York Downtown."
+}

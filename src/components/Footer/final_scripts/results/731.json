@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 429-5554"
+    ],
+    "emails": [
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all elements resize seamlessly on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement caching to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more meta descriptions and optimize keywords for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation clarity slightly for an even smoother user flow.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify payment options for even better usability.",
+    "tips": [
+        "Enhance SEO by focusing on content marketing.",
+        "Improve image compression to speed up loading.",
+        "Test booking flow on various devices for potential issues."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Ocean Park Hotel in Santa Monica."
+}

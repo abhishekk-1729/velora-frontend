@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 845.469.1900",
+        "+1 866.777.2992",
+        "+1 845.469.1919"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "be.synxis.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation menu responsiveness to enhance user experience on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce the number of high-size resources to improve page loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more targeted keywords in headings and metadata for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistency in call-to-action buttons across different sections to improve navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form process by reducing unnecessary steps to enhance user flow.",
+    "tips": [
+        "Improve mobile user interface for smoother navigation.",
+        "Increase SEO by optimizing content with rich keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Glenmere Mansion as a luxury hotel, restaurant, and spa offering accommodations and experiences."
+}

@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure buttons and navigation elements are more spaced out for easier tapping on mobile devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading for non-essential assets.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content in headings and meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider streamlining the content layout for quicker access to key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of fields and adding autofill options.",
+    "tips": [
+        "Enhance SEO with targeted local keywords for better visibility in search engines.",
+        "Improve loading time by using compressed images and optimizing JavaScript delivery."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers short-term apartment rentals in the River North area of Chicago."
+}

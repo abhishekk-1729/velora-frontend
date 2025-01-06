@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-665-2357"
+    ],
+    "emails": [
+        "info@hotelcovell.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider improving mobile navigation and optimizing images for faster load times on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance the use of alt text for images and optimize meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline content layout for easier readability, especially on mobile devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile navigation and reduce load times for a better user experience.",
+        "Optimize images for faster performance across devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing and facilitating bookings for Hotel Covell in Los Angeles."
+}

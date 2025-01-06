@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-257-7700"
+    ],
+    "emails": [
+        "info@thehillsinneaglerockla.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and using responsive design techniques to improve mobile performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress large images and use lazy loading to speed up the website.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more high-quality, relevant content and optimize meta tags for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by simplifying the menu and adding a clearer call-to-action button.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by minimizing the number of steps and providing a progress bar.",
+    "tips": [
+        "Ensure fast loading times by optimizing resources and minimizing scripts.",
+        "Enhance mobile responsiveness with a mobile-first approach."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for The Hills Inn located near Old Town Pasadena."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-346-1200",
+        "+1 800-HILTONS"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images are fully optimized for mobile to improve load times and visual performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the size of image files and using lazy loading to speed up page rendering.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more detailed meta descriptions and alt text for images to enhance search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the navigation menu for easier access to key sections like booking and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve the clarity of booking steps with progress indicators to make the flow feel more intuitive.",
+    "tips": [
+        "Optimize image sizes for mobile devices",
+        "Improve load speed by minimizing unnecessary scripts",
+        "Focus on increasing local SEO optimization"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a booking portal for The Wayfarer Downtown LA, part of the Hilton Tapestry Collection."
+}

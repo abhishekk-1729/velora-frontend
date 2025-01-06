@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (323) 955-7222",
+        "+1 (323) 366-1281"
+    ],
+    "emails": [
+        "info@alsacehotella.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by simplifying the menu and reducing the number of steps to access key pages.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more relevant keywords in the meta descriptions and headers to improve visibility in search engines.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance the clarity of call-to-action buttons and streamline content layout for easier navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete the reservation.",
+    "tips": [
+        "Focus on optimizing image sizes for faster loading times.",
+        "Improve the mobile navigation for a better user experience.",
+        "Work on enhancing SEO optimization by improving meta tags and content structure."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as a platform for booking rooms at Alsace Hotel Los Angeles."
+}

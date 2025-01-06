@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "afternoon tea experience at The Living Room, Beverly Hills",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and layout for faster mobile viewing on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large images and minimize JavaScript to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, add alt text for images, and focus on keyword-rich content.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add a more visible call to action for reservations or bookings.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider adding direct contact methods like a phone number or contact form.",
+        "Highlight booking or reservation information more prominently on the page."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases The Living Room's afternoon tea experience at The Peninsula Beverly Hills."
+}

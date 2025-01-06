@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310 276 2251"
+    ],
+    "emails": [
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure smoother navigation and faster loading on mobile devices by optimizing image sizes and using responsive design elements.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce large image file sizes and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Consider enhancing metadata and keyword strategy to further optimize for search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Refine content hierarchy for clearer user flows, especially for first-time visitors.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary form fields and steps.",
+    "tips": [
+        "Improve mobile responsiveness by optimizing for touch gestures.",
+        "Optimize images and other assets for faster load times.",
+        "Enhance on-site navigation and clarity to support users unfamiliar with the brand."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for The Beverly Hills Hotel, offering luxury accommodations, dining, and event spaces."
+}

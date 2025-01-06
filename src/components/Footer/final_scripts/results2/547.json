@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 562-801-0780"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile to reduce loading time and improve responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize large image files and implement lazy loading to enhance site speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Use structured data markup and improve on-page SEO, such as meta tags and keyword optimization.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by making the booking section more prominent on the homepage.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary steps and offering a clearer call-to-action.",
+    "tips": [
+        "Optimize site for faster loading on mobile devices.",
+        "Improve content quality and keyword targeting for better SEO rankings.",
+        "Make the booking process more intuitive and streamlined."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides motel bookings and information for Motel 6 Pico Rivera, CA - Los Angeles."
+}

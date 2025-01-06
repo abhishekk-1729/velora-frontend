@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-474-2500",
+        "800-421-1787"
+    ],
+    "emails": [
+        "reservations@paligroup.com",
+        "info@paligroup.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images are properly resized and avoid large image files that may slow down mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions and include alt text for images to increase search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Provide more detailed information about the amenities and local attractions for better engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering a guest checkout option.",
+    "tips": [
+        "Optimize the website for faster mobile loading times.",
+        "Add more social proof such as guest reviews to build trust.",
+        "Ensure that the booking process is as seamless and quick as possible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is an online presence for Palihotel Westwood Village, providing information and booking options for the hotel."
+}

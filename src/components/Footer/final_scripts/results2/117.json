@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "https://www.vrbo.com",
+    "category": "others",
+    "ifOthersThenWhat": "vacation rental lodge",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that the mobile view adapts more fluidly to different screen sizes, especially on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding more targeted keywords, meta descriptions, and alt texts for images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and ensure that key information like amenities, room details, and location is easy to find.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider integrating a more seamless booking system directly on the website to reduce reliance on third-party services.",
+        "Enhance the site's mobile responsiveness to improve user experience across all devices.",
+        "Work on improving page load speed to avoid potential drop-offs.",
+        "Add relevant and engaging content that will appeal to your target audience and help with SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes vacation rentals at the South Shore Motor Lodge, providing accommodation details and booking options."
+}

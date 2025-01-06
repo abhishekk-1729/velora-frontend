@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-555-123-4567"
+    ],
+    "emails": [
+        "info@highlandersview.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile navigation by making the menu more accessible and optimizing text sizes for smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to reduce initial page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more internal links and ensure all images have descriptive alt text for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the booking form to reduce the number of fields and steps required for a reservation.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Provide clearer confirmation messages and progress indicators during the booking process.",
+    "tips": [
+        "Consider adding a FAQ section to answer common questions.",
+        "Make sure the website is fully accessible with keyboard navigation and screen readers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking for Highlanders View Bed and Breakfast, a scenic accommodation option."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323 658 6600"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and use adaptive design for smoother mobile interactions.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize large file sizes and optimize server response time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more structured data and improve meta tags for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more interactive elements or customer testimonials.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process with fewer steps and clearer options.",
+    "tips": [
+        "Improve image compression for faster loading times.",
+        "Consider more personalized on-site content to engage visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Palihouse West Hollywood hotel, offering rooms and amenities for travelers."
+}

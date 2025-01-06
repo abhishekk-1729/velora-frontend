@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-797-3030"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and reducing heavy scripts that slow down the page on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce page size and consider using a content delivery network (CDN) to serve static assets faster.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure that all page titles, meta descriptions, and headers are optimized for relevant keywords and that alt attributes are added to all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the site navigation by adding a sticky header for easier access to key sections from anywhere on the page.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation and providing clearer instructions at each stage.",
+    "tips": [
+        "Consider implementing structured data to improve SEO performance and enhance visibility in search engine results.",
+        "Implement lazy loading for images to improve load time and mobile responsiveness."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Burrstone Inn and facilitates hotel bookings through the Choice Hotels platform."
+}

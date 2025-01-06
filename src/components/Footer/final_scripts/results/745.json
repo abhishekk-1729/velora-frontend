@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323 585-8006"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.hotelkeyapp.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing image sizes and reducing the use of large files.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce loading time by minifying CSS and JavaScript files and implementing lazy loading for images.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve SEO by adding more relevant keywords in headings, and ensuring meta descriptions are unique for each page.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance user experience by adding clear navigation and reducing pop-ups that disrupt browsing.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking flow by reducing unnecessary steps and offering more payment options.",
+    "tips": [
+        "Optimize website for faster loading times",
+        "Ensure consistent mobile design across devices",
+        "Improve content for better search engine ranking"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for ERTH INN Maywood, a budget hotel in Maywood, CA."
+}

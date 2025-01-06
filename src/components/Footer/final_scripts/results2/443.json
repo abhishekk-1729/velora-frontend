@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "847-437-7700",
+        "800-780-7234"
+    ],
+    "emails": [
+        "info@bwohare.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and use responsive design principles to improve mobile layout adjustments.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing page assets like images and scripts to reduce page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tag usage (e.g., title, description) and optimize alt texts for images to enhance SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and improve accessibility features for a smoother user experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering more payment options.",
+    "tips": [
+        "Ensure fast page load times to improve overall user satisfaction.",
+        "Update the site's content regularly to maintain relevance in search engines.",
+        "Improve mobile responsiveness for a better user experience on smartphones."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book hotel rooms at Best Western O'Hare North/Elk Grove Hotel."
+}

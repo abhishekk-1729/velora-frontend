@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-337-2888",
+        "+1 800-462-7899"
+    ],
+    "emails": [
+        "chicago@peninsula.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that text is not too small and that touch targets are appropriately sized for ease of navigation on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for non-essential content to improve initial page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Consider adding more structured data, such as schema markup for local business and events, to enhance visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the search functionality with more advanced filtering options to help users find their ideal room more efficiently.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields and offering clear progress indicators during the booking process.",
+    "tips": [
+        "Improve page load times by optimizing assets like images and videos.",
+        "Consider enhancing accessibility features such as keyboard navigation and screen reader compatibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about luxury hotel accommodations and allows users to book rooms at The Peninsula Chicago."
+}

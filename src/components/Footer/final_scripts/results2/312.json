@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text size and touch targets are optimized for smaller screens to improve mobile user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and use lazy loading for non-critical resources to speed up page loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags and meta descriptions to better reflect key content for search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and minimize pop-ups to enhance overall user experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering clear progress indicators.",
+    "tips": [
+        "Improve the clarity of calls to action (CTAs) on the homepage.",
+        "Ensure accessibility features like alt text for images and screen reader compatibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing booking information and accommodation details for One Lux Stay LA Glendale The Brand."
+}

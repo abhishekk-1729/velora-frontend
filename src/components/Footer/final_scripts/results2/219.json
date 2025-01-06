@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+55 11 1234-5678",
+        "+55 11 9876-5432"
+    ],
+    "emails": [
+        "contato@villabrasilmotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images and texts adjust properly on smaller screens, and test across multiple devices for consistency.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minify JavaScript to improve page loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more descriptive meta tags and alt text for images to improve search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky navigation bar for easier access to key pages while scrolling.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking form is mobile-friendly and easy to navigate.",
+    "tips": [
+        "Improve image compression to enhance page load times.",
+        "Enhance SEO by including more local keywords and location-specific content.",
+        "Simplify the booking process with fewer steps for users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Villa Brasil Motel, a motel in Brazil."
+}

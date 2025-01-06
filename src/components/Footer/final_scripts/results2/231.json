@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-874-1070",
+        "+1 800-774-0999"
+    ],
+    "emails": [
+        "info@thehollywoodhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the responsiveness of the navigation menu and optimize images for faster mobile loading.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and implement lazy loading for non-critical elements.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more targeted meta descriptions and optimize heading structure (H1, H2) for better keyword relevance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the main navigation and ensuring quick access to booking options.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding a progress bar to visually guide users through the booking steps.",
+    "tips": [
+        "Consider improving page load time by optimizing images and scripts.",
+        "Ensure alt text is present for all images to improve accessibility and SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for the Hollywood Hotel, with an emphasis on a comfortable stay in Hollywood."
+}

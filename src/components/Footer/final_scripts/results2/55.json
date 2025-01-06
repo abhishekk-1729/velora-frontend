@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-642-4242"
+    ],
+    "emails": [
+        "info@stay424chicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "hostel",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and adjusting layout for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image file sizes and implement lazy loading to enhance page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve SEO by adding more relevant meta descriptions and using proper heading tags (H1, H2, etc.).",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation and provide clearer calls to action to enhance user engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by minimizing steps and allowing guests to book with fewer clicks.",
+    "tips": [
+        "Consider adding a live chat feature to improve customer service response times.",
+        "Improve internal linking for better navigation and discoverability of content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hostel accommodation in Chicago with booking functionality."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(312) 328-1899"
+    ],
+    "emails": [
+        "info@chicagochinatownhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce text size for better viewing on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement structured data (schema.org) and optimize metadata (titles, descriptions) for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation clarity by adding clear calls to action for booking and location details.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking process is streamlined with minimal steps for a smoother user experience.",
+    "tips": [
+        "Consider adding social media links to improve engagement.",
+        "Update content regularly to enhance SEO and user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about the Chinatown Hotel in Chicago and provides online booking options."
+}

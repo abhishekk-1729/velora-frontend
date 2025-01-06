@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-645-0400"
+    ],
+    "emails": [
+        "info@cambrialax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design elements for better scaling on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider compressing images and minifying CSS/JS files to improve loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tag descriptions and add more alt text for images to enhance visibility in search engines.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation menu and reduce clutter on the homepage for a more streamlined user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding progress indicators.",
+    "tips": [
+        "Improve mobile optimization by making design elements more adaptive to various screen sizes.",
+        "Enhance the site's speed by optimizing images and reducing unnecessary code.",
+        "Focus on further SEO improvements, especially in content and metadata."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information and booking options for the Cambria Hotel LAX."
+}

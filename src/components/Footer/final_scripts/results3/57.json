@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(518) 966-5219"
+    ],
+    "emails": [
+        "stay@greenvillearms.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "eviivo.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for faster loading and ensure the text scales appropriately on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of images and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance metadata and alt tags for images to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure the site navigation is more intuitive with better categorization of services.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Consider improving mobile responsiveness by testing across different device types.",
+        "Enhance the site's SEO by adding location-based keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a historic inn with local art, coffee, and booking services."
+}

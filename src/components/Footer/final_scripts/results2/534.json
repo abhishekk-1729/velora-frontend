@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 675-1313",
+        "+1 (800) 228-5150"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and use responsive breakpoints for better mobile display on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement lazy loading for images and assets to improve load time, especially for mobile users.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add alt text for all images and optimize meta descriptions and headers to improve on-page SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure the content is well-structured and all links are clearly labeled for easier navigation.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking process is streamlined by reducing the number of steps and simplifying the form fields.",
+    "tips": [
+        "Consider improving image compression for faster loading times.",
+        "Ensure better integration with social proof such as reviews on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Comfort Inn Cockatoo near LAX Airport."
+}

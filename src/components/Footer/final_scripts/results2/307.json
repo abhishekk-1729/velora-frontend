@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-856-1200",
+        "+1 800-235-6397"
+    ],
+    "emails": [
+        "reservations@loewshotels.com",
+        "info@loewshotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and elements are optimized for different screen sizes to enhance mobile viewing experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing image sizes and reducing JavaScript to improve loading times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more targeted local keywords to further improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline navigation menus to make key information more easily accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize images for faster load times.",
+        "Improve mobile-friendly elements for a smoother user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is designed for booking and providing information about Loews Hollywood Hotel."
+}

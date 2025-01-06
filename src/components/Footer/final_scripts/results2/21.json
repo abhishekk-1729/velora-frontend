@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "707-341-3814"
+    ],
+    "emails": [
+        "info@oceanevineyards.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Winery and Vineyard",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and layout for smaller screens to enhance mobile browsing.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize image sizes and enable caching to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add alt text to images and improve meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by simplifying the menu and improving link clarity.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness and optimize loading speed for better user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website represents Oc\u00e9ane Vineyards and Winery, showcasing wine offerings and providing event booking information."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 518 291 3988"
+    ],
+    "emails": [
+        "countryplaceresort@yahoo.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and content for better mobile scaling.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Improve page load times by reducing image sizes and utilizing caching.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Increase the use of keywords and meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation more intuitive by streamlining the menu options.",
+    "bookingFlowOutOf10": 4,
+    "bookingFlowTip": "Integrate a more straightforward booking process with fewer external links.",
+    "tips": [
+        "Enhance mobile responsiveness with a mobile-first approach.",
+        "Improve SEO by adding structured data and improving alt-text for images.",
+        "Make the booking process more seamless by reducing redirection to external pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about The Country Place Resort, including accommodations, activities, and booking details."
+}

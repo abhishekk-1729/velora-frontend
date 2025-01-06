@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-738-5960"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure buttons and text scale properly on smaller screens for better readability and usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce server response time to speed up the loading process.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, alt text for images, and internal linking to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add a search feature and more interactive elements to improve user navigation and engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to confirm a reservation.",
+    "tips": [
+        "Consider integrating guest reviews and ratings to build trust and attract more bookings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Metropolitan Inn & Suites in Los Angeles with booking options."
+}

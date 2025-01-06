@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-800-426-7866"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize image sizes further for improved performance on mobile.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Implement advanced caching and minimize unused JavaScript to enhance load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more descriptive alt text for images and ensure proper use of header tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Include a dedicated FAQ section for quick customer reference.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking confirmation page for faster finalization.",
+    "tips": [
+        "Ensure consistent optimization for all image types.",
+        "Introduce live chat support for quicker query resolution.",
+        "Provide multilingual support for international users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website facilitates hotel reservations and provides detailed information about Hampton Inn Chicago North-Loyola Station."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-657-7400",
+        "+1 800-400-2427"
+    ],
+    "emails": [
+        "reservations@chamberlainwesthollywood.com",
+        "info@chamberlainwesthollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and implement adaptive layouts for different screen sizes to improve mobile usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize render-blocking JavaScript and CSS to improve page load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tag usage and incorporate structured data for better visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the navigation flow by simplifying the number of clicks needed to access key pages like room availability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve the visual hierarchy of the booking form to make it more intuitive.",
+    "tips": [
+        "Ensure consistent and clear calls-to-action (CTAs) across all pages.",
+        "Optimize website for faster mobile loading, especially for users in areas with slow internet speeds."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers reservations and information for Chamberlain West Hollywood hotel."
+}

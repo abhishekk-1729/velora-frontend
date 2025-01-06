@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-773-370-4444",
+        "+1-773-370-4445"
+    ],
+    "emails": [
+        "info@skywaymotel.com",
+        "reservations@skywaymotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "keeq.io",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and using responsive design frameworks like Bootstrap to improve mobile layout and navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize the number of HTTP requests by combining scripts and images, and consider implementing lazy loading for images.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, titles, and add more relevant keywords to increase search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by simplifying menus and providing clear call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering a guest checkout option.",
+    "tips": [
+        "Improve mobile responsiveness by utilizing a mobile-first design.",
+        "Enhance SEO by adding structured data and improving content relevance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Skyway Motel in Chicago."
+}

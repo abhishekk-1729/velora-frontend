@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 845-533-2200",
+        "+1 877-964-6551"
+    ],
+    "emails": [
+        "info@yo1.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all images and text scale properly without requiring horizontal scrolling on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize large image files and leverage caching strategies to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Consider adding more structured data (like schema markup) for improved search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing the number of menu options and providing clearer calls to action.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure all form fields are easily accessible and clearly marked for a smoother booking process.",
+    "tips": [
+        "Optimize mobile images for faster load times",
+        "Improve accessibility with better contrast and font readability for users with visual impairments"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the YO1 Center's wellness offerings and facilitates bookings directly on the site."
+}

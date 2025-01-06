@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(301) 209-6000",
+        "(301) 209-6001"
+    ],
+    "emails": [
+        "info@welcomeinneaglerock.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and font sizes for easier reading on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and minimize server response times to reduce load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance meta descriptions, titles, and alt text for images to improve search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu and add more interactive features to engage visitors.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate a clearer confirmation page with detailed booking information.",
+    "tips": [
+        "Consider adding more content to the homepage to increase engagement and SEO value.",
+        "Implement social media integration for wider reach and marketing.",
+        "Offer more payment options for easier booking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official online presence for Welcome Inn Eagle Rock, offering booking and hotel information."
+}

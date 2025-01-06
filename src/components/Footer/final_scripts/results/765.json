@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive frameworks to improve user experience on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and minify JavaScript/CSS files to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant meta tags, descriptions, and alt texts to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make the booking process more intuitive.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the reservation form by reducing the number of required fields and improving the form's design.",
+    "tips": [
+        "Improve mobile responsiveness",
+        "Enhance SEO by adding meta tags and improving content structure",
+        "Speed up loading times by optimizing assets",
+        "Refine booking flow for a smoother user experience"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to inquire and make reservations at the Royal Inn Motel."
+}

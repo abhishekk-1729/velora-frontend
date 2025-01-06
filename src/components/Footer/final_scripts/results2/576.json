@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-566-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that buttons and text are well-aligned for better usability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the use of heavy scripts to speed up loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, descriptions, and use more relevant keywords to enhance SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and improve the clarity of information presented to enhance user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add a clearer step-by-step guide during the booking process to reduce user confusion.",
+    "tips": [
+        "Optimize website for faster load times",
+        "Improve mobile interface for a more seamless experience",
+        "Enhance on-page SEO for better visibility"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Rodeway Inn South Gate in Los Angeles."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@house5863.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "bed and breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the navigation menu is more mobile-friendly by reducing its size or making it collapsible.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for faster initial page loads.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags and include more keyword-rich content on the homepage for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the contact form more prominent and ensure clear instructions are provided throughout the website.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and provide real-time availability to reduce friction during the booking process.",
+    "tips": [
+        "Optimize images and reduce page load time",
+        "Enhance mobile menu functionality",
+        "Improve SEO by using proper keywords and meta descriptions"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a bed and breakfast offering booking services."
+}

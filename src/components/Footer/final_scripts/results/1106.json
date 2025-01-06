@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-692-5555"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all content scales correctly on smaller screens, especially navigation elements.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce JavaScript file sizes to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions and add structured data for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider streamlining the checkout process for quicker reservations.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness",
+        "Enhance SEO with better content structure",
+        "Optimize page loading speed"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking information and services for Sleep Inn & Suites in Middletown, New York."
+}

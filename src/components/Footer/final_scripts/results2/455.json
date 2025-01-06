@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-722-9900",
+        "+1 800-780-7234"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the booking form and navigation menus are fully optimized for smaller screens and touch input.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tag descriptions and add more relevant keywords to increase visibility on search engines.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation flow, especially for mobile users, and ensure quick access to key information like room details and pricing.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking form is fast and intuitive, reducing unnecessary steps and focusing on essential details.",
+    "tips": [
+        "Optimize images for faster loading",
+        "Improve mobile responsiveness",
+        "Increase keyword usage in meta tags"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Best Western Plus Commerce Hotel directly through the site."
+}

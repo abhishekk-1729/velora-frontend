@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-913-9300"
+    ],
+    "emails": [
+        "reservations@smythtribeca.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing image sizes for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and assets to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all images have alt attributes for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation clarity with more prominent calls to action on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Enhance mobile usability by optimizing font sizes and spacing for easier readability.",
+        "Improve load time by compressing images and using a CDN for faster content delivery."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as the online presence for Smyth Tribeca, a luxury hotel in New York, offering booking and information services."
+}

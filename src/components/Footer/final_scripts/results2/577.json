@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-733-0531",
+        "+1 800-228-5150"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and implementing responsive design practices to ensure quicker loading times and better layout adjustments on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large images and leverage browser caching to improve overall page loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure proper use of meta tags, headers, and include keyword-rich alt text for images to boost SEO rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by simplifying menus and providing more prominent calls-to-action on key pages like booking and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure all images are optimized for faster loading times.",
+        "Implement a clear and consistent layout to improve user navigation.",
+        "Ensure the booking flow is seamless and includes visible booking confirmation messages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about the Quality Inn & Suites New Hartford - Utica and allows users to book rooms directly."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-219-1018"
+    ],
+    "emails": [
+        "info@hotelrichlandnewyork.com",
+        "reservations@hotelrichlandnewyork.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all clickable elements are adequately spaced to improve touch usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add alt text for all images and improve meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Provide clearer navigation cues for booking options.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the transition to third-party booking by reducing intermediate steps.",
+    "tips": [
+        "Consider offering same-domain booking to streamline user experience.",
+        "Enhance page load speed by minimizing third-party scripts.",
+        "Conduct regular usability tests for better mobile performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers boutique hotel booking services for visitors to New York's Lower East Side."
+}

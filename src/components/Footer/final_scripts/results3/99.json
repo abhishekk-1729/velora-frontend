@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-535-4159"
+    ],
+    "emails": [
+        "info@anchorinn-marina.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "resnexus.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and compress large assets for faster mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement browser caching and reduce server response times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta descriptions and include alt text for all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding a sticky menu for better accessibility.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Integrate booking functionality directly on the main domain to streamline the process.",
+    "tips": [
+        "Improve booking integration to retain users on the same domain.",
+        "Enhance site-wide SEO with targeted keywords and better metadata.",
+        "Regularly test and optimize page load speed."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases Anchor Inn & Marina, offering lodging, marina services, and lakeside dining in Watkins Glen."
+}

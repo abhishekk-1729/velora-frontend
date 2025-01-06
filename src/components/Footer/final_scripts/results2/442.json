@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-568-0071",
+        "+1 800-528-1234"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing the mobile navigation bar for smaller screens to improve accessibility.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the image sizes or implement lazy loading to enhance page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve the use of header tags (H1, H2) and meta descriptions for better SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistency in button placements and colors to improve visual flow.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add clearer progress indicators during the booking process to guide users more intuitively.",
+    "tips": [
+        "Improve mobile responsiveness by testing on various screen sizes.",
+        "Optimize images for faster load times.",
+        "Enhance SEO by focusing on structured data and content hierarchy."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book hotel rooms at Best Western Airpark Hotel-Los Angeles LAX Airport."
+}

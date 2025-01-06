@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all interactive elements are easily tappable on mobile devices, and optimize for different screen sizes.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant meta tags, optimize page titles, and include alt text for all images to improve SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu and improve the clarity of the information architecture.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking steps and ensure there are clear calls-to-action at every stage of the process.",
+    "tips": [
+        "Improve mobile responsiveness for a smoother experience across devices.",
+        "Reduce the number of redirects and optimize images for faster loading times.",
+        "Enhance SEO with more detailed keyword targeting and meta data.",
+        "Streamline the booking process to reduce friction for users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website facilitates hotel bookings for Hotel 27 by LuxUrban."
+}

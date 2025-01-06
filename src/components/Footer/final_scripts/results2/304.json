@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (845) 888-2710",
+        "+1 (845) 888-2323"
+    ],
+    "emails": [
+        "info@lakejoseph.com",
+        "reservations@lakejoseph.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that images and text adjust more fluidly across various screen sizes, particularly for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for resources to reduce the time it takes for the page to become interactive.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by optimizing title tags, meta descriptions, and adding relevant keywords to content and image alt text.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and enhance visual hierarchy to make it easier for users to find important information quickly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide clearer options for selecting room types or dates on the first screen to reduce friction during booking.",
+    "tips": [
+        "Consider implementing a content delivery network (CDN) for faster loading times across regions.",
+        "Regularly audit SEO performance and fix any broken links or outdated content.",
+        "Enhance mobile navigation by consolidating menu items for quicker access."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a luxury hotel offering accommodations and event spaces near Lake Joseph."
+}

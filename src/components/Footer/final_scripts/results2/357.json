@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@domesatcatskills.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Glamping resort",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all text and buttons are appropriately sized for smaller screens, and that images don't stretch or break the layout.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding meta descriptions, using more internal links, and including alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the navigation by making the menu items more prominent and easy to find on both desktop and mobile versions.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "The booking process is smooth, but adding a progress indicator could improve the user experience, especially for longer booking flows.",
+    "tips": [
+        "Improve mobile optimization by ensuring all elements scale properly on different devices.",
+        "Consider adding more detailed local attractions and amenities to enhance SEO.",
+        "Implement performance optimizations, such as lazy loading for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a glamping experience in the Catskills with options to book dome accommodations."
+}

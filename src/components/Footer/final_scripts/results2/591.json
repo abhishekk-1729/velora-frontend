@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 708-263-8500",
+        "+1 800-222-8733"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the navigation menu is easily accessible with fewer clicks on mobile for better usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more detailed and localized keywords to the meta descriptions and headings for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve readability by enhancing font contrast and simplifying the booking process flow.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking steps and offer a clear progress indicator to reduce user confusion.",
+    "tips": [
+        "Optimize image loading for mobile devices",
+        "Add alt text to all images for accessibility",
+        "Consider adding a live chat feature to improve customer engagement"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at DoubleTree by Hilton Hotel in Chicago Alsip."
+}

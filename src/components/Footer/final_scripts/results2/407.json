@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(323) 725-2100"
+    ],
+    "emails": [
+        "info@commercecasino.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing the mobile navigation menu for easier access to key pages.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress large images and use lazy loading to speed up page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve the use of structured data (schema markup) to enhance search visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the homepage layout to reduce clutter and improve overall readability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps and offering a progress bar.",
+    "tips": [
+        "Optimize image sizes for faster loading.",
+        "Improve accessibility with better contrast and readable fonts.",
+        "Add more internal links to enhance navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about The Commerce Casino & Hotel and allows visitors to book accommodations."
+}

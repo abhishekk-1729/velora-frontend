@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-432-3600",
+        "800-221-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images are optimized for faster loading and adjust text sizes for better readability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords in meta descriptions, titles, and headers to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add clear call-to-action buttons on key sections and ensure easy navigation across the site.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding more payment options for greater flexibility.",
+    "tips": [
+        "Optimize images for faster loading",
+        "Improve meta tags for SEO",
+        "Ensure easy mobile navigation"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Quality Inn & Suites Glenmont in Albany, New York."
+}

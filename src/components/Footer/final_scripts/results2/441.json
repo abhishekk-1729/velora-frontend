@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-462-1736",
+        "+1 800-937-8376"
+    ],
+    "emails": [
+        "reservations@bestwesternhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images and assets for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and defer non-critical JavaScript to improve speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding structured data and optimizing meta tags for better visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation bar for better accessibility and smoother user interaction.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate clear progress indicators during the booking process to reduce confusion.",
+    "tips": [
+        "Consider adding a live chat feature for instant customer support.",
+        "Ensure website accessibility standards are met for users with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for Best Western Hollywood Plaza Inn, including room reservations and guest information."
+}

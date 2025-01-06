@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-586-2000",
+        "+1 888-712-2712"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all interactive elements are fully touch-friendly on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce server response time to improve speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal links and enhance content relevance for specific queries.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the navigation menu for faster access to key sections.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide more visual feedback during the booking process to improve user confidence.",
+    "tips": [
+        "Improve mobile load times by compressing images.",
+        "Implement more clear calls-to-action on landing pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is designed to provide information and booking options for the Viceroy Chicago hotel."
+}

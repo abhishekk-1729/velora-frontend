@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "708-418-0123",
+        "1-800-446-4656"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve text size and button spacing for better readability and navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce the number of heavy scripts to improve page loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more localized content and ensure meta tags are properly optimized for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider adding a clearer call-to-action button and more prominent contact details for easier navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of form fields and providing real-time availability updates.",
+    "tips": [
+        "Ensure mobile site performance is consistent with desktop for a seamless experience.",
+        "Improve loading speed by caching resources and using a content delivery network (CDN).",
+        "Enhance SEO by adding more engaging and relevant content, including customer reviews and local attractions.",
+        "Refine the booking flow with a step-by-step guide and progress bar to reduce friction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking for the Sleep Inn near I-80 and I-94 in Lansing, Illinois."
+}

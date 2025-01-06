@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Facebook page for Travel Inn",
+    "mobileResponsivenessOutOf10": 2,
+    "mobileResponsivenessTip": "Consider optimizing images and using responsive web design techniques to improve mobile usability.",
+    "loadingSpeedOutOf10": 3,
+    "loadingSpeedTip": "Reduce the number of high-resolution images and optimize them for faster loading times.",
+    "seoOptimizationOutOf10": 1,
+    "seoOptimizationTip": "Improve your page title, meta descriptions, and use relevant keywords to increase search engine visibility.",
+    "userExperienceOutOf10": 4,
+    "userExperienceTip": "Enhance navigation by adding clear call-to-action buttons and ensuring all links are functional.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Add a contact form for easier communication.",
+        "Ensure all social media links are active and working.",
+        "Create a more user-friendly navigation structure."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a Facebook page for Travel Inn, lacking direct hotel booking features and optimization."
+}

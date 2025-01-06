@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": "Not Available",
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "NA",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 0,
+    "mobileResponsivenessTip": "Ensure the site is accessible by fixing server or domain configuration issues to allow proper rendering on mobile devices.",
+    "loadingSpeedOutOf10": 0,
+    "loadingSpeedTip": "Resolve server connectivity issues to enable testing and optimize loading performance.",
+    "seoOptimizationOutOf10": 0,
+    "seoOptimizationTip": "Ensure the site is accessible for crawlers and users to evaluate and improve SEO.",
+    "userExperienceOutOf10": 0,
+    "userExperienceTip": "Make the site functional to allow evaluation of user interface and usability.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Fix server connectivity or domain settings to make the site functional.",
+        "Test site performance after resolving access issues.",
+        "Ensure robots.txt is configured correctly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is currently inaccessible, preventing us from determining its purpose."
+}

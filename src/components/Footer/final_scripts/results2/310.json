@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 808-836-8822",
+        "+1 808-836-8880"
+    ],
+    "emails": [
+        "info@tradewindsairporthotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "myguests.net",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing images and ensuring content fits well on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and use caching to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance on-page SEO by adding more relevant keywords in page titles, headers, and meta descriptions.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation menu and make the booking button more prominent for easier access.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering a more intuitive form layout.",
+    "tips": [
+        "Improve mobile responsiveness",
+        "Optimize website loading speed",
+        "Enhance SEO content",
+        "Simplify user experience and booking flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Tradewinds Airport Hotel and offers booking options through a third-party platform."
+}

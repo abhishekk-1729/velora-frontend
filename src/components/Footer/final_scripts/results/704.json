@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "818-842-6974"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "arestravel.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the website adjusts to all screen sizes and test across multiple mobile devices for smooth user experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of scripts to improve loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more descriptive meta tags and optimize heading structures to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation more intuitive and reduce the number of clicks required to access key information.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and making form inputs clearer.",
+    "tips": [
+        "Improve mobile responsiveness for better usability across devices.",
+        "Enhance loading speed by compressing resources and optimizing images.",
+        "Optimize SEO by improving keyword usage and on-page content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Providencia Motel, offering affordable stays near Hollywood and Burbank."
+}

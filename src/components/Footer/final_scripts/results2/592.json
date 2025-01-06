@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-844-3400"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images and reduce the use of large files to improve load times and responsiveness on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and videos to reduce initial page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and ensure all images have alt text for better search engine indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation further by reducing the number of clicks needed to access key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary form fields or adding autofill options.",
+    "tips": [
+        "Implement more structured data for SEO to enhance visibility on search engines.",
+        "Improve page load time by optimizing resources like JavaScript and CSS."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Dream Hollywood by Hyatt and allows for booking rooms directly."
+}

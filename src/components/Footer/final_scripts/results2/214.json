@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "707-431-8295"
+    ],
+    "emails": [
+        "info@savannahhousevacation.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Wine Country Inn & Cottages",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster loading and ensure elements are properly spaced on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and utilize browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Incorporate more targeted keywords, and improve meta tags and header structure.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of call-to-action buttons and provide a more consistent navigation flow.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide more visible booking options on the homepage to reduce clicks needed to make a reservation.",
+    "tips": [
+        "Enhance accessibility features, including alt text for images and keyboard navigation options."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Savannah House Wine Country Inn & Cottages and facilitates bookings for a unique wine country experience."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1.212.577.2933"
+    ],
+    "emails": [
+        "info@worldcenterhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "be.synxis.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and use responsive design techniques for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and optimize JavaScript execution.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve metadata descriptions and add more structured data for events and offers.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance accessibility features, such as better screen reader compatibility.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of required fields.",
+    "tips": [
+        "Add a booking option directly on the main domain to enhance user trust.",
+        "Further reduce page load time by leveraging browser caching.",
+        "Enhance accessibility to make the site fully WCAG-compliant."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking and information about World Center Hotel in Lower Manhattan, NYC."
+}

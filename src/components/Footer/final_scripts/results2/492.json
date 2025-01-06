@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-324-1800",
+        "800-424-6423"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile menu navigation by making it more intuitive and reducing the number of taps required to access key sections.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and consider lazy loading for better performance on slower connections.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and alt text for images to boost SEO rankings.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation and increase clarity of call-to-action buttons for better user interaction.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking form is mobile-friendly with larger input fields and a streamlined process.",
+    "tips": [
+        "Consider adding customer reviews to enhance trust and engagement.",
+        "Improve the clarity of the pricing details during the booking process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking for Econo Lodge accommodations in Hornell, New York."
+}

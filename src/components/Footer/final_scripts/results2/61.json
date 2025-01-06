@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(800) 555-1234",
+        "(212) 555-5678"
+    ],
+    "emails": [
+        "info@theamericanainn.com",
+        "reservations@theamericanainn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile navigation and touch targets for a better user experience on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce server response time to enhance page load speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to titles, descriptions, and headers to improve SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu to improve overall user experience and ease of finding information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking form is intuitive with clear steps and progress indicators.",
+    "tips": [
+        "Consider adding a mobile-friendly hotel booking app.",
+        "Improve image compression for faster page loading."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online hotel booking and provides information about The Americana Inn's services and amenities."
+}

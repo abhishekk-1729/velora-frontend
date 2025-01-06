@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (800) 123-4567",
+        "+1 (555) 987-6543"
+    ],
+    "emails": [
+        "info@jollyrogerhotelmarina.com",
+        "reservations@jollyrogerhotelmarina.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and elements for smaller screens to reduce horizontal scrolling and improve layout flow.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase the use of relevant keywords in meta descriptions and page titles to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation clarity by simplifying the menu structure and ensuring key information is easy to access.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding more detailed local attraction information to attract potential guests.",
+        "Add more high-quality images of the rooms and amenities to enhance the visual appeal."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Jolly Roger Hotel and allows visitors to book rooms directly."
+}

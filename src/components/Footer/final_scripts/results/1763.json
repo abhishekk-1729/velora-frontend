@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-253-1234"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all interactive elements are large enough to be tapped easily on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for faster content delivery.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions and use more targeted keywords in headers and content.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation more intuitive by reducing the number of clicks to reach critical information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps in the reservation flow.",
+    "tips": [
+        "Consider adding more social proof like reviews or testimonials.",
+        "Ensure that the website is fully accessible for people with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Hyatt Union Square New York hotel and allows for booking on the same domain."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(626) 280-9744",
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the mobile navigation by optimizing menus for easier access on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and use caching to speed up the load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve page meta descriptions and optimize header tags for better search engine indexing.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the layout and reduce clutter on the homepage for a smoother experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding live chat support for quicker customer assistance.",
+        "Ensure that the booking button is prominently displayed on all pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Motel 6 in Monterey Park, CA."
+}

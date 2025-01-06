@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 617-300-0956"
+    ],
+    "emails": [
+        "reservations@sonder.com",
+        "sales@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Improve by making sure all interactive elements are fully optimized for touchscreens, particularly for smaller mobile devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider optimizing images and leveraging browser caching to speed up loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Focus on improving metadata, including title tags and descriptions, and adding more relevant keywords to enhance visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure the mobile app links are more seamlessly integrated for a smoother transition between site and app.",
+    "bookingFlowOutOf10": 10,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a FAQ section to address common guest inquiries.",
+        "Increase website accessibility by including an option for text resizing and improving contrast for readability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and details for Sonder's Beverly Terrace hotel in Los Angeles."
+}

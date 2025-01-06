@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-864-8000"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster load times on mobile and consider using a mobile-first design approach for better user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes, implement lazy loading, and minimize JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure all meta tags are properly filled out, especially for title and description tags, and use relevant keywords throughout the content.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the site\u2019s navigation by making key information like room details and contact info easier to find with clearer labeling.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding a clear progress indicator during the booking process to further enhance user confidence.",
+    "tips": [
+        "Improve page speed by optimizing images and scripts",
+        "Enhance mobile responsiveness through better adaptive design",
+        "Optimize SEO through better keyword targeting and metadata"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking and information about the Rodeway Inn Chicago-Evanston hotel."
+}

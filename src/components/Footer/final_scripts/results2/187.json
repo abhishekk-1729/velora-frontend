@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 2,
+    "mobileResponsivenessTip": "Optimize the website design for smaller screens and ensure elements scale properly on mobile devices.",
+    "loadingSpeedOutOf10": 3,
+    "loadingSpeedTip": "Compress images and minify CSS/JavaScript to reduce load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add relevant keywords to meta tags, titles, and descriptions to improve search engine ranking.",
+    "userExperienceOutOf10": 3,
+    "userExperienceTip": "Simplify navigation and improve the overall layout to enhance usability.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Ensure the website is functional and accessible to users.",
+        "Add clear contact information for better customer support.",
+        "Improve mobile responsiveness and optimize page loading speed.",
+        "Enhance user experience with more intuitive design elements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website does not appear to be fully functional or related to hotel bookings."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 617-300-0956"
+    ],
+    "emails": [
+        "support@sonder.com",
+        "sales@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for mobile to improve load time and user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of scripts loaded on the homepage to speed up loading times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more local content and keyword-rich descriptions to improve search rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation for quicker access to booking options.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking process remains smooth with fewer required steps.",
+    "tips": [
+        "Consider adding a section for user reviews to improve trust and engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for Sonder's Flatiron hotel in New York."
+}

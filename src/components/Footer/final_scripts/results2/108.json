@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-532-5171"
+    ],
+    "emails": [
+        "info@patiohotelgardena.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes and improve mobile navigation for better responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Ensure proper use of meta tags and implement structured data for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the website's navigation and reduce clutter to improve user flow and engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider adding more prominent booking buttons and clearer step-by-step instructions.",
+    "tips": [
+        "Improve website accessibility for a broader user base.",
+        "Consider adding customer testimonials or reviews for trust-building."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a motel with online booking and contact information."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-452-3977"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "book.santamonica.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure content scales properly across all devices for a smoother mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve keyword targeting and use more descriptive alt texts for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure all elements are easy to navigate and provide clear call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form and minimize steps to improve the user experience.",
+    "tips": [
+        "Improve mobile responsiveness",
+        "Increase page loading speed",
+        "Enhance SEO strategies",
+        "Optimize booking flow for user ease"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Rest Haven Motel and booking options in Santa Monica."
+}

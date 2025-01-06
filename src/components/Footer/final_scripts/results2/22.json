@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (716) 754-8050"
+    ],
+    "emails": [
+        "info@hamlinhouse.org"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that images and content are properly optimized for smaller screen sizes, as some elements may break or overlap on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more content to the homepage and include alt text for all images to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all interactive elements are easy to navigate and accessible on all devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more streamlined by minimizing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize for faster mobile performance",
+        "Improve image loading speeds",
+        "Enhance SEO by adding descriptive text and keywords"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a Bed & Breakfast service, offering booking options and information about the facilities."
+}

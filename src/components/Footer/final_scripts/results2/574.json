@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-232-7700",
+        "+1 888-263-3280"
+    ],
+    "emails": [
+        "reservations@thompsonhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure touch targets are optimized and make sure content scales properly on all screen sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for non-critical resources.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve alt text for images and ensure all headings are properly structured for better indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider enhancing the clarity of call-to-action buttons to improve user interaction.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the form fields for quicker booking completion without compromising essential data collection.",
+    "tips": [
+        "Improve mobile navigation by minimizing dropdown menus",
+        "Ensure all page URLs are SEO-friendly with keywords"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Gild Hall hotel, offering booking and information on accommodations and services."
+}

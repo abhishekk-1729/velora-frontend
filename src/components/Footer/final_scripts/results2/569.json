@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-451-3731",
+        "+1 800-424-6423"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and consider reducing the number of large media files that can slow down load times on mobile.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and use lazy loading for better speed performance.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all pages have unique meta descriptions and optimize headings for better SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add a clearer call-to-action button on the homepage for faster navigation to booking.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve the booking form by reducing the number of steps and making the calendar more intuitive.",
+    "tips": [
+        "Improve mobile optimization by reducing unnecessary pop-ups.",
+        "Compress large images for faster page load times.",
+        "Add more internal links to increase SEO ranking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows booking for the Comfort Inn Santa Monica - West Los Angeles."
+}

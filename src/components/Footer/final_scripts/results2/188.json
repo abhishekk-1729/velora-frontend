@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-555-1234"
+    ],
+    "emails": [
+        "info@hollywoodviphotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images are optimized for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of image files and leverage browser caching to improve page load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich headings and alt text to images for better search engine indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky navigation bar for easier site navigation on all pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Improve image optimization for faster load times.",
+        "Enhance mobile navigation for a smoother experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers bookings for luxury accommodations at the Hollywood VIP Hotel."
+}

@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that images are properly scaled and the text remains readable on smaller screens without excessive zooming.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve metadata, including title tags, descriptions, and header tags, to enhance search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Consider improving navigation and simplifying the layout to make it more user-friendly and intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps and making the calendar more interactive.",
+    "tips": [
+        "Add contact information such as phone numbers and emails for better customer support.",
+        "Ensure that the website is fully responsive across all devices and browsers.",
+        "Consider implementing a faster, more streamlined booking experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking for Hollywood La Brea Motel through Booking.com."
+}

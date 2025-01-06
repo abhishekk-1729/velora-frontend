@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 555-123-4567"
+    ],
+    "emails": [
+        "info@admiralpeabodys.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design frameworks to ensure better mobile usability across devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and minify CSS/JS files to improve loading times, especially on mobile networks.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Implement structured data (schema markup) for better search engine indexing and visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation by reducing excessive pop-ups and ensuring clear, consistent calls to action.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider adding a progress indicator to the booking process to reduce user confusion and improve overall flow.",
+    "tips": [
+        "Ensure the site loads faster on mobile devices by optimizing assets.",
+        "Improve SEO with targeted keyword strategies for local searches."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for a lakeside lodging experience at Admiral Peabody's."
+}

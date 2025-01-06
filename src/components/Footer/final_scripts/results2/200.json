@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and elements for mobile devices to reduce load times and improve usability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, keywords, and header tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation and make key information like room availability more accessible with fewer clicks.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize for mobile responsiveness.",
+        "Increase page loading speed by compressing images.",
+        "Improve SEO by adding structured data and rich snippets.",
+        "Enhance user experience with clearer call-to-action buttons and improved navigation.",
+        "Streamline the booking process to reduce drop-off rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking services for Little Tokyo Hotel with information on accommodations and amenities."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "708-354-4600",
+        "800-780-7234"
+    ],
+    "emails": [
+        "info@bestwestern.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that elements scale better on smaller screens and avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for faster load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve local SEO by adding more location-based keywords to enhance visibility in search results.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing the number of clicks needed to find key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields for faster completion.",
+    "tips": [
+        "Improve mobile site layout for smaller screens",
+        "Enhance image loading speed",
+        "Refine booking flow for quicker user actions"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at the Best Western Plus Chicagoland - Countryside hotel."
+}

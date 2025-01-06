@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(646) 826-8600"
+    ],
+    "emails": [
+        "hello@thewashingtonny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize font sizes and touch targets for smaller devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Compress images and leverage browser caching for static resources.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more descriptive meta tags and optimize content for search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve visual hierarchy for quicker navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the multi-step booking process and reduce form fields.",
+    "tips": [
+        "Enable lazy loading for images.",
+        "Ensure consistent branding across all pages.",
+        "Improve accessibility by adding more alt text for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking functionality for a luxury hotel in New York City."
+}

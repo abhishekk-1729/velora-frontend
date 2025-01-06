@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-343-1600"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more keyword-rich content and optimize meta descriptions for better SEO performance.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation structure to make it more intuitive for users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add more clear calls to action for easier navigation through the booking process.",
+    "tips": [
+        "Improve image optimization for faster load times.",
+        "Ensure that all important contact details are easily visible on all pages.",
+        "Enhance the content for better SEO performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Knights Inn Oswego motel and offers booking options directly on the site."
+}

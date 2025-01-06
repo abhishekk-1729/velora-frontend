@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images and text resize properly on mobile devices for a smoother experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce server response time to speed up loading.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, alt text for images, and improve content structure for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by making key sections more accessible from the homepage.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Include more visible booking options or a clearer call-to-action on the homepage.",
+    "tips": [
+        "Improve SEO with better metadata and alt texts.",
+        "Enhance mobile optimization by refining the layout for small screens.",
+        "Speed up the website by compressing images and leveraging caching."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodations at Elaine's Hollywood Bed and Breakfast, providing a cozy stay in a renovated 1910 California bungalow."
+}

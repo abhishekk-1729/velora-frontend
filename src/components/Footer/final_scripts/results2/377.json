@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 3,
+    "mobileResponsivenessTip": "Consider redesigning the mobile site to ensure proper scaling and navigation, with touch-friendly elements and faster load times.",
+    "loadingSpeedOutOf10": 2,
+    "loadingSpeedTip": "Optimize images, scripts, and implement caching to speed up page loading times.",
+    "seoOptimizationOutOf10": 1,
+    "seoOptimizationTip": "Focus on improving meta tags, keywords, alt texts for images, and integrating structured data for better search engine visibility.",
+    "userExperienceOutOf10": 4,
+    "userExperienceTip": "Improve navigation, streamline content presentation, and enhance the overall design for a more user-friendly experience.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Focus on updating and maintaining the website with fresh and relevant content.",
+        "Consider integrating a contact form to easily connect with potential guests."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website primarily functions as a Facebook page for Nolan's Motel with limited functionality and outdated design."
+}

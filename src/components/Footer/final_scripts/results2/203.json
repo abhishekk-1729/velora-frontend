@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(312) 664-2588"
+    ],
+    "emails": [
+        "info@chicagoavenueinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and fonts for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and leverage browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage in page titles, headers, and meta descriptions for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all interactive elements, such as buttons and forms, are easy to access on mobile.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding progress indicators.",
+    "tips": [
+        "Consider adding a live chat option to increase engagement.",
+        "Improve website navigation by consolidating related sections."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking accommodations at Chicago Avenue Inn in Chicago."
+}

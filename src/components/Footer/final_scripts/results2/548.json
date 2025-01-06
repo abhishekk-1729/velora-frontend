@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-343-2555"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure buttons and text are appropriately sized for smaller screens to improve accessibility.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and utilize lazy loading to improve initial load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant meta descriptions and alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying navigation for even quicker access to key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking steps by reducing the number of required fields on mobile.",
+    "tips": [
+        "Improve alt text for images",
+        "Consider adding a live chat feature for customer inquiries"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking and provides details about Hampton Inn Middletown."
+}

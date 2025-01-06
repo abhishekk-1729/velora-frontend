@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 620-634-5757"
+    ],
+    "emails": [
+        "info@marienthalcountryinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images are optimized and the layout adjusts seamlessly to smaller screen sizes for a better mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing large images and implementing lazy loading to improve page speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve keyword targeting, meta descriptions, and add structured data to improve search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure the navigation menu is consistent and easy to find on all pages to enhance user experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness for better user engagement.",
+        "Optimize loading speed to reduce bounce rates.",
+        "Focus on SEO practices to drive more organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to promoting the Marienthal Country Inn, offering information and direct booking options."
+}

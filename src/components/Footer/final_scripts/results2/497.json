@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 732-634-0700"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the mobile menu navigation for a smoother user experience on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase the use of high-value keywords in meta descriptions and headers to boost SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistency in font sizes and readability across all device sizes.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve page load speed for a better overall experience.",
+        "Increase visibility of key features and amenities on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online portal for booking rooms at SpringHill Suites Woodbridge, part of Marriott Hotels."
+}

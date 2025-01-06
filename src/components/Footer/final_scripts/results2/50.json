@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (800) 123-4567"
+    ],
+    "emails": [
+        "info@hoteldelflores.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the booking buttons are larger and easier to tap on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions and use header tags more effectively for better search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation menu to make it more intuitive and user-friendly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize the website for faster loading times by compressing images.",
+        "Ensure all important content is above the fold on mobile screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking services for Hotel del Flores."
+}

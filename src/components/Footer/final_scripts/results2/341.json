@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-888-7000",
+        "+1 212-391-8100"
+    ],
+    "emails": [
+        "info@lottenypalace.com",
+        "reservations@lottenypalace.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize image sizes and use responsive design frameworks for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and optimize the code to improve page load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more relevant keywords in the meta tags and alt text for images to improve search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation and ensure that all essential information is easily accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile load times by reducing file sizes.",
+        "Consider adding more prominent calls-to-action for quicker access to booking options."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online platform for booking luxury accommodations at Lotte New York Palace."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(800) 800-1234"
+    ],
+    "emails": [
+        "reservations@beverlyhillsplazahotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement browser caching and minimize JavaScript files.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more keyword-rich alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Enhance mobile loading speed by reducing file sizes.",
+        "Include structured data to improve SEO further.",
+        "Consider providing live chat support for faster customer interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers comprehensive information and seamless booking for a boutique hotel experience in Beverly Hills."
+}

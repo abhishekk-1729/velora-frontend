@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-236-1212",
+        "+1 800-945-0718"
+    ],
+    "emails": [
+        "info@clubquarters.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider reducing the size of some images for faster mobile loading times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to improve page loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal linking to improve crawlability and on-page SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that key information such as pricing and amenities is more prominent on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure mobile-friendly design for all users.",
+        "Improve image optimization for faster load times.",
+        "Enhance SEO with better use of headings and internal linking.",
+        "Simplify the booking flow by reducing the number of steps."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Club Quarters Hotel Central Loop in Chicago."
+}

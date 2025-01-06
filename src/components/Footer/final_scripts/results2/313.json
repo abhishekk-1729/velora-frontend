@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-393-3030"
+    ],
+    "emails": [
+        "greenpoint@ymcanyc.org"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "YMCA location offering fitness and community services",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce large assets to enhance mobile performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement lazy loading for images and minify JavaScript files.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Include more location-specific keywords in the content and meta tags.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation by streamlining the menu and reducing visual clutter.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Optimize images to improve mobile responsiveness and loading times.",
+        "Add clear calls-to-action for membership or program sign-ups.",
+        "Ensure all contact information is easily accessible on all pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Greenpoint YMCA, including services and contact details."
+}

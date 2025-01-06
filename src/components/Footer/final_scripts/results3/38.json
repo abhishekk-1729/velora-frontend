@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(312) 363 3480",
+        "1 888 RIU 4990"
+    ],
+    "emails": [
+        "hotel.plazachicago@riu.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure all interactive elements are easily tappable and avoid small touch targets on mobile devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve page loading speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve page meta descriptions and titles for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance accessibility features like alt text for images to support users with disabilities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure mobile optimization for better accessibility and user interaction.",
+        "Speed up load times by reducing heavy elements and optimizing media content.",
+        "Strengthen SEO efforts, especially by enhancing meta tags and on-page content structure."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides detailed information about Hotel Riu Plaza Chicago and facilitates direct bookings."
+}

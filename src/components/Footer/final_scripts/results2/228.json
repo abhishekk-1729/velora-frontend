@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 708-798-7220",
+        "+1 888-667-9877"
+    ],
+    "emails": [
+        "info@hollywoodpalmsinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all images and text scale properly on smaller screens to improve readability and accessibility.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to speed up page loading time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve the use of relevant keywords in meta tags, headers, and alt text to enhance search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and ensure that important information like amenities and contact details are easy to find.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider offering a clearer step-by-step booking guide to reduce any confusion during the reservation process.",
+    "tips": [
+        "Improve mobile responsiveness with better image scaling.",
+        "Increase loading speed by optimizing media files.",
+        "Refine SEO strategy for higher ranking in search results.",
+        "Enhance user experience with better navigation and clearer calls to action."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking for the Hollywood Palms Inn & Suites, offering guests a place to book rooms and learn about hotel amenities."
+}

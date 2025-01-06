@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+44 20 8089 0888",
+        "+44 20 8090 9780"
+    ],
+    "emails": [
+        "info@eurostarshotels.co.uk"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text and button sizes are optimized for smaller screens to improve mobile usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and utilize browser caching to speed up the loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, use more targeted keywords, and add alt tags to images for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation by reducing the number of steps required to access key information or services.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing form fields and offering a guest checkout option.",
+    "tips": [
+        "Consider adding a live chat feature for immediate customer support.",
+        "Make sure to include clear calls to action (CTAs) on every page to drive user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services for Eurostars Wall Street."
+}

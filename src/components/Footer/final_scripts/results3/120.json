@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-256-1199"
+    ],
+    "emails": [
+        "Reserve@TheHillsInnER.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and elements for faster mobile loading and better touch interaction.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image sizes and use caching to improve load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions and use more targeted keywords for better ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying navigation for quicker access to important sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more intuitive by reducing steps or providing a clear progress indicator.",
+    "tips": [
+        "Ensure consistent mobile navigation.",
+        "Improve image compression for faster loading."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is designed to provide information and booking options for The Hills Inn Eagle Rock near Old Town Pasadena."
+}

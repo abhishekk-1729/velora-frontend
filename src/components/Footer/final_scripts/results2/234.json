@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (844) 534-6526",
+        "+1 (833) 254-2197"
+    ],
+    "emails": [
+        "info@legoland.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Theme park resort with hotel accommodations",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and media for quicker loading and better layout on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of heavy assets and optimize image sizes to improve load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Consider adding more internal links to improve site navigation and enhance SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation by making key sections more easily accessible from the homepage.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize image and video sizes for mobile viewing.",
+        "Consider reducing page clutter to enhance user focus.",
+        "Improve internal linking structure to enhance user navigation and SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the LEGOLAND New York Resort, offering theme park experiences and hotel accommodations."
+}

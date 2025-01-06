@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-546-5055"
+    ],
+    "emails": [
+        "info@mileswinecellars.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "winery with lodging options",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and layout for smoother mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image file sizes and use lazy loading for better performance.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding relevant meta tags and optimizing page titles for better visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation clarity by simplifying menus and making key information more accessible.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps and simplifying forms.",
+    "tips": [
+        "Consider adding a FAQ section to help with customer inquiries.",
+        "Provide more detailed information about the winery and the lodging options to engage visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a winery offering wine-related products and lodging experiences."
+}

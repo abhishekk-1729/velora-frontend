@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-431-8200",
+        "+1 212-431-8202"
+    ],
+    "emails": [
+        "info@thesohotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and ensuring the mobile menu is easier to navigate.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve SEO by adding more relevant meta descriptions and ensuring proper heading structure (H1, H2, etc.).",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation more intuitive by simplifying the header and improving visibility of key information.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and making the forms more user-friendly.",
+    "tips": [
+        "Focus on faster loading times by minimizing large files and scripts.",
+        "Ensure that all pages are accessible and mobile-friendly to enhance user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing online information and booking options for Sohotel in New York City."
+}

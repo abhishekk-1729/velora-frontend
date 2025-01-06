@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "626-792-4550",
+        "800-643-6592"
+    ],
+    "emails": [
+        "pasadena@greentreeinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing elements that require heavy loading on mobile devices to improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Use image compression techniques and minimize unnecessary scripts to enhance page load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve keyword usage and meta descriptions to increase visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure easy navigation with clearer call-to-action buttons and a more streamlined interface.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve mobile image loading speed.",
+        "Add more interactive elements for customer engagement.",
+        "Enhance content visibility with better SEO strategies."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking and information services for GreenTree Inn Pasadena."
+}

@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and make buttons larger for easier touch navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and minify JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add meta descriptions, improve keyword targeting, and ensure proper heading structure.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of call-to-action buttons and simplify the navigation menu.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps required.",
+    "tips": [
+        "Improve mobile responsiveness",
+        "Optimize loading speed",
+        "Enhance SEO optimization",
+        "Simplify booking flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for the Executive Santa Monica Suites hotel."
+}

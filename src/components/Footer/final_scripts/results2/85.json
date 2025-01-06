@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-533-4466",
+        "+1 212-979-3800"
+    ],
+    "emails": [
+        "info@theinnatirvingplace.com",
+        "reservations@theinnatirvingplace.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for smaller screens to improve mobile performance.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tags and headings to better target relevant keywords and improve search rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and enhance accessibility features for a smoother experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps and providing clearer instructions.",
+    "tips": [
+        "Consider adding a site map for better SEO and user navigation.",
+        "Ensure all images are properly tagged with alt text for accessibility and SEO.",
+        "Optimize for speed by reducing unnecessary third-party scripts."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website represents the Inn at Irving Place and provides information and booking options for guests."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-310-477-9066",
+        "+1-800-528-1234"
+    ],
+    "emails": [
+        "reservations@bestwestern.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster loading and ensure the navigation bar adapts better to smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing images and using lazy loading to improve initial load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content in headings and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that the booking button is more prominent and accessible across all pages for a smoother user journey.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the checkout process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Consider adding a more intuitive navigation bar.",
+        "Ensure that content is updated regularly for better SEO performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking options and details for Best Western Royal Palace Inn & Suites."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323 545 0535"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure text remains legible without zooming on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for improved performance.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance content with more targeted keywords and improve meta tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline navigation for faster access to key pages like booking and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the checkout process for quicker booking completion.",
+    "tips": [
+        "Consider adding more detailed FAQs or support pages.",
+        "Improve visibility of contact information on all pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases Palihotel Hollywood, a stylish hotel in Los Angeles offering accommodation and dining services."
+}

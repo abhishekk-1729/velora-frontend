@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile layout by ensuring that text and buttons are properly sized and easy to click on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and consider using a content delivery network (CDN) to speed up load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Implement structured data and optimize meta tags (title, description) for better search engine visibility.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Enhance navigation by organizing content more intuitively and improving the visibility of key pages like rooms and amenities.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clear booking options upfront.",
+    "tips": [
+        "Consider making the website more visually appealing with modern design trends.",
+        "Ensure the website is fully mobile-friendly to accommodate all users.",
+        "Improve the content by providing detailed descriptions and high-quality images of rooms and amenities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers budget hotel accommodations and booking information."
+}

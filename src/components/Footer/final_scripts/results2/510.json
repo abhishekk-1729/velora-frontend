@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-387-1200",
+        "+1 800-424-6423"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure elements do not overlap on smaller screens and make navigation buttons more prominent.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords and meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance accessibility features like larger fonts and alternative text for images.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of form fields and adding auto-fill features.",
+    "tips": [
+        "Consider adding a live chat feature for real-time assistance.",
+        "Improve the mobile navigation menu for easier access to key pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Comfort Inn Prospect Park in Brooklyn."
+}

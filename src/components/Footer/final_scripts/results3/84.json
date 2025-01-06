@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1.6075358012"
+    ],
+    "emails": [
+        "goldenknightinn@htva.net"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.book-it-now.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading and responsiveness on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of images and use lazy loading to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata like page titles, descriptions, and use more targeted keywords for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by adding a clearer menu or quick links to key areas like booking and amenities.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and ensuring clear instructions throughout.",
+    "tips": [
+        "Improve mobile optimization to ensure a seamless experience across devices.",
+        "Optimize loading times by compressing resources like images and scripts.",
+        "Improve SEO by focusing on meta tags and structured data for local search results."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Golden Knight Inn & Suites, offering information about rooms, amenities, and booking options."
+}

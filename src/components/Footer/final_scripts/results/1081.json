@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 716-824-6000"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and content adjust properly on smaller screens to avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, headings, and alt text for images to increase visibility on search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add more clear calls to action and better navigation to make finding information easier.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking form is intuitive and simple, with fewer steps required to complete a reservation.",
+    "tips": [
+        "Improve page speed with better image compression and caching.",
+        "Add more internal links to related content to improve navigation and SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Econo Lodge Buffalo South, a motel located in Buffalo, New York."
+}

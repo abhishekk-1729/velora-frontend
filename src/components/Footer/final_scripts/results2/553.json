@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-708-331-2000",
+        "1-800-424-6423"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the number of clicks to access key booking features on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce loading times on mobile devices.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance keyword targeting for local searches and include more relevant meta descriptions for each page.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the menu and make key information more accessible with fewer steps for users to reach booking details.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add a progress indicator to the booking process to help users track their progress.",
+    "tips": [
+        "Improve website performance on mobile to ensure quick access to booking options.",
+        "Optimize image sizes to speed up page loading.",
+        "Refine SEO for local searches to attract more regional traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and information for Econo Lodge in South Holland, Illinois."
+}

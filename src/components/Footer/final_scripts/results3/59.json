@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "708.853.7000"
+    ],
+    "emails": [
+        "welcomeinn3922@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "expedia.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing large image sizes and ensuring text is legible without zooming.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and enable lazy loading for better performance.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant content with targeted keywords and improve meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance user experience by simplifying the navigation and ensuring all links are functional.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Implement a more seamless booking process with fewer redirects to third-party websites.",
+    "tips": [
+        "Improve website loading speed by compressing images and minifying scripts.",
+        "Increase SEO by including descriptive text for rooms and services.",
+        "Add an option for users to book directly on the website to avoid third-party reliance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about a motel and offers booking through third-party services."
+}

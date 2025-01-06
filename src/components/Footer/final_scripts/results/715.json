@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310.385.1924",
+        "888.AKA.9021"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch target sizes for easier navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and minimize heavy JavaScript to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance keyword optimization in meta tags and page content for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure more intuitive access to booking options from every page.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the number of steps needed to finalize the booking process.",
+    "tips": [
+        "Improve SEO by optimizing page titles and meta descriptions.",
+        "Enhance mobile responsiveness for smaller devices.",
+        "Consider faster load time solutions like caching and minification."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases luxury serviced residences and extended stays at AKA Beverly Hills."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 626-289-6261"
+    ],
+    "emails": [
+        "info@lincolnhotelmp.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and ensure faster loading on mobile devices to improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider leveraging browser caching and reducing the number of server requests to speed up page loading.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and header tags to better align with targeted keywords and enhance SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the navigation and simplify the booking process to reduce friction for users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add a progress indicator during the booking process to make users feel more in control and informed.",
+    "tips": [
+        "Optimize mobile view for faster and more seamless navigation.",
+        "Improve SEO by adding more relevant keywords and content optimization.",
+        "Increase the overall page loading speed to enhance user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking for the Lincoln Hotel in Monterey Park, providing accommodation details and services."
+}

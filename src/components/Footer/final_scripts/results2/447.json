@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "708-331-0800",
+        "1-800-528-1234"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce large files to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize HTTP requests and optimize CSS and JavaScript to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, alt attributes for images, and optimize content for relevant keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and ensure content is easily accessible across all devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Enhance the checkout process by reducing the number of steps for booking confirmation.",
+    "tips": [
+        "Improve mobile responsiveness by using responsive design techniques.",
+        "Optimize images and reduce their size to improve loading speed.",
+        "Add more local SEO features like location-based keywords to attract regional traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online hotel bookings and provides information for Best Western Plus South Holland/Chicago Southland."
+}

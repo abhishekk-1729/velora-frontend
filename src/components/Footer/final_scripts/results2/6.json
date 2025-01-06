@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@fortplace.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast and Gallery",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and text scale better on smaller screens, consider testing with a wider range of devices for consistent rendering.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary JavaScript to speed up page loading.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, title tags, and alt text for images to enhance visibility on search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and make content more accessible by reducing excessive scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps and providing clearer instructions.",
+    "tips": [
+        "Improve mobile responsiveness for a better user experience.",
+        "Enhance website loading speed by optimizing assets.",
+        "Focus on SEO best practices to increase organic search visibility.",
+        "Refine the booking flow to make it quicker and more intuitive."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Fort Pl B&B & Gallery and allows booking for accommodation."
+}

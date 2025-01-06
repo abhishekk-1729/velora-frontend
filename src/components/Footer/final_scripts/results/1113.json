@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(213) 617-3300",
+        "888-444-6664"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that interactive elements like buttons and forms are more touch-friendly for ease of use on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce heavy scripts to enhance page loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and keyword optimization to better target potential guests.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation further for a quicker and more intuitive browsing experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Provide a clearer visual indication of available room options and payment processes.",
+    "tips": [
+        "Consider enhancing the speed of interactive elements for quicker user engagement.",
+        "Focus on improving SEO content for better search engine visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers reservations and details for staying at Omni Los Angeles Hotel at California Plaza in downtown Los Angeles."
+}

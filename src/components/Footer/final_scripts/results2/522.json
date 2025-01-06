@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-672-6977",
+        "+1 800-466-8356"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the layout and ensuring touch targets are appropriately sized for ease of use.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing images and leveraging browser caching to speed up page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding relevant meta descriptions, alt text for images, and optimizing header tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the site by reducing clutter and improving the content hierarchy for better readability.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve mobile navigation and touch experience.",
+        "Optimize page loading times through image compression and caching.",
+        "Enhance SEO strategies for better organic search visibility.",
+        "Improve the clarity and simplicity of the booking flow."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for Motel 6 Los Angeles, CA near LAX."
+}

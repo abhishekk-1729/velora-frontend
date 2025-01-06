@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 877-659-0473"
+    ],
+    "emails": [
+        "support@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and scripts to improve mobile loading times and overall responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider using a content delivery network (CDN) to speed up page loading, especially for media-rich elements.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Ensure all images have proper alt text and meta descriptions for better visibility on search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance navigation by simplifying the menu and reducing the number of clicks needed to find key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add more payment options and provide clearer step-by-step progress during the booking process.",
+    "tips": [
+        "Consider adding more local attractions or guides to improve engagement and extend user time on the site.",
+        "Improve accessibility features, such as contrast for visually impaired users and better screen reader support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for Sonder's accommodations in New York City."
+}

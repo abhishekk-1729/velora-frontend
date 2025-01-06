@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-854-1111",
+        "+1 800-826-4537"
+    ],
+    "emails": [
+        "reservations@thelondonwesthollywood.com",
+        "info@thelondonwesthollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing touch targets and making the menu more accessible on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to reduce page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance on-page SEO by including more relevant long-tail keywords and ensuring all images have alt tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that the booking button is prominently placed on every page for easier access.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Add a progress indicator during the booking process to make the flow feel more transparent.",
+    "tips": [
+        "Consider adding user reviews on the homepage to enhance credibility.",
+        "Provide more prominent calls to action to encourage bookings.",
+        "Improve accessibility by providing better contrast and font sizes for readability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the online presence for The London West Hollywood at Beverly Hills, providing hotel information and booking services."
+}

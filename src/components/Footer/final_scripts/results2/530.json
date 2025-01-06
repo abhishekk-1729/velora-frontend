@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-670-1920",
+        "1-800-300-8800"
+    ],
+    "emails": [
+        "info@qualityinnlax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the mobile navigation by making buttons and text larger for easier touch interaction.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords in the metadata, titles, and descriptions to improve SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all interactive elements are easily accessible and optimize page flow for a smoother user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary steps to streamline the reservation process.",
+    "tips": [
+        "Optimize images for faster load times.",
+        "Ensure all important content is visible without excessive scrolling on mobile.",
+        "Improve page structure and content hierarchy for better user navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Quality Inn & Suites Los Angeles Airport - LAX."
+}

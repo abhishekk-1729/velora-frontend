@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 716-649-4030",
+        "+1 800-733-7663"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design frameworks like Bootstrap for better mobile adaptability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and implement lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content, including location-based keywords for better local SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make the booking form more intuitive for a smoother experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Reduce the number of steps in the booking process and make confirmation more visible and accessible.",
+    "tips": [
+        "Improve website speed by optimizing images and scripts.",
+        "Ensure all images have alt tags for better SEO and accessibility.",
+        "Enhance the booking flow for smoother user interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book accommodations at the Red Roof Inn Buffalo \u2013 Hamburg/I-90."
+}

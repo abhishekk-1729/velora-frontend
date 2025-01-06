@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+49 123 456789",
+        "+49 987 654321"
+    ],
+    "emails": [
+        "info@hotellilien.com",
+        "reservations@hotellilien.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes for mobile to improve loading times and responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider enabling lazy loading for images and assets to improve load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and alt texts for images to enhance SEO visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Consider integrating a live chat option for better customer support.",
+        "Ensure all links are functional and lead to relevant pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Hotel Lilien, providing information and booking options for a hotel stay."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-395-9991"
+    ],
+    "emails": [
+        "delfina.santamonica@hyatt.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure images are properly scaled and use more compact navigation for smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize large images and implement lazy loading for non-critical elements.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more structured data and improve alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the search functionality by making filters more intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields and providing clearer instructions.",
+    "tips": [
+        "Optimize images and media for faster loading.",
+        "Enhance mobile navigation and user flow for a better mobile experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking information and services for Hyatt Centric Delfina Santa Monica."
+}

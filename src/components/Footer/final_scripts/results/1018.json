@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-822-5975",
+        "+1 310-822-6014"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images are optimized for mobile to improve load times and display consistency.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and minimize unnecessary scripts to enhance page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Implement structured data and improve meta descriptions to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider adding more prominent navigation to improve overall ease of use.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the checkout process by reducing the number of steps required to complete a booking.",
+    "tips": [
+        "Improve mobile optimization",
+        "Enhance page load speed",
+        "Optimize SEO elements"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Best Western Los Angeles Worldport Hotel and allows users to book hotel rooms."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(626) 571-8818"
+    ],
+    "emails": [
+        "info@Lincolnhotelmp.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring all buttons and links are easy to click on small screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and optimize scripts to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase keyword use, especially for local SEO, and add structured data for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all interactive elements provide clear feedback when clicked or hovered over.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process to reduce the number of steps for quicker reservations.",
+    "tips": [
+        "Consider adding a blog or news section to increase engagement.",
+        "Optimize for accessibility features like text-to-speech and high contrast modes."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an informational and booking platform for the Lincoln Hotel in Monterey Park, Los Angeles."
+}

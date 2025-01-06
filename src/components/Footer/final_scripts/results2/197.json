@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 562-861-4200"
+    ],
+    "emails": [
+        "info@qualityinndowney.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and streamline content for quicker mobile rendering.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and minimize HTTP requests to improve loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tag descriptions and title tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure clearer navigation for better user engagement, especially on mobile devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing unnecessary steps and form fields.",
+    "tips": [
+        "Improve site speed by compressing images and using caching.",
+        "Ensure consistent branding across the website for a more cohesive experience.",
+        "Consider adding more user reviews to increase trust and engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Quality Inn Downey and allows for booking rooms."
+}

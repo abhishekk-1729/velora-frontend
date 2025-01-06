@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(607) 661-6009"
+    ],
+    "emails": [
+        "skellypropertiesllc@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Vacation rentals and glamping experiences",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and using responsive design elements to ensure better usability across various screen sizes.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce page load time by compressing large images, leveraging browser caching, and using content delivery networks (CDNs).",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve SEO by optimizing meta tags, titles, and descriptions. Adding relevant keywords and ensuring alt text for all images would enhance visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance the user experience by making navigation more intuitive and ensuring all content is easily accessible with clear calls to action.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation and providing a clear summary of booking details.",
+    "tips": [
+        "Consider integrating reviews and testimonials to build trust.",
+        "Ensure that all pages load quickly and responsively across devices.",
+        "Improve SEO efforts by creating more content related to the local area and vacation experiences."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers vacation rental and glamping experiences in the Finger Lakes area."
+}

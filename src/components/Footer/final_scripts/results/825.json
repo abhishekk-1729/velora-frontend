@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "213-388-8138"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images are optimized for mobile to reduce loading time and improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce heavy scripts to speed up page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO with more relevant keywords in headings and meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky navigation bar for easier access to essential pages while scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more user-friendly by reducing the number of steps and providing clearer instructions.",
+    "tips": [
+        "Optimize images for faster loading",
+        "Add structured data for better SEO",
+        "Make the site even more mobile-friendly"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to promoting and booking stays at Hotel Normandie, a boutique hotel in Koreatown, Los Angeles."
+}

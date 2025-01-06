@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 716-679-1840"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider improving the layout on smaller screens for easier navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and scripts to reduce page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions and include more relevant keywords for local search.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of call-to-action buttons for better user engagement.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking form is optimized for faster completion with minimal steps.",
+    "tips": [
+        "Improve mobile user interface.",
+        "Reduce image sizes to improve loading speed.",
+        "Enhance SEO through targeted content and metadata."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Econo Lodge in Fredonia, NY."
+}

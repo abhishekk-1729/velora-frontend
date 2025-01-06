@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(315) 343-6880"
+    ],
+    "emails": [
+        "evergreenmotel@twcny.rr.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hotels.cloudbeds.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and scripts to enhance mobile viewing, especially for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image sizes and enable browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding proper meta descriptions, header tags, and alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding a clear site map and better linking between pages.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Make the booking process more seamless by reducing unnecessary steps and providing a clearer interface.",
+    "tips": [
+        "Ensure the site is fully accessible with better mobile and desktop optimization.",
+        "Focus on improving SEO elements like keyword targeting and page speed."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Evergreen Motel, offering information about accommodations and local attractions, with booking available through a third-party platform."
+}

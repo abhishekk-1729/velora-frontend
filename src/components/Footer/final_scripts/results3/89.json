@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1(585)658-FLAG(3524)"
+    ],
+    "emails": [
+        "allegiancebedandbreakfast@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all content and images are optimized for smaller screens, particularly the navigation menu and booking forms.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for images to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich meta descriptions and alt tags for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance user navigation with clearer calls-to-action and more visible booking options.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider simplifying the website's content layout to improve user focus.",
+        "Add clear pricing information on the homepage to make it more user-friendly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a charming and historic bed and breakfast experience in Mt. Morris, New York."
+}

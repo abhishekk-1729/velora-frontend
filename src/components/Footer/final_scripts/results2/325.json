@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing the layout for smaller screen sizes, especially the navigation menu which could become more compact for mobile users.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and minify scripts to improve page load times, especially for mobile users with slower internet connections.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more targeted keywords in the page titles, meta descriptions, and alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the booking process with fewer steps and more intuitive navigation options.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of fields and providing a clearer, more direct call to action.",
+    "tips": [
+        "Improve mobile design for smaller screens",
+        "Optimize site speed by reducing image sizes and scripts",
+        "Enhance SEO with better on-page keyword targeting",
+        "Simplify the user experience for better navigation",
+        "Refine the booking flow to minimize friction"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides a booking platform for the Utica Rest Inn hotel."
+}

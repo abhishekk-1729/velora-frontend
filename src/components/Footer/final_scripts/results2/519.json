@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (315) 788-3400",
+        "+1 (800) 221-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the layout for smaller screens and reducing the need for excessive scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and implement lazy loading to enhance the page speed on mobile and desktop.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more localized keywords and relevant meta tags to improve search engine visibility for regional searches.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that the content is fully accessible and all interactive elements are clearly visible on mobile devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering clearer call-to-action buttons.",
+    "tips": [
+        "Consider implementing a live chat feature for immediate guest support.",
+        "Ensure that all interactive elements are clearly visible on both desktop and mobile versions.",
+        "Improve the load speed by reducing the number of large files and enabling browser caching."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online bookings and information for Comfort Inn & Suites Watertown - 1000 Islands."
+}

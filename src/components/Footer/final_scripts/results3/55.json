@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "7733532414"
+    ],
+    "emails": [
+        "support@stay424chicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hotels.cloudbeds.com",
+    "category": "others",
+    "ifOthersThenWhat": "Hostel",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and buttons are responsive to different screen sizes and orientations.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary JavaScript to improve loading time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more relevant keywords and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all links and buttons are easily accessible and visible on mobile devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve page load speed by optimizing media files.",
+        "Enhance SEO with better use of heading tags and alt text for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hostel accommodations with a focus on community engagement and creative spaces."
+}

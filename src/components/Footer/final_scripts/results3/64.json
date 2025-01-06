@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-491-7000"
+    ],
+    "emails": [
+        "h3innlax@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "reservation.asiwebres.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize the mobile menu for easier navigation and ensure faster load times on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more descriptive alt texts for images to enhance accessibility and SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the homepage layout to make key information more accessible.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Integrate the booking system into the main domain for a more seamless user experience.",
+    "tips": [
+        "Improve website loading time by optimizing images and using a content delivery network (CDN).",
+        "Make the booking process more intuitive by avoiding redirects to third-party domains.",
+        "Enhance mobile usability by focusing on touch-friendly designs and intuitive navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about H3 Inn & Suites and facilitates hotel room bookings through a third-party domain."
+}

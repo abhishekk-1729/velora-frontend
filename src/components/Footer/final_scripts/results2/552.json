@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-912-250-0300"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that text and buttons are large enough to tap easily on smaller screens, and optimize images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading techniques to speed up the website's load time, especially on mobile networks.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and ensure proper use of header tags (H1, H2, etc.) for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the website navigation by simplifying the menu and making it more intuitive for users to find key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize mobile experience for easier navigation",
+        "Improve site speed by compressing media",
+        "Ensure consistent branding across the site"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking stays at the Hampton Inn Monticello, including amenities, availability, and local attractions."
+}

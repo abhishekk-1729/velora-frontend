@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-535-4311"
+    ],
+    "emails": [
+        "info@senecaclipperinnwatkinsglen.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and responsiveness for a smoother experience on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary scripts to speed up the page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Focus on improving keyword usage in page titles, meta descriptions, and header tags for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the site layout and improve readability, especially on mobile devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking form is faster to complete by reducing the number of fields and steps in the process.",
+    "tips": [
+        "Consider integrating a more modern design for a cleaner look.",
+        "Add customer reviews or testimonials to build trust and improve conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as the online presence for Seneca Clipper Inn, offering room bookings and information about the hotel."
+}

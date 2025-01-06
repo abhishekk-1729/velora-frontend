@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-233-4200"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.kayak.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve responsiveness for smaller screen sizes, ensuring all elements fit neatly without horizontal scrolling.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance meta descriptions and implement structured data for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline navigation and improve clarity in site layout.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Provide a direct and user-friendly booking option on the main site.",
+    "tips": [
+        "Add contact email addresses for better accessibility.",
+        "Implement a secure and direct booking option on the website.",
+        "Include more detailed descriptions of amenities and nearby attractions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Central Inn Motel and directs visitors to a third-party site for bookings."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 845-831-2000"
+    ],
+    "emails": [
+        "info@innonthehudson.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Consider optimizing images and content scaling to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce the size of large images and implement lazy loading for faster page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more relevant meta tags, improve keyword usage, and ensure all pages are properly indexed.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify navigation and make call-to-action buttons more prominent for a better user experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process smoother by reducing the number of steps and adding clearer instructions.",
+    "tips": [
+        "Improve mobile optimization.",
+        "Enhance loading speed with image compression.",
+        "Focus on SEO best practices like meta tags and keyword usage.",
+        "Improve the booking flow by reducing friction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about the Inn On The Hudson hotel and allows online booking."
+}

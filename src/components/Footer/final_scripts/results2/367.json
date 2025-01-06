@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-424-4949"
+    ],
+    "emails": [
+        "info@agahotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and UI elements for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image file sizes and leverage browser caching to improve load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant keywords in titles, headers, and meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve readability by adjusting text contrast and font size for better accessibility.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to minimize required fields and enhance user convenience.",
+    "tips": [
+        "Ensure images are optimized for faster load times.",
+        "Add more detailed descriptions for rooms and amenities.",
+        "Improve mobile responsiveness for a smoother experience on all devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the LYFE INN & SUITES by AGA hotel in Beverly Hills and offers booking services."
+}

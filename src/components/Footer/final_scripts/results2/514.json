@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that the images and text adapt well on smaller screens to avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minify scripts to reduce loading times, especially on mobile networks.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve page titles, meta descriptions, and add structured data (schema markup) to enhance SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky navigation bar for easier access to key pages as users scroll.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more intuitive by reducing the number of steps or providing clearer instructions.",
+    "tips": [
+        "Improve mobile navigation with clearer touch targets.",
+        "Implement faster image loading techniques like lazy loading.",
+        "Improve SEO with better keyword optimization for local searches."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Sonder's properties in New York City and allows users to book stays directly."
+}

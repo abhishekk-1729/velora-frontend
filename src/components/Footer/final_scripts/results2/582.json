@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-464-1386",
+        "+1 877-424-6423"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile screens to reduce load time and improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minimize JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more structured data and internal links to enhance content discoverability.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation by reducing unnecessary steps to access key information like pricing and availability.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of fields in the reservation form.",
+    "tips": [
+        "Optimize images for better mobile performance.",
+        "Use lazy loading for off-screen images.",
+        "Ensure easy access to booking options on the homepage.",
+        "Improve SEO by using better meta descriptions and tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking options for Comfort Inn Los Angeles near Hollywood with details about rooms, amenities, and location."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-718-553-2499",
+        "+1-800-774-1500"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that images and text scale appropriately on small devices, particularly for dynamic content like galleries and menus.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider optimizing image sizes and leveraging browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Focus on improving metadata such as title tags and descriptions, and ensure more targeted keywords for better ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the navigation by reducing excessive pop-ups and ensuring that call-to-action buttons are easy to locate.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure all booking options are clearly presented and provide a more intuitive process for users to modify or cancel their bookings.",
+    "tips": [
+        "Optimize page load times by using lazy loading for images.",
+        "Ensure all contact details are easily accessible in the footer for better user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for Tru by Hilton Brooklyn."
+}

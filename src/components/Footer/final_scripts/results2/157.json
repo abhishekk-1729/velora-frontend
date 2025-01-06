@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and make images more responsive to enhance mobile user experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and enable browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more targeted keywords and meta descriptions to improve visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and provide clear call-to-action buttons for a better user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process quicker and ensure minimal steps for reservation.",
+    "tips": [
+        "Optimize mobile responsiveness",
+        "Improve website loading speed",
+        "Enhance SEO with better keyword use",
+        "Simplify the booking flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Edgebrook Motel."
+}

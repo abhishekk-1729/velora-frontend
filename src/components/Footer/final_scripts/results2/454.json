@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-650-1300"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text and buttons are adequately spaced on smaller screens for better touch interactions.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and scripts to improve page load time, especially on mobile devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant meta descriptions and alt texts for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu for quicker access to key areas like booking and services.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a live chat feature for instant customer support.",
+        "Make the room selection and booking process more streamlined with fewer steps."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and reservation services for Best Western Plus Sunset Plaza Hotel."
+}

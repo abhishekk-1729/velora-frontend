@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-399-1999"
+    ],
+    "emails": [
+        "info@thekinneyvenicebeach.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images for faster mobile load times and improving navigation responsiveness on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and reduce the number of large media files to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve header tag structure and ensure all image alt attributes are filled in for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the accessibility of your site by adding keyboard navigation and ensuring high contrast for readability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and making the call-to-action buttons more prominent.",
+    "tips": [
+        "Optimize images for faster load times",
+        "Enhance mobile navigation",
+        "Improve SEO with better header structure",
+        "Add accessibility features like keyboard navigation"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes The Kinney Venice Beach hotel and provides booking options directly through the site."
+}

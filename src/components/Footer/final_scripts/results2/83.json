@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(773) 276-7110"
+    ],
+    "emails": [
+        "info@longmanandeagle.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring all text and images are optimized for smaller screens and avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image sizes and leverage browser caching to speed up page loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by optimizing meta descriptions and using header tags for better keyword targeting.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of your main navigation and reduce the number of steps to find essential information like the menu or booking options.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider implementing a booking widget that provides more detailed options, such as room types or special packages, directly on the homepage.",
+        "Improve mobile usability by offering larger clickable buttons and ensuring text is legible without zooming."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online presence for Longman & Eagle, a hotel offering booking services, menus, and other hospitality-related information."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 773-478-5555"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text and buttons are large enough to interact with on smaller screens, especially for mobile users.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce server response time to improve loading speed, especially on mobile devices.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tags, add alt text for images, and ensure better keyword optimization for higher search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation structure for quicker access to important sections like amenities and booking.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more streamlined by minimizing the number of steps and offering a progress bar.",
+    "tips": [
+        "Improve website speed by compressing images and using caching.",
+        "Enhance mobile responsiveness by adjusting font sizes and layouts for smaller screens.",
+        "Improve SEO by ensuring all pages have relevant meta descriptions and structured data."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for the Rodeway Inn hotel in Chicago."
+}

@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and layout elements for better scaling and legibility on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Consider reducing image sizes and using a content delivery network (CDN) for faster loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve keyword usage and meta tags, especially for location-based searches and amenities.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add clearer calls to action on the homepage and navigation to make key actions more accessible.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of fields and making navigation more intuitive.",
+    "tips": [
+        "Improve mobile responsiveness by adapting images and text for smaller devices.",
+        "Enhance loading speed through image optimization and faster server responses.",
+        "Focus on more granular SEO optimization, including detailed location-based content.",
+        "Streamline the booking process by reducing form fields and adding clear progress indicators."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a booking service for The Breezy hotel, providing information and reservations."
+}

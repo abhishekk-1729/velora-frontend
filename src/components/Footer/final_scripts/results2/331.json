@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 800-123-4567",
+        "+1 555-987-6543"
+    ],
+    "emails": [
+        "info@seabluehotel.com",
+        "reservations@seabluehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the site adapts seamlessly across all mobile devices, especially for smaller screen sizes, by optimizing CSS media queries.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage lazy loading for non-critical assets to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata (titles, descriptions) and add alt text to all images to enhance search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the navigation menu and reduce the number of steps needed to access key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of required fields to enhance the user experience.",
+    "tips": [
+        "Improve mobile responsiveness for smaller devices.",
+        "Reduce loading time by optimizing images and scripts.",
+        "Enhance SEO by improving meta tags and content structure.",
+        "Simplify the navigation and booking process for a smoother experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking and information for Sea Blue Hotel."
+}

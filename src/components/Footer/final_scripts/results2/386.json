@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Corporate housing listing",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Consider optimizing images and using responsive design frameworks to improve mobile experience.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Compress images and minimize JavaScript to reduce load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Implement meta tags, structured data, and keyword optimization to improve search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation with clearer calls to action and a more intuitive layout.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness by using a flexible layout.",
+        "Optimize images and minimize heavy scripts to speed up loading times.",
+        "Enhance SEO by adding relevant keywords and meta tags.",
+        "Make the site more user-friendly with clear navigation and a simplified design."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers corporate housing listings."
+}

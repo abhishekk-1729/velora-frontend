@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-212-563-1800"
+    ],
+    "emails": [
+        "info@stewarthotelnyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "stewarthotelnyc.reztrip.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and ensuring all mobile menus are easy to navigate with larger buttons.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use caching techniques to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content and meta descriptions for all pages.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the booking process to make it more intuitive for users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the booking flow by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve loading times by reducing heavy media and optimizing server performance.",
+        "Enhance mobile navigation for smoother access to key hotel information.",
+        "Add more detailed room descriptions for better user decision-making."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Stewart Hotel in New York City and allows room bookings."
+}

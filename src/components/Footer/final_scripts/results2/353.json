@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-691-7585",
+        "+1 310-820-2984"
+    ],
+    "emails": [
+        "reservations@luxehotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes for faster load times and improved mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and reduce the number of HTTP requests to improve speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta descriptions and title tags to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add clearer calls-to-action for quicker navigation and enhanced user engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required steps and making the interface more intuitive.",
+    "tips": [
+        "Consider improving site performance to boost loading speed.",
+        "Improve SEO by adding structured data and alt text for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for the Luxe Sunset Boulevard Hotel, offering online booking and information about accommodations."
+}

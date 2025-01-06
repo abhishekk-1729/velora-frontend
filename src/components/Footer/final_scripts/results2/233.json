@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-337-1351"
+    ],
+    "emails": [
+        "info@chicagoparthenonhostel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hostelworld.com",
+    "category": "others",
+    "ifOthersThenWhat": "Hostel",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the content scales better on smaller screens by improving the responsive design layout.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to page titles, meta descriptions, and alt texts for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the site\u2019s navigation and consider simplifying the booking interface for smoother interactions.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process to minimize steps and improve clarity of available options.",
+    "tips": [
+        "Improve page load time by optimizing assets like images and scripts.",
+        "Increase mobile responsiveness to provide a better experience on smaller screens.",
+        "Enhance SEO practices to rank higher in search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online presence for Parthenon Guest House, a hostel in Chicago, providing booking information and contact details."
+}

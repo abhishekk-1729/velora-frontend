@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "718-431-3300",
+        "845-702-0660"
+    ],
+    "emails": [
+        "info@hamaspikresort.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider improving image scaling and menu navigation for smoother mobile browsing.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize large image files and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of navigation by consolidating similar sections and simplifying the layout.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form to minimize the number of required steps and enhance user convenience.",
+    "tips": [
+        "Ensure that images are fully optimized for faster loading times.",
+        "Make the mobile menu more accessible by adjusting the button size and spacing.",
+        "Add more engaging calls to action on the homepage to guide users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is focused on promoting the Hamaspik Resort, providing booking options and resort information."
+}

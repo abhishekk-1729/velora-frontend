@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 3,
+    "mobileResponsivenessTip": "Ensure the website is fully optimized for mobile, using a responsive design framework like Bootstrap or media queries.",
+    "loadingSpeedOutOf10": 2,
+    "loadingSpeedTip": "Improve loading speed by optimizing images and reducing the number of HTTP requests.",
+    "seoOptimizationOutOf10": 1,
+    "seoOptimizationTip": "Add meta tags, structured data, and focus on keyword optimization for better search engine visibility.",
+    "userExperienceOutOf10": 4,
+    "userExperienceTip": "Simplify navigation and ensure important information is easy to find, especially contact and booking details.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider a redesign to improve overall functionality and user engagement.",
+        "Include clear contact details and a more robust booking system.",
+        "Add social media links and integrate with third-party booking services for broader reach."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as a Facebook page for Paradise Motel with limited functionality and engagement options."
+}

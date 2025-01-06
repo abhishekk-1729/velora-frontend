@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@grandplazapenthouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure buttons and navigation are fully optimized for mobile screens and prevent overlapping elements on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more content and optimize alt text for images to improve visibility on search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the booking process more intuitive by reducing the number of steps and improving form fields design.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking flow by minimizing form input fields and providing clearer progress indicators.",
+    "tips": [
+        "Consider adding more social proof, like guest reviews or testimonials, to increase trust.",
+        "Improve site accessibility with text-to-speech options and high contrast mode for visually impaired users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the luxury accommodation services of The Penthouse at Grand Plaza and allows for bookings."
+}

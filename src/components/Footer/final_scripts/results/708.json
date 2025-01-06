@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-663-1243"
+    ],
+    "emails": [
+        "hie5131@gmail.com"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize mobile elements like images and text size for a better viewing experience.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce image sizes and minimize unnecessary scripts to improve load time.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve on-page SEO by including more targeted keywords and meta descriptions for each page.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation with clearer menu structures and improve the search function.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness and site loading speed.",
+        "Enhance SEO to rank better on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers budget-friendly motel accommodations near the Hollywood Walk of Fame."
+}

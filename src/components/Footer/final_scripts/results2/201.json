@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "wyndhamhotels.travel",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure faster load times and a more seamless mobile interface by optimizing images and scripts.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce page weight and consider implementing lazy loading for images and resources.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tags and include more internal linking to boost SEO ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and ensure consistency in design across all pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve site speed by optimizing resources",
+        "Enhance mobile responsiveness by using adaptive design techniques",
+        "Improve SEO with targeted keywords and more optimized metadata"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services but is primarily managed under the Wyndham Hotels domain."
+}

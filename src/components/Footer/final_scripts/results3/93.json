@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310 913 2261",
+        "+1 310 962 8474",
+        "+1 424 387 5985",
+        "+1 310 384 5610"
+    ],
+    "emails": [
+        "info@greengingerland.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "direct-book.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize media queries for smaller devices and test with a variety of smartphones.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and use a content delivery network (CDN) to improve loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance metadata descriptions and add alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Include clearer calls-to-action for easier navigation.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Integrate booking functionality directly on the website to avoid redirecting users.",
+    "tips": [
+        "Improve booking flow by integrating a secure, user-friendly booking system directly on the website.",
+        "Test website performance regularly on different devices to ensure consistency.",
+        "Optimize content for local SEO to attract nearby visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes The Green Ginger Guest House and offers information about accommodations, amenities, and bookings."
+}

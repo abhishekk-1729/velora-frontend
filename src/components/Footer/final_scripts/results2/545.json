@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Hostel",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text and images scale properly on mobile to improve readability and accessibility.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce the number of HTTP requests to decrease page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add relevant meta descriptions, improve keyword usage, and ensure all images have alt tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by adding clear calls-to-action and simplifying the booking flow.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and simplifying forms.",
+    "tips": [
+        "Improve site speed by compressing images and leveraging browser caching.",
+        "Ensure mobile optimization is fully implemented across all pages.",
+        "Add clear contact details and an FAQ section to improve transparency."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and offers booking for The Venice Beach Hostel in Los Angeles."
+}

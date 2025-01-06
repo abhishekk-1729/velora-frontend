@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 794-2494",
+        "(310) 825-4394"
+    ],
+    "emails": [
+        "tiverton@mednet.ucla.edu"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure buttons and text are large enough for easy touch navigation, especially on smaller devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags and meta descriptions to include more relevant keywords and local search terms.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation and make it clearer where users can find key information like amenities and contact details.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Make the booking button more prominent to ensure users don't miss it.",
+    "tips": [
+        "Improve mobile responsiveness by refining button placement and layout for smaller screens.",
+        "Focus on SEO improvements like meta descriptions and alt text for images.",
+        "Reduce load times by optimizing media and leveraging performance techniques like lazy loading."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an informational hub for The Tiverton, offering booking options for accommodations at UCLA Health."
+}

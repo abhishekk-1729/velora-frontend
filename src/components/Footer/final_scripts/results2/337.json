@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 888-123-4567",
+        "+1 234-567-8901"
+    ],
+    "emails": [
+        "info@elanhotel.com",
+        "reservations@elanhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure faster touch-response and optimize images for mobile to improve load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing image sizes and leverage browser caching for better speed.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Enhance content with more relevant keywords and ensure all pages have proper meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation more intuitive by streamlining the booking and contact sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Reduce the number of steps to complete a booking and add a progress indicator.",
+    "tips": [
+        "Implement schema markup for improved SEO.",
+        "Consider adding live chat support for better user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing hotel booking services for guests looking to stay at Elan Hotel."
+}

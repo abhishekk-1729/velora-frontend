@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 818-244-3200"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure better adaptation for different screen sizes by testing and optimizing for all mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to improve initial load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, alt text for images, and use structured data for better visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider streamlining the navigation menu for faster access to key information like room details and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate more payment options to cater to a wider audience.",
+    "tips": [
+        "Improve mobile navigation layout",
+        "Increase site speed with image optimization",
+        "Enhance SEO with better meta descriptions"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates booking for Extended Stay America hotels in Glendale, Los Angeles."
+}

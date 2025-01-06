@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "312-840-6600",
+        "1-844-204-5639",
+        "708-888-4377",
+        "1-888-320-6065"
+    ],
+    "emails": [
+        "ssccustomerservice@loewshotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by making menus and buttons more accessible with larger tap areas.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Increase keyword usage in page headings and meta descriptions for better visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all images have alt-text descriptions to improve accessibility.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to confirm a reservation.",
+    "tips": [
+        "Improve mobile navigation for ease of access.",
+        "Speed up page load times by optimizing media.",
+        "Increase keyword density for better search engine ranking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information on Loews Chicago Hotel, including bookings, amenities, and special offers."
+}

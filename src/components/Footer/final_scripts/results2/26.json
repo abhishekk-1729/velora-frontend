@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-586-1212",
+        "+1 212-586-3300"
+    ],
+    "emails": [
+        "info@cityclubhotel.com",
+        "reservations@cityclubhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by making menu items more touch-friendly and enhancing the mobile layout for a smoother experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to reduce the page load time on mobile and desktop.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance on-page SEO by including more optimized meta descriptions, header tags, and alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve accessibility features like text contrast and implement a more consistent design language across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps and improving the clarity of form inputs.",
+    "tips": [
+        "Optimize website images to improve load speed",
+        "Improve mobile optimization for better usability",
+        "Refine SEO to boost organic traffic"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for booking rooms at the City Club Hotel in New York City."
+}

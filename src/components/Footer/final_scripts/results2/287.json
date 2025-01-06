@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-800-555-1234"
+    ],
+    "emails": [
+        "info@bedfordcreekcampground.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "campground",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and consider a responsive layout to improve mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and use browser caching to improve load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more keywords to your meta tags and include alt text for images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and provide clearer calls-to-action for a smoother user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the booking form's clarity by reducing the number of steps or adding progress indicators.",
+    "tips": [
+        "Optimize images for faster loading times.",
+        "Improve on-page SEO by targeting location-based keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a campground and marina facility, offering bookings and information for visitors."
+}

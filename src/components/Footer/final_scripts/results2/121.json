@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@bluerosebedandbreakfast.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "bed and breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and testing mobile layouts for better user experience across devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and minify CSS/JS to enhance loading speed, and consider lazy loading for large assets.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance SEO by adding meta tags, alt texts for images, and optimizing content with relevant keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the user experience by simplifying the navigation and providing more clear calls to action.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking flow by reducing steps and improving clarity on the booking form.",
+    "tips": [
+        "Enhance SEO by adding structured data markup for better visibility in search results.",
+        "Improve mobile optimization by testing the site across a variety of devices and screen sizes.",
+        "Ensure all contact information is easy to find on the website."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to promoting and facilitating bookings for the Blue Rose Bed and Breakfast."
+}

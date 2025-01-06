@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-617-300-0956"
+    ],
+    "emails": [
+        "[email protected]",
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing image sizes and implementing responsive design techniques for better user experience on smaller devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce loading times by compressing images, minimizing HTTP requests, and leveraging browser caching.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve SEO by optimizing page titles, meta descriptions, and using more relevant keywords in headers and content.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance user experience by simplifying the navigation and ensuring quick access to booking and key amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Optimize the booking flow by streamlining the form fields and providing clearer information on pricing and availability.",
+    "tips": [
+        "Ensure all pages have unique meta tags and descriptions.",
+        "Consider adding more interactive features to improve engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers boutique hotel accommodations with a modern design and booking system powered by Sonder."
+}

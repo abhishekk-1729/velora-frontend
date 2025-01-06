@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 818-842-8887",
+        "+1 877-456-7666"
+    ],
+    "emails": [
+        "info@hotelamarano.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all interactive elements, such as buttons, are fully optimized for smaller screens and tap-friendly.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve overall page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Focus on improving title tags, meta descriptions, and alt text for images to boost search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider adding a more visible navigation bar and simplifying some of the website's interactive elements for a more intuitive experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate a quick-booking option on the homepage for faster access to room availability.",
+    "tips": [
+        "Improve mobile responsiveness by ensuring all content scales correctly on different screen sizes.",
+        "Enhance page load times by compressing and optimizing large media files.",
+        "Strengthen SEO efforts by refining on-page elements like headers, content, and keywords.",
+        "Make the user experience smoother by reducing the number of steps in key processes, such as the booking flow.",
+        "Monitor site speed regularly and test using tools like Google PageSpeed Insights to identify further improvements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Hotel Amarano Burbank-Hollywood, offering bookings and information about the hotel's amenities and accommodations."
+}

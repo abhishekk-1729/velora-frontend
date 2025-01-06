@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-373-4070"
+    ],
+    "emails": [
+        "hello@thehoxton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure all images scale properly on smaller screens and consider improving touch targets for interactive elements.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for non-essential resources to reduce page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding meta descriptions, using heading tags correctly, and optimizing alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation consistency by ensuring key pages are easily accessible from the homepage and other important sections.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a currency selector for international guests.",
+        "Improve the accessibility of the website by adding ARIA labels to interactive elements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for The Hoxton hotel in Downtown Los Angeles."
+}

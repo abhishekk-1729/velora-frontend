@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-568-9999",
+        "+1 310-568-9998"
+    ],
+    "emails": [
+        "info@cloudnineinnlaxairport.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve font size and button spacing to enhance touch targets on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading for faster page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content, especially on the homepage and booking pages, to improve visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline navigation and reduce pop-ups to improve user flow and engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps or offering autofill options.",
+    "tips": [
+        "Optimize images and videos for better performance.",
+        "Improve mobile navigation for easier access.",
+        "Add clear CTAs (Call to Actions) on every page."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking and information services for Cloud Nine Inn near LAX Airport."
+}

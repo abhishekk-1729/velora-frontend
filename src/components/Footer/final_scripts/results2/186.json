@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-610-1339"
+    ],
+    "emails": [
+        "info@atinyhouseresort.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Tiny House Resort",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce large file sizes to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize JavaScript and CSS files, and implement image compression for faster loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata, include more keyword-rich content, and optimize alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the visual hierarchy on the homepage to improve navigation clarity.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more prominent and streamline the process by reducing the number of steps.",
+    "tips": [
+        "Consider adding a live chat feature for customer support.",
+        "Provide more detailed location information and nearby attractions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a Tiny House Resort offering unique accommodations in a natural setting."
+}

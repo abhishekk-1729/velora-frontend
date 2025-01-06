@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-678-0840",
+        "+1 800-466-8356"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design frameworks to improve loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of images and utilize lazy loading for faster load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve keyword usage in titles and meta descriptions to target local search traffic better.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and reduce unnecessary pop-ups to improve overall usability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and simplifying form fields.",
+    "tips": [
+        "Ensure website content is fully accessible on mobile devices",
+        "Improve image compression for faster page loads"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Motel 6 Schiller Park, IL near Chicago O'Hare."
+}

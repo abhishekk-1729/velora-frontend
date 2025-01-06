@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212.842.5500"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure faster load times for images and simplify navigation for a smoother mobile experience.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading techniques to reduce load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve metadata and alt text for images to enhance search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Refine user flows by minimizing the number of clicks to book and find key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding more contact options, such as email and live chat.",
+        "Provide more detailed information about room types and amenities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a luxurious hotel experience in SoHo, New York, with booking options, amenities, and exclusive offers."
+}

@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-310-645-0400",
+        "1-800-445-8667"
+    ],
+    "emails": [
+        "info@hhotel.com",
+        "reservations@hilton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images are fully optimized and consider using a mobile-first design approach for faster load times and better adaptability on various devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce server response times by using a content delivery network (CDN) for faster global access.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by using more targeted keywords in meta tags, headers, and alt text for images to increase visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation by reducing the number of clicks needed to access key information, such as amenities and booking options.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering more intuitive navigation and progress indicators.",
+    "tips": [
+        "Ensure that all content is up-to-date, especially room availability and pricing information.",
+        "Make the website's accessibility a priority to cater to a wider audience, including visually impaired users.",
+        "Add more customer testimonials or reviews to enhance credibility and trust."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about H Hotel Los Angeles and offers booking services through Hilton's online platform."
+}

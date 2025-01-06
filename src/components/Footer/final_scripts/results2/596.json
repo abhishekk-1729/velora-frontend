@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-310-322-0999",
+        "1-800-445-8667"
+    ],
+    "emails": [
+        "laxeg_dt@hilton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that interactive elements like buttons and menus are well-spaced and easy to click on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for non-essential content to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted keywords in the meta description and improve alt text for images to boost search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation bar sticky for better access to key pages while scrolling.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve page load speed by optimizing heavy media content.",
+        "Ensure accessibility features are up to date, such as text-to-speech options for the visually impaired."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at the DoubleTree by Hilton Hotel near LAX and provides essential hotel information."
+}

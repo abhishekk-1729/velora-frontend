@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "732-283-4200",
+        "1-800-804-3724"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large assets and implement lazy loading for non-essential elements.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata, including alt text for images and optimizing heading structures for better ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more interactive elements like a map or room visualization tool for an enhanced experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and providing more clear instructions during checkout.",
+    "tips": [
+        "Ensure that website content is accessible and inclusive for all users.",
+        "Improve site security with an SSL certificate for better trust and SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking information and reservations for Extended Stay America - Newark - Woodbridge."
+}

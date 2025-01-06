@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-777-9515",
+        "+1 800-822-3770"
+    ],
+    "emails": [
+        "info@washingtonsquarehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the size of on-screen elements and increasing touch target areas for a smoother experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich meta descriptions and improve alt text for images to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the website\u2019s content hierarchy to make information easier to find.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Provide clearer call-to-action buttons and a more visible booking form to reduce friction in the booking process.",
+    "tips": [
+        "Consider adding customer reviews or testimonials to build trust.",
+        "Implement a more visible and straightforward site-wide search function."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Washington Square Hotel and allows users to book accommodations directly."
+}

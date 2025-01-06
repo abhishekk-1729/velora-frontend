@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 649-5000",
+        "+1 (310) 649-2100"
+    ],
+    "emails": [
+        "info@crystalinnlax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve touch targets and optimize images for faster mobile load times.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to speed up page loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure proper use of header tags (H1, H2, etc.) and improve meta descriptions for key pages.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of navigation and ensure that important information is easy to find.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add progress indicators during the booking process to reduce user anxiety and confusion.",
+    "tips": [
+        "Consider adding a more prominent call-to-action on the homepage for better conversion.",
+        "Test the mobile navigation menu for ease of use.",
+        "Ensure all forms are mobile-friendly and load quickly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Crystal Inn Suites & Spas LAX, offering hotel accommodations near Los Angeles International Airport."
+}

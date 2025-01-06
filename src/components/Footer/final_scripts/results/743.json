@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 475-8711",
+        "(800) 472-8556",
+        "(310) 475-5220"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing button sizes and touch targets for better usability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing large images and optimizing JavaScript files to reduce load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more detailed meta descriptions, keywords, and image alt text.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance content clarity by reducing unnecessary pop-ups or distractions during browsing.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of fields or providing autocomplete suggestions.",
+    "tips": [
+        "Ensure the site is fully accessible by improving screen reader compatibility.",
+        "Add clear call-to-action buttons for special offers and promotions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Kimpton Hotel Palomar Los Angeles Beverly Hills."
+}

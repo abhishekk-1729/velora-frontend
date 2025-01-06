@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-941-8900",
+        "+1 212-941-8901"
+    ],
+    "emails": [
+        "info@thegreenwichhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure all text is legible without zooming on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and use lazy loading to speed up the page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more meta descriptions and improve keyword targeting throughout the site.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation even more intuitive with sticky headers or better organization of menus.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps needed to complete a reservation.",
+    "tips": [
+        "Improve loading times for better user retention.",
+        "Optimize SEO to increase search engine visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxurious accommodations and services at The Greenwich Hotel in New York City."
+}

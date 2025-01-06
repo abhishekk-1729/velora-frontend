@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@sacredheartresidence.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and text scale properly on smaller screens to improve mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to reduce page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags and include relevant keywords in headings for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add clearer navigation and improve the visual appeal of the website for a more engaging experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process and reduce the number of steps for a faster checkout experience.",
+    "tips": [
+        "Consider integrating a live chat feature for immediate customer support.",
+        "Improve the website's accessibility by adding alt text to all images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation information and booking services for Sacred Heart Residence."
+}

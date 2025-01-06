@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-375-0480",
+        "+1 212-375-0481"
+    ],
+    "emails": [
+        "info@bowerygrandhotelnewyork.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images are optimized for mobile and test responsive elements for seamless user interaction across devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing images and implementing lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags and meta descriptions to better reflect key search terms related to your hotel location and services.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance site navigation by making key information like rooms, amenities, and pricing more accessible from the homepage.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary steps and streamlining payment options.",
+    "tips": [
+        "Optimize images and reduce large file sizes",
+        "Improve navigation for quicker access to booking and essential info",
+        "Enhance SEO with targeted keywords for better search engine visibility"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is designed to promote and allow bookings for the Bowery Grand Hotel in New York City."
+}

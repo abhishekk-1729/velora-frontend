@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 800-123-4567",
+        "+1 555-987-6543"
+    ],
+    "emails": [
+        "info@carltonmotorlodge.com",
+        "reservations@carltonmotorlodge.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and using responsive design techniques to enhance mobile viewing experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Improve page load speed by compressing images and leveraging browser caching.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Ensure that meta descriptions, alt text for images, and relevant keywords are used on all pages.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the navigation menu and ensure consistency across all pages for a smoother experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering more payment options.",
+    "tips": [
+        "Focus on improving mobile responsiveness and site speed for better performance.",
+        "Enhance SEO strategies to increase search visibility.",
+        "Refine booking flow for a more seamless user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides motel booking information and allows guests to make reservations directly."
+}

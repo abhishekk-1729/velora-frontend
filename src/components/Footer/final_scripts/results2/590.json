@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 716-677-8000",
+        "+1 800-596-2375"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading and better responsiveness on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and optimizing CSS and JavaScript to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant meta descriptions, alt tags for images, and optimize header tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation menu layout for easier access to key pages like amenities and rooms.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness by reducing load times for images and scripts.",
+        "Enhance SEO with better meta tag descriptions and improved content hierarchy.",
+        "Consider providing a contact email for better customer interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Country Inn & Suites hotel in Buffalo South I-90, NY, with the ability to book rooms directly."
+}

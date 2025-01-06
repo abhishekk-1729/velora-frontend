@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-xxx-xxxx",
+        "+1 323-xxx-xxxx"
+    ],
+    "emails": [
+        "info@agahotels.com",
+        "reservations@agahotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all interactive elements (like buttons) are easily clickable on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and utilize caching techniques to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, alt text for images, and include more relevant keywords throughout the site.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu for quicker access to key sections.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile optimization for better navigation on smaller devices.",
+        "Add more customer reviews or testimonials to boost credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking and information for ERTH INN by AGA in Los Angeles."
+}

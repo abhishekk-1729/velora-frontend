@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@bestoftheboardwalk.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "bestoftheboardwalk.reservation.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation and optimize for different screen sizes, ensuring elements adjust smoothly on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing image sizes and reducing unnecessary scripts to improve loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Increase the use of relevant keywords in titles, meta descriptions, and headers for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Make the navigation more intuitive, and ensure key information is easily accessible on all pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer options for users.",
+    "tips": [
+        "Improve mobile responsiveness across all pages.",
+        "Optimize the site for faster load times, especially images and scripts.",
+        "Enhance SEO by refining content and meta tags.",
+        "Refine the user experience with simpler navigation.",
+        "Improve the booking flow by simplifying the reservation process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Best of the Boardwalk, providing visitors with information and booking options for a beachfront hotel experience."
+}

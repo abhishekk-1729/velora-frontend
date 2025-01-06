@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Ensure the layout adjusts properly to different screen sizes and test on multiple devices.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and minimize the number of external scripts to improve loading time.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Include meta tags, alt attributes for images, and relevant keywords throughout the content to improve SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and make it easier for users to find important information such as contact details or room options.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness to enhance user engagement.",
+        "Optimize site speed for better user retention.",
+        "Enhance SEO by using relevant keywords, tags, and meta descriptions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is an online presence for a hotel but does not support booking functionality."
+}

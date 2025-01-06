@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 123-456-7890"
+    ],
+    "emails": [
+        "contact@camptons.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images for faster loading on mobile devices and reducing large file sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize JavaScript and CSS files, and leverage browser caching to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta descriptions and use header tags (H1, H2) to improve on-page SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing the number of clicks to access key pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking form is optimized for mobile to reduce friction during the booking process.",
+    "tips": [
+        "Improve mobile optimization for better performance on smaller screens.",
+        "Reduce image sizes for faster loading.",
+        "Improve SEO by adding relevant keywords and meta tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services with a focus on providing comfortable accommodation options."
+}

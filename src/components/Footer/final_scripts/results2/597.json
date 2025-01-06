@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-866-8700",
+        "+1 800-HILTONS"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and minimizing non-essential scripts to improve load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and lazy loading to enhance page load speeds.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich alt text for images and refining meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that the call-to-action buttons stand out more by increasing contrast or size for better accessibility.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to confirm a reservation.",
+    "tips": [
+        "Optimize images for faster loading.",
+        "Improve mobile navigation and interactivity for a smoother experience.",
+        "Refine SEO elements such as meta tags, descriptions, and alt text."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows users to book stays at the Hilton Orrington/Evanston hotel."
+}

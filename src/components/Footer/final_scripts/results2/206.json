@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (808) 822-4111"
+    ],
+    "emails": [
+        "info@theislandermotel.org"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for smaller screens to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted local keywords and improve meta descriptions for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of navigation and make information like room rates more accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Implement a mobile-first design to enhance the experience across devices.",
+        "Improve the page load time to ensure visitors stay on the site.",
+        "Refine SEO strategies to capture more organic traffic from local searches."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking rooms at the Islander Motel in Hawaii."
+}

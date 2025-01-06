@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Corporate housing",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure touch targets are adequately sized for easier mobile navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and utilize caching to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword targeting and metadata optimization to boost search engine rankings.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure content is scannable and use consistent navigation elements across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering guest checkouts.",
+    "tips": [
+        "Improve mobile usability and speed for better user retention.",
+        "Optimize SEO for increased organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers corporate housing solutions at National at 888 6th Avenue."
+}

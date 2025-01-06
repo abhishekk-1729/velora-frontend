@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the navigation menu and key content are easily accessible on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize images and reduce server requests to improve loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and implement schema markup for better search visibility.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Enhance the visual hierarchy and make key content more prominent for easier browsing.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure clear call-to-action buttons and a more intuitive checkout process.",
+    "tips": [
+        "Reduce image sizes for faster page loading.",
+        "Optimize the website for better mobile usability.",
+        "Improve SEO with targeted keywords and structured data."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes VIBE INN - Whirlpool Suites and offers booking options."
+}

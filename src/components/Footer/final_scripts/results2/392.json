@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-472-1211",
+        "+1 800-348-1352"
+    ],
+    "emails": [
+        "info@hotelbelair.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images for faster load times and smoother scrolling on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large images and consider lazy loading for media elements to speed up page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by ensuring all pages have optimized meta descriptions and title tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility by ensuring all interactive elements are keyboard-navigable and adding more contrast to text.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps or options to make the flow more user-friendly.",
+    "tips": [
+        "Optimize images for faster load times",
+        "Ensure all pages have clear, concise meta descriptions",
+        "Enhance accessibility features like contrast and keyboard navigation"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official online presence for Hotel Bel-Air, providing information on its luxurious services, amenities, and booking options."
+}

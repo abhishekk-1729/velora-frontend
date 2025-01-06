@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 800-123-4567",
+        "+1 800-765-4321"
+    ],
+    "emails": [
+        "info@pakatakanmotel.com",
+        "reservations@pakatakanmotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and content scale better on smaller screens, and consider adding a mobile-optimized navigation menu.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and use lazy loading for non-essential resources to speed up page loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding meta descriptions, alt text for images, and ensuring proper heading structure (H1, H2).",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of the booking process with a more prominent and accessible call-to-action button.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to finalize a reservation.",
+    "tips": [
+        "Improve mobile responsiveness by testing across various devices.",
+        "Optimize images for faster loading, especially on mobile devices.",
+        "Focus on improving SEO by addressing technical SEO issues."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and information for Pakatakan Motel, a place for accommodations."
+}

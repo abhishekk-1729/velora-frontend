@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 641-1000",
+        "+1 (310) 641-1001"
+    ],
+    "emails": [
+        "info@lamirageinnlax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile to reduce load times and improve responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and minimize the use of heavy scripts to reduce load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, alt text for images, and ensure a clean URL structure for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the navigation menu and add more clear calls-to-action to improve usability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering a guest checkout option.",
+    "tips": [
+        "Consider adding a responsive design overhaul for mobile devices.",
+        "Improve page load time by reducing unoptimized media and scripts.",
+        "Work on better on-page SEO practices such as adding more relevant keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel accommodations near LAX Airport with booking options."
+}

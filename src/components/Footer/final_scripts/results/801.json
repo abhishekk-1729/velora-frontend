@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(212) 358-8844"
+    ],
+    "emails": [
+        "reservations@gatsbyhotelnyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring that all menus and buttons are fully optimized for touch interaction on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing images and using a content delivery network (CDN) to reduce loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve SEO by optimizing meta tags, alt text for images, and including more relevant keywords throughout the website.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all content is consistently aligned and text is legible across all screen sizes for a smoother experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer call-to-action buttons.",
+    "tips": [
+        "Improve mobile optimization for better responsiveness",
+        "Enhance SEO for higher visibility in search rankings",
+        "Optimize website speed by minimizing large file sizes"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing and offering booking options for The Gatsby Hotel in New York City."
+}

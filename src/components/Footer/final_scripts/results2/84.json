@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 800-123-4567",
+        "+1 555-987-6543"
+    ],
+    "emails": [
+        "info@goldenknightinn.com",
+        "reservations@goldenknightinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Ensure that the content and images resize properly on smaller screens, and reduce the number of popups and banners on mobile devices to improve readability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minimize the use of heavy scripts to reduce loading time, especially for users with slower internet connections.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, including title and description, and ensure alt text is used for all images. Also, add relevant keywords for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by simplifying the main menu and ensuring all links work seamlessly across devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking process is clear and includes clear call-to-action buttons, and offer the option to modify or cancel bookings easily.",
+    "tips": [
+        "Enhance mobile responsiveness for a more fluid experience on smartphones.",
+        "Reduce page load times to avoid losing potential customers due to slow speeds.",
+        "Optimize SEO by targeting location-based keywords and updating content frequently."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Golden Knight Inn & Suites, a hotel offering rooms and amenities for travelers."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and minimizing content for quicker load times on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce page load time, especially for mobile users.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO elements such as title tags, meta descriptions, and alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure navigation is intuitive and the site is easy to browse on mobile devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and fields in the booking form.",
+    "tips": [
+        "Optimize for faster loading speeds",
+        "Improve SEO practices",
+        "Enhance mobile responsiveness",
+        "Simplify the booking process"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for the Monterey Motel."
+}

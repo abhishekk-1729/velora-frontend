@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce large file sizes to improve mobile performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize JavaScript and CSS files, and leverage browser caching.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement structured data (schema markup) and improve meta tags for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation menu for easier access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing more visible call-to-action buttons.",
+    "tips": [
+        "Ensure contact information is prominently displayed on the site.",
+        "Consider adding live chat support for better user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for The Prospect Hollywood hotel."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-312-726-7500"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images and elements for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and scripts to reduce page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve internal linking structure to boost search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance accessibility features like contrast and font size for better readability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required steps.",
+    "tips": [
+        "Focus on improving website speed by optimizing media files.",
+        "Ensure all pages are mobile-optimized to cater to a larger user base.",
+        "Enhance search engine optimization by refining meta descriptions and headers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Palmer House, a Hilton hotel."
+}

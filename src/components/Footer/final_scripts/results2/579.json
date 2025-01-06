@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 201-529-4000"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and minimize pop-ups to enhance mobile responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of HTTP requests and optimize JavaScript to improve load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Focus on improving meta descriptions and headings for better SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of navigation and make key information easier to find.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required.",
+    "tips": [
+        "Consider implementing a live chat feature to enhance customer engagement.",
+        "Review accessibility options to improve site usability for all users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows booking for Homewood Suites by Hilton in Mahwah, New Jersey."
+}

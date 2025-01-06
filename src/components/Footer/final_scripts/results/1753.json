@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 626-576-9999",
+        "+1 800-445-8667"
+    ],
+    "emails": [
+        "info@laxsghf.hilton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce JavaScript usage to improve performance on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and asynchronous loading for scripts.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase keyword density in headings and ensure alt text for images is descriptive and relevant.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields to streamline the user journey.",
+    "tips": [
+        "Ensure the website has a sitemap for better crawling by search engines.",
+        "Improve mobile performance with better optimization of media files.",
+        "Enhance SEO by including structured data like schema.org markup for local business and hotel information."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Hilton Los Angeles/San Gabriel, offering hotel booking and amenities information."
+}

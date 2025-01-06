@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-273-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure the menu is fully accessible on all mobile devices without requiring excessive scrolling or zooming.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce server response time to improve load times on mobile networks.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and alt texts for images to improve search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the navigation flow, particularly on mobile, to ensure quick access to important information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add clearer visual cues or progress indicators to the booking flow to help users understand the steps.",
+    "tips": [
+        "Optimize for faster load times, especially on mobile.",
+        "Improve SEO by including more targeted keywords in content.",
+        "Ensure the booking process is intuitive and error-free."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and offers online booking for the Four Seasons Hotel Los Angeles at Beverly Hills."
+}

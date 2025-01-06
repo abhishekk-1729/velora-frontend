@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@skellyproperties.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Vacation rental",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the menu and buttons for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and optimize scripts to enhance load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, descriptions, and alt text for images to improve search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the homepage design and ensure easy navigation to key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add a visible 'Book Now' button on the homepage for quicker access.",
+    "tips": [
+        "Ensure clear and easy access to contact information",
+        "Consider improving accessibility features for better inclusivity"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers vacation rental properties for Keuka Lake through Skelly Properties."
+}

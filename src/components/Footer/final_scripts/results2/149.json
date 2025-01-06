@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-361-5060"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the responsiveness of certain images and buttons on smaller screens for better touch interactions.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance title tags, meta descriptions, and utilize structured data to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure better visibility of key information like amenities and contact details without excessive scrolling.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Add more clear calls to action throughout the site to guide users to important actions.",
+        "Consider including customer reviews or testimonials to increase trust.",
+        "Ensure the booking process is accessible for all users, including those with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Quality Inn by Choice Hotel and allows direct bookings."
+}

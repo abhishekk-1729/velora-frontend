@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-768-0000"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and text scale properly across various devices by using responsive design techniques like flexible grids and media queries.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for non-essential content to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve SEO by adding more relevant keywords in the title tags, meta descriptions, and header tags, and ensure proper use of alt attributes for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure clear and intuitive navigation with a consistent menu layout across all pages for an even better user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clear progress indicators.",
+    "tips": [
+        "Optimize mobile usability by ensuring content is easily accessible on smaller screens.",
+        "Improve page load speed by utilizing browser caching and optimizing scripts.",
+        "Enhance SEO through more structured data, such as schema.org markup, to improve search engine visibility.",
+        "Refine booking flow to reduce friction for users and increase conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website facilitates online booking for hotel rooms at Best Western Des Plaines Inn."
+}

@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "213-892-8080"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce content length for a more fluid mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve load times by compressing images and using modern image formats like WebP.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more keyword-rich content to improve on-page SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding clearer sections and a sticky header for easy access.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by minimizing the number of required fields and providing clearer confirmation steps.",
+    "tips": [
+        "Consider enhancing mobile navigation and load times.",
+        "Ensure more contact details (emails) are available for better customer engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online presence for booking stays and exploring amenities at The Delphi Hotel in Downtown Los Angeles."
+}

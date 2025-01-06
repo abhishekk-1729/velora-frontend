@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(818) 244-4466",
+        "(818) 244-4466"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve font size and button spacing for smaller screens to enhance readability and usability on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to reduce load times, especially on mobile networks.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more localized keywords and enhance meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by reducing the number of clicks needed to access key information such as amenities and rooms.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure all contact details are easily accessible, including an email address for customer support.",
+        "Consider implementing more detailed reviews or testimonials to enhance trust and credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Rodeway Inn Regalodge hotel in Glendale, California."
+}

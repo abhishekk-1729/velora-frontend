@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(773) 284-1000",
+        "(800) 804-3724"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider improving touch targets for better accessibility and enhancing readability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and consider lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure all pages have unique meta descriptions and utilize header tags effectively to improve visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu to make it more intuitive and user-friendly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve error validation in the booking form to provide clearer feedback to users.",
+    "tips": [
+        "Ensure all forms are mobile-friendly and accessible",
+        "Improve page load times by optimizing large assets"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers extended stay accommodations near Chicago Midway Airport with booking options."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-617-300-0956"
+    ],
+    "emails": [
+        "guestservices@sonder.com",
+        "sales@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure better mobile layout consistency across different devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and scripts to speed up load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tag usage and integrate better keyword targeting.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider streamlining the navigation menu for quicker access to key sections.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking steps for a smoother user experience.",
+    "tips": [
+        "Focus on enhancing mobile experience.",
+        "Speed up page loading with optimizations.",
+        "Improve SEO practices for visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel bookings and information for Sonder Duane Street in New York."
+}

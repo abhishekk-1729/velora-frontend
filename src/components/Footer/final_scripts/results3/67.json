@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(773) 229-0707"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and adjust layout for better mobile user experience.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Consider compressing images and utilizing caching to improve loading times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and add structured data for better search visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation by adding a clear, easy-to-find menu and clearer room options.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking form is more intuitive and mobile-friendly.",
+    "tips": [
+        "Add social proof like customer reviews to increase trust.",
+        "Improve accessibility by adding text descriptions for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides details about a motel in Chicago with room booking options."
+}

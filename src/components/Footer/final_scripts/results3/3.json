@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and reduce the need for zooming to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Minimize HTTP requests and compress resources to enhance loading speed.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and incorporate relevant keywords for better SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline the navigation and ensure key information is easily accessible.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking form and ensure the process is intuitive across all devices.",
+    "tips": [
+        "Consider adding a more visible contact section.",
+        "Integrate social proof, such as reviews or testimonials, for credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Solo Motel and facilitates booking directly on the site."
+}

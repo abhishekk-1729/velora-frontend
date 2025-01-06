@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 888-2161"
+    ],
+    "emails": [
+        "info@catskillrvresort.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "bookings13.rmscloud.com",
+    "category": "others",
+    "ifOthersThenWhat": "RV resort",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for quicker load times on mobile.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce the number of heavy scripts and optimize images for faster loading.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata (titles, descriptions) and add alt tags to images for better SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the navigation menu more prominent on mobile for easier access.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Ensure a more seamless transition to booking pages without external redirects.",
+    "tips": [
+        "Optimize for faster mobile responsiveness.",
+        "Enhance SEO with better image alt tags and meta descriptions.",
+        "Improve booking flow for a smoother experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers RV camping and resort experiences in the Catskill Mountains, with various amenities and booking options."
+}

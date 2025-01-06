@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-749-0100"
+    ],
+    "emails": [
+        "reservations@arlohotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure faster loading on mobile devices by optimizing image sizes and using a mobile-first design approach.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of HTTP requests and implement lazy loading for images to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal links and ensure all images have descriptive alt texts for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation by consolidating menu options to improve ease of use for first-time visitors.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize mobile page load time by using smaller images and prioritizing content rendering.",
+        "Improve SEO by incorporating targeted keywords in meta descriptions and headings.",
+        "Enhance the booking flow by providing a clearer indication of availability before asking for personal details."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about and facilitates bookings for Arlo Hotels in Williamsburg."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "800-771-7711",
+        "315-361-7711"
+    ],
+    "emails": [
+        "info@turningstone.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and testing on various devices to improve responsiveness on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading for offscreen resources to improve loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more detailed meta descriptions and header tags for better search engine indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying the navigation menu for quicker access to important information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile optimization for faster loading and smoother navigation.",
+        "Enhance SEO with more targeted keywords and better meta tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides accommodation information and booking services for The Brook at Turning Stone."
+}

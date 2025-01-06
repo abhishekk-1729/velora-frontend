@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-836-5000",
+        "+1 888-465-4329"
+    ],
+    "emails": [
+        "contact@holidayinnchicagodwtn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all interactive elements like booking forms and menus are fully optimized for touch gestures.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and optimize scripts to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more localized content and optimize on-page elements like title tags, meta descriptions, and alt texts.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps or form fields required.",
+    "tips": [
+        "Improve page load times by leveraging browser caching.",
+        "Ensure mobile-friendly design for all screen sizes.",
+        "Optimize images and videos for faster loading."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Holiday Inn Chicago Downtown Wolf Point and allows for hotel bookings."
+}

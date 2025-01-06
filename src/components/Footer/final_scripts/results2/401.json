@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-689-5200",
+        "+1 800-221-5650"
+    ],
+    "emails": [
+        "reservations@shelburnehotel.com",
+        "info@affinia.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce the number of elements loaded initially for faster mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and scripts, and optimize the use of third-party scripts to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve keyword usage in headers and meta descriptions, and implement structured data to enhance rich snippets.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure clear navigation options and consider adding a more prominent call to action for bookings on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate more seamless payment options to reduce friction during the checkout process.",
+    "tips": [
+        "Improve site speed by optimizing images and reducing HTTP requests.",
+        "Enhance mobile optimization by simplifying the layout for smaller screens.",
+        "Focus on improving SEO with better keyword usage and metadata.",
+        "Make navigation clearer with consistent, easy-to-find menus."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services and information for The Shelburne Sonesta New York, a luxury hotel in New York City."
+}

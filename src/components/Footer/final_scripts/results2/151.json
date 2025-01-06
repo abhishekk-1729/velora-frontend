@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (213) 612-0021"
+    ],
+    "emails": [
+        "info@freehandhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and text adapt better to different screen sizes, particularly on smaller devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant keywords to meta tags and heading tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that navigation remains intuitive and that key information is easily accessible without excessive scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields and offering guest login options.",
+    "tips": [
+        "Optimize images for mobile devices to improve load times.",
+        "Implement structured data to improve search engine visibility.",
+        "Ensure consistent branding and messaging across all pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Freehand Los Angeles hotel, offering online bookings and information about amenities."
+}

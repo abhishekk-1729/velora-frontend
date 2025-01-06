@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@CasaLuanMotel"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize touch target sizes for buttons and links.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and enable browser caching.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more meta tags and structured data for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation clarity by reducing clutter.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the form layout for even quicker user input.",
+    "tips": [
+        "Ensure contact numbers are visible on the site.",
+        "Improve site speed with advanced optimization techniques."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as a booking platform for Casa Luan Motel in Los Angeles with information on amenities and nearby attractions."
+}

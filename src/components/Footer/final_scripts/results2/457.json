@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-209-465-5000",
+        "1-800-780-7234"
+    ],
+    "emails": [
+        "info@bestwestern.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch target size for easier interaction on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce loading time.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more local keywords and optimize meta descriptions for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing the number of clicks to reach booking options.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking form is pre-filled with relevant user data to expedite the process.",
+    "tips": [
+        "Optimize mobile responsiveness to ensure a seamless experience on smaller screens.",
+        "Consider adding a clear call-to-action for special offers or promotions.",
+        "Improve website accessibility by ensuring compatibility with screen readers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book hotel rooms at Best Western Plus Vineyard Inn & Suites."
+}

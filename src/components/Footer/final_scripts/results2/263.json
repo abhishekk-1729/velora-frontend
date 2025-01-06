@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-384-8811"
+    ],
+    "emails": [
+        "info@escapehotelhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce heavy elements that may slow down the mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and reducing the number of HTTP requests.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by using more keyword-rich meta descriptions and title tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure that all clickable elements are easy to find.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer calls to action.",
+    "tips": [
+        "Consider optimizing the site for faster load times by reducing unnecessary scripts.",
+        "Ensure that the mobile version is fully optimized for all devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers an escape room experience in Hollywood, providing booking options for participants."
+}

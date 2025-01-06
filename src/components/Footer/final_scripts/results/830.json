@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-433-3800"
+    ],
+    "emails": [
+        "frontdesk@hotelhendricksny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve image compression and reduce the use of heavy scripts.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta tags and use structured data to improve search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all interactive elements are clearly visible and accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Make the booking process even more intuitive by reducing the number of steps.",
+    "tips": [
+        "Improve image optimization",
+        "Enhance SEO with better use of keywords",
+        "Simplify the booking flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxury hotel accommodations in Midtown Manhattan with a focus on style and modern amenities."
+}

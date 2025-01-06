@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-329-2000"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization and responsive layout for better mobile navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and implement lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords and improve the meta descriptions for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation by reducing unnecessary clicks and making key information more prominent.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize mobile experience for faster navigation.",
+        "Implement structured data for better SEO.",
+        "Improve image compression and lazy loading to boost speed."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and services for Motel 6 in Gardena, CA."
+}

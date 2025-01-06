@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 358-7100"
+    ],
+    "emails": [
+        "info@tappanzeehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for mobile to reduce loading times and improve responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider reducing the size of images and using caching techniques to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta descriptions and add more relevant keywords to improve SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure a consistent and clear navigation structure across all pages to improve user experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Consider adding more high-quality images to showcase your hotel rooms and amenities.",
+        "Implement a blog or content marketing strategy to enhance SEO and customer engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information about Tappan Zee Hotel, with booking options for prospective guests."
+}

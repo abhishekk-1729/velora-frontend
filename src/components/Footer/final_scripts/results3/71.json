@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "201.516.7500",
+        "800.646.2066"
+    ],
+    "emails": [
+        "info@libertyharborrv.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.camplife.com",
+    "category": "others",
+    "ifOthersThenWhat": "RV Park",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and layout for mobile screens to reduce horizontal scrolling.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing image sizes and utilizing browser caching to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add meta descriptions and alt text for images, and improve content structure with headers.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by making the booking options more prominent on the homepage.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Ensure a smoother transition between the website and third-party booking platform for better user convenience.",
+    "tips": [
+        "Ensure the website is fully responsive on all devices.",
+        "Optimize the website's load time to reduce bounce rates.",
+        "Enhance SEO by using better keyword targeting and content optimization."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Liberty Harbor RV Park, including its amenities and booking options."
+}

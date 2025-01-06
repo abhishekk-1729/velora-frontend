@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "425-776-0100"
+    ],
+    "emails": [
+        "info@flyinnlynwood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and buttons are fully optimized for smaller screens to enhance usability on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing image sizes and leveraging browser caching to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, title tags, and use alt text for all images to enhance SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation to reduce the number of steps users need to find information or book a room.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Increase mobile performance by optimizing assets for smaller screens.",
+        "Enhance page speed by compressing images and implementing caching strategies.",
+        "Improve SEO by focusing on on-page optimization and internal linking.",
+        "Refine user experience by streamlining navigation and making key information more accessible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about The Fly Inn hotel and facilitates direct bookings."
+}

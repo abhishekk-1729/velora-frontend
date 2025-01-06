@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-123-4567",
+        "+1 800-123-7890"
+    ],
+    "emails": [
+        "info@the-cloud-one.com",
+        "reservations@the-cloud-one.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure text is more readable on smaller screens by improving font sizes and line spacing.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for faster content display.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted keywords to meta descriptions and headers to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing unnecessary clicks to reach important information like booking and contact details.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve page speed by compressing large images.",
+        "Ensure a clear call-to-action button for bookings on every page.",
+        "Add social proof like customer reviews or testimonials."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a seamless booking experience for The Cloud One Hotel in downtown New York."
+}

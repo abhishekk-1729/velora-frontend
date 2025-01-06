@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-312-588-8000"
+    ],
+    "emails": [
+        "info@trumphotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by enhancing touch target sizes for easier interaction on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more optimized internal links to improve crawlability and page ranking for specific keywords.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistency in the navigation menus across all pages for a smoother user journey.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and providing clearer error messages for invalid inputs.",
+    "tips": [
+        "Optimize website performance for better load speed.",
+        "Ensure accessibility features are included for an inclusive user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Trump International Hotel & Tower\u00ae in Chicago and facilitates bookings directly."
+}

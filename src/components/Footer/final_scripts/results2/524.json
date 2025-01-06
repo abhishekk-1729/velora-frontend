@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-601-1234",
+        "+1 855-515-1144"
+    ],
+    "emails": [
+        "info.andaz5thave@hyatt.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize the mobile navigation menu for better visibility and ease of use on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing large images and optimizing server response times to reduce page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal links and optimize title tags for additional keyword relevance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the accessibility features, such as adding a high-contrast mode and keyboard navigation support.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of required fields to improve conversion rates.",
+    "tips": [
+        "Optimize images for mobile devices",
+        "Implement lazy loading for non-essential assets"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Andaz 5th Avenue hotel with booking capabilities and detailed hotel information."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "RV Resort",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and menu responsiveness to make it easier for users to interact with on smaller devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve page loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more descriptive meta tags, alt texts for images, and improve internal linking to boost SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline the website's design and navigation for a smoother, more intuitive experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering a more seamless checkout.",
+    "tips": [
+        "Ensure better contact information visibility on all pages.",
+        "Consider adding an FAQ section to address common queries.",
+        "Improve website accessibility for users with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information and booking services for the Finger Lakes RV Resort."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845.254.4884"
+    ],
+    "emails": [
+        "info@riverrunbedandbreakfast.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hotel2605.openhotel.com",
+    "category": "others",
+    "ifOthersThenWhat": "bed and breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images are optimized for mobile to reduce load times and improve navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images and resources to speed up the page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, keywords, and alt attributes to images for better SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the navigation menu for quicker access to key information.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process by reducing steps and making availability clear from the start.",
+    "tips": [
+        "Improve page loading speed by reducing image sizes.",
+        "Enhance mobile user experience with responsive design tweaks.",
+        "Increase online visibility through targeted SEO improvements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a bed and breakfast inn in the Catskills, offering lodging and local activity information."
+}

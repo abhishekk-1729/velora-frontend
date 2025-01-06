@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 3,
+    "mobileResponsivenessTip": "Ensure the website is fully optimized for mobile users by improving layout and text readability.",
+    "loadingSpeedOutOf10": 2,
+    "loadingSpeedTip": "Improve page load time by optimizing images, reducing JavaScript, and utilizing caching techniques.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add more relevant keywords to improve SEO rankings and consider better meta tags for search engines.",
+    "userExperienceOutOf10": 3,
+    "userExperienceTip": "Simplify navigation and ensure that key information is accessible and clearly displayed on all devices.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Optimize mobile usability",
+        "Increase website speed",
+        "Enhance SEO practices"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Motel 6 Alsip, IL but lacks functionality for booking or essential contact details."
+}

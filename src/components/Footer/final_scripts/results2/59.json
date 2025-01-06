@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-123-456-7890",
+        "+1-987-654-3210"
+    ],
+    "emails": [
+        "info@welcomeinnandsuite.com",
+        "reservations@welcomeinnandsuite.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization and use a mobile-first design for smoother navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images, enable caching, and minimize JavaScript to speed up the site.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add meta descriptions and structured data (schema markup) to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation bar sticky to improve access to important sections while scrolling.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps and required fields for a faster, smoother user experience.",
+    "tips": [
+        "Enhance accessibility by adding alternative text for images.",
+        "Add a clear call-to-action button on the homepage for easy navigation to booking pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Welcome Inn - Whirlpool Suites & Extended Stay."
+}

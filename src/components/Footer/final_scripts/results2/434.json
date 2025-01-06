@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-645-3100",
+        "+1 800-780-7234"
+    ],
+    "emails": [
+        "reservations@bwairportplazainn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the website elements are more easily tappable and readable on smaller screens by increasing font sizes and reducing clutter in mobile view.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to speed up content rendering, especially on mobile devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more structured data (e.g., Schema markup for hotel, reviews, pricing) to improve SEO and make the website more discoverable.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation by making the booking section more prominent and accessible from any page.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and allowing for quicker selection of room types and dates.",
+    "tips": [
+        "Improve the mobile experience with more streamlined and optimized layouts.",
+        "Optimize page load times, especially for users with slower connections.",
+        "Enhance SEO by incorporating more local keywords and structured data.",
+        "Provide more interactive features or filters in the booking process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for the Best Western Airport Plaza Inn Hotel located near Los Angeles International Airport (LAX)."
+}

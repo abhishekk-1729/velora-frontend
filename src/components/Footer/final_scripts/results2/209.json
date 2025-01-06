@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-886-0002"
+    ],
+    "emails": [
+        "info@acehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images and use adaptive layouts to further enhance mobile performance.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider implementing lazy loading for non-essential elements and optimizing images for faster load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more internal links and meta descriptions for better crawlability and ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that navigation is simplified for even easier access to key pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required for a reservation.",
+    "tips": [
+        "Optimize page load times to improve user engagement.",
+        "Use schema markup for better SEO results.",
+        "Simplify the booking process to reduce friction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Ace Hotel New York and facilitates direct hotel bookings."
+}

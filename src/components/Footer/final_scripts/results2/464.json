@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-217-4242",
+        "800-466-8356"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce large elements that could slow down the mobile experience, especially for users on slower connections.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Improve page load times by optimizing images and using modern formats like WebP for images, and leveraging browser caching.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding more descriptive meta tags, alt attributes for images, and improving keyword usage in headers and content.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve the visual hierarchy and simplify navigation to make it easier for users to find essential information like room availability and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure all images are properly optimized for fast loading times.",
+        "Add more prominent calls to action on the homepage, such as 'Book Now' or 'Check Availability'.",
+        "Consider improving the design and usability of the booking interface."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows booking for Studio 6 Suites in Gardena, CA, offering affordable accommodations for short and extended stays."
+}

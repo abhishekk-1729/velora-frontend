@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing touch targets and navigation elements for smaller devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce the size of image files and implement lazy loading to speed up page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tags and headings for better keyword targeting and visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add more visual cues for interactive elements, such as hover effects on buttons.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve image optimization for faster loading.",
+        "Implement a more accessible mobile navigation menu.",
+        "Ensure all meta descriptions are unique and descriptive for better SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel bookings for Sonder's Battery Park location in New York City."
+}

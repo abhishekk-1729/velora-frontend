@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-747-9624",
+        "201-396-6417"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for quicker loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce the use of heavy scripts to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and header usage for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation consistency by adding a fixed menu for easier access to pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Enhance the booking flow by adding a clearer step-by-step guide for reservations.",
+    "tips": [
+        "Consider adding more engaging content like guest testimonials and high-quality images.",
+        "Ensure the booking process is seamless with clear calls-to-action."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a peaceful bed and breakfast with two self-contained apartments for guests in Liberty, NY."
+}

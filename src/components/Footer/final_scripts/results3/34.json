@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-758-5899"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize the layout for smaller screens and improve navigation for mobile users.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and enable browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance meta descriptions and include more alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the user interface for faster information access.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking steps and reduce form fields for ease of use.",
+    "tips": [
+        "Add email contact information for improved communication.",
+        "Enhance site accessibility to cater to a wider audience.",
+        "Provide more details about amenities and policies on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers affordable motel accommodations in Los Angeles with easy booking options and convenient amenities."
+}

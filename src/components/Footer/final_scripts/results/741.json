@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.booking.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and reducing excessive large files to make loading smoother.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of external scripts or optimize them for faster loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Focus on improving meta tags and adding relevant keywords for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation with clearer category labels and an easier-to-access booking interface.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing unnecessary steps and offering clearer call-to-action buttons.",
+    "tips": [
+        "Enhance site content with more detailed descriptions of room amenities and services.",
+        "Improve website speed for a better user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides accommodation booking for 24 Hours Motel in Los Angeles through a third-party platform."
+}

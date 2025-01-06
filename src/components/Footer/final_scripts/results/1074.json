@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-310-649-2323"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes and streamline layout for better mobile loading.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the use of large images and optimize code for faster load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, headings, and include more targeted keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and increase visibility of important features.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure faster transition between pages during the booking process.",
+    "tips": [
+        "Optimize website speed by compressing images and reducing unnecessary elements.",
+        "Improve content for SEO with targeted keywords and better meta descriptions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides motel booking and information for Studio 6 Suites in Los Angeles."
+}

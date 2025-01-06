@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-551-2888",
+        "+1 310-975-2736"
+    ],
+    "emails": [
+        "beverlyhills@peninsula.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all images are properly optimized for mobile to reduce load times and improve visual consistency.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider optimizing images and using lazy loading to speed up the page load time, especially on mobile devices.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more internal links and optimize meta descriptions and title tags for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the clarity of call-to-action buttons, especially on mobile devices, for a more intuitive user journey.",
+    "bookingFlowOutOf10": 10,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize images for mobile to reduce load time.",
+        "Improve SEO by enhancing internal linking and metadata.",
+        "Refine UX by making call-to-action buttons more prominent."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about The Peninsula Beverly Hills and allows users to book a stay directly on the site."
+}

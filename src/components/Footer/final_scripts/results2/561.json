@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce heavy scripts to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize large file sizes and use asynchronous loading to speed up page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure proper usage of header tags, alt text for images, and structured data for better SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and add more call-to-action buttons to enhance the user experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding contact information like phone numbers and emails for better customer engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates booking for the Sentral DTLA hotel."
+}

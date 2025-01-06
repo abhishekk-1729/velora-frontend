@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-230-0013",
+        "+1 844-230-0013"
+    ],
+    "emails": [
+        "info@henrynormanhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and content layout for faster load times and improved mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage in headings and meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add more interactive elements like hover effects or animations to engage users better.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness by optimizing images",
+        "Enhance SEO with more focused keywords",
+        "Consider reducing page load time for better performance"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Henry Norman Hotel and facilitates booking directly on the site."
+}

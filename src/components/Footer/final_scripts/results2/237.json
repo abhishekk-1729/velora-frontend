@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-532-3211"
+    ],
+    "emails": [
+        "avenuemotel@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "https://www.booking.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and ensure that the layout adapts more effectively on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce the size of images and implement lazy loading for faster page loads.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions and title tags for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation menu more visible and accessible, especially on mobile.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete the reservation.",
+    "tips": [
+        "Improve mobile responsiveness by testing across various devices.",
+        "Enhance website load time by compressing images and files.",
+        "Consider integrating a booking system directly on the website for a seamless experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking options for Avenue Motel in Gardena."
+}

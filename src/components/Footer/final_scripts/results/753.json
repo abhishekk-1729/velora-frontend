@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312.764.1919"
+    ],
+    "emails": [
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure faster mobile load times by optimizing image sizes and reducing unnecessary scripts.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing larger assets and reducing HTTP requests to enhance load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tags and content for key search terms related to the hotel and local attractions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation even smoother by adding quick access buttons for common user actions like booking.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps involved in completing a reservation.",
+    "tips": [
+        "Optimize images for faster loading on mobile.",
+        "Implement clear calls-to-action on the homepage for better user engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for The Emily Hotel, a boutique hotel offering accommodations and experiences in Chicago's Fulton Market."
+}

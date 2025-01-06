@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(323) 567-1803"
+    ],
+    "emails": [
+        "lapalmamotel@aol.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for faster loading and better adaptability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of images and scripts to improve the load time, especially for mobile users.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, titles, and include more relevant keywords for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add more interactive elements like reviews or nearby attractions to engage users further.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form and consider adding a progress bar to show users how many steps are left.",
+    "tips": [
+        "Optimize image sizes for quicker loading",
+        "Add more detailed descriptions for rooms and amenities",
+        "Implement SSL security for trust and SEO boost"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking services for La Palma Motel in Southgate."
+}

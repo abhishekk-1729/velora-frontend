@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-850-8000",
+        "+1 800-823-8763"
+    ],
+    "emails": [
+        "info@montrosehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing clutter and ensuring that all important buttons are easy to click on small screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to improve page load times on mobile and desktop.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords in title tags, meta descriptions, and header tags to improve SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the user interface by simplifying the layout and providing clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Offer more payment options and a guest login feature for quicker bookings.",
+    "tips": [
+        "Consider implementing a live chat feature for better customer engagement.",
+        "Provide more visible social proof (reviews, testimonials) to build trust.",
+        "Improve mobile page loading speed by compressing files and reducing unnecessary scripts."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Montrose Hotel in Beverly Hills."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-558-9400"
+    ],
+    "emails": [
+        "info@culverhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce unnecessary elements to enhance mobile load time and navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image file sizes and implement lazy loading for better performance.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and utilize structured data for better visibility in search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Consider adding a live chat option for customer support.",
+        "Improve page load time for better mobile performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases The Culver Hotel with information and a booking option."
+}

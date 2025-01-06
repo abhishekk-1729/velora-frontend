@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-466-7777"
+    ],
+    "emails": [
+        "info@hollywoodrodeway.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve touch targets and optimize font sizes for smaller screens to enhance mobile usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and leverage browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to title tags and meta descriptions, and optimize header tags.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Improve navigation and simplify the booking flow to make it more intuitive.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and making the form fields more user-friendly.",
+    "tips": [
+        "Consider adding a search function to help users find specific information faster.",
+        "Ensure consistent branding and design across all pages for a cohesive experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and provides booking options for Rodeway Inn near Melrose Ave, a motel offering affordable stays in Hollywood."
+}

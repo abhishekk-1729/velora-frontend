@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(508) 548-4855"
+    ],
+    "emails": [
+        "captainkinnehouse@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all images are responsive and text does not overflow on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to speed up page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Include relevant keywords in meta tags, headings, and image alt texts to improve search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation and adding clearer calls to action to enhance user engagement.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Improve the booking form by making it more intuitive, such as reducing the number of required fields and making the process more visually streamlined.",
+    "tips": [
+        "Optimize for mobile devices",
+        "Improve page speed with better image compression",
+        "Enhance SEO through targeted content and better meta tags"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation bookings and information for Captain Kinne House."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-460-6000"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all elements are properly scaled and touch-friendly on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and minimize unnecessary scripts to improve load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords and improve metadata for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make important information easily accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider enhancing accessibility features for a broader user base.",
+        "Provide clearer call-to-action buttons on mobile."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking for Quality Inn Near Hollywood Walk of Fame."
+}

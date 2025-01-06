@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "315-646-1000"
+    ],
+    "emails": [
+        "info@sacketsharborbandb.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the layout for smaller screens and making buttons and links more touch-friendly.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce large file sizes to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to the page's meta tags, headers, and image alt texts to improve search engine ranking.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Enhance the visual appeal and interactivity of the site by updating the design and ensuring consistency across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and adding clearer call-to-action buttons.",
+    "tips": [
+        "Consider adding more content on the homepage to improve engagement.",
+        "Update the website design to make it more modern and user-friendly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Sackets Harbor Bed and Breakfast and its location."
+}

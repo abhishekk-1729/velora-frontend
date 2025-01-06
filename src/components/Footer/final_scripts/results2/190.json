@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve responsiveness by ensuring content adapts better to smaller screen sizes and images scale appropriately.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce server response time to speed up loading.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve SEO by adding meta descriptions, optimizing alt text for images, and improving keyword targeting.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance user navigation with clearer call-to-action buttons and easier access to room details.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure that booking flow includes a progress indicator and user-friendly error messages.",
+    "tips": [
+        "Consider adding more detailed descriptions and images for the hotel rooms.",
+        "Ensure all contact details are visible and up-to-date on the website."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Los Angeles hotel rooms."
+}

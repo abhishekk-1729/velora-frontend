@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@hydeparkmotel-la.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile layout for better readability and touch responsiveness, especially for navigation elements.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and minimize heavy scripts to enhance page load speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding meta tags, alt texts for images, and optimizing headings.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance user interface by simplifying navigation and ensuring consistent design elements across the site.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps and improving the mobile booking interface.",
+    "tips": [
+        "Improve page load times for better user retention.",
+        "Add more engaging content like reviews or local area information.",
+        "Ensure consistent branding and visual appeal across the site."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking for accommodations at Hyde Park Motel in Los Angeles."
+}

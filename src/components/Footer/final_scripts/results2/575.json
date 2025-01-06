@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-996-0050"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images and reduce large files to improve loading times on mobile devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Implement lazy loading for non-essential elements to reduce initial page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve keyword optimization in titles, meta descriptions, and image alt text for better discoverability.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all call-to-action buttons are prominently visible on all screen sizes.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the checkout process by reducing the number of form fields to improve user experience.",
+    "tips": [
+        "Consider integrating live chat support for immediate customer assistance.",
+        "Improve mobile-friendly navigation for easier access to key sections."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for The Shay, a Destination by Hyatt Hotel."
+}

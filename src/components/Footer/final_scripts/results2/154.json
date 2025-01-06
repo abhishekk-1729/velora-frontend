@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-254-4091",
+        "800-858-0288"
+    ],
+    "emails": [
+        "info@belleayrelodge.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and using responsive design techniques to improve layout on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and use caching strategies to improve load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve metadata and add more structured content for better search engine indexing.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance the navigation menu for easier access to important pages and services.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps to make the process quicker.",
+    "tips": [
+        "Improve mobile image rendering",
+        "Use compression for better speed",
+        "Refine site navigation"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases lodging options at Belleayre Lodge and provides booking services."
+}

@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure text and buttons are large enough for easy interaction on small screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to improve page loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Use proper meta tags, titles, and descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity by simplifying menu options and ensuring consistency across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Ensure faster loading by compressing images.",
+        "Add contact information like phone numbers and emails for better customer communication.",
+        "Improve SEO by optimizing alt text for images and adding structured data."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Titta Inn."
+}

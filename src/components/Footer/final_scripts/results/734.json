@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "315-592-2256"
+    ],
+    "emails": [
+        "northbay@cityoffulton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Campground",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all images are responsive and scale properly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and use browser caching to improve page loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords and meta tags to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation clarity with a more visible menu and improved call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form and provide clear steps for users to follow.",
+    "tips": [
+        "Consider improving accessibility features, such as text resizing and alt-text for images.",
+        "Make sure to include a more prominent call to action on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about North Bay Campground and offers reservation details for campsites."
+}

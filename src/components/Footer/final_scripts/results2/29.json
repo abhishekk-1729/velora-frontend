@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-645-5111"
+    ],
+    "emails": [
+        "info@diamondinnlax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Consider optimizing images and improving the layout for better mobile viewing, ensuring content is accessible without horizontal scrolling.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to speed up page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, headings, and alt text for images to better align with SEO best practices.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve the navigation structure and make important links more prominent for a smoother user journey.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider improving mobile responsiveness and loading speed to enhance user experience.",
+        "Improve SEO to increase visibility in search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel information and booking options for Diamond Inn near LAX."
+}

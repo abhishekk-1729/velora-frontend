@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and buttons are fully optimized for mobile to enhance loading speed and user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large images and enable browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords in meta tags and improve alt text for images to enhance SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding more prominent call-to-action buttons for easier access to key pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by minimizing the number of steps required to confirm a reservation.",
+    "tips": [
+        "Optimize mobile responsiveness for better user interaction.",
+        "Improve SEO by enhancing content with targeted keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Tillinghast Manor as a Bed & Brunch destination in the Finger Lakes, providing accommodations and experiences."
+}

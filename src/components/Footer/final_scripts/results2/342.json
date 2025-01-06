@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 818-845-0010"
+    ],
+    "emails": [
+        "info@coasthotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all text and images scale appropriately without horizontal scrolling on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce the number of HTTP requests to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage in meta tags and alt text for images to enhance visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Provide more intuitive navigation and make information easily accessible without excessive scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and add real-time availability indicators to enhance user confidence.",
+    "tips": [
+        "Ensure faster loading times by leveraging browser caching.",
+        "Optimize content for mobile-first design to enhance accessibility.",
+        "Use schema markup for better SEO results."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Coast Anabelle Hotel and facilitates direct booking."
+}

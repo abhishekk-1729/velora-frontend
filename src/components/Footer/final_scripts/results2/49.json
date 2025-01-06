@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 920-499-1111"
+    ],
+    "emails": [
+        "info@stadiumviewinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for mobile devices and ensure text is not cut off on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider reducing the number of large images and using a content delivery network (CDN) for faster load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and image alt attributes to enhance visibility in search results.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation to make it easier for users to find key information like amenities and rates.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the clarity of the booking steps and provide a progress indicator to reduce user confusion.",
+    "tips": [
+        "Enhance the mobile responsiveness by using responsive web design techniques.",
+        "Minimize HTTP requests by combining CSS and JavaScript files.",
+        "Implement schema markup for better SEO performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Stadium View Inn, providing information about accommodations and allowing bookings directly on the site."
+}

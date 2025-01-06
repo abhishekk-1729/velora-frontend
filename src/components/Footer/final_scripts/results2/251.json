@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-857-5000"
+    ],
+    "emails": [
+        "info@casaciprianinewyork.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and elements for faster loading on mobile devices, especially for slower networks.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes, leverage caching, and optimize JavaScript and CSS delivery to improve load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions, title tags, and alt text for images to boost search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile image compression for faster loading on mobile networks.",
+        "Add more prominent calls to action to encourage direct bookings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information about the Casa Cipriani Hotel in New York and facilitates bookings."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "RV park and campground",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading and adjust layout for better readability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and minimize the use of heavy scripts to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords in headings and meta descriptions, and ensure proper use of alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation menu more intuitive and add a clearer call to action for booking.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required fields and providing a clearer booking timeline.",
+    "tips": [
+        "Optimize mobile responsiveness for smoother user experience.",
+        "Improve page loading speed by reducing image file sizes and script usage.",
+        "Enhance SEO by improving keyword targeting and meta information."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Chaumont River RV Park & Campground, offering campground and RV park reservations."
+}

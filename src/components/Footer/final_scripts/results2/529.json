@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 708-226-1300",
+        "+1 800-300-8800"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster load times on mobile devices to enhance performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and videos to reduce initial page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more internal links and optimizing meta descriptions for key pages.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation by adding a clearer call-to-action for booking or special offers.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields to enhance user experience.",
+    "tips": [
+        "Ensure the site is fully responsive across all devices.",
+        "Improve loading speed by minimizing HTTP requests.",
+        "Focus on local SEO strategies to attract more regional customers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and reservations for Quality Inn & Suites Orland Park - Chicago."
+}

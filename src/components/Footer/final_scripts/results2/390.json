@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-123-4567",
+        "+1 310-765-4321"
+    ],
+    "emails": [
+        "info@holidaylodge.com",
+        "reservations@holidaylodge.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all images and buttons are properly resized and optimized for mobile screens to improve performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and implement lazy loading for better performance on mobile and desktop devices.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content in headings and meta descriptions to increase visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu and reduce the number of clicks needed to reach the booking section for smoother user flow.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness to ensure a smooth experience across all devices.",
+        "Optimize loading speed by compressing images and using modern file formats.",
+        "Enhance SEO by focusing on local SEO practices and incorporating relevant keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services for the Holiday Lodge in Los Angeles."
+}

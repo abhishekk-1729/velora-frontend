@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (323) 263-2160"
+    ],
+    "emails": [
+        "info@travelinnmotel-losangeles.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve the responsiveness by ensuring elements like buttons and forms adjust smoothly on different screen sizes.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Enhance meta tags, use relevant keywords, and implement alt attributes for images to improve SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation by organizing the menu more clearly and reducing clutter on the homepage.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form to reduce the number of steps and make the process more intuitive.",
+    "tips": [
+        "Improve the website's visual consistency across devices.",
+        "Consider adding customer reviews and testimonials for social proof."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides motel booking services in Los Angeles."
+}

@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-800-123-4567",
+        "+1-800-765-4321"
+    ],
+    "emails": [
+        "info@cloveplaza.com",
+        "reservations@cloveplaza.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing popups to improve mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and lazy loading to enhance loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Focus on improving meta tags, alt text for images, and integrating structured data for better SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps to streamline the process.",
+    "tips": [
+        "Improve image optimization for faster loading",
+        "Enhance mobile navigation",
+        "Add more localized content for better SEO"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is an online platform for Clove Plaza Hotel offering booking services and hotel information."
+}

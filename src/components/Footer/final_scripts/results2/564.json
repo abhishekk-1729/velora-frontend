@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-516-488-1700"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile layout and text size for easier reading and navigation on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta tags and utilize more relevant keywords to improve search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity and streamline the booking process to make it more intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields and offering autofill options.",
+    "tips": [
+        "Consider adding a FAQ section to address common customer inquiries.",
+        "Integrate live chat support for real-time assistance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for Rodeway Inn, located in Lakeville, New York."
+}

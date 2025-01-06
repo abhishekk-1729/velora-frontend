@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "985-845-4082"
+    ],
+    "emails": [
+        "info@dupuyslanding.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "guest house",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and layout for smaller screens to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding relevant keywords, meta tags, and structured data to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make content easier to find, especially on mobile devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding a progress indicator.",
+    "tips": [
+        "Consider adding a blog or content to improve SEO.",
+        "Ensure the website is fully optimized for both desktop and mobile devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Dupuy's Landing Guest House and provides booking options for guests."
+}

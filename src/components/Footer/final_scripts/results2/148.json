@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-987-6543",
+        "+1 800-123-4567"
+    ],
+    "emails": [
+        "info@oneluxstay.com",
+        "reservations@oneluxstay.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all interactive elements like buttons and menus are larger and more touch-friendly on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce server response time to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata, including title tags and descriptions, for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the website navigation even more intuitive by adding a sticky header for easy access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to finalize a reservation.",
+    "tips": [
+        "Ensure website accessibility with alternative text for images.",
+        "Test the site for compatibility with older mobile devices.",
+        "Consider implementing a live chat feature for immediate guest inquiries."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxury hotel accommodations and booking services for guests in downtown Los Angeles."
+}

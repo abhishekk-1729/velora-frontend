@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-785-6585"
+    ],
+    "emails": [
+        "hello.la@mamashelter.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure all images and elements resize correctly across a wider range of devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for non-essential assets.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more internal links and alt text to images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make the navigation menu more intuitive and ensure it\u2019s easy to find essential info quickly.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields and providing clearer options.",
+    "tips": [
+        "Consider adding more interactive elements like a virtual tour or video of the hotel.",
+        "Use schema markup for better search engine visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and showcases the Mama Shelter Los Angeles Hollywood hotel, highlighting amenities, rooms, and location."
+}

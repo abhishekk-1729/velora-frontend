@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 708-422-0440"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure text size is optimized for smaller screens to enhance readability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to reduce initial page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve metadata (title, description) for key pages to boost search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation to make key information more easily accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize images to improve loading speed.",
+        "Enhance mobile responsiveness for better user engagement.",
+        "Improve metadata for better SEO performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Hilton Chicago/Oak Lawn."
+}

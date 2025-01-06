@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1.718.631.8400"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "be.synxis.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce their size to improve loading times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize JavaScript and use browser caching to improve page load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more specific keywords and metadata to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure a consistent design and navigation across all devices to enhance the user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Improve mobile responsiveness for a smoother experience.",
+        "Optimize loading speed to enhance site performance.",
+        "Refine SEO strategy for better visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxury hotel experiences and bookings in Williamsburg, Brooklyn."
+}

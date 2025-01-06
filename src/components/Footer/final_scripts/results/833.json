@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 392-6806"
+    ],
+    "emails": [
+        "info@santamonicahotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images and elements are fully optimized for smaller screens to avoid unnecessary scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing images and reducing the number of external scripts to improve load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Enhance on-page SEO by improving the use of keywords in titles and descriptions across the site.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Refine navigation by making the main menu more accessible on mobile devices for quicker access.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking form by removing non-essential steps and providing clearer options.",
+    "tips": [
+        "Consider adding more engaging calls to action on the homepage.",
+        "Improve mobile site navigation to reduce bounce rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Santa Monica Hotel, offering a beachside accommodation experience."
+}

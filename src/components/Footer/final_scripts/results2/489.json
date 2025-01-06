@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "708-596-5100"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the navigation menu and booking forms are fully optimized for smaller screens, particularly for users on mobile devices with varying screen sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce large file sizes to improve page load speed, particularly on mobile networks.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve keyword targeting by adding more location-specific terms and relevant long-tail keywords to increase local SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the booking process by reducing the number of steps required to complete a reservation and improving on-page guidance.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by eliminating unnecessary form fields and simplifying the checkout flow to reduce friction.",
+    "tips": [
+        "Focus on improving mobile user experience for faster and more intuitive navigation.",
+        "Improve the booking flow by reducing form complexity and adding clear progress indicators."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about the Quality Inn & Suites near I-80 and I-294 and allows users to book rooms directly on the site."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-368-0300"
+    ],
+    "emails": [
+        "info@thelinehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce mobile layout shifts for smoother performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and browser caching to reduce page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve alt text usage for images and add more keyword-rich content to further enhance SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation more intuitive by minimizing clicks needed to access core information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of required steps and improving form usability.",
+    "tips": [
+        "Improve mobile performance by optimizing site elements",
+        "Enhance SEO with more detailed metadata",
+        "Increase booking conversion by simplifying the process"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and services for The LINE Hotel in Los Angeles."
+}

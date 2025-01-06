@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-650-0322",
+        "+1 888-556-8801"
+    ],
+    "emails": [
+        "reservations@hotelziggy.com",
+        "info@hotelziggy.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve navigation touch targets for easier interaction on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase keyword usage in headers and meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky navigation bar to enhance usability across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of form fields required.",
+    "tips": [
+        "Consider integrating social proof such as reviews or testimonials to build trust.",
+        "Improve accessibility with proper contrast ratios and alt text for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and offers direct bookings for Hotel Ziggy in Los Angeles."
+}

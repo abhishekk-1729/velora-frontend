@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+254 710 000 000"
+    ],
+    "emails": [
+        "info@chalet-hotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and text for smaller screens to improve mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and utilize browser caching to speed up page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more relevant keywords in your meta tags and improve header tag hierarchy for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation with a sticky menu and ensure consistent button styles across pages for smoother interaction.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness for better accessibility.",
+        "Optimize loading speed for faster user experience.",
+        "Improve SEO strategies for better visibility on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Chalet Hotel with options for booking rooms online."
+}

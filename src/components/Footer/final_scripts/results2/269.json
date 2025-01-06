@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (323) 465-0533",
+        "+1 (323) 465-3156"
+    ],
+    "emails": [
+        "info@hollywoodsuiteshotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all clickable elements are well-sized for touch interaction and test across various mobile screen sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to speed up page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, alt text for images, and ensure that page content uses relevant keywords for better ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the navigation menu for easier access to key pages like booking and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Add social proof such as guest reviews or testimonials to build trust.",
+        "Provide more information on the amenities and room types to enhance customer decision-making."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hollywood Inn Suites Hotel with the ability to book a stay directly."
+}

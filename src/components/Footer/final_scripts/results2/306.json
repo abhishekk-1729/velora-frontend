@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-734-4074"
+    ],
+    "emails": [
+        "info@vacationrentalsinwindhamny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "vacation rental",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and adjust layout for better mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images, and consider using a content delivery network (CDN).",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance meta descriptions, use alt text for images, and optimize headings for better keyword relevance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation and ensure that the booking process is straightforward and intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make sure the booking form is more visible and accessible throughout the website.",
+    "tips": [
+        "Consider improving the website\u2019s mobile responsiveness and speed to improve overall user experience.",
+        "Add customer testimonials or reviews to build trust and engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers vacation rentals in Windham, NY, focusing on a specific property for booking and stay."
+}

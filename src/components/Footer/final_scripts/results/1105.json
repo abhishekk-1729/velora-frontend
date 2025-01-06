@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-312-565-5258",
+        "1-800-333-3333"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization for mobile devices to reduce load time and enhance viewing experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider using lazy loading for images and optimizing CSS and JavaScript files.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more targeted keywords in meta descriptions and improve alt text for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation clearer by reducing the number of steps to find essential information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing form fields and adding autofill options.",
+    "tips": [
+        "Optimize the mobile interface for better responsiveness.",
+        "Increase page speed by reducing image sizes and script execution times.",
+        "Improve SEO by refining content and adding more internal links."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates booking for Radisson Blu Aqua Hotel in Chicago."
+}

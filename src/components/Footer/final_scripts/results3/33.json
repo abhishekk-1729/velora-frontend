@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize the layout for smaller screens to ensure better readability and usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize image sizes and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Include meta descriptions, alt text for images, and structured data to improve SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation by organizing the menu structure and improving widget placement.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the reservation process by reducing the number of required steps.",
+    "tips": [
+        "Improve contact information visibility.",
+        "Optimize images and scripts for faster load times.",
+        "Ensure proper meta tags for better SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers affordable motel services in Culver City, including room reservations and local attractions information."
+}

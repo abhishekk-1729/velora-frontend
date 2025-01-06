@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 818-987-7755"
+    ],
+    "emails": [
+        "info@lahoteltravel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve text readability on smaller screens by adjusting font sizes and spacing.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and enable lazy loading to reduce page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, including title and description, and optimize image alt text for better search engine ranking.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Enhance navigation by simplifying menus and ensuring key information is easily accessible on all devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding a clear progress indicator.",
+    "tips": [
+        "Ensure all images are properly optimized to improve loading times.",
+        "Use structured data for better SEO performance.",
+        "Add more contact information for user convenience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and provides booking services for Western Plaza Motel."
+}

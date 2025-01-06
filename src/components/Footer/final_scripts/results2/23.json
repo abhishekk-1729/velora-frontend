@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-280-0800"
+    ],
+    "emails": [
+        "info@villadcitta.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and text scale properly on smaller screens and that buttons are easy to click on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant keywords to headings and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by making the menu options clearer and adding quick links to essential pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding reviews or testimonials to improve trust with potential customers.",
+        "Include a clear call to action on the homepage to guide users to booking or information pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Villa D' Citta Bed & Breakfast and facilitates bookings."
+}

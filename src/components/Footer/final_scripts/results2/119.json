@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@riverrunbedandbreakfast.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and layout for smaller screens to improve loading and user experience on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images and assets to reduce page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more keyword-rich content on the homepage and throughout the site for better visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation and accessibility by simplifying the menu and making key information easier to find.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Integrate a calendar view for availability to streamline the booking process.",
+    "tips": [
+        "Improve mobile responsiveness by using responsive design frameworks like Bootstrap or Foundation.",
+        "Speed up site by minimizing unnecessary JavaScript and utilizing lazy loading for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information and booking options for a bed & breakfast establishment."
+}

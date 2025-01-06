@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-463-5671"
+    ],
+    "emails": [
+        "rodewayinnhollywood@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.choicehotels.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure text is fully readable without zooming and buttons are easily tappable.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more location-specific keywords and meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by making key information more accessible on the homepage.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process and allow for more visible calls-to-action.",
+    "tips": [
+        "Improve mobile responsiveness by ensuring all elements fit well on small screens.",
+        "Enhance website loading speed by reducing unnecessary scripts and optimizing the code."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for booking stays at the Rodeway Inn near Melrose Ave in Hollywood."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "585-233-5338"
+    ],
+    "emails": [
+        "hartfordhousebedandbreakfast@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.book-it-now.com",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and buttons resize correctly and are touch-friendly on mobile.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for faster performance.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance metadata, keywords, and headings to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure quick access to key information like room details and booking.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process more streamlined by minimizing steps and adding clear booking confirmation.",
+    "tips": [
+        "Optimize website speed",
+        "Improve mobile responsiveness",
+        "Enhance SEO optimization"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Hartford House Bed & Breakfast in Geneseo, New York."
+}

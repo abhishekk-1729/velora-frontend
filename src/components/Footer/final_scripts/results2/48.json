@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "315-829-0300",
+        "877-777-0530"
+    ],
+    "emails": [
+        "info@vernondowns.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and scripts for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images, and reduce HTTP requests to improve load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more internal links and optimize title tags for better keyword targeting.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the navigation structure for quicker access to key pages like booking and amenities.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by minimizing form fields and steps required to complete a reservation.",
+    "tips": [
+        "Improve mobile responsiveness by optimizing media content.",
+        "Enhance loading speed to reduce bounce rate.",
+        "Improve SEO through better keyword integration.",
+        "Improve booking flow by simplifying the reservation process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Vernon Downs Casino Hotel and allows users to book accommodations."
+}

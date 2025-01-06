@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-561-8000"
+    ],
+    "emails": [
+        "chicago@sohohouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure faster image loading and optimize touch elements for better usability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions, header tags, and alt text for images to enhance visibility on search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more interactive elements and clearer calls to action to enhance navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and add a guest selection option to reduce friction in the reservation process.",
+    "tips": [
+        "Optimize images for faster loading.",
+        "Implement structured data markup for better search engine visibility.",
+        "Improve accessibility features such as contrast and text sizing."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases Soho House Chicago, offering luxury accommodations and club experiences."
+}

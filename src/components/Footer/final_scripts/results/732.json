@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 674-2196",
+        "044 20 3051 2724"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize the layout and images for better mobile viewing, making the site more fluid for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress large images and optimize scripts to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding proper meta tags, alt text for images, and keyword optimization for better search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve site navigation by making the menu more accessible and intuitive for users.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Offer a more streamlined booking process with fewer steps for a quicker and easier reservation experience.",
+    "tips": [
+        "Focus on improving the mobile responsiveness and loading speed.",
+        "Enhance SEO optimization for better visibility in search results."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel booking services with details about the rooms, amenities, and nearby attractions."
+}

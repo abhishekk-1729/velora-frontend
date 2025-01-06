@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-315-649-2433"
+    ],
+    "emails": [
+        "guffinbay@yahoo.com"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Resort & Marina",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure text and buttons are properly sized for mobile users.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to improve load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags and content keywords for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce excessive text for a more intuitive design.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider offering direct online booking for convenience.",
+        "Improve mobile responsiveness for better user experience on phones and tablets."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information on accommodations and services at Guffin Bay Resort & Marina."
+}

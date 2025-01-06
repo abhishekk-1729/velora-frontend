@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-477-1000",
+        "845-477-1001"
+    ],
+    "emails": [
+        "info@glenmeremansion.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize the navigation menu for smaller screens to improve mobile usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and optimize scripts to reduce loading time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by including more targeted keywords and updating meta tags for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the website's accessibility features, such as better contrast and font size adjustment options.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps and providing more visual cues.",
+    "tips": [
+        "Ensure all images are optimized for faster loading.",
+        "Improve SEO with localized keywords related to the hotel's location and services."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Glenmere Mansion, a luxury hotel, restaurant, and spa offering booking and information about its services."
+}

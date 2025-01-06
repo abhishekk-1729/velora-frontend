@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-407-4460"
+    ],
+    "emails": [
+        "info@brooklynhotel-nyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and text scale better on smaller screens by optimizing CSS and media queries.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance the use of meta descriptions, alt text for images, and improve keyword targeting for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation structure by making it more intuitive and ensuring quicker access to key information like room availability and amenities.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and ensuring it works seamlessly across all devices.",
+    "tips": [
+        "Improve overall page loading speed by compressing images and reducing third-party scripts.",
+        "Refine mobile layout to enhance readability and ease of use.",
+        "Implement structured data for better SEO and visibility on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for booking accommodations at The Brooklyn Hotel in NYC."
+}

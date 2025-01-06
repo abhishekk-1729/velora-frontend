@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 5,
+    "mobileResponsivenessTip": "Ensure that all elements scale properly for smaller screens, especially buttons and text.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Optimize images and reduce server response time to improve loading speed.",
+    "seoOptimizationOutOf10": 3,
+    "seoOptimizationTip": "Focus on improving meta descriptions, title tags, and using relevant keywords across the site.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Consider simplifying navigation and making it easier to find key information.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Integrate the booking system directly on the site to streamline the process.",
+    "tips": [
+        "Consider launching the website as soon as maintenance is complete.",
+        "Ensure contact information and booking options are clearly visible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel information and booking through a third-party service during maintenance."
+}

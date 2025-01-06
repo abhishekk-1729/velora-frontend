@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Guesthouse",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing the mobile layout further for better usability, particularly on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce the size of images and use image compression to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords to the content and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation by making key sections more accessible from the main menu for quicker access.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile layout to ensure better readability and ease of navigation on smaller screens.",
+        "Optimize image sizes for faster loading.",
+        "Enhance SEO with more targeted content and meta tags.",
+        "Simplify navigation for a more intuitive user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for a guesthouse in Peekskill."
+}

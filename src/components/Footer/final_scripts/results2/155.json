@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(603) 643-4100"
+    ],
+    "emails": [
+        "info@hanoverhideaway.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are responsive and scale properly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce the use of large JavaScript files.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add relevant meta descriptions and alt text to all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by making the booking button more prominent and easier to find.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of required fields.",
+    "tips": [
+        "Improve mobile responsiveness for a smoother browsing experience on smaller devices.",
+        "Optimize website speed by compressing large images and using caching.",
+        "Enhance SEO by including more keywords related to the local area and amenities.",
+        "Improve the overall user experience with clearer calls-to-action and more intuitive navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation at Hanover Hideaway Bed & Breakfast and allows direct booking."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-708-5855"
+    ],
+    "emails": [
+        "info@Lumhotelinglewood.com",
+        "sales@Lumhotelinglewood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "lumhotel.book.pegsbe.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and text size for better accessibility.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce page loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and headings for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure all buttons and forms are clearly visible on all screen sizes.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process to reduce steps and time taken for reservations.",
+    "tips": [
+        "Optimize for faster mobile loading",
+        "Consider simplifying the navigation for easier access",
+        "Enhance local SEO by incorporating more neighborhood keywords"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation information and booking services for L\u00fcm Hotel in Inglewood."
+}

@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-923-9988",
+        "+1 888-545-8977"
+    ],
+    "emails": [
+        "chicago@langhamhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster mobile loading and ensure touch targets are large enough for easy navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and use lazy loading for non-essential elements to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve page content with additional local keywords and optimize meta descriptions to further boost visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add clearer calls to action and ensure consistency in design across different pages for a more seamless experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps or offering autofill options for a quicker checkout.",
+    "tips": [
+        "Ensure mobile images are optimized for faster loading.",
+        "Use a content delivery network (CDN) to speed up loading times.",
+        "Make sure the website's navigation is intuitive and accessible from any device.",
+        "Improve internal linking and use alt text for all images to enhance SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about The Langham Hotel in Chicago, including booking options and hotel details."
+}

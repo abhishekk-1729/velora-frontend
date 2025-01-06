@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure all images and interactive elements scale perfectly on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to enhance loading speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add meta descriptions and alt tags to all images for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Include a visible contact number or email for convenience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify form fields further to reduce booking time.",
+    "tips": [
+        "Add contact information to improve user accessibility.",
+        "Enhance SEO with structured data and keyword optimization.",
+        "Improve loading speed with caching mechanisms."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Hotel 57 by LuxUrban with a streamlined process."
+}

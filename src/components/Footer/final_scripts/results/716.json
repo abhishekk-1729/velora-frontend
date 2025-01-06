@@ -1,0 +1,34 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 855-522-8252",
+        "+1 310-206-8585"
+    ],
+    "emails": [
+        "LCC@ha.ucla.edu",
+        "LCC_Reservations@ha.ucla.edu",
+        "LCC-Cashier@ha.ucla.edu"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "bookings.travelclick.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and layout elements for quicker mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce large image sizes and implement lazy loading for faster page loads.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more targeted keywords in headings and meta tags for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation for smoother transitions between pages.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing unnecessary steps and streamlining form inputs.",
+    "tips": [
+        "Improve mobile responsiveness with optimized images.",
+        "Enhance SEO with better keyword integration.",
+        "Optimize the booking process for a more user-friendly experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information and booking options for the UCLA Luskin Conference Center and Hotel."
+}

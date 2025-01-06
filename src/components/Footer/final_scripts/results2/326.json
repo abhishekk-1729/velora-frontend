@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Hostel",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and text scale correctly on smaller screens, especially in booking sections.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce server response time to improve load speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, headings, and add alt text for images to enhance SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider streamlining navigation and providing clearer calls-to-action on the homepage.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clearer information at each stage.",
+    "tips": [
+        "Ensure the website is fully accessible on all devices.",
+        "Improve the website\u2019s mobile optimization for a smoother experience.",
+        "Increase SEO efforts to ensure better search engine visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book accommodations at Normandie Hostel."
+}

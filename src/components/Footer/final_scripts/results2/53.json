@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-467-5100"
+    ],
+    "emails": [
+        "info@dixiehollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and minimize elements that are not mobile-friendly to improve mobile layout and responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement lazy loading for images and minify CSS/JS files to speed up page loading.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Ensure proper use of header tags (H1, H2) and optimize meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding a sticky header for easy access to key sections like booking and contact info.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of steps and offering clearer instructions during the process.",
+    "tips": [
+        "Reduce the page load time by optimizing images and scripts.",
+        "Ensure that the website is fully responsive across all devices.",
+        "Improve SEO practices by focusing on content hierarchy and metadata optimization.",
+        "Enhance user navigation and provide a more intuitive booking experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and offers bookings for The Dixie Hollywood Hotel."
+}

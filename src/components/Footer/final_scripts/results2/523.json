@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-847-297-1100",
+        "1-800-804-3724"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the number of taps required to reach key information such as booking or contact details.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and consider lazy loading to improve page load times, especially for mobile users.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, especially for title and description, and add alt text for images to boost search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the layout to reduce clutter and make it easier for users to find important information quickly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking process is consistent across all devices and offer more payment options for flexibility.",
+    "tips": [
+        "Optimize for faster load times",
+        "Improve mobile navigation",
+        "Enhance SEO optimization with better metadata"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking options for Extended Stay America hotels in Chicago near O'Hare and Allstate Arena."
+}

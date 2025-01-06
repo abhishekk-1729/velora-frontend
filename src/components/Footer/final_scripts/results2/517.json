@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "914-592-7171",
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile layout for better navigation and readability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce the number of HTTP requests to improve loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich content and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance visual appeal and interactivity on the homepage to increase user engagement.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Consider integrating a live chat feature for customer support.",
+        "Ensure that the website is fully optimized for all major mobile devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for Motel 6 in Elmsford, NY - White Plains."
+}

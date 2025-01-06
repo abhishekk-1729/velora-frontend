@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and adjusting layout for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider reducing image sizes and using caching to speed up page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to content and improve meta tags for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation clarity and minimize pop-ups for a smoother user journey.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps for quicker reservations.",
+    "tips": [
+        "Consider adding contact information like phone numbers and emails for customer convenience.",
+        "Improve SEO with better on-page optimization and regular content updates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for the Camptown Hotel, providing details and booking options for accommodations."
+}

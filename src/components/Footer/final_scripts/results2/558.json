@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (847) 678-0520"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing pop-up interference to improve load time and responsiveness on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use caching for faster loading times, especially for mobile users.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Focus on enhancing title tags, meta descriptions, and keyword optimization for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the visibility of booking options and calls-to-action, and ensure easier navigation between sections.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and making the steps more intuitive.",
+    "tips": [
+        "Optimize website images and use lazy loading to improve speed.",
+        "Implement schema markup to improve SEO and visibility in search results.",
+        "Ensure accessibility features are fully implemented for a broader audience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website helps users book rooms at Quality Inn O'Hare Airport with detailed hotel information and location amenities."
+}

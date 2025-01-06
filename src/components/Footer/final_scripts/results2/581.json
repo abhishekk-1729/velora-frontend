@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-298-8100"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images and content resize fluidly across all mobile screen sizes for optimal user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing large images and leveraging browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags and content relevance for target keywords to boost search engine rankings.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the navigation menu for quicker access to key pages like amenities, rooms, and offers.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Offer a quicker booking process with fewer steps, especially on mobile devices.",
+    "tips": [
+        "Ensure faster page load times by reducing large media files.",
+        "Optimize content for better SEO performance.",
+        "Enhance mobile responsiveness for a seamless experience across devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online platform for booking and exploring the offerings of Tailwater Lodge Altmar, Tapestry Collection by Hilton."
+}

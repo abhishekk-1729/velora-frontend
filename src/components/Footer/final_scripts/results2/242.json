@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@mvincentguesthouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and assets for faster load times on mobile devices, and ensure all buttons are tap-friendly and properly sized.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to speed up load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding relevant meta tags, alt text for images, and optimizing heading tags (H1, H2, etc.).",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation by reducing clutter and making key information easily accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the clarity of the booking form by breaking it down into multiple, easier-to-follow steps.",
+    "tips": [
+        "Consider adding a live chat feature for customer support.",
+        "Improve the overall mobile responsiveness by testing on a variety of devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Merriam Vincent Guest House."
+}

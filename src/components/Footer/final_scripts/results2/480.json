@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-692-5555"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider improving the mobile navigation for easier access to key information on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading for faster page rendering, especially on mobile devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add meta descriptions and improve use of header tags (H1, H2) to enhance visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that all links are easily clickable and that the booking button stands out more on mobile.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing a clearer call-to-action button.",
+    "tips": [
+        "Improve image compression and speed optimizations.",
+        "Enhance accessibility features for better user inclusivity."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for Sleep Inn & Suites Monroe - Woodbury hotel."
+}

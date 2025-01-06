@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-355-0300",
+        "+1 800-707-2757"
+    ],
+    "emails": [
+        "reservations@thepodhotel.com",
+        "info@thepodhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing image sizes for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement image compression and lazy loading to improve load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more relevant keywords and improve meta descriptions to increase search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make booking buttons more prominent on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve site speed with better image optimization.",
+        "Enhance mobile user interface by reducing pop-ups and distractions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking services for Pod 51 in New York City."
+}

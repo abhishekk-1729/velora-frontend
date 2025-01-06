@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1 518-989-6582"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize layout and ensure seamless navigation on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and enable browser caching.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and add more relevant keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Provide a search bar for faster information retrieval.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Integrate a seamless booking system directly on the website.",
+    "tips": [
+        "Add an email contact for inquiries.",
+        "Enable direct booking on the same domain for better user retention.",
+        "Improve mobile navigation for a smoother experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers details about Black Bear Lodge accommodations and nearby attractions with an option to book via a third-party service."
+}

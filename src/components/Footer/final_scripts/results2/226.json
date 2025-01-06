@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-462-9661"
+    ],
+    "emails": [
+        "info@roxyhotelhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve touch target sizes and text readability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and enable browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta descriptions, optimize image alt text, and improve internal linking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation and providing more prominent calls to action.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness for a better user experience on small screens.",
+        "Optimize website loading time for faster access.",
+        "Enhance SEO optimization for better discoverability on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a Hollywood hotel with online booking options."
+}

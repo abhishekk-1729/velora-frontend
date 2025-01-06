@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+44 20 7739 7181"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch targets and ensure smoother transitions between sections for better mobile navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to improve page load times on mobile.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase the use of relevant keywords in headings and metadata to improve organic search rankings.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all calls to action are clearly visible and reduce unnecessary pop-ups to enhance user flow.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of fields and steps in the process.",
+    "tips": [
+        "Ensure the website content is fully localized for all target regions to improve engagement.",
+        "Consider adding more content about the hotel's amenities and offerings to appeal to potential customers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to promoting Soho House Holloway and facilitating bookings for the property."
+}

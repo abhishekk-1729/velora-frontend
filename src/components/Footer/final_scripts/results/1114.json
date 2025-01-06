@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 908-355-1001"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and elements are properly optimized for various screen sizes to improve mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing images and optimizing scripts to reduce load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance page titles, meta descriptions, and keywords for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline navigation and reduce pop-ups to improve user interaction.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure smoother transitions between booking steps and clearer confirmation messages.",
+    "tips": [
+        "Enhance SEO with targeted keywords.",
+        "Optimize site speed and mobile responsiveness.",
+        "Simplify booking flow for faster reservations."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel reservations for Motel 6 in Elizabeth, NJ near Newark Liberty International Airport."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-644-0400",
+        "+1 866-644-0400"
+    ],
+    "emails": [
+        "info@chicagoriverhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing the mobile navigation for smoother access to key sections like booking and contact details.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for better performance on mobile.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve SEO by using more descriptive meta tags, alt texts for images, and enhancing keyword targeting in content.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of the hotel offerings by adding more detailed descriptions and visuals of amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "The booking flow is smooth, but adding more payment options could enhance user convenience.",
+    "tips": [
+        "Consider improving mobile responsiveness for a smoother user experience.",
+        "Enhance SEO optimization by refining content and meta information.",
+        "Focus on image optimization and lazy loading to improve loading speeds."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides details about The River Hotel in Chicago, including booking options, amenities, and contact information."
+}

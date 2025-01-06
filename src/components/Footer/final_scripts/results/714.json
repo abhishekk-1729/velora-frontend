@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-888-7000",
+        "800-804-7035"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the number of high-resolution images and scripts to speed up loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and use more targeted keywords for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility by adding text descriptions for images and ensuring color contrast meets accessibility standards.",
+    "bookingFlowOutOf10": 10,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure consistent navigation across different devices.",
+        "Implement lazy loading for better page speed performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases luxury accommodations at The Towers, Lotte New York Palace, with options for booking and detailed hotel services."
+}

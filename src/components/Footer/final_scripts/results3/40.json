@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "718-675-5200"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize the layout for smaller screen sizes to enhance readability of all elements.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and reduce JavaScript file sizes to improve page speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more structured data markup for events and local business to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the navigation bar to reduce visual clutter for quicker access to key pages.",
+    "bookingFlowOutOf10": 10,
+    "bookingFlowTip": "",
+    "tips": [
+        "Add email contact information for better accessibility.",
+        "Consider further optimizing image sizes for faster loading on slower networks.",
+        "Enhance structured data to provide rich search results."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website effectively promotes The Lodge Red Hook hotel and offers direct booking with user-friendly navigation."
+}

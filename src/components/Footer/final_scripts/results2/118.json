@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-810-9900"
+    ],
+    "emails": [
+        "info@minthouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images and using responsive frameworks to improve mobile load times and usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes, use lazy loading for images and implement server-side caching to speed up page loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase the use of structured data (schema markup) to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance content organization on mobile to make it easier to navigate and find key information quickly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Implement more visible calls-to-action for booking on the homepage.",
+        "Test the website for performance on various devices and browsers to ensure consistent behavior."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Mint House at 70 Pine, a luxury hotel in NYC."
+}

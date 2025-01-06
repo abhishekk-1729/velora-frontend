@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "800-780-7234",
+        "818-842-9393"
+    ],
+    "emails": [
+        "info@bestwestern.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and media queries for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of HTTP requests by optimizing images and leveraging browser caching.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve internal linking and use more varied keywords in on-page content.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing the number of options on the main menu.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve form usability by reducing the number of required fields and making steps clearer.",
+    "tips": [
+        "Ensure all images are compressed for faster load times.",
+        "Add more user reviews or testimonials to increase trust.",
+        "Make sure all forms are mobile-friendly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Best Western Plus Media Center Inn & Suites."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 888-507-4503"
+    ],
+    "emails": [
+        "support@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize touch targets and buttons for better usability on smaller devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and utilize lazy loading for better page performance.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Implement more detailed and unique meta descriptions for each page.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add more interactive elements like 360-degree views of the rooms to increase engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking flow more streamlined by reducing the number of steps in the process.",
+    "tips": [
+        "Enhance accessibility by adding text descriptions for images.",
+        "Increase content on the destination page for better SEO.",
+        "Improve page speed by optimizing JavaScript and CSS files."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book short-term apartment rentals with Sonder in New York City."
+}

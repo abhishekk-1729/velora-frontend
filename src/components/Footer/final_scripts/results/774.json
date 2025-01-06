@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "773.643.1600"
+    ],
+    "emails": [
+        "info.chicago@studyhotels.com",
+        "studyhotels@sprouthouseagency.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure elements adjust more smoothly for various screen sizes, especially images and text spacing.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage caching for faster load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve content relevance and keyword density on key pages for better visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky menu or quick access links for easier navigation.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve image loading optimization",
+        "Enhance mobile navigation flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a serene hotel experience at The Study at University of Chicago with booking and event hosting options."
+}

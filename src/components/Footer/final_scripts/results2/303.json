@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-544-5300",
+        "+1 800-235-6397"
+    ],
+    "emails": [
+        "chicagoohare@loewshotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and elements to load more efficiently on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of high-resolution images or implement lazy loading for non-essential content.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve content structure with more targeted keywords, especially in headings and alt-text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing clutter and making key information more accessible.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure faster load times during booking and highlight promotions to encourage quicker decisions.",
+    "tips": [
+        "Consider a more minimalist approach for mobile navigation.",
+        "Optimize page load time across all devices.",
+        "Enhance accessibility features like contrast and font size adjustments."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online booking and information portal for Loews Chicago O'Hare Hotel."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(818) 507-6688"
+    ],
+    "emails": [
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize font sizes and tap targets to improve usability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and implement lazy loading to improve performance.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags and increase the use of structured data for better visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the form fields for faster user input.",
+    "tips": [
+        "Enhance mobile responsiveness by ensuring consistent performance across devices.",
+        "Improve page load times by minifying JavaScript and CSS files.",
+        "Integrate more high-value keywords to boost search engine rankings.",
+        "Provide detailed FAQ or help resources to support the booking process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel information and allows direct online booking for Glendale Hotel."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (847) 296-8900",
+        "+1 (800) 221-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and CSS to improve mobile load times and responsiveness on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve page speed by minimizing JavaScript and CSS files and leveraging browser caching.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and title tags to include relevant keywords for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and improve accessibility, especially on mobile devices, by reducing clutter on key pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to finalize the reservation.",
+    "tips": [
+        "Optimize images for faster load times.",
+        "Ensure consistency in mobile and desktop content presentation.",
+        "Add a clear call-to-action button for booking on every page."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Comfort Inn Convention Center near Chicago O'Hare Airport."
+}

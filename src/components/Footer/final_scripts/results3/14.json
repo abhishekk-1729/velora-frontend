@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "rental application for property management",
+    "mobileResponsivenessOutOf10": 3,
+    "mobileResponsivenessTip": "Improve responsiveness by optimizing layout for smaller screens and testing across multiple mobile devices.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Optimize images and scripts to reduce load time.",
+    "seoOptimizationOutOf10": 2,
+    "seoOptimizationTip": "Add relevant keywords, meta tags, and structured data to enhance visibility on search engines.",
+    "userExperienceOutOf10": 5,
+    "userExperienceTip": "Simplify the navigation and improve form usability for smoother interaction.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Implement clear contact information and better user guidance for applications.",
+        "Ensure the website is functional across devices, especially mobile phones.",
+        "Improve search engine optimization to attract more visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website facilitates rental applications for properties managed by Holland Real Estate Management."
+}

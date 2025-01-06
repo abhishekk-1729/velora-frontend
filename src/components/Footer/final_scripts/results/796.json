@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-566-5511",
+        "833-426-3232"
+    ],
+    "emails": [
+        "reservations@artezenhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that interactive elements are more touch-friendly, especially on smaller devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading for faster page loads.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Increase the use of targeted keywords on key pages and add alt text to images for better indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more dynamic content, like interactive maps or virtual tours, for a more engaging experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide clearer call-to-action buttons and a simplified booking process.",
+    "tips": [
+        "Improve loading speed by reducing heavy content on the homepage.",
+        "Enhance SEO by including more internal linking between key pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing and allowing bookings for The Artezen Hotel, a luxury hotel in New York City."
+}

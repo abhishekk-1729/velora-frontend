@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-323-467-5171",
+        "1-323-461-1720"
+    ],
+    "emails": [
+        "info@dunesinnsunset.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile to reduce load times and improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large image files and use lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more relevant keywords in meta descriptions and alt tags for images to improve search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation by adding sticky headers for easier access to important sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and allowing guest checkout.",
+    "tips": [
+        "Consider implementing a live chat feature to assist visitors in real time.",
+        "Regularly update content and deals to keep the site dynamic and engaging."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel accommodations in Hollywood with amenities and easy booking options."
+}

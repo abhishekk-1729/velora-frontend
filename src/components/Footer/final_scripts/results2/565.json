@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-315-326-1024"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and buttons are appropriately sized for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce server response times for faster loading.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags and use structured data to enhance search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline navigation to reduce clicks for important actions.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding more visible filters for faster booking flow.",
+    "tips": [
+        "Optimize images",
+        "Enhance site security",
+        "Add clear call-to-action buttons"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking for Home2 Suites by Hilton in Oswego."
+}

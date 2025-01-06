@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 123-456-7890"
+    ],
+    "emails": [
+        "info@letchworth-farm.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Guesthouse & Trail Rides",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and layout for smaller screens to improve performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of heavy assets and use browser caching to speed up load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO with more descriptive meta tags, alt text for images, and relevant keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and provide clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Offer a faster, streamlined booking process with fewer steps.",
+    "tips": [
+        "Ensure mobile-friendliness across all pages.",
+        "Improve page speed by optimizing images and scripts.",
+        "Focus on SEO to increase organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers guesthouse accommodations and trail rides at Letchworth Farm."
+}

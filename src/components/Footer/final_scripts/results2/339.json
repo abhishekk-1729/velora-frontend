@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 626-282-1151"
+    ],
+    "emails": [
+        "info@greentreeinnalhambra.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing button sizes and menu visibility for easier access on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and enable lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure proper use of header tags (H1, H2) and include more location-based keywords for better SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of the booking process by reducing the number of steps required to complete a reservation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and adding clearer instructions for each step.",
+    "tips": [
+        "Consider implementing a live chat feature for real-time customer support.",
+        "Improve visibility of reviews and ratings for better user trust."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the GreenTree Inn & Suites Alhambra in Los Angeles."
+}

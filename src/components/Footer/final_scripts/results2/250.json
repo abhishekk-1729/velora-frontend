@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-123-4567",
+        "+1 800-765-4321"
+    ],
+    "emails": [
+        "info@33hotel.com",
+        "reservations@33hotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images and buttons are fully optimized for small screens, particularly for mobile devices with smaller resolutions.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to reduce initial page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage and ensure meta descriptions and alt text are utilized properly for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline navigation to allow quicker access to key information like booking and amenities.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Reduce the number of steps in the booking process to make it more intuitive and faster for users.",
+    "tips": [
+        "Enhance the mobile layout for a smoother touch-based navigation.",
+        "Minimize unnecessary redirects to improve loading speed.",
+        "Increase social proof with more customer reviews on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing booking services and information for 33 Hotel in New York City's Seaport area."
+}

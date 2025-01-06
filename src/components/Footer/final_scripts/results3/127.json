@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-480-5900",
+        "+1 800-315-2621"
+    ],
+    "emails": [
+        "info@rapidhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "rapidhotels.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and test layout for smaller screen sizes to improve mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of HTTP requests and optimize CSS/JavaScript for faster loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tags and header structure for better SEO ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance the site navigation with clearer calls to action and more intuitive design.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process with fewer steps and a more prominent call to action.",
+    "tips": [
+        "Optimize mobile site for faster and smoother user interactions.",
+        "Reduce the overall page size by compressing images and using modern file formats like WebP.",
+        "Improve accessibility by adding alt text for images and ensuring keyboard navigation works smoothly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel bookings for Holiday Inn Express New York City-Wall Street via RapidHotels."
+}

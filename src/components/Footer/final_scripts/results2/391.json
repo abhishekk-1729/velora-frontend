@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 833-627-2699"
+    ],
+    "emails": [
+        "support@kasa.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all images and text scale correctly for smaller devices, as some elements may overlap or become difficult to read on very small screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and reduce the use of heavy JavaScript files to improve load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant meta descriptions, alt text for images, and using structured data for events and accommodations.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the search and filtering options to make it easier for users to find specific accommodations based on their preferences.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness by ensuring a flawless user experience on all screen sizes.",
+        "Reduce large media files to enhance page loading speed.",
+        "Add more localized content to improve SEO and attract more regional visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and information for the STILE Downtown Los Angeles by Kasa hotel."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-467-1032",
+        "+1 800-370-1032"
+    ],
+    "emails": [
+        "info@budgethotelhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and elements for mobile, ensuring faster load times and improved readability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement image compression, leverage browser caching, and minimize JavaScript to speed up load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance on-page SEO by including relevant keywords, optimizing meta descriptions, and using structured data.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce unnecessary pop-ups to create a smoother experience for users.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and making the form fields more intuitive.",
+    "tips": [
+        "Improve image quality and responsiveness for better user engagement.",
+        "Consider adding customer reviews or testimonials to build trust.",
+        "Ensure that all contact information is easily accessible across pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers budget hotel accommodations in Hollywood with an easy-to-use booking system."
+}

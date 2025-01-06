@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the layout and button sizes for easier tapping on small screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of large images and use compressed formats to speed up the load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more keyword-rich meta descriptions, alt text for images, and proper heading structure for better SEO visibility.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Improve the website's visual consistency and usability by simplifying navigation and minimizing pop-ups.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer navigation during checkout.",
+    "tips": [
+        "Consider adding a contact number and email address for better communication with users.",
+        "Improve website accessibility by following WCAG guidelines to cater to a wider audience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel booking services for Sunset Inn in Gardena."
+}

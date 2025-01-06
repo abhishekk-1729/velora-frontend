@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "732-499-8200",
+        "800-221-2222"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch target sizes and make sure all elements are easily clickable without zooming in on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and scripts to reduce page load time, especially for mobile devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich content and improve meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider streamlining the navigation for quicker access to key information like room options and amenities.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and consider integrating autofill for quicker reservations.",
+    "tips": [
+        "Improve page speed by compressing images and reducing unnecessary scripts.",
+        "Enhance SEO by adding structured data and improving mobile usability.",
+        "Optimize booking flow by reducing the number of steps required to complete a reservation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Comfort Suites at Woodbridge and provides direct booking options."
+}

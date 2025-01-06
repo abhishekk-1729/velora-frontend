@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-883-5414"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and content layout for smaller screens to improve load times and user experience on mobile.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Compress images and optimize scripts to speed up load time on all devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve SEO by adding more relevant keywords in meta descriptions and headers, and enhancing internal linking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that navigation is intuitive by streamlining menus and making key information more accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps needed to finalize a reservation.",
+    "tips": [
+        "Improve SEO by optimizing on-page elements like titles, meta descriptions, and image alt text.",
+        "Make sure the website is accessible by adding alt text for images and improving contrast for readability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website represents Historic Hotel Broadalbin, offering accommodations, dining, and event services."
+}

@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@goldenwestmanormotellosangeles.site"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize mobile layout and buttons for easier navigation on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce image sizes and minimize external script dependencies to improve load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more descriptive meta tags and alt text for images to enhance search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that all interactive elements are clear and easy to access on all devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps and improving form clarity.",
+    "tips": [
+        "Improve site load speed by optimizing images and scripts.",
+        "Enhance mobile responsiveness for better usability.",
+        "Add more content that targets local search queries to improve SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for the Golden West Manor Motel in Los Angeles."
+}

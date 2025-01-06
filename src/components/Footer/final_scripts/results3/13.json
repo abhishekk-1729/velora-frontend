@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-555-1234",
+        "+1-555-5678"
+    ],
+    "emails": [
+        "info@xeniaresort.net",
+        "reservations@xeniaresort.net"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that buttons and navigation elements are properly spaced and sized for easier tapping on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to reduce initial load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, optimize page titles, and improve the website's structure for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of call-to-action buttons to guide users more effectively through the site.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that all required booking form fields are clearly labeled and provide visual feedback for each step.",
+    "tips": [
+        "Consider implementing a live chat feature for instant support.",
+        "Ensure all contact information is easily accessible from any page."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a resort with booking functionality and contact information."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(773) 586-7000",
+        "(800) 780-7234"
+    ],
+    "emails": [
+        "info@bwmidway.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text is properly scaled and clickable elements are not too close together for easier navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and enable browser caching to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, add alt text for images, and ensure proper heading structure for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by reducing the number of steps to find key information like room availability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve by adding guest reviews or ratings during the booking process to provide more information to users.",
+    "tips": [
+        "Consider offering promotions or discounts prominently on the homepage.",
+        "Optimize for voice search to capture growing mobile traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and room reservations for Best Western Inn & Suites - Midway Airport."
+}

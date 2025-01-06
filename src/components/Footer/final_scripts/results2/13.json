@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and use responsive web design frameworks like Bootstrap for better mobile adaptability.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Minimize image sizes, implement lazy loading, and reduce the use of heavy scripts to improve load time.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Ensure that the site has meta descriptions, title tags, and proper heading structures. Add alt text to images for better SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity and ensure that the content is easy to read, especially on mobile devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer booking confirmations.",
+    "tips": [
+        "Improve mobile responsiveness by testing on various devices.",
+        "Optimize loading speed by reducing heavy media files and scripts.",
+        "Enhance SEO by adding structured data and improving meta tags.",
+        "Simplify the navigation to make it more intuitive."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Beverly Inn and facilitates direct bookings."
+}

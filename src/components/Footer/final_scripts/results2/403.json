@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+44 20 7734 1000"
+    ],
+    "emails": [
+        "sohowarehouse@sohohouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize touch targets and ensure content is fully visible without horizontal scrolling on all mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for content to reduce initial load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tag optimization, including title tags and descriptions for better keyword targeting.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps to make the flow more intuitive.",
+    "tips": [
+        "Improve site speed by reducing heavy media files.",
+        "Focus on clearer content hierarchy and better navigation on mobile.",
+        "Ensure all internal pages have appropriate SEO optimization."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Soho Warehouse, a private members' club and workspace in London, with booking options."
+}

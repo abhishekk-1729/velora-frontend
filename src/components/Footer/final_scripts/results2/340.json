@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 888-620-1661",
+        "+1 562-506-4117"
+    ],
+    "emails": [
+        "info@agahotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all text and buttons are legible without zooming on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for improved speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Use descriptive alt text for all images and optimize meta tags for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve site navigation by adding a sticky menu for easier access to key pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Consider integrating a live chat feature for customer support.",
+        "Review and optimize the content to focus on the target audience's needs."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services for ERTH INN by AGA in Bell Gardens."
+}

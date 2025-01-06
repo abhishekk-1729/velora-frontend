@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-847-678-0600",
+        "1-800-4CHOICE"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and elements for smaller screens to reduce load time and enhance user interaction.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the size of images and using caching techniques to speed up page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by optimizing title tags, meta descriptions, and adding structured data to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure smoother transitions and minimize pop-ups to enhance the overall browsing experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Enhance the website's performance by improving loading times and mobile responsiveness.",
+        "Focus on improving SEO practices for better search engine ranking.",
+        "Make sure all content, such as contact emails, is easily accessible and visible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and services for Comfort Suites Chicago O'Hare Airport."
+}

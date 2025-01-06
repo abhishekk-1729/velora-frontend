@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "773-276-2110"
+    ],
+    "emails": [
+        "info@wickerparkinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure images and text scale better on smaller screens, as some elements may not adjust optimally on very small devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for non-essential resources to reduce page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tags, particularly title and description, and ensure all images have alt text for better indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and make the booking button more prominent on all pages to improve ease of access.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize for faster load times to improve user retention.",
+        "Ensure mobile responsiveness across a broader range of devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Wicker Park Inn, a boutique hotel located in Chicago."
+}

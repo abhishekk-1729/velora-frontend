@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-274-3200"
+    ],
+    "emails": [
+        "info@maison140.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce unnecessary pop-ups for a smoother mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and defer non-essential JavaScript to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure all images have proper alt text and improve meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation and making key information like amenities more accessible on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve website performance by reducing the number of heavy scripts that load on initial page load.",
+        "Consider adding social proof elements like customer reviews or ratings on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and information for Maison 140 Beverly Hills hotel."
+}

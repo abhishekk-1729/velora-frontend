@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-467-0200",
+        "+1 800-445-8667"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure the mobile navigation bar remains fixed at the top for easier access to key sections while scrolling.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and implement lazy loading for content below the fold to reduce initial page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more high-quality, keyword-rich content to the homepage and improve meta tags for better SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more visual hierarchy to call-to-action buttons to guide users more intuitively through the site.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Enhance the clarity of the price breakdown and booking steps to make the process feel more transparent.",
+    "tips": [
+        "Improve mobile navigation for faster access to key sections.",
+        "Optimize images and use lazy loading for better speed.",
+        "Improve SEO content and meta tags for better discoverability.",
+        "Refine call-to-action button design for a more intuitive experience.",
+        "Make the booking flow clearer by breaking down pricing and steps."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about theWit Chicago, a Hilton Hotel, and provides a booking platform."
+}

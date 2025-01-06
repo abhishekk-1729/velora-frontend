@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": false,
+    "contactNumbers": [
+        "213-582-8923"
+    ],
+    "emails": [
+        "info@healthyhousingfoundation.net"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Non-profit organization providing affordable housing for low-income and homeless individuals",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider improving mobile layout for better readability and interaction on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to enhance page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta descriptions, alt texts for images, and use structured data for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the navigation for a more intuitive user journey.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Enhance website performance and mobile experience.",
+        "Improve SEO for better discoverability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides affordable housing for the low-income and homeless populations."
+}

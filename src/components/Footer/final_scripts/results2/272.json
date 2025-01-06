@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 517-482-3600"
+    ],
+    "emails": [
+        "unitedmotel@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve layout flexibility by using responsive design techniques like media queries.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize images and minimize JavaScript to improve page load time.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add proper meta tags, optimize headers, and include alt text for images to improve search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation by adding clear calls-to-action and a more intuitive layout.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Optimize images and minimize JavaScript to improve loading speed.",
+        "Implement a clearer call-to-action for bookings on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about United Motel Lansing and offers motel booking options."
+}

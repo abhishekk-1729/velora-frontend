@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-228-5100",
+        "+1 877-468-3559"
+    ],
+    "emails": [
+        "info@sixtyhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve text size and button placement for easier navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve page load time.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Enhance meta descriptions and alt tags for images to increase SEO visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation menus and improve the clarity of call-to-action buttons.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Reduce the number of steps required to complete the booking process for quicker conversions.",
+    "tips": [
+        "Optimize images for faster load times.",
+        "Improve accessibility features for a broader audience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases and offers bookings for the SIXTY LES Hotel in New York."
+}

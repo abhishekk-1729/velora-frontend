@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve image optimization and ensure that content scales properly on mobile devices.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Consider reducing the number of heavy scripts and optimizing image sizes to improve loading speed.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Enhance the use of meta tags, header tags, and include more relevant keywords for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Ensure clear navigation and include a search bar for easier access to key information.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering a visible call-to-action button.",
+    "tips": [
+        "Improve SEO with better keyword targeting.",
+        "Optimize the mobile experience for smoother navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a promotional site for Maplegrove Bed & Breakfast, offering information about their services and bookings."
+}

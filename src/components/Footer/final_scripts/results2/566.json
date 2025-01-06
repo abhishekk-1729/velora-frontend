@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-276-5861",
+        "+1 800-445-8667"
+    ],
+    "emails": [
+        "reservations@cameobeverlyhills.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for mobile devices to reduce load time and improve layout responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of high-resolution images on the homepage and optimize code to improve page loading speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions and add alt text to images to enhance SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing the number of clicks needed to access key information such as booking and amenities.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve booking confirmation messaging to enhance user confidence and reduce potential drop-offs.",
+    "tips": [
+        "Ensure the site is mobile-first and optimized for fast loading.",
+        "Improve SEO practices by incorporating more targeted keywords and proper metadata.",
+        "Consider adding a live chat feature for better customer interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information about and facilitating bookings for the Cameo Beverly Hills hotel."
+}

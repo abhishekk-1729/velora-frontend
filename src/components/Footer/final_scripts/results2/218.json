@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-851-0800",
+        "+1 800-678-2888"
+    ],
+    "emails": [
+        "info@magiccastlehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing images and using a CDN to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted keywords in page titles and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of navigation, especially on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure all pages are mobile-friendly to enhance user engagement.",
+        "Consider implementing an FAQ section for common inquiries.",
+        "Simplify the booking process by reducing the number of steps."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to promoting and providing bookings for the Magic Castle Hotel."
+}

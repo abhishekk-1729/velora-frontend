@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-908-3550500"
+    ],
+    "emails": [
+        "front.desk@hienewarkairport.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure faster navigation and smaller images for a smoother mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and minimize script loading to improve load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Consider adding more keyword-rich content about nearby attractions to increase organic traffic.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by improving the visibility of key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Improve the clarity of pricing and booking options for quicker decision-making.",
+    "tips": [
+        "Consider enhancing the mobile experience for faster navigation.",
+        "Speed up page load times with better resource optimization."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for the Holiday Inn Express Newark Airport \u2013 Elizabeth."
+}

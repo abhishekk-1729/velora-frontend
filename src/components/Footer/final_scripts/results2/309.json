@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-315-0025"
+    ],
+    "emails": [
+        "info@homeintheheartofthefingerlakes.org"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and consider a more adaptive layout for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, include alt text for images, and enhance keyword usage in content.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation by reducing the number of clicks required to access key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness and loading speed for a better user experience.",
+        "Enhance SEO to increase visibility and organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to offering information about a bed and breakfast in the Finger Lakes region."
+}

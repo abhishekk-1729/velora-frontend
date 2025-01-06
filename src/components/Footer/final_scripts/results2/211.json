@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-355-3100"
+    ],
+    "emails": [
+        "info@fitzpatrickhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce large files to improve mobile load times and responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize JavaScript and CSS files and consider lazy loading for images to improve speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more optimized meta descriptions and alt text for images to improve SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider adding more visible calls to action and simplifying the booking process to make it more intuitive.",
+    "tips": [
+        "Improve page speed with caching techniques.",
+        "Consider adding an FAQ section to reduce customer support queries."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Fitzpatrick Grand Central hotel and allows users to book directly."
+}

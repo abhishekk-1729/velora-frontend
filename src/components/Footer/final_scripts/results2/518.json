@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 914-592-8400"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch targets and optimize images for faster mobile loading.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing large images and leveraging browser caching.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta tags, headings, and include alt text for all images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add a sticky header for easier navigation across long pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps.",
+    "tips": [
+        "Improve site performance on mobile",
+        "Add email contact for customer support",
+        "Optimize content for SEO"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services and information for Comfort Inn & Suites in Hawthorne, New York."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-447-3030"
+    ],
+    "emails": [
+        "chicago@thehoxton.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure the booking widget is more easily accessible and visible on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve internal linking and use more targeted keywords in meta descriptions and headers.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility features like larger fonts for better readability on mobile.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking steps to make the process quicker and more intuitive.",
+    "tips": [
+        "Consider enhancing the site's performance by optimizing large images.",
+        "Add more diverse content such as customer reviews or testimonials to increase trust.",
+        "Ensure all internal links are working and pointing to relevant content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes The Hoxton hotel in Chicago and offers booking directly through the site."
+}

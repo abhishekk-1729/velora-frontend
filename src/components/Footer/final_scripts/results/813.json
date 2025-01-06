@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@livestockfoundation.org"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "airbnb.com",
+    "category": "others",
+    "ifOthersThenWhat": "Inn with rooms available for booking through Airbnb",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring the menu and booking links are easily accessible on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider optimizing images or using a content delivery network (CDN) for faster load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance SEO by adding relevant meta tags, descriptions, and keyword-rich content on key pages.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation process and highlight booking options more prominently on the homepage.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Ensure a seamless booking process by integrating direct booking options or simplifying Airbnb links.",
+    "tips": [
+        "Focus on improving SEO by optimizing for local searches and specific accommodations.",
+        "Ensure booking is intuitive and direct for a more user-friendly experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Dry Town Inn, with bookings available via Airbnb."
+}

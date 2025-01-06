@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 518-123-4567"
+    ],
+    "emails": [
+        "info@castleinnny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and layout for faster mobile loading and better viewing experience on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images, minify CSS/JS files, and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance meta descriptions, add alt text to images, and implement proper header tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation structure by simplifying menu options and providing clearer calls to action.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve website accessibility by adding ARIA labels and ensuring keyboard navigation.",
+        "Consider adding a review section for guest feedback and credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information services for Castle Inn, a hotel in New York."
+}

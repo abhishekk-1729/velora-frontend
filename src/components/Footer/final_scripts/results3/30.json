@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310.452.3861"
+    ],
+    "emails": [
+        "info@thepalmmotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.expedia.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of high-resolution images and scripts for faster load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by including more relevant keywords in titles, headers, and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation experience by making the booking button more prominent on all pages.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Integrate direct booking functionality on the site to enhance user convenience.",
+    "tips": [
+        "Consider adding more detailed room descriptions to help guests make informed decisions.",
+        "Include local attractions or nearby events in a more prominent section for better engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about the Palm Motel in Santa Monica, with room bookings handled through third-party platforms."
+}

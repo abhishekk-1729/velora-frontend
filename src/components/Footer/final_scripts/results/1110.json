@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 630-654-0111"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and layout elements for faster rendering on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of HTTP requests and optimize images for quicker load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance keyword usage in meta descriptions, titles, and alt tags for better visibility in search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all links are clearly labeled and easily accessible, especially on mobile.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields to improve conversion rates.",
+    "tips": [
+        "Consider adding a live chat feature to increase customer interaction.",
+        "Improve load speed by utilizing browser caching and minimizing JavaScript execution.",
+        "Ensure accessibility for users with disabilities by implementing more WCAG (Web Content Accessibility Guidelines)."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel bookings and information for Extended Stay America in Chicago - Burr Ridge."
+}

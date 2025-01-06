@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-795-0625"
+    ],
+    "emails": [
+        "hello@kasa.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce heavy animations for faster mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Use lazy loading for images and reduce JavaScript blocking resources to speed up the page load.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding meta descriptions, enhancing image alt text, and improving keyword targeting.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistent navigation elements across pages for a more seamless experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and improving mobile responsiveness in the booking process.",
+    "tips": [
+        "Ensure all images are optimized for faster loading times.",
+        "Improve internal linking for better navigation and SEO.",
+        "Add more localized content for better search engine ranking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers modern, stylish apartments for rent in the Magnificent Mile area of Chicago."
+}

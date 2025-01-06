@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-605-0244"
+    ],
+    "emails": [
+        "info@lexhotelnyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images and content are resized or optimized for mobile devices to reduce clutter and improve load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images, use browser caching, and minimize JavaScript to improve page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords in meta descriptions, titles, and image alt texts to enhance SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider improving site navigation and adding clearer call-to-action buttons for a smoother browsing experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness to provide a better experience on smaller screens.",
+        "Work on SEO optimization to increase organic search visibility.",
+        "Speed up page load times to retain visitors and improve overall site performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel bookings and information for Lex Hotel NYC in New York City."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (872) 314-2200"
+    ],
+    "emails": [
+        "protected email"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by making menu options more accessible with a fixed header for easy access to important links.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and utilize caching to improve loading times on mobile devices.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more descriptive alt text to images and include relevant local keywords for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance user experience by adding more engaging visuals and clearer calls to action on the homepage.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and improving the form's mobile responsiveness.",
+    "tips": [
+        "Improve website's accessibility by adding an accessibility menu.",
+        "Implement a clear, easy-to-read font for better user readability on all devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Logan Square SRO Hotel, providing booking and information for guests in Chicago's Logan Square neighborhood."
+}

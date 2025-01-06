@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-301-3000",
+        "+1 800-331-3131"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and assets for faster loading and a smoother mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and use lazy loading to improve initial page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all images have alt text and include more internal links to related content.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add more interactive elements, like quick access to amenities and location information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields, if possible.",
+    "tips": [
+        "Ensure faster mobile responsiveness for users on slower networks.",
+        "Improve SEO by adding more unique content on key pages like amenities and services."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows for bookings at the Residence Inn by Marriott in Marina del Rey."
+}

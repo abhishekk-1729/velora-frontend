@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 888-714-6075"
+    ],
+    "emails": [
+        "info@sunoutdoors.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "RV resort and campground",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and text scale properly on smaller devices to avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for non-essential assets to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, use header tags properly, and include more local SEO keywords to enhance visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by consolidating related sections to reduce clicks and improve user flow.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding live chat support for immediate customer inquiries.",
+        "Integrate more customer reviews to build trust with potential visitors."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers RV resort and campground bookings at Sun Outdoors Association Island in New York."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-323-871-7171"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure buttons are large enough and spaced well to improve ease of clicking on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to improve page load times on mobile and desktop.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata with unique, descriptive titles and meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add more interactive elements or visuals to engage users further without overwhelming them.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps or providing a guest checkout option.",
+    "tips": [
+        "Consider adding a live chat feature for quicker user inquiries.",
+        "Improve alt-text on images for better accessibility and SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to view details and book rooms at Tilt Hotel Universal/Hollywood, Ascend Hotel Collection."
+}

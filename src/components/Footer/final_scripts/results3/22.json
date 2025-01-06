@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 617-300-0956"
+    ],
+    "emails": [
+        "[email protected]",
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce JavaScript complexity to improve mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and defer non-essential scripts.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more internal links and use better structured data for richer search engine results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance visual appeal with smoother transitions and animations for user engagement.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify form fields and streamline the booking steps for quicker reservations.",
+    "tips": [
+        "Consider optimizing for accessibility with clearer text contrasts and larger clickable areas."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers boutique hotel bookings in New York City with modern amenities and a mobile app."
+}

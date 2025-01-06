@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(310) 474-1246",
+        "(310) 475-0404"
+    ],
+    "emails": [
+        "info@azulinnwestlosangeles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the number of HTTP requests and implementing lazy loading for images.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata, especially title and description tags, and optimize image alt texts for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation flow by making key information more prominent on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile performance by reducing heavy resources.",
+        "Add more detailed location information and local attractions to engage users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Azul Inn, a hotel offering accommodations in West Los Angeles."
+}

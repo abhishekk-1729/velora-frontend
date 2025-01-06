@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 732-634-0400"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and assets for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize large media files and leverage browser caching to improve load speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and add structured data for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the clarity of call-to-action buttons for easier navigation.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding an option for multi-language support to cater to international guests.",
+        "Improve accessibility features for users with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Hampton Inn Woodbridge and displays essential hotel information."
+}

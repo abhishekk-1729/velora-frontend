@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 617-300-0956"
+    ],
+    "emails": [
+        "reservations@sonder.com",
+        "sales@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster load times and ensure all buttons are large enough for easy tapping on small screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and reduce the number of HTTP requests to speed up page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and ensure keywords are properly incorporated in headings and alt texts for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all interactive elements, such as buttons and forms, are easy to locate and navigate on both desktop and mobile.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking process is seamless and includes progress indicators so users know how many steps are left.",
+    "tips": [
+        "Consider adding customer reviews and testimonials on the homepage for enhanced trust.",
+        "Integrate a live chat feature to assist users in real-time."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book stylish apartments in New York City with Sonder's signature service and amenities."
+}

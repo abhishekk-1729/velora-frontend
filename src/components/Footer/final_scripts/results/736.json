@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310.626.0888",
+        "888.AKA.6070"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and text scale more smoothly on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the use of heavy scripts to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more detailed meta descriptions and alt text to images for better SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance site navigation with clearer calls to action and smoother transitions between pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps to make the process faster.",
+    "tips": [],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers long-term and short-term luxury apartment stays in West Hollywood."
+}

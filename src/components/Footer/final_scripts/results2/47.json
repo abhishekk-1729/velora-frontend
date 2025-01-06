@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-475-1010",
+        "+1 212-475-8990"
+    ],
+    "emails": [
+        "info@bluemoon-nyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile layout by reducing text and image size for better readability and navigation on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce loading time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance on-page SEO by adding meta descriptions, proper header tags, and more relevant keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve user flow by simplifying the navigation and making the call-to-action buttons more prominent.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more intuitive by reducing unnecessary steps and offering clearer guidance on the booking process.",
+    "tips": [
+        "Consider adding more visuals or a video tour of the hotel to engage visitors.",
+        "Increase social proof by showcasing customer reviews and ratings.",
+        "Implement a live chat feature to assist potential customers instantly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an online presence for The Historic Blue Moon Hotel, offering booking services and hotel information."
+}

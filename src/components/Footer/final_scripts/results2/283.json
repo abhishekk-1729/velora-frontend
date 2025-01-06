@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-555-1234",
+        "NA"
+    ],
+    "emails": [
+        "contact@antoniohotellosangeles.xyz",
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images are optimized for smaller screens to avoid loading delays.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing larger images and utilizing caching techniques to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add relevant meta descriptions and improve heading structure for better SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Consider adding more visible customer testimonials.",
+        "Implement a clear site-wide navigation menu for easier access to important pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking accommodations at Antonio Hotel in Los Angeles."
+}

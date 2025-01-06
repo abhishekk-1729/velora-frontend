@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 586-3030"
+    ],
+    "emails": [
+        "info@margaretvilleinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "https://www.margaretvilleinn.com/",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and use a more responsive layout for better mobile viewing.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce large image file sizes and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more targeted keywords, meta descriptions, and improve alt text for images to enhance search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure all content is easy to find with fewer clicks.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Integrate a seamless booking form directly on the website to avoid third-party redirects.",
+    "tips": [
+        "Consider adding a live chat feature for customer inquiries.",
+        "Make sure the website is WCAG 2.0 accessible for all users.",
+        "Increase the amount of local attraction information to help visitors plan their stay."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking for lodging at the Village Suites in Margaretville."
+}

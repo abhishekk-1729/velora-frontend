@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-213-443-9200",
+        "1-800-445-8667"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that images are optimized for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce the size of high-resolution images and enable lazy loading.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve title tags and meta descriptions to include more relevant keywords.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the navigation menu more accessible on all screen sizes.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the form fields and reduce the number of steps to complete the booking.",
+    "tips": [
+        "Optimize images and video for faster loading.",
+        "Review and improve content for keyword optimization.",
+        "Test mobile navigation regularly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking for Conrad Los Angeles hotel with a focus on luxury stays and amenities."
+}

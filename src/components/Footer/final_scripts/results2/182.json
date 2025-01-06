@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-905-1200"
+    ],
+    "emails": [
+        "info@archerhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing touch targets and navigation elements for easier mobile interaction.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce image sizes and utilize lazy loading for faster page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted keywords and improve meta descriptions for better search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all interactive elements have clear, consistent feedback to enhance user satisfaction.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize images for faster loading",
+        "Enhance mobile navigation",
+        "Improve SEO with targeted keywords"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information services for Archer Hotel New York."
+}

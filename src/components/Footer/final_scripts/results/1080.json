@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-298-6767"
+    ],
+    "emails": [
+        "info@stayhihotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring menu items are more accessible and interactive on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce loading times, especially for mobile users.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the layout for better content hierarchy, making it easier to find key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and ensure clear progress indicators for users during checkout.",
+    "tips": [
+        "Improve page load speed by optimizing resources.",
+        "Enhance the mobile version's user interface for better accessibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Red Carpet Inn in Pulaski, NY, with the option to book rooms directly."
+}

@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-418-0888"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are responsive and adjust content for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and minimize heavy scripts to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Include more relevant keywords in page content and meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation with clearer calls to action and streamlined menus.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required.",
+    "tips": [
+        "Improve mobile responsiveness by testing across different devices and adjusting layout.",
+        "Optimize SEO by using structured data and improving meta descriptions.",
+        "Enhance user experience by ensuring faster load times and intuitive design."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about a budget motel near LAX, with room bookings available directly on the site."
+}

@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-833-586-9358"
+    ],
+    "emails": [
+        "reservations@rwcatskills.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and scripts for quicker mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the number of high-resolution images or lazy loading them.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more targeted keywords for long-tail searches and improve meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the site navigation more prominent to improve the ease of use.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking form and reduce steps for a faster experience.",
+    "tips": [],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases The Alder, a boutique hotel offering luxury amenities and accommodations at Resorts World Catskills."
+}

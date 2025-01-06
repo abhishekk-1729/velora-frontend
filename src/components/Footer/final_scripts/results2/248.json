@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-731-3000",
+        "+1 866-726-0895"
+    ],
+    "emails": [
+        "info@royaltonparkavenue.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all interactive elements (buttons, forms) are optimized for touch input and visibility on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider using lazy loading for non-critical content to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve metadata, especially title tags and meta descriptions, to enhance visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Refine navigation menus for better accessibility and a more intuitive user journey.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Enhance the clarity of pricing and availability information during the booking process.",
+    "tips": [
+        "Consider adding a chat feature to assist users in real-time.",
+        "Improve mobile loading times by optimizing assets like JavaScript and CSS files."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows direct booking for Royalton Park Avenue hotel."
+}

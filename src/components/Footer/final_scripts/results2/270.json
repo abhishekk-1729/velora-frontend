@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-782-9000"
+    ],
+    "emails": [
+        "info@casshotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce heavy JavaScript to improve load times on mobile.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize HTTP requests, compress images, and enable browser caching to improve load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and use proper header tags for better SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that interactive elements are easily tappable and improve navigation consistency.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and making the form fields clearer.",
+    "tips": [
+        "Ensure the website is fully optimized for mobile viewing to enhance user engagement.",
+        "Focus on improving site loading speed for a smoother user experience.",
+        "Enhance SEO strategy to ensure better visibility in search engine results.",
+        "Refine booking process to reduce friction and improve conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Hotel Cass location and contact details, with external booking available."
+}

@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-888-526-3778"
+    ],
+    "emails": [
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure quicker loading times for mobile devices by optimizing images and scripts.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing image compression and reducing the use of heavy scripts to enhance loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve SEO by adding more internal links and ensuring all images have alt text.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation even smoother by minimizing pop-ups and ensuring a clear call to action on every page.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Enhance the booking flow by adding a progress bar or clearer steps to guide users.",
+    "tips": [],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel accommodations and services in the NoMad district of New York."
+}

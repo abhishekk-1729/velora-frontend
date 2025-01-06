@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(323) 462-0062",
+        "(323) 467-5355"
+    ],
+    "emails": [
+        "hstarsinn@yahoo.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "reservation.asiwebres.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure text and buttons are more touch-friendly and ensure content scales well on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and enable browser caching to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords in meta descriptions and headings for better search visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity and ensure all calls-to-action are easily identifiable.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clearer instructions.",
+    "tips": [
+        "Improve website speed by optimizing images and leveraging caching.",
+        "Ensure mobile usability by making all interactive elements larger and more accessible.",
+        "Enhance SEO by adding descriptive text and alt tags to images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a motel located in Hollywood with booking options through a third-party service."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and implement responsive breakpoints for better mobile experience.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Compress images and minify JavaScript to improve loading times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Ensure title tags, meta descriptions, and alt texts for images are properly optimized for SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve the clarity of navigation and add a search bar for easier access to key pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps to speed up the process.",
+    "tips": [
+        "Improve mobile responsiveness by ensuring that all elements are appropriately scaled for mobile screens.",
+        "Enhance loading speed by leveraging browser caching and optimizing CSS.",
+        "Add relevant local SEO keywords to increase visibility in search engines.",
+        "Make navigation more intuitive by grouping similar information together."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about booking rooms at Universal Inn."
+}

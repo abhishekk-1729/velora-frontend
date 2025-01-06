@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-643-1300",
+        "+1 844-309-8364"
+    ],
+    "emails": [
+        "brooklynbridge@1hotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the size of the navigation menu for easier access on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and use lazy loading to speed up page loading times, especially on mobile devices.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance meta tags, such as titles and descriptions, for better keyword targeting and SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a search function to quickly find specific room types or amenities.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Ensure that all images are compressed to improve load times.",
+        "Add social proof, such as guest reviews or testimonials, to enhance trust and engagement.",
+        "Make the mobile version of the website more fluid by adjusting button sizes and touch targets."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the 1 Hotel Brooklyn Bridge, including booking options and amenities."
+}

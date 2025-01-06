@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of HTTP requests by combining CSS and JavaScript files.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add alt text for images and ensure proper use of header tags (H1, H2, etc.) for better structure.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation by simplifying the main menu and adding a sticky header.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure that the booking form is mobile-friendly and includes autofill options for faster completion.",
+    "tips": [
+        "Consider implementing a live chat feature for real-time customer support.",
+        "Review the site's accessibility features for compliance with WCAG standards."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Comfort Inn in Saugerties, New York."
+}

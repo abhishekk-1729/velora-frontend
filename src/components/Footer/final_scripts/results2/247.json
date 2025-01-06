@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Ensure elements are properly aligned and readable on smaller screens to improve mobile user experience.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to reduce loading time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Implement structured data and improve meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify navigation and ensure clear CTAs (call-to-actions) to enhance user engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking process is streamlined and offers multiple payment methods for convenience.",
+    "tips": [
+        "Consider adding a contact form or email address for customer inquiries.",
+        "Improve mobile responsiveness for better viewing on smartphones.",
+        "Enhance SEO by optimizing image alt texts and including relevant keywords in page content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel accommodations and booking services."
+}

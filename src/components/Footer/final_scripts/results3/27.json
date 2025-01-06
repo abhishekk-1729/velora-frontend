@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-617-300-0956"
+    ],
+    "emails": [
+        "[email protected]",
+        "[email protected]"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize mobile design by reducing unnecessary pop-ups and ensuring smooth transitions between pages.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce image sizes and optimize scripts to enhance page loading time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta tags, add alt text for images, and increase keyword density for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance user interaction by incorporating interactive elements such as reviews and real-time availability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by minimizing the number of form fields and providing clearer instructions.",
+    "tips": [
+        "Ensure consistency in branding and website design across all devices.",
+        "Consider adding an FAQ section for better user support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers boutique hotel accommodations in New York through Sonder's mobile app and website."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-440-1500",
+        "+1 800-228-0500"
+    ],
+    "emails": [
+        "info@warwickallertonhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch target sizes and make navigation elements easier to access on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to speed up initial page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more structured data (e.g., schema markup) and optimize on-page content for targeted keywords.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the visual hierarchy by using more contrast in text and background colors for better readability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify form fields to reduce friction and improve the overall booking experience.",
+    "tips": [
+        "Consider adding more local content to appeal to visitors looking for activities around the hotel.",
+        "Integrate live chat support for faster customer service response."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Warwick Allerton Hotel in Chicago and offers booking options directly on the site."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images for faster mobile load times, especially on slower networks.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Compress and optimize images and scripts to improve overall load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve metadata (title, description, alt tags) to enhance search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add clearer navigation for faster access to key information like amenities and location.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider reducing the number of steps or forms in the booking process to enhance user ease.",
+    "tips": [
+        "Optimize images and scripts for faster loading.",
+        "Improve SEO by updating meta tags and alt texts.",
+        "Streamline the booking process for quicker conversions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information about Kasa South Loop Chicago accommodations."
+}

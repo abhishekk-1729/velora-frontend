@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-674-1278"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by making buttons and links larger and more spaced out for easier interaction on small screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider optimizing images and reducing large scripts to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase keyword relevance on pages and ensure all images have proper alt text.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add a clear call-to-action (CTA) on the homepage to guide users toward booking or inquiries.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering guest checkout options.",
+    "tips": [
+        "Add email contact details for easy communication.",
+        "Consider adding customer reviews or testimonials for credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers affordable motel accommodations near LAX with amenities and booking options."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-551-2888",
+        "+1 888-974-2626"
+    ],
+    "emails": [
+        "reservations.beverlyhills@peninsula.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring that all buttons and interactive elements are easily tappable on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading for non-critical resources to improve the website's loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance on-page SEO by incorporating more targeted keywords in meta tags and content to improve visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all content is accessible with clear headings and more intuitive menus for an even better experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to reduce the number of steps required for completion.",
+    "tips": [
+        "Improve loading speed by compressing large media files.",
+        "Add more detailed alt text for images to boost accessibility and SEO.",
+        "Improve mobile responsiveness for faster navigation on smaller screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the fine dining experience at The Belvedere in Beverly Hills, offering reservations and contact information."
+}

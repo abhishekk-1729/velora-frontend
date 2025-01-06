@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "312-787-3100"
+    ],
+    "emails": [
+        "reservation@theinnofchicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "theinnofchicago.reztrip.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image loading and reducing pop-ups for better mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve page speed by optimizing images and leveraging browser caching.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance on-page SEO with better keyword usage, meta tags, and alt text for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce clutter for a more streamlined experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Ensure a smoother transition between pages and minimize the number of steps to book.",
+    "tips": [
+        "Increase site speed by reducing large image sizes.",
+        "Ensure accessibility features are visible and usable on all devices.",
+        "Improve internal linking for better navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Inn of Chicago, offering booking and information about accommodations, location, and special offers."
+}

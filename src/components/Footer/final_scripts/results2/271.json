@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-383-0566",
+        "+1 213-383-0567"
+    ],
+    "emails": [
+        "info@regencyinnlosangeles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that text and buttons are larger for easier tapping and reading on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for faster page rendering.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding alt tags to images and meta descriptions to enhance discoverability.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce clutter on key pages for a more seamless browsing experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process quicker by reducing the number of steps or input fields where possible.",
+    "tips": [
+        "Consider adding customer reviews or testimonials for better social proof.",
+        "Ensure high-quality images for rooms and amenities to create a more engaging experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for the Regency Inn in Los Angeles."
+}

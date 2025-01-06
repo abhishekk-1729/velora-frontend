@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (212) 255-3616",
+        "+1 (800) 665-1900"
+    ],
+    "emails": [
+        "info@lamartinechelsea.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images for faster load time on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and minimize JavaScript to improve speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords to page titles and meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation with clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps.",
+    "tips": [
+        "Optimize for mobile devices.",
+        "Improve page load speed.",
+        "Enhance SEO for better visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services and information for Lamartine Chelsea Hotel."
+}

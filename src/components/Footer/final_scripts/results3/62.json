@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(424)-463-1763"
+    ],
+    "emails": [
+        "hollyparkinglewood@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve the design's adaptability to smaller screens by optimizing font sizes and clickable elements.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and leverage browser caching to enhance loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Include structured metadata and improve keyword optimization for better search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the visual hierarchy to make navigation more intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form and minimize distractions during the process.",
+    "tips": [
+        "Ensure faster loading speeds by optimizing large image files.",
+        "Add a sitemap to improve SEO ranking.",
+        "Provide a mobile-friendly navigation bar."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hollypark Motel's accommodations, amenities, and booking options in a user-friendly manner."
+}

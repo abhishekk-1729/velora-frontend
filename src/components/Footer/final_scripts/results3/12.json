@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-268-8999",
+        "+1 877-285-9139"
+    ],
+    "emails": [
+        "reservations@avalonhotelnyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch targets for small devices to enhance user interaction on mobile screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to improve initial page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more descriptive meta tags, particularly for title and description, to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying the navigation menu to make it more intuitive for first-time visitors.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Ensure the booking flow is faster by reducing the number of steps or fields required to complete a reservation.",
+    "tips": [
+        "Optimize website images",
+        "Review content hierarchy to ensure key information is immediately visible on the homepage"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a booking platform for The Avalon Hotel in NYC, providing information about amenities and rooms."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 647-5747"
+    ],
+    "emails": [
+        "info@skywaycamping.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "campspot.com",
+    "category": "others",
+    "ifOthersThenWhat": "campground with seasonal stays, RV sites, and park models for sale/rent",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure faster loading of pages and make navigation more intuitive for mobile users.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and scripts to reduce loading times, especially for mobile users.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Use more relevant keywords and meta descriptions for each page to improve SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more interactive elements like videos or virtual tours to engage visitors.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps or making the calendar interface clearer.",
+    "tips": [
+        "Consider implementing a more responsive design for mobile users.",
+        "Add more local content for SEO.",
+        "Enhance the booking system for quicker reservations."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers seasonal stays, RV rentals, and park model sales for a resort-style camping experience."
+}

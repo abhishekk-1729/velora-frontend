@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-833-2-BOOK-USC"
+    ],
+    "emails": [
+        "hotelreservations@usc.edu"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing the mobile layout for easier navigation, especially on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and minimize JavaScript to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Increase keyword usage in titles and meta descriptions for better visibility on search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure smoother transitions between sections to enhance user engagement.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve image optimization for faster load times",
+        "Enhance on-page SEO through better keyword targeting"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as the official booking portal and information source for USC Hotel, offering accommodations near the USC campus."
+}

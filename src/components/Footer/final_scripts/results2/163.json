@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (718) 488-1500",
+        "+1 (718) 488-4999"
+    ],
+    "emails": [
+        "info@brooklynmotorinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile and implement responsive design across all pages.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to speed up load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, use more relevant keywords, and optimize header tags for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation and reduce clutter on the homepage to enhance user flow.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and simplifying the form.",
+    "tips": [
+        "Consider adding customer reviews and testimonials for social proof.",
+        "Make sure the website is secure (use HTTPS)."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a motel offering booking information and services for the Brooklyn Motor Inn."
+}

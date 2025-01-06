@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-483-9500"
+    ],
+    "emails": [
+        "info@clubquarters.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing large scripts to improve mobile load times and responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement caching strategies and minify CSS/JS files to reduce loading time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more descriptive alt text for images and ensure all meta tags are populated for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility by ensuring all interactive elements are clearly visible and functional.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide more payment options to streamline the booking process and make it more user-friendly.",
+    "tips": [
+        "Optimize mobile performance by reducing heavy elements.",
+        "Improve site speed by leveraging browser caching.",
+        "Enhance SEO with structured data and improved alt text.",
+        "Focus on accessibility features to provide a more inclusive experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for the Club Quarters Hotel at the World Trade Center in New York City."
+}

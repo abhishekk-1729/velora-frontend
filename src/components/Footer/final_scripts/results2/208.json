@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 760-246-7700"
+    ],
+    "emails": [
+        "info@diamondbellinnca.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the menu and ensuring that content scales properly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and implement lazy loading to speed up page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more relevant keywords in the website\u2019s meta descriptions and headers for better search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Make the booking process more intuitive by reducing the number of steps to confirm a reservation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields and offering more payment options.",
+    "tips": [
+        "Consider adding customer testimonials and reviews to improve trustworthiness.",
+        "Optimize images for faster load times, especially on mobile.",
+        "Implement structured data (schema markup) to improve SEO visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates the booking of rooms at Diamond Bell Inn & Suites."
+}

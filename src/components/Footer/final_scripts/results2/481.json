@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (315) 735-2221",
+        "+1 (800) 424-6423"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and use responsive design for quicker loading and better user experience on smaller devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of HTTP requests and optimize image sizes to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance meta descriptions, title tags, and incorporate more relevant keywords throughout the content.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and make the booking process more intuitive with clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Provide more detailed booking information upfront to reduce clicks and confusion.",
+    "tips": [
+        "Consider integrating a chatbot for real-time assistance.",
+        "Improve content for better engagement and SEO rankings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for the Econo Lodge hotel in Utica, New York."
+}

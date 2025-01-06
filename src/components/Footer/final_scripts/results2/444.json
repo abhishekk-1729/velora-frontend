@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-732-6121",
+        "+1 323-732-6121"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and layout for faster mobile loading times and better user engagement.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and minify CSS/JS files to improve loading times, especially on slower networks.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve content with more targeted keywords and ensure all meta descriptions are optimized for search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky header for easier navigation while scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps or adding a progress indicator.",
+    "tips": [
+        "Optimize images for faster loading times.",
+        "Ensure all links are functional and easily clickable on mobile.",
+        "Add structured data for better SEO visibility.",
+        "Enhance accessibility by adding alt text to all images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at the Best Western Plus LA Mid-Town Hotel."
+}

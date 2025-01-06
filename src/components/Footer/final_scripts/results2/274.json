@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and minimize large elements that may slow down mobile load times.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Compress images and use caching to speed up page load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve title tags, add meta descriptions, and optimize images for better search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and ensure clear calls to action to improve user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider adding a visible booking widget or form to the homepage for quicker access.",
+    "tips": [
+        "Improve website loading speed for better user retention.",
+        "Enhance SEO for higher visibility in search results."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Villa Motel in South Gate."
+}

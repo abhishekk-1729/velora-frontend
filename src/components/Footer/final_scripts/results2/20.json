@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing the layout for smaller screens, especially the navigation menu and buttons for easier access on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and utilize caching strategies to improve page loading time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement proper meta tags, alt text for images, and optimize content for relevant keywords to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the readability of text and ensure that the key information is easily accessible with a clearer layout.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to reduce the number of steps for users and enhance the checkout experience.",
+    "tips": [
+        "Ensure mobile-first design to optimize for smaller screens.",
+        "Increase the speed of loading times by compressing media files.",
+        "Add clear and accessible contact information on the homepage.",
+        "Enhance SEO by using structured data and relevant keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a hotel with booking options, offering a detailed description of its offerings and amenities."
+}

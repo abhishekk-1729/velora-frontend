@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": false,
+    "contactNumbers": [
+        "888-403-0335"
+    ],
+    "emails": [
+        "info@cocastles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Co-living spaces in multiple U.S. cities with flexible subscription-based living",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and interactive elements for faster mobile load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and use asynchronous loading for non-critical resources.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage and add meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add more intuitive navigation options for faster browsing between sections.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider providing clearer guidance on the subscription process for first-time users.",
+    "tips": [
+        "Improve site speed by reducing large media files.",
+        "Enhance SEO by adding more targeted keywords and meta tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers co-living subscription services in various U.S. cities."
+}

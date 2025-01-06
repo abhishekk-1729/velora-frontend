@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 434-8926"
+    ],
+    "emails": [
+        "juliadolgas@gmail.com"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Campground with camping and recreational activities",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize navigation menus for better accessibility on small screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance meta descriptions and add alt tags to images for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of the homepage layout to quickly guide visitors to essential sections.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Integrate an online booking system to streamline reservations.",
+        "Improve mobile responsiveness for better usability.",
+        "Enhance site speed to reduce bounce rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Neversink River Campgrounds, including amenities, contact details, and nearby attractions."
+}

@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": "Not Available",
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": "Not Available",
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "Not Available",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 1,
+    "mobileResponsivenessTip": "Ensure the website is accessible and properly renders on various mobile devices.",
+    "loadingSpeedOutOf10": 1,
+    "loadingSpeedTip": "Optimize server performance and implement caching mechanisms to enhance loading speed.",
+    "seoOptimizationOutOf10": 1,
+    "seoOptimizationTip": "Improve metadata, include relevant keywords, and ensure proper indexing by search engines.",
+    "userExperienceOutOf10": 1,
+    "userExperienceTip": "Design a user-friendly layout with clear navigation and accessible content.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Check and fix server errors or domain issues.",
+        "Ensure a secure and functional connection.",
+        "Invest in responsive web design for better accessibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is currently non-functional, making it impossible to assess its intended purpose."
+}

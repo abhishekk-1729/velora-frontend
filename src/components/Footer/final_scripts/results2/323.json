@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 708-344-0200"
+    ],
+    "emails": [
+        "info@fairbridgeinns.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that images are properly resized for mobile devices and buttons are large enough to click on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and use lazy loading to reduce initial page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add proper meta tags, including description and alt text for images, and improve keyword targeting.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation by simplifying the menu and adding more prominent calls-to-action for easy booking access.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Offer a guest checkout option to speed up the booking process and improve user convenience.",
+    "tips": [
+        "Consider implementing a clear FAQ section to answer common guest questions.",
+        "Enhance the visual appeal of the homepage with high-quality images of the property and rooms."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about FairBridge Inn Express Melrose Park and offers booking options."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 324-1300"
+    ],
+    "emails": [
+        "info@gatewayinnatgardena.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for faster loading on mobile and improve the touch interactions for better usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize the use of large images and compress files to reduce page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all pages have unique and descriptive title tags and meta descriptions to improve search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the navigation to make it more intuitive, especially on mobile devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding clear calls-to-action on the homepage to guide users towards booking or learning more about the hotel.",
+        "Increase the number of high-quality images to showcase the hotel rooms and amenities more effectively."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Gateway Inn Gardena in Los Angeles and provides a platform for direct booking."
+}

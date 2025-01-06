@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(212) 533-4600"
+    ],
+    "emails": [
+        "tiaipfrontdesk@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure buttons and text scale properly on mobile devices and avoid horizontal scrolling.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce server response time to improve speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add relevant meta tags, alt text for images, and improve header structure for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the navigation layout by making key sections more easily accessible from the homepage.",
+    "bookingFlowOutOf10": 5,
+    "bookingFlowTip": "Integrate booking directly on the site without redirecting to third-party platforms.",
+    "tips": [
+        "Improve mobile optimization for a better user experience.",
+        "Enhance website load speed for a smoother experience.",
+        "Optimize SEO for higher search engine rankings.",
+        "Simplify the booking process by incorporating on-site reservations."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a boutique hotel in New York City with a contact form for inquiries and bookings."
+}

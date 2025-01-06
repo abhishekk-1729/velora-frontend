@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "585-409-9819"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Victorian Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing heavy content to improve load times and responsiveness on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for non-critical content to enhance page loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content to improve SEO, especially in the homepage and attractions sections.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by adding a sticky menu and clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking form more visible and user-friendly by streamlining the steps and enhancing form clarity.",
+    "tips": [
+        "Improve mobile usability and responsiveness by minimizing content load for mobile users.",
+        "Enhance SEO by focusing on high-ranking keywords and internal linking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a Victorian-style bed and breakfast offering accommodations, breakfast, and nearby attractions."
+}

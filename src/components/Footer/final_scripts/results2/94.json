@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve the mobile navigation by ensuring better touch interaction and more readable font sizes.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and utilize caching to speed up load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve SEO by adding relevant meta descriptions, keywords, and alt text for images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Make the booking process more intuitive by simplifying the navigation and providing clearer calls to action.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking flow to reduce steps, and make the checkout process faster and easier.",
+    "tips": [
+        "Consider adding a live chat feature for better customer interaction.",
+        "Increase mobile responsiveness across all pages.",
+        "Improve SEO content to rank better on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and services for Saratoga Motel."
+}

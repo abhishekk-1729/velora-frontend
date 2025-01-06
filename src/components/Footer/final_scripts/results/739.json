@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-733-2168"
+    ],
+    "emails": [
+        "rotexwesterninn@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all images and buttons are easily accessible and responsive on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords and meta descriptions to improve visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by making the menu more intuitive and adding clear call-to-action buttons.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the booking flow by adding a progress indicator to show steps in the reservation process.",
+    "tips": [
+        "Ensure the website is fully optimized for mobile devices.",
+        "Consider updating content to make it more engaging for users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Rotex Western Inn and offers room bookings."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(620) 257-5323"
+    ],
+    "emails": [
+        "presidentialinnlyons@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for smaller screens to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and implement browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add relevant meta tags, improve keyword usage, and create SEO-friendly URLs for better search engine optimization.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and reduce clutter to improve overall user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process with fewer steps to enhance user convenience.",
+    "tips": [
+        "Ensure all content is mobile-friendly.",
+        "Implement structured data for better search engine visibility.",
+        "Increase the website's loading speed with optimized media."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is designed to provide information and booking options for the Presidential Inn hotel."
+}

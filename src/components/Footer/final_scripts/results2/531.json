@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-201-529-1640",
+        "+1-800-HILTONS"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all interactive elements, such as buttons and forms, are easily tappable and optimized for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for non-essential resources to reduce load time.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Include more specific local keywords and location-based terms to improve local SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu for easier access to key sections like amenities and booking options.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a live chat feature for quicker customer support.",
+        "Enhance the accessibility by improving contrast and font size options for readability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official portal for booking and information about DoubleTree by Hilton Hotel Mahwah."
+}

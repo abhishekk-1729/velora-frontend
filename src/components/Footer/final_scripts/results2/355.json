@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-586-3330"
+    ],
+    "emails": [
+        "info@kixby.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images and minimizing the size of elements to reduce mobile data usage and improve performance on slower connections.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce the number of HTTP requests by optimizing and combining CSS, JavaScript, and image files.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding descriptive alt tags for images and optimizing title tags and meta descriptions.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all buttons and navigation links are clearly visible and actionable, especially on mobile devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and making the form fields more intuitive.",
+    "tips": [
+        "Optimize images for faster load times",
+        "Ensure accessibility by adding alt text to images",
+        "Use structured data markup for better SEO visibility"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official online presence for Kixby Hotel, offering hotel booking and information."
+}

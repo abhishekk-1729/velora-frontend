@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-716-366-5050",
+        "1-800-528-1234"
+    ],
+    "emails": [
+        "frontdesk@bestwesterndunkirk.com",
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and use responsive design techniques to ensure better performance on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress and optimize images, leverage browser caching, and minimize JavaScript to improve loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, header tags, and keyword optimization for better search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by reducing clutter on the homepage and enhancing accessibility options.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps and requiring fewer fields to improve the user experience.",
+    "tips": [
+        "Consider implementing a chatbot to assist with quick inquiries.",
+        "Enhance the website\u2019s security by using HTTPS on all pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking for Best Western Dunkirk & Fredonia Inn, offering room reservations and hotel information."
+}

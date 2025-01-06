@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@stayspro.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "luxury rental homes",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing large image sizes and utilizing lazy loading.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword targeting and meta descriptions for better visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all forms are clearly labeled and easy to navigate.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to reduce the number of steps.",
+    "tips": [
+        "Consider adding more customer reviews for social proof.",
+        "Ensure mobile-friendly navigation menus."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxury rental homes in the heart of Los Angeles."
+}

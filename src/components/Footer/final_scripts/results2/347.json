@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "hello@outsite.co"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Co-living space for remote workers",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize the number of HTTP requests by consolidating CSS and JavaScript files.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata like title tags and descriptions for better search engine indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields to improve conversion rates.",
+    "tips": [
+        "Consider adding more contact information on the homepage.",
+        "Provide clear and visible call-to-action buttons for bookings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers co-living spaces for remote workers in New York's Chelsea area."
+}

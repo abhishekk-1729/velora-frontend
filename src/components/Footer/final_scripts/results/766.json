@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-226-6288",
+        "844-656-8565"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the mobile layout is optimized for larger screens and load times are minimized.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing image sizes and reducing the use of heavy JavaScript to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more structured data and ensure all pages have unique and descriptive meta tags for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation by adding a search function for easier content discovery.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps or offering guest checkout options.",
+    "tips": [
+        "Improve image compression to reduce loading time.",
+        "Add a chatbot for enhanced customer support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers an online booking platform for SoHo 54 Hotel, providing details about accommodations, special offers, and amenities."
+}

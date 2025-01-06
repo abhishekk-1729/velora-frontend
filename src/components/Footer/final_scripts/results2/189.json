@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-246-4900"
+    ],
+    "emails": [
+        "info@midtownwesthotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch target sizes for easier navigation on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of scripts to enhance page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and include more local keywords to boost search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that the site is fully accessible by adding more contrast for readability on all devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to reduce the number of steps and make the process quicker.",
+    "tips": [
+        "Consider implementing a chatbot for faster customer service.",
+        "Regularly update content to keep the site fresh and engaging."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to providing information and booking options for Midtown West Hotel in New York City."
+}

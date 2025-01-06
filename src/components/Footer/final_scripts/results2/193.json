@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 626-793-2656"
+    ],
+    "emails": [
+        "lincolnmotelpasadena@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and CSS for faster rendering on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize JavaScript and compress images to improve load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more keyword-rich content on the homepage and improve meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding a sticky menu for easy access to important sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of required fields.",
+    "tips": [
+        "Implement structured data (Schema.org) to enhance search engine results.",
+        "Consider adding a customer review section to build trust.",
+        "Ensure the website is fully optimized for all screen sizes, including tablets."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Lincoln Motel in Pasadena."
+}

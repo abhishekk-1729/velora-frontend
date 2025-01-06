@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(607) 569-2600"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and using a mobile-first design approach.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce loading times by compressing large images and implementing lazy loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve SEO by adding more content with targeted keywords and optimizing meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance user experience by simplifying navigation and improving the layout of room details.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps to complete a reservation.",
+    "tips": [
+        "Focus on improving site speed and mobile usability.",
+        "Consider integrating a live chat feature for customer support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Keuka Lakeside Inn, offering lakefront accommodations and booking services."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-987-7717",
+        "845-987-7718"
+    ],
+    "emails": [
+        "info@wvbedandbreakfast.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed and Breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images are optimized for mobile devices to avoid slow load times on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider using compressed images and minifying CSS/JavaScript to improve load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and use structured data to enhance search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by making menus more accessible on mobile and desktop devices.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Offer more booking options like flexible dates and room types for a smoother experience.",
+    "tips": [
+        "Increase SEO efforts by regularly updating content with local attractions or events to improve visibility.",
+        "Optimize website for faster loading on all devices.",
+        "Ensure the contact information is easy to find and include a map for directions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking options for Warwick Valley Bed and Breakfast."
+}

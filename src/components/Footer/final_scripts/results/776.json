@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (315)-325-4431"
+    ],
+    "emails": [
+        "innkeeper@watersedgefingerlakes.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "secure.thinkreservations.com",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast Resort",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing large elements that may affect mobile loading times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce external scripts to improve loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add meta descriptions, improve heading structure, and optimize keywords for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Provide clearer navigation for finding amenities and services quickly.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Ensure the booking process is streamlined and includes fewer steps for quick reservations.",
+    "tips": [
+        "Optimize mobile view and speed for better user retention.",
+        "Enhance SEO practices to improve site ranking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking for a bed & breakfast resort in the Finger Lakes region."
+}

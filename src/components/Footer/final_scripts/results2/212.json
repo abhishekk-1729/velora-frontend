@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": false,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "michaeldeesmotel.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and elements for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Minimize the number of HTTP requests and compress resources to improve page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding more targeted keywords and meta descriptions.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Make the navigation simpler by reducing the number of options in the main menu.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and simplifying the form.",
+    "tips": [
+        "Improve mobile responsiveness for a smoother experience on smaller devices.",
+        "Increase page speed by optimizing images and removing unnecessary scripts.",
+        "Enhance SEO with better keyword usage and meta tags.",
+        "Improve user experience with more intuitive design and clearer navigation.",
+        "Simplify the booking flow to make the process faster and more user-friendly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a motel booking site offering accommodations and related services."
+}

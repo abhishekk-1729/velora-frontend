@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "www.booking.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and content for faster loading and better mobile visibility.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the size of images and scripts to improve page load speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords and metadata for better search engine ranking.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify the navigation and make the booking process more intuitive.",
+    "bookingFlowOutOf10": 4,
+    "bookingFlowTip": "Integrate a seamless booking engine directly into the site to improve user engagement.",
+    "tips": [
+        "Add a contact email address for direct inquiries.",
+        "Improve on-page SEO by using structured data and headings.",
+        "Offer more direct booking options on the website to reduce reliance on third-party platforms."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes room bookings for El Rancho Motel in Los Angeles, California."
+}

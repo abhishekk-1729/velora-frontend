@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-826-8000"
+    ],
+    "emails": [
+        "info@clubquartershotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that the text and images scale properly on smaller screens, and improve touch-target areas for easier navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve loading speed, particularly for mobile users.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Implement better keyword optimization in meta tags, alt text for images, and improve internal linking for SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the clarity of call-to-action buttons and ensure consistent spacing for readability.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding a progress indicator.",
+    "tips": [
+        "Improve page load times for mobile users.",
+        "Enhance SEO strategies for better visibility on search engines."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers bookings for Club Quarters Hotel Grand Central in New York, providing details about rooms and amenities."
+}

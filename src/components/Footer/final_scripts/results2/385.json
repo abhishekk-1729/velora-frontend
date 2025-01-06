@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-792-3500"
+    ],
+    "emails": [
+        "info@ascendcollection.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "https://www.choicehotels.com/illinois/chicago/ascend-hotels/il480",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing clutter and ensuring all interactive elements are touch-friendly.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to enhance load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more detailed and relevant meta descriptions for key pages to improve SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the booking form by reducing the number of steps and adding progress indicators.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking flow by reducing unnecessary fields and making the process more intuitive.",
+    "tips": [
+        "Consider integrating live chat for immediate customer support.",
+        "Ensure all images are properly optimized for faster load times."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for a hotel in Chicago offering online booking through third-party platforms."
+}

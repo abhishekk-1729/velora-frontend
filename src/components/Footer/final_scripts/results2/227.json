@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-412-1000"
+    ],
+    "emails": [
+        "info@encoreinninglewood.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and text scale properly across all mobile devices to improve usability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement meta descriptions, use header tags properly, and ensure all images have descriptive alt texts to boost search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add a search filter and clearer call-to-action buttons for better navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clearer instructions.",
+    "tips": [
+        "Consider adding a FAQ section for common customer inquiries.",
+        "Improve the consistency of design elements across different pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking services and details for Encore Inn in Inglewood."
+}

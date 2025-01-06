@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-847-864-8000"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider improving the mobile navigation menu for easier accessibility on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for non-essential resources.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Include more targeted, high-traffic keywords in your page titles, meta descriptions, and headers.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add clearer CTAs (call-to-action) and ensure consistent font size across all pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding a progress bar during the booking process for clearer user guidance.",
+    "tips": [
+        "Ensure faster load times by optimizing JavaScript and CSS files.",
+        "Improve mobile usability with better touch interaction elements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Graduate by Hilton Evanston hotel and facilitates room bookings."
+}

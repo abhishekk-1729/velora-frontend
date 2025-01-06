@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 534-6488"
+    ],
+    "emails": [
+        "info@hudsonmanorbnb.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "bed and breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing the images and layout for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minify CSS/JavaScript to improve page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more descriptive alt text to images and improve keyword usage in page titles and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by simplifying the menu and adding sticky headers.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure all contact information is easily accessible throughout the site.",
+        "Implement structured data (Schema.org) to enhance SEO and visibility.",
+        "Add customer reviews or testimonials to increase credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Hudson Manor Bed and Breakfast and facilitates direct booking."
+}

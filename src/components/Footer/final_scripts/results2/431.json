@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-847-292-0500",
+        "1-800-528-1234"
+    ],
+    "emails": [
+        "info@bestwestern.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all images and buttons are fully optimized for mobile devices to improve load times and user interaction on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider reducing the size of images and utilizing lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO by adding more targeted keywords to the meta descriptions and headings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of navigation, especially on mobile, to make it easier for users to find what they need.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider optimizing the website for faster loading times by reducing image sizes and utilizing better compression.",
+        "Improve mobile usability with larger touch targets for buttons and forms."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides a booking platform for Best Western at O'Hare hotel with room reservations and details."
+}

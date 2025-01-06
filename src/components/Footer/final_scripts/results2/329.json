@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring touch targets are sufficiently large and spaced out.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords to page titles and meta descriptions for better visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the homepage layout to make the most important information more accessible.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps to confirm a reservation.",
+    "tips": [
+        "Focus on improving SEO content for better search engine rankings.",
+        "Test the site across different mobile devices for consistent performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to make hotel reservations through a third-party booking platform."
+}

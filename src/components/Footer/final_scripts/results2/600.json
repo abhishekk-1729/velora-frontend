@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-641-3333",
+        "+1 800-SONESTA"
+    ],
+    "emails": [
+        "reservations@sonesta.com",
+        "info@sonesta.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that buttons and text are more prominent and optimized for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and utilize lazy loading for content to improve speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, header tags, and include more localized content for better SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu and make information more accessible within fewer clicks.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider improving site speed by reducing the number of large files and scripts that load on initial page load.",
+        "Enhance SEO by including location-specific keywords and improving internal linking.",
+        "Mobile navigation could be made more intuitive with a sticky menu or a clearer CTA button."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for Sonesta Select Los Angeles LAX El Segundo hotel."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 5,
+    "mobileResponsivenessTip": "Consider optimizing images and text for better readability on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and minimize the number of scripts to improve loading time.",
+    "seoOptimizationOutOf10": 3,
+    "seoOptimizationTip": "Add relevant meta tags, keywords, and a structured sitemap for better search engine visibility.",
+    "userExperienceOutOf10": 4,
+    "userExperienceTip": "Improve navigation and layout for a smoother browsing experience on all devices.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Focus on mobile optimization and faster loading times to improve user engagement and SEO.",
+        "Consider integrating a booking platform for a more streamlined booking process."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as a Facebook page for Oak Grand Motel but does not offer online booking or detailed information."
+}

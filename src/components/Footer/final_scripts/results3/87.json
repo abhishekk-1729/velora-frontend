@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(518) 589-6268"
+    ],
+    "emails": [
+        "info@deermountaininn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by making the menu more accessible and visible on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize images and resources to reduce page load time, especially on mobile devices.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more targeted keywords on the homepage and throughout the website's content to improve search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of the booking process by adding clear visual cues for actions like booking and contacting.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve overall mobile user experience by ensuring responsive elements adjust smoothly across devices.",
+        "Enhance SEO by adding structured data for better indexing and search engine ranking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about a rustic upstate New York hotel and its booking options."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "315-482-2500",
+        "800-627-3529"
+    ],
+    "emails": [
+        "info@1000islandsharborhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that images and text resize more dynamically for smaller screens to improve the mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce JavaScript execution time to improve load times, especially on mobile devices.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, use more relevant keywords, and include alt text for all images to improve SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure that all important content is easily accessible without excessive scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more seamless by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve site speed by compressing images and files.",
+        "Enhance mobile responsiveness with more flexible layouts.",
+        "Add more local content for SEO purposes."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the amenities and booking options for the 1000 Islands Harbor Hotel."
+}

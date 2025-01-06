@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-666-0692"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by ensuring all buttons and links are appropriately sized for easy interaction on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing image sizes and reducing server requests to speed up page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance on-page SEO by including targeted keywords in headers and adding more meta descriptions.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Add more intuitive navigation options to help users easily find information like amenities and reviews.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness for easier navigation on smaller devices.",
+        "Optimize website speed by reducing unnecessary content and optimizing images.",
+        "Enhance SEO by integrating more keyword-rich content and meta tags.",
+        "Ensure a smoother user experience with clearer call-to-action buttons."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and general details about the Value Inn Hollywood hotel."
+}

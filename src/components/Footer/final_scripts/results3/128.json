@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 562-427-4231",
+        "+1 800-320-1222"
+    ],
+    "emails": [
+        "info@lacrystalhotel-losangeles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by increasing the size of clickable elements and optimizing layout for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement better meta descriptions, use header tags appropriately, and ensure alt text is present for all images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the website layout by reducing unnecessary text and enhancing visual appeal through consistent design elements.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer instructions on each page.",
+    "tips": [
+        "Consider implementing a live chat feature for quick customer support.",
+        "Improve accessibility by ensuring text contrast and adding more keyboard navigability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the LA Crystal Hotel and facilitates online booking."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-212-571-2200",
+        "1-800-333-3333"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images and text scale properly on smaller screens and test across a variety of devices to improve mobile accessibility.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary scripts to improve load times on mobile and desktop.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Consider adding more local keywords and improving meta tags for better local search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing the number of clicks needed to find essential information, especially on mobile.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking form to reduce the number of fields and improve the speed of completing a reservation.",
+    "tips": [
+        "Improve mobile scaling and image optimization",
+        "Focus on local SEO practices",
+        "Test booking flow for smoother user interactions"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online booking and information for Radisson Hotel in New York Wall Street."
+}

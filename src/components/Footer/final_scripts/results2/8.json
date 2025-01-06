@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and elements for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching for faster page loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content in headings and metadata.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation clarity by simplifying the menu structure and ensuring easier access to key pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure contact information is easily accessible on all pages.",
+        "Add social proof, such as guest reviews or testimonials, to improve trustworthiness.",
+        "Ensure all images are optimized for both desktop and mobile for quicker load times."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official online presence for Gjelina Hotel, offering booking services and information about the hotel."
+}

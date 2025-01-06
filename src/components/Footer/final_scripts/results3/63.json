@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(212) 973-9000"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize media queries to improve layout consistency on smaller devices.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Reduce image sizes and implement lazy loading for better performance.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Enhance metadata descriptions and increase the use of heading tags with primary keywords.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Implement a sticky navigation menu for easier access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form to reduce user input and improve the process.",
+    "tips": [
+        "Improve the site's SEO with better structured data.",
+        "Consider adding email addresses for easier contact.",
+        "Optimize images further to improve page load speed."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking services for a boutique hotel in Chelsea, NYC."
+}

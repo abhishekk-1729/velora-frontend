@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "718-383-2722"
+    ],
+    "emails": [
+        "info@franklinguesthouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve text readability and button sizes on smaller screens for better usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading for faster page loading.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords to the meta descriptions and alt texts for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the navigation menu sticky for easier access as users scroll.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize for faster loading speeds by compressing images.",
+        "Improve SEO by adding more localized keywords.",
+        "Enhance mobile experience by adjusting UI elements for small screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for Franklin Guesthouse, a boutique hotel in Brooklyn."
+}

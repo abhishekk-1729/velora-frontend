@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(714) 655-4222"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "therosemary.lodgify.com",
+    "category": "others",
+    "ifOthersThenWhat": "boutique hostel and speakeasy",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes and layout adjustments for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider reducing large image files and scripts that delay page rendering.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags and content for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation with clearer sections and a more streamlined layout.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking steps for a quicker and easier user experience.",
+    "tips": [
+        "Optimize images and content for mobile responsiveness.",
+        "Enhance site speed by reducing large files and external scripts.",
+        "Improve SEO by refining metadata and keywords.",
+        "Consider making the booking process more user-friendly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a boutique hostel experience with a speakeasy vibe and provides booking options through a third-party service."
+}

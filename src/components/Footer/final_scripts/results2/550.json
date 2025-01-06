@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-310-274-7777",
+        "+1-800-HILTONS"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce mobile viewport issues for better scaling on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize server response time and use lazy loading for images to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all pages have unique meta descriptions and use better keyword targeting for local search optimization.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve navigation consistency, especially for users with limited interaction on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields to improve the booking conversion rate.",
+    "tips": [
+        "Ensure the website is fully optimized for fast loading on all devices.",
+        "Add a clear call-to-action for booking on every page.",
+        "Improve internal linking structure to guide users to the most important areas of the site."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to explore and book accommodations at The Beverly Hilton hotel."
+}

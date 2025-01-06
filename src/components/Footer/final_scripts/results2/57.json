@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-966-5219",
+        "800-543-1219"
+    ],
+    "emails": [
+        "info@greenvillearms.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure text and images scale properly on smaller screens and reduce large image files to improve load times on mobile.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and consider lazy loading techniques to improve page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage and meta tag optimization, including alt text for images and clearer page titles.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by adding sticky navigation bars and better highlighting key information on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a live chat feature to help visitors with immediate inquiries.",
+        "Improve accessibility features like keyboard navigation and text-to-speech compatibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about accommodations at the Greenville Arms 1889 Inn, along with booking options."
+}

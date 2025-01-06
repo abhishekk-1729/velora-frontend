@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-844-LEGOLAND (1-844-534-6526)"
+    ],
+    "emails": [
+        "guestservices@legoland.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider improving touch target sizes and adjusting font sizes for better readability on small screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve page loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and improve heading structure for better content indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify navigation and make key information (like pricing and availability) more accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more streamlined by reducing the number of steps and providing more visual cues.",
+    "tips": [
+        "Consider improving accessibility features such as alternative text for images and keyboard navigation support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for LEGOLAND\u00ae New York Hotel."
+}

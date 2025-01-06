@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 555-123-4567"
+    ],
+    "emails": [
+        "info@meadowoodinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce large elements that may cause slow loading or layout shifts on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and implement lazy loading to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more detailed meta descriptions for each page to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that navigation is more intuitive by adding sticky headers and clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required fields and steps.",
+    "tips": [
+        "Optimize the site for faster mobile loading.",
+        "Consider adding customer reviews and testimonials for credibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for a hotel offering online booking and accommodation details."
+}

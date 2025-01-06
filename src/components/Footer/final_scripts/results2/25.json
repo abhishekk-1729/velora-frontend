@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-735-2300"
+    ],
+    "emails": [
+        "info@hotelsilverlakela.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that text and images scale correctly on all devices, especially on mobile, to improve the user experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and use lazy loading to improve page loading speed, especially for mobile users.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve SEO by optimizing meta descriptions, alt tags, and using better keyword strategies for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation with a more intuitive menu and clearer call-to-action buttons to streamline user interaction.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps to complete a reservation and providing clearer instructions.",
+    "tips": [
+        "Improve mobile responsiveness for better usability.",
+        "Optimize images and scripts to speed up page loading times.",
+        "Work on SEO by improving metadata and alt text.",
+        "Improve navigation and call-to-action clarity."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hotel Silver Lake in Los Angeles, including booking details and contact information."
+}

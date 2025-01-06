@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "206-838-1010"
+    ],
+    "emails": [
+        "info@thedenoffeastlake.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation and touch-friendly elements for a smoother experience on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce JavaScript load to speed up page loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more targeted local keywords and optimize alt text for images to improve search rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of navigation menus and ensure consistency in UI design across different pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking form is intuitive, with minimal steps and clear instructions.",
+    "tips": [
+        "Improve mobile optimization and loading speed for better user retention.",
+        "Enhance SEO with local optimization to increase visibility in search results.",
+        "Ensure the booking process is as simple and user-friendly as possible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for The Den off Eastlake hotel."
+}

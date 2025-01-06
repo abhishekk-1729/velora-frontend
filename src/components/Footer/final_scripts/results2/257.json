@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-532-8681"
+    ],
+    "emails": [
+        "eldoradomotel@yahoo.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Ensure images and content scale properly on all screen sizes to improve mobile usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary scripts to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Incorporate more relevant keywords and meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the navigation and ensure key information is easy to find.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider adding an online booking system directly on the site for better user convenience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the El Dorado Motel and offers contact details for reservations."
+}

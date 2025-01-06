@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all interactive elements are easily tappable and optimize images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider reducing image sizes and leveraging browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve SEO by adding meta tags, structured data, and alt text for images to increase visibility in search results.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by consolidating menu items and making calls to action more prominent.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer navigation.",
+    "tips": [
+        "Consider improving mobile responsiveness and site speed for a better overall user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases images of the hotel and offers a booking feature for Mid City Inn and Suites."
+}

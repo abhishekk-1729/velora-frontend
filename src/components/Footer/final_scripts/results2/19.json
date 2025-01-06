@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-734-4083"
+    ],
+    "emails": [
+        "info@windhamhouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by making the menu more accessible and optimizing images for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal links and improve the use of heading tags for better content structure.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify the user interface by reducing clutter and improving readability on mobile devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing the number of steps and allowing for autofill options.",
+    "tips": [
+        "Improve mobile navigation for better accessibility.",
+        "Optimize website loading times for a smoother user experience.",
+        "Enhance SEO by improving internal linking and heading structure."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Christman's Windham House and offers online booking options for accommodations."
+}

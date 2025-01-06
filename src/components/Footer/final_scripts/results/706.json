@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-464-9236"
+    ],
+    "emails": [
+        "info@hollywoodlaspalmashotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "reservation.asiwebres.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation with more touch-friendly buttons and larger text sizes.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and minify JavaScript for faster page loading.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Use more descriptive meta tags and alt text for images to improve SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the site layout for smoother navigation and easier access to booking features.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clear instructions.",
+    "tips": [
+        "Improve mobile responsiveness by enhancing touch elements.",
+        "Boost loading speed by compressing images and optimizing scripts.",
+        "Focus on SEO with better metadata and keyword integration.",
+        "Make the booking flow smoother with a more intuitive design."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Las Palmas Hotel in Hollywood, offering room details and an online booking system."
+}

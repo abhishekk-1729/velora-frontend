@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure touch targets and text sizes are optimized for mobile to improve readability and navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and use schema markup for better visibility in search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying the navigation menu to make it more intuitive for users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding clearer progress indicators.",
+    "tips": [
+        "Optimize site for accessibility (e.g., color contrast, alt text for images)",
+        "Improve mobile-first design to enhance responsiveness",
+        "Enhance website security by implementing HTTPS and other security protocols."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking options for FOUND Hotel in Santa Monica."
+}

@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(323) 467-4000",
+        "(323) 467-4004"
+    ],
+    "emails": [
+        "info@hollywoodpremieremotella.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 5,
+    "mobileResponsivenessTip": "Consider optimizing layout and content for smaller screens to improve the mobile experience.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Optimize images and reduce the number of external scripts to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add meta tags, improve heading structure, and use more relevant keywords for better SEO.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation and simplify the booking process to enhance user interaction.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Consider integrating an easier-to-navigate and more intuitive booking system on the website.",
+    "tips": [
+        "Consider adding clear call-to-action buttons.",
+        "Improve website content structure for readability.",
+        "Ensure that important information is easily accessible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hollywood Premiere Motel and offers booking options."
+}

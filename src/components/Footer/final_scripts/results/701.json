@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Vacation Rental",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile optimization by ensuring text and images scale correctly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider compressing images and using caching to enhance load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Increase keyword optimization and include meta descriptions for pages.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by simplifying the menu and ensuring a consistent layout across pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form to reduce user effort and increase conversions.",
+    "tips": [
+        "Consider adding a contact form for user convenience.",
+        "Improve visibility of location and nearby attractions on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers vacation rental apartments in Chicago's Roscoe Village area, with easy access to local amenities."
+}

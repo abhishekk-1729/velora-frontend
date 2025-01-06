@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 4,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for mobile devices, as the current design has issues with resizing and text alignment.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Improve website loading speed by compressing images and utilizing browser caching.",
+    "seoOptimizationOutOf10": 3,
+    "seoOptimizationTip": "Add relevant meta tags, improve title and description tags, and enhance keyword targeting across pages.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Improve navigation clarity and ensure a smoother experience by optimizing the menu structure and reducing clutter.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Enhance mobile responsiveness by testing across various devices and screen sizes.",
+        "Improve the overall design consistency across desktop and mobile versions.",
+        "Make sure contact information is easy to find, and ideally, provide at least an email address."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing Florentina Motel, but lacks online booking functionality."
+}

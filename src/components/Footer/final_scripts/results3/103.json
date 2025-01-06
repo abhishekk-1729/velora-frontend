@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1.917.262.0553",
+        "+1.917.261.7972"
+    ],
+    "emails": [
+        "sohotel@jgstay.com",
+        "studioplus@jgstay.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hotels.cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design elements to improve load times and mobile navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and use lazy loading techniques to speed up page loading.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Include more relevant keywords in the meta description and image alt texts for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve accessibility by ensuring all text is readable with high contrast and include clear calls to action.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and fields required for booking.",
+    "tips": [
+        "Improve mobile performance by optimizing assets for smaller screens.",
+        "Consider adding a live chat feature for quicker customer support.",
+        "Offer more payment options for booking to increase conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information for a hotel located in the Soho area of Manhattan."
+}

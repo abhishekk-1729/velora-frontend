@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-626-821-5555",
+        "1-877-834-3613"
+    ],
+    "emails": [
+        "reservations@holidayinnmpk.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile layout by reducing image sizes for faster load times.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and scripts to reduce load times, especially on mobile devices.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Consider adding more location-based keywords to improve local search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation with clearer call-to-action buttons and easier access to important info.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Ensure all images are optimized for faster loading.",
+        "Simplify the booking process with fewer steps."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for the Holiday Inn & Suites Monterey Park, Los Angeles."
+}

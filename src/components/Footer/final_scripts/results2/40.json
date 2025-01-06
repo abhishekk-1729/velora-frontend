@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (662) 889-2700"
+    ],
+    "emails": [
+        "info@magnoliawelcome.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and testing navigation for smoother performance on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and external scripts to improve load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure title tags, meta descriptions, and alt attributes are present for all images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the homepage design and reduce clutter to enhance focus on key content.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking button more prominent and consider adding a step-by-step guide for first-time users.",
+    "tips": [
+        "Optimize images for faster loading",
+        "Improve SEO with better metadata",
+        "Enhance mobile design for smoother navigation"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Magnolia Place Bed & Breakfast and allows online booking."
+}

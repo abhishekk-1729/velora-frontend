@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-565-0565",
+        "+1 800-441-1414"
+    ],
+    "emails": [
+        "chicago@swissotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and ensure faster loading times on mobile devices to improve responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing image compression and lazy loading for non-critical resources.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more high-quality, keyword-rich content to key pages and ensure that metadata is optimized for target keywords.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the navigation menu to reduce cognitive load and improve user flow.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer progress indicators.",
+    "tips": [
+        "Ensure better mobile optimization to increase engagement.",
+        "Improve website speed for better performance.",
+        "Enhance SEO strategy for higher visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Swissotel Chicago and provides booking and hotel information."
+}

@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (828) 264-5979"
+    ],
+    "emails": [
+        "cindylynmotel@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and content layout for better mobile viewing, ensuring ease of navigation and faster load times on smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce image sizes and implement caching strategies to speed up loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Include more targeted keywords in headings, meta descriptions, and image alt texts for better search engine visibility.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify navigation and improve the visual appeal with a more modern design to enhance user interaction.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps and adding clearer call-to-action buttons.",
+    "tips": [
+        "Improve mobile optimization for a smoother browsing experience.",
+        "Enhance website speed to prevent high bounce rates.",
+        "Focus on improving SEO practices to increase organic search traffic.",
+        "Revamp the user interface to create a more engaging and visually appealing website.",
+        "Streamline the booking process for a more user-friendly experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Cindy Lyn Motel and provides booking options directly on the site."
+}

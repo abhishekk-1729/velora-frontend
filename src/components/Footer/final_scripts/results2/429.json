@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-800-123-4567",
+        "1-987-654-3210"
+    ],
+    "emails": [
+        "info@fairbridgeinns.com",
+        "reservations@fairbridgeinns.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile layout to ensure elements are properly scaled and touch-friendly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and reduce server response time to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase use of relevant keywords in titles and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and make it easier to find key information, such as amenities and booking options.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to finalize a reservation.",
+    "tips": [
+        "Enhance website speed by implementing lazy loading for images and optimizing JavaScript.",
+        "Add more detailed location and amenity information for potential guests.",
+        "Improve mobile navigation to ensure users can easily find essential pages."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book accommodations at FairBridge Inn & Suites at West Point directly through its booking platform."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 310-2525"
+    ],
+    "emails": [
+        "info@lepetitpali.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing image sizes for faster loading on mobile.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Minimize large media files and consider using a content delivery network (CDN).",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more internal links and ensure all images have proper alt text.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation menus more prominent for easier browsing.",
+    "bookingFlowOutOf10": 10,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure site is optimized for all devices",
+        "Consider integrating additional booking options for variety."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases luxury accommodations and booking options for Le Petit Pali in Brentwood."
+}

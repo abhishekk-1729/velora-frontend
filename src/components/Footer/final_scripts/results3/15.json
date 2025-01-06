@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "213-250-8925"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design to improve load times on mobile.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and use caching to enhance page loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase keyword density related to location and amenities in headings and meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by making key information more accessible from the homepage.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering clearer calls to action.",
+    "tips": [
+        "Consider implementing a live chat feature for customer support.",
+        "Improve accessibility with larger fonts and better contrast on key elements."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for affordable motel accommodations in Downtown Los Angeles."
+}

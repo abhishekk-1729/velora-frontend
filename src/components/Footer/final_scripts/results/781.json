@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and reduce the number of elements for faster mobile load times.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Compress images and use lazy loading to speed up page rendering.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags and integrate more keywords for better search ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and enhance readability for a smoother browsing experience.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile responsiveness and user interface on small screens.",
+        "Enhance SEO efforts with structured data and more backlinks.",
+        "Focus on page speed optimization to reduce loading times."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides an online reservation system for The Herald hotel, powered by LuxUrban."
+}

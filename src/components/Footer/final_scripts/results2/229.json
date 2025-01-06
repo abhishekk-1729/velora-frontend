@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 773-583-0331"
+    ],
+    "emails": [
+        "info@skylarkmotelchicago.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and elements for mobile to ensure faster load times and better display on various devices.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce image file sizes and use caching techniques to improve load speed.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add relevant meta descriptions, alt tags for images, and improve content targeting for search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Consider simplifying the navigation and reducing pop-ups to improve overall user experience.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process clearer with step-by-step guidance and a progress bar.",
+    "tips": [
+        "Optimize mobile responsiveness and loading speed.",
+        "Improve SEO with better meta descriptions and content optimization.",
+        "Simplify the user interface and navigation.",
+        "Provide clearer booking flow guidance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking for Skylark Motel in Chicago."
+}

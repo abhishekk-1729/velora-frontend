@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-661-2400"
+    ],
+    "emails": [
+        "info@theroyalpagodamotel-losangeles.us"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "expedia.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve the mobile experience by ensuring better optimization for smaller screens and touch interactions, such as larger clickable areas and better scaling of images.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary scripts or heavy elements to improve loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve the use of meta tags, heading structure, and alt text for images to boost search engine rankings.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify navigation by reducing clutter and improving the overall flow of the site with clearer calls to action.",
+    "bookingFlowOutOf10": 4,
+    "bookingFlowTip": "Streamline the booking process by minimizing the number of steps required to make a reservation and adding clear progress indicators.",
+    "tips": [
+        "Reduce the number of ads and pop-ups that disrupt the user experience.",
+        "Ensure all content is accessible, with proper contrast and font sizes for readability.",
+        "Add a live chat feature to help visitors with real-time support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides motel information and booking options for The Royal Pagoda Motel in Los Angeles."
+}

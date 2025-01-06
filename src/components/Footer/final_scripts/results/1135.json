@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-800-123-4567",
+        "1-234-567-8901"
+    ],
+    "emails": [
+        "info@jellystonepark.com",
+        "support@sunoutdoors.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Campground with cabins and RV sites",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce large JavaScript files to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider using a content delivery network (CDN) and optimize images to speed up loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more internal linking and meta descriptions for better SEO optimization.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the navigation menu for quicker access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields for a smoother booking experience.",
+    "tips": [
+        "Consider adding customer reviews to enhance trust and engagement.",
+        "Improve the site's accessibility features for a broader audience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a campground experience with cabins and RV sites for booking at Jellystone Park\u2122 Birchwood Acres."
+}

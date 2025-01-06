@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce heavy scripts for smoother mobile performance.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider compressing images and leveraging browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tags and utilize alt text for images to enhance SEO ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline navigation and improve content hierarchy for better user engagement.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Improve mobile responsiveness for a more seamless experience on smaller devices.",
+        "Optimize loading speed by minimizing JavaScript and CSS file sizes.",
+        "Enhance SEO by focusing on keyword optimization and local search visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers online hotel bookings and information about The Metric Hotel."
+}

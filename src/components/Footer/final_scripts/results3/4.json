@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-800-123-4567"
+    ],
+    "emails": [
+        "info@palm-inn.poi.place"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images scale properly on mobile devices and that text is legible without zooming.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and enable lazy loading to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more descriptive meta tags and alt attributes for images to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make navigation more intuitive by improving the placement of key links like contact and booking information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing a progress indicator.",
+    "tips": [
+        "Improve mobile image optimization",
+        "Enhance site accessibility by adding alt text to all images"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Palm Inn, a hotel."
+}

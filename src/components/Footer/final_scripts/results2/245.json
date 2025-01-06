@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-469-9700"
+    ],
+    "emails": [
+        "info@budgetinnhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for faster loading and improve touch-target sizes for better navigation on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and implement lazy loading to reduce the initial page load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding proper meta tags, optimizing title tags, and creating a more content-rich blog or FAQ section.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline navigation by reducing clutter and making important information like location, amenities, and contact details more accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the clarity of the booking form by adding tooltips or inline help text for users unfamiliar with the booking process.",
+    "tips": [
+        "Consider implementing a live chat feature to engage with visitors in real-time.",
+        "Improve accessibility by ensuring text contrasts meet WCAG standards."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Budget Inn, a motel in Hollywood."
+}

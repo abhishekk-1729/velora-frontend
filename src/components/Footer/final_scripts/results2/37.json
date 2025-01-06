@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (518) 734-3000"
+    ],
+    "emails": [
+        "info@hauswindham.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all images are optimized for mobile to improve loading time and responsiveness.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and use proper header tags for better SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation by reducing unnecessary clicks to make it more user-friendly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize website images and multimedia for better performance on both desktop and mobile.",
+        "Ensure consistent branding across all pages for a more cohesive experience.",
+        "Consider adding more customer reviews and testimonials to build trust."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel accommodations and booking services for The Haus Windham in Windham, NY."
+}

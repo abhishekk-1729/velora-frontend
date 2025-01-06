@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "773-927-1122"
+    ],
+    "emails": [
+        "polo_cafe@sbcglobal.net"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Bed & Breakfast establishment",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize layout and font sizes for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and use caching to reduce loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and implement schema markup.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Enhance website speed through optimization techniques.",
+        "Improve mobile navigation for better user accessibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a cozy Bed & Breakfast experience in Bridgeport, Chicago."
+}

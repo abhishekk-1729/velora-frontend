@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@fingerlakescabins.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Cabins for rental in the Finger Lakes region",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve button sizes and spacing for better touch targets on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to speed up page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Include more relevant keywords in meta tags and headers, and add alt text to all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation clarity by simplifying the menu structure and adding clear CTAs.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking form and provide a progress indicator for the user.",
+    "tips": [
+        "Improve image compression to enhance loading speed.",
+        "Ensure consistent branding across the website.",
+        "Add customer reviews and testimonials for better trust and engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers cabin rentals in the Finger Lakes region."
+}

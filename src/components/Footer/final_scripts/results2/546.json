@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-986-8800"
+    ],
+    "emails": [
+        "info@westgatenyc.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the size of interactive elements and ensuring touch targets are larger for easier interaction on small screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich content on the homepage and optimize meta descriptions and title tags for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistent visual styling across all pages to improve design coherence.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps and making navigation clearer.",
+    "tips": [
+        "Enhance site speed by reducing the number of server requests.",
+        "Optimize for better SEO with structured data markup and improved content visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking and information for the Westgate New York Grand Central hotel."
+}

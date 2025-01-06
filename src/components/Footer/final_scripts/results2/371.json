@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "film-related website, not a hotel or motel",
+    "mobileResponsivenessOutOf10": 3,
+    "mobileResponsivenessTip": "Consider optimizing the layout for smaller screens to improve mobile responsiveness.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Reduce image sizes and utilize browser caching to speed up loading times.",
+    "seoOptimizationOutOf10": 2,
+    "seoOptimizationTip": "Ensure the website includes relevant meta tags, headers, and optimized content for search engines.",
+    "userExperienceOutOf10": 3,
+    "userExperienceTip": "Simplify navigation and make the content more accessible by improving the site's overall structure.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile layout to enhance user experience on smartphones.",
+        "Optimize site speed by compressing images and enabling browser caching.",
+        "Focus on SEO to improve visibility and search engine rankings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing locations featured in the movie 'The Terminator', not a hotel or motel."
+}

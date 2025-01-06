@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(845) 586-3933"
+    ],
+    "emails": [
+        "MargaretvilleInn@gmail.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "v2.reservationkey.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure the navigation menu is optimized for smaller screens and test across various mobile devices to improve usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress images and enable caching to improve page loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Optimize metadata (e.g., title, description) and add alt text to images for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the layout and improving the readability of text for a smoother browsing experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve mobile responsiveness for better usability on small screens.",
+        "Increase page load speed by optimizing images and leveraging browser caching.",
+        "Enhance SEO by optimizing content and adding proper metadata.",
+        "Simplify the booking process to improve user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers lodging and event booking for Margaretville Mountain Inn, a historic bed and breakfast."
+}

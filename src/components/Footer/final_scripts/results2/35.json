@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-863-4974",
+        "800-637-6881"
+    ],
+    "emails": [
+        "info@laplandlake.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Nordic Vacation Center with lodging and recreational activities",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and font sizes for better mobile viewing.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Incorporate more targeted keywords and improve meta descriptions.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that navigation is smoother by simplifying the menu structure.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process with fewer steps and a clearer call-to-action.",
+    "tips": [
+        "Enhance mobile optimization",
+        "Improve site speed",
+        "Focus on SEO improvements"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers Nordic vacation experiences, including lodging and recreational activities."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "213-799-8998"
+    ],
+    "emails": [
+        "info@fenixhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "hotels.cloudbeds.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and reduce page elements to improve load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize JavaScript execution and enable lazy loading for images to enhance page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, such as titles and descriptions, and ensure better keyword integration in content.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that interactive elements like buttons and menus are easily accessible and touch-friendly on mobile.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and offering clearer calls-to-action.",
+    "tips": [
+        "Ensure mobile images are responsive and load efficiently.",
+        "Optimize page speed by reducing unoptimized code and resources.",
+        "Enhance SEO by optimizing all meta tags and improving keyword usage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Fenix Hotel Hollywood, offering bookings and information for a hotel stay in the heart of Hollywood."
+}

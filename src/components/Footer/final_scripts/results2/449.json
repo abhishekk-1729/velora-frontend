@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 315-343-1600",
+        "+1 800-528-1234"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing content length to improve mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and scripts to speed up load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, especially for title and descriptions, to boost SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation and make it more intuitive, especially for mobile users.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Enhance page load speed by minimizing JavaScript and optimizing CSS files.",
+        "Ensure consistent branding and design across all devices to improve user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for rooms at Best Western Plus Oswego Hotel and Conference Center."
+}

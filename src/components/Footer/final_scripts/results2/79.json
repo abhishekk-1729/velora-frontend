@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-380-2000"
+    ],
+    "emails": [
+        "info@pendry.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization for faster mobile loading, especially for high-resolution screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing lazy loading for non-essential elements to speed up initial page load time.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more structured data (e.g., Schema.org markup) to improve rich snippet visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a sticky header for easier navigation, especially on mobile.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps for quicker reservations.",
+    "tips": [
+        "Ensure all images are properly compressed for faster load times across devices.",
+        "Add a loading indicator during heavy content loading to improve perceived performance."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Pendry Chicago, showcasing hotel features, amenities, and providing an online booking platform."
+}

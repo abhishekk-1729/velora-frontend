@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure text and buttons are easily tappable and that the layout adapts seamlessly on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce load times, possibly by implementing lazy loading and caching techniques.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve the meta descriptions, title tags, and ensure that content is well-structured with proper header tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve the clarity of navigation and reduce visual clutter for a more streamlined experience.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and clearly indicating progress through the flow.",
+    "tips": [
+        "Improve website performance by optimizing the code and media.",
+        "Enhance SEO strategies to increase organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for the Queens Hotel, providing users with accommodation options and booking capabilities."
+}

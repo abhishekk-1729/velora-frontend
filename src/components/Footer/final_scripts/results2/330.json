@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce their size for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider using lazy loading for images and scripts to improve initial page load speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords to the meta description and use descriptive alt texts for images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu to make it more intuitive and user-friendly.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure that mobile-friendly features are implemented correctly for a smooth experience on all devices.",
+        "Enhance content with more details about the hotel's amenities and services to boost SEO.",
+        "Ensure contact information is easily accessible for users looking to reach the hotel."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at the Condor Hotel by Luxurban."
+}

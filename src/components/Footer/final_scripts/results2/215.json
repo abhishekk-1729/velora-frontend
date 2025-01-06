@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "518-686-7667",
+        "518-686-0300"
+    ],
+    "emails": [
+        "info@theinnatthebridge.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by reducing the size of images and ensuring touch elements are properly spaced.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading for better performance.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords, meta descriptions, and alt texts to images for better SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Ensure that the website's text is more readable on mobile devices by adjusting font sizes and contrasts.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking form by reducing unnecessary fields and making the process quicker.",
+    "tips": [
+        "Improve SEO with keyword-rich content.",
+        "Consider adding customer reviews or testimonials for social proof."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Inn at the Bridge hotel."
+}

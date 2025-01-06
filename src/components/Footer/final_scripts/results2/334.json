@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-937-1100"
+    ],
+    "emails": [
+        "info@leparcsuites.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce large file sizes, especially images and videos, to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content, especially in headings and metadata, to improve SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce the number of steps to find information on the site.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Ensure consistent design elements across all pages for a more cohesive experience.",
+        "Implement clearer calls-to-action (CTAs) for easier navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for booking stays at Le Parc Suites, a hotel located in Los Angeles."
+}

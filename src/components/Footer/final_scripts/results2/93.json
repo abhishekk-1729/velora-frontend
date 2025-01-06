@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-290-1100",
+        "+1 800-833-4299"
+    ],
+    "emails": [
+        "info@windsorhotelny.com",
+        "reservations@windsorhotelny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and test for performance across various mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing images and minifying CSS/JS files to improve loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve page titles, meta descriptions, and add alt texts to images for better SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all interactive elements are responsive and that content is easy to navigate on all screen sizes.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to finalize a reservation.",
+    "tips": [
+        "Add customer reviews and ratings on the homepage to enhance trust.",
+        "Make the navigation menu sticky or visible at all times on mobile."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for the Windsor Hotel in New York."
+}

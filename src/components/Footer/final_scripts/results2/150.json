@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and interactive elements for faster load times on mobile.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce large image sizes and leverage browser caching to speed up loading times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add descriptive alt text to images and improve meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Ensure better navigation by grouping related content and offering clearer calls to action.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering guest reviews on the booking page.",
+    "tips": [
+        "Improve mobile optimization by ensuring all touch elements are appropriately sized.",
+        "Add more visible contact information for easier communication with guests."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for La Cienega Inn Motel via a third-party platform, Booking.com."
+}

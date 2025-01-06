@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "312-643-3400"
+    ],
+    "emails": [
+        "info@ivyhotelchicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "bookings.travelclick.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for mobile to improve loading time on smaller devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and optimize media files.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more descriptive alt text to images and include more internal linking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding a live chat feature for quicker customer interaction.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary steps.",
+    "tips": [
+        "Enhance mobile responsiveness by reducing page size and optimizing media.",
+        "Improve page speed by leveraging browser caching and minimizing JavaScript.",
+        "Make SEO improvements by adding structured data and improving title tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Ivy Hotel, with options to book rooms and explore its amenities."
+}

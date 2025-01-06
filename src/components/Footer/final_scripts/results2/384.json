@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-602-1300",
+        "+1 844-201-6401"
+    ],
+    "emails": [
+        "info@1hotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that images and text scale perfectly on smaller devices to avoid content cutoff.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Optimize image sizes and reduce third-party scripts to enhance loading time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and use header tags effectively for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider reducing the number of pop-ups and ensure easy navigation from any section.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing steps and adding a progress indicator.",
+    "tips": [
+        "Optimize images for faster loading times.",
+        "Ensure all contact information is visible and accessible.",
+        "Improve SEO with structured data and better keyword optimization."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is dedicated to showcasing and providing booking options for 1 Hotel West Hollywood."
+}

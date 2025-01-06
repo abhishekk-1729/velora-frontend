@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-840-6700"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that text and buttons are more responsive on smaller screens to enhance readability and navigation.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to reduce loading time, especially on mobile devices.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal linking and optimize page titles and descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline navigation by reducing the number of clicks needed to access key information like bookings and contact details.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a live chat feature for better customer engagement.",
+        "Improve accessibility with better contrast on buttons and text."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers budget-friendly hotel accommodations in the heart of New York City, with a focus on value and location."
+}

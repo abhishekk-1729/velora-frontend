@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(570) 325-3288"
+    ],
+    "emails": [
+        "info@friendshipmotorinn.net"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and adjusting layout for smaller screens.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Reduce page load time by compressing images and utilizing caching techniques.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Improve SEO by adding meta descriptions, title tags, and optimizing alt text for images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Enhance navigation by making key information more accessible and improving the site structure.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing more clear instructions.",
+    "tips": [
+        "Optimize for mobile",
+        "Improve site speed",
+        "Enhance SEO",
+        "Simplify user navigation",
+        "Optimize booking flow"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for the Friendship Motor Inn motel."
+}

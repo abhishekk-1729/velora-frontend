@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "929-688-4880"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "theradiohotel.book.pegsbe.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure touch targets are larger and easy to interact with on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary JavaScript to improve page load times.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more content with relevant keywords on the homepage for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Provide clearer navigation and easier access to important information like room availability.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking steps and reduce the number of fields to improve the booking experience.",
+    "tips": [
+        "Improve website accessibility for users with disabilities.",
+        "Enhance site security to provide better trust signals for users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for Radio Hotel, a boutique hotel in New York City."
+}

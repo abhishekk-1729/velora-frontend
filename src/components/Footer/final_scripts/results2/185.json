@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all text and images are optimized for mobile screens by reducing clutter and ensuring quick load times.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider optimizing image sizes and reducing the number of external scripts to improve load time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Implement more relevant keywords and meta descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by organizing content more clearly and reducing the number of clicks to find key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing form fields and steps for faster booking.",
+    "tips": [
+        "Improve website load time for better user retention.",
+        "Make contact information more accessible and visible on the site.",
+        "Enhance SEO by adding structured data and improving metadata."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Gleason's Motel."
+}

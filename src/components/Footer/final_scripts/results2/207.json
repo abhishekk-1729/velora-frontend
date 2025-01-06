@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-388-0900",
+        "+1 718-388-0940"
+    ],
+    "emails": [
+        "info@pointeplazahotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images and elements scale properly and avoid text overlapping on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for faster page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by including relevant meta descriptions, title tags, and proper header tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by simplifying the menu structure and making call-to-action buttons more prominent.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Add structured data (schema.org) to help search engines understand the content of the website.",
+        "Ensure the website is fully optimized for accessibility, including text contrast and keyboard navigation.",
+        "Add more local content to enhance relevance for nearby visitors and improve local SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Pointe Plaza Hotel and offers booking services."
+}

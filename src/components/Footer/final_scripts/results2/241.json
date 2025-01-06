@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-800-8888",
+        "+1 844-755-4739"
+    ],
+    "emails": [
+        "info@grayhotelchicago.com",
+        "reservations@grayhotelchicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for mobile to improve load times and ensure elements like buttons are easily clickable on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce large image sizes and implement lazy loading to improve page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more detailed meta descriptions and alt text for images to enhance SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure all interactive elements are easily accessible and intuitive for users.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding customer reviews or ratings to improve trust and engagement.",
+        "Integrate a live chat feature for instant support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases the Kimpton Gray Hotel and allows users to book rooms and explore hotel offerings."
+}

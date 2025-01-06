@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-279-5200",
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve image optimization and minimize text size on mobile to enhance readability and performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing image lazy loading and optimizing scripts to reduce initial load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Ensure that all pages have unique, descriptive meta tags and relevant keywords for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation consistency and add more clear calls-to-action on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding a guest login option to streamline the booking process for repeat visitors.",
+    "tips": [
+        "Consider updating outdated content and improving alt text for images to enhance accessibility and SEO.",
+        "Ensure all links are working and up to date to avoid broken link issues."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking rooms at Comfort Inn Brewster, New York."
+}

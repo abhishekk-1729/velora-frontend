@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(212) 545-8000",
+        "(855) 468-3501"
+    ],
+    "emails": [
+        "EvelynRes@triumphhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that text sizes and buttons scale well on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of external scripts to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content to increase visibility in search results.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance navigation consistency across different sections of the site.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps for quicker reservations.",
+    "tips": [
+        "Improve mobile responsiveness for better usability.",
+        "Optimize loading times to reduce bounce rate.",
+        "Enhance SEO with more keyword-focused content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases and offers bookings for The Evelyn Hotel in New York City."
+}

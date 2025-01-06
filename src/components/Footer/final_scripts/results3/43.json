@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-920-2020"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure touch targets are adequately sized and optimize navigation for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider optimizing image sizes and leveraging browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve on-page SEO by adding more relevant content and keyword optimization for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the clarity of the navigation menu for quicker access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking form more visible and accessible from the homepage for improved user engagement.",
+    "tips": [
+        "Consider adding more detailed local area information for guests.",
+        "Improve overall site performance for faster load times."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as a platform to book rooms and showcases amenities for Cassa Hotel located in Times Square, New York."
+}

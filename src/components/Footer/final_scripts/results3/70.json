@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "323-457-9231"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "live.ipms247.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure all interactive elements are easily clickable on mobile devices and reduce content clutter for better readability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and scripts to enhance loading times across devices.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta descriptions, title tags, and include more relevant keywords on the homepage for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Provide more intuitive navigation and simplify the booking process to reduce the number of clicks to find key information.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process to reduce steps and ensure it is fully integrated into the main website for a seamless experience.",
+    "tips": [
+        "Optimize site images and scripts for faster loading times.",
+        "Improve mobile responsiveness, especially for interactive elements.",
+        "Enhance SEO by improving meta tags and incorporating more relevant keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Bell Manor Motel, a budget-friendly motel in Bell, California."
+}

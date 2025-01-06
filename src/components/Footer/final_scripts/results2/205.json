@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-729-9777"
+    ],
+    "emails": [
+        "info@lifehotelnewyork.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and reduce elements that may slow down mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize the use of heavy scripts and optimize image sizes for faster loading.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more structured data and improve alt tags for images to enhance SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by consolidating information into fewer clicks.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and offering more visible calls-to-action.",
+    "tips": [
+        "Improve mobile responsiveness by optimizing images.",
+        "Increase loading speed by compressing media files.",
+        "Enhance SEO by focusing on structured data and improving image alt tags.",
+        "Streamline the booking flow for faster and more intuitive navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking and information for Life Hotel in New York City."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 908-355-0300",
+        "+1 800-227-6963"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and adjusting the layout for better readability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve page speed by compressing images and leveraging browser caching for faster loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and use structured data to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Offer clearer navigation and reduce clutter to make information easier to find.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Optimize the booking process by minimizing the number of steps required to complete the reservation.",
+    "tips": [
+        "Consider integrating a live chat feature for customer support.",
+        "Ensure the website is fully accessible for users with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking and information services for Crowne Plaza Newark Airport, an IHG Hotel."
+}

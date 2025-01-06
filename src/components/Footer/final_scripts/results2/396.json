@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-278-5444",
+        "+1 800-763-8467"
+    ],
+    "emails": [
+        "na"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and media for mobile to reduce load time and improve scrolling performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and implement lazy loading for non-critical assets to improve speed.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve content hierarchy and add more internal links to boost on-page SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and enhance search filters for quicker access to key content.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider implementing a chatbot for faster customer service responses.",
+        "Ensure the website is accessible and user-friendly for all visitors, including those with disabilities."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a booking platform for Sofitel Los Angeles at Beverly Hills, providing details about the hotel and facilitating direct bookings."
+}

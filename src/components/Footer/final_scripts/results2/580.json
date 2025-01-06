@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-656-1234",
+        "+1 888-421-1442"
+    ],
+    "emails": [
+        "reservations@andazwesthollywood.com",
+        "concierge@andazwesthollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure touch elements have larger tap targets and that there is less vertical scrolling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and use lazy loading for faster page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance the use of header tags (H1, H2) for better content structure and SEO rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make content more accessible for quicker discovery of key offerings.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the checkout process by reducing the number of required fields for easier booking.",
+    "tips": [
+        "Optimize for speed and mobile responsiveness.",
+        "Use more structured data for SEO improvement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about booking a stay at Andaz West Hollywood, a luxury hotel by Hyatt."
+}

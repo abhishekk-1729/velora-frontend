@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [
+        "info@ambitiouscoliving.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Co-living spaces",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all text and images resize correctly on smaller screens, particularly the homepage's large images and buttons.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary scripts to enhance page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more descriptive meta tags and incorporating relevant keywords throughout the content.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add clearer navigation paths for users to easily find key information about available spaces and services.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and adding progress indicators for a smoother experience.",
+    "tips": [
+        "Consider integrating a live chat feature for immediate user queries.",
+        "Provide clearer information about the amenities and spaces directly on the homepage."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers co-living spaces with flexible booking and community-focused living experiences."
+}

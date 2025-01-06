@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-823-8585"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and text for faster loading on mobile devices, particularly on slower connections.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary scripts to improve loading times, especially for mobile users.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve internal linking and add more relevant keywords in content for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all buttons and links are clearly visible and accessible across all devices, with no unnecessary clicks to find important information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of required steps and providing clearer options for booking dates and room types.",
+    "tips": [
+        "Improve mobile responsiveness for faster and smoother user experience.",
+        "Optimize images and scripts to reduce loading times.",
+        "Enhance the booking flow to minimize friction for users looking to book directly from the site."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hotel MdR Marina del Rey, offering booking options for guests to reserve rooms directly."
+}

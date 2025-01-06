@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-732-8711",
+        "+1 800-457-9253"
+    ],
+    "emails": [
+        "reservations@rodewayinnlosangeles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and reducing the number of elements to improve load times on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement image compression and use lazy loading for non-critical assets to reduce load times.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve meta descriptions, include more relevant keywords, and optimize image alt text for better SEO performance.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by ensuring key content is always visible on the screen without excessive scrolling.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of fields and ensuring that it's mobile-friendly.",
+    "tips": [
+        "Optimize the website's performance for mobile users.",
+        "Focus on enhancing SEO by improving meta tags and keywords.",
+        "Make the booking process as seamless and intuitive as possible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking and information for Rodeway Inn Convention Center in Los Angeles."
+}

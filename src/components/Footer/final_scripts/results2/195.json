@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Ensure the site adapts better to smaller screen sizes and optimize touch interactions for mobile users.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Reduce the number of large images or unoptimized assets that delay page loading. Consider lazy loading for images.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by optimizing title tags, meta descriptions, and using proper header tags for better search engine ranking.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify navigation and improve site layout to make information easier to find and interact with.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking process more intuitive by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve site mobile responsiveness.",
+        "Speed up page loading.",
+        "Enhance SEO strategies.",
+        "Simplify the booking flow."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Courtyard Motel and offers direct booking options for guests."
+}

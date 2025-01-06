@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-646-248-1890",
+        "1-646-496-5268"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize layout and navigation for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and use a Content Delivery Network (CDN).",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Include meta descriptions and optimize keywords for search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the visual hierarchy for easier navigation.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Provide an email address for direct contact.",
+        "Improve mobile site responsiveness.",
+        "Add online booking functionality within the website domain."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about room types and accommodations at The International Cozy Inn, with options for bookings."
+}

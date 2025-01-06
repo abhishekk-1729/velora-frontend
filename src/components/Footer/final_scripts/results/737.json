@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "607-243-7883"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "vacasa.com",
+    "category": "others",
+    "ifOthersThenWhat": "Farmhouse accommodation at a winery",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by ensuring larger touch targets for navigation buttons.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage caching to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance SEO by adding more targeted keywords to the content and meta tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider adding more interactive elements to the page for engagement.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking flow by providing clearer steps and progress indicators.",
+    "tips": [
+        "Add a contact email for easier customer communication.",
+        "Improve the overall SEO strategy for better visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes a farmhouse accommodation at Fulkerson Winery on Seneca Lake."
+}

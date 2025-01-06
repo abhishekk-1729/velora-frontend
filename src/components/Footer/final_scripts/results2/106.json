@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-933-1221"
+    ],
+    "emails": [
+        "info@centuryparkla.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that all images scale properly and that buttons are not too close together for easier navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use lazy loading to improve page load time, especially for mobile users.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve title tags, meta descriptions, and header structure to enhance visibility in search engines.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation and reduce the number of clicks needed to access key information like room availability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure that the booking form is easily accessible and provides clear feedback during the booking process.",
+    "tips": [
+        "Focus on image optimization and reducing unnecessary scripts to speed up the website.",
+        "Ensure all on-site booking is secure and offers easy cancellation policies."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Century Park Hotel and allows users to book rooms directly."
+}

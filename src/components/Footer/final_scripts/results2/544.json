@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 732-661-9700"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and reducing the number of large elements that may slow down mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and reduce the number of HTTP requests to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords in meta descriptions and headings, and ensure alt text for all images.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and make the booking button more prominent on the homepage.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider adding a clear FAQ section to assist visitors with common inquiries.",
+        "Improve the accessibility by adding text-to-speech options or screen reader support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates booking for Extended Stay America hotel in Edison, New Jersey."
+}

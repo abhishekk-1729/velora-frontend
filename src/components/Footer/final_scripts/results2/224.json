@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing image sizes and layout elements for better mobile compatibility.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement caching strategies and compress images to speed up loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords and optimize meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation clarity and include a more prominent call-to-action button.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking form to reduce the number of steps and make it more intuitive.",
+    "tips": [
+        "Improve mobile responsiveness for smoother browsing.",
+        "Enhance SEO with better keyword usage.",
+        "Optimize site speed with image compression and caching."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about booking rooms at 31 Street Broadway Hotel."
+}

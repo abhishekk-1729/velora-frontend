@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 347-752-4172",
+        "+1 4172810807"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider improving the responsiveness of the mobile site for better navigation across different devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minimize scripts to enhance loading times, especially on mobile.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding relevant meta tags and optimizing for local search keywords.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Add more interactive elements or a smoother navigation experience to further enhance user engagement.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking form by reducing the number of steps required for completing a reservation.",
+    "tips": [
+        "Consider integrating more visible contact information on the homepage for user convenience.",
+        "Include user reviews or testimonials to build trust and improve conversion rates."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking services for Kings Inn by OYO, offering room reservations and hotel amenities in Calumet Park, IL."
+}

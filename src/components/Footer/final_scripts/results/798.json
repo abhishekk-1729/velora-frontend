@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(607) 546-4066"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "secure.thinkreservations.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing the mobile layout by reducing the need for zooming and ensuring all buttons are easy to tap on smaller screens.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Compress images and use caching to improve load times on mobile networks.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve page titles and meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all images are properly tagged with alt text for better accessibility.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize image sizes for faster loading.",
+        "Improve accessibility with text descriptions for images."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases The Lodge at Grist Iron Brewing Co., providing a venue for lodging with brewery experiences."
+}

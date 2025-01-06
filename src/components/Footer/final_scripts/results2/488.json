@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212-475-5700"
+    ],
+    "emails": [
+        "info@standardhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images for mobile to reduce loading times and improve overall performance on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and defer non-essential scripts to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and include more localized keywords to enhance search visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Enhance the navigation menu by adding more prominent calls to action for better user guidance.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields and making the steps more intuitive.",
+    "tips": [
+        "Improve mobile image optimization.",
+        "Reduce page load time with lazy loading.",
+        "Enhance SEO with more localized content."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases The Standard East Village hotel with booking functionality."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310 645 0400",
+        "888 435 5070"
+    ],
+    "emails": [
+        "info@thehoteljune.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure all images scale correctly for smaller screens and text doesn't overflow in portrait view.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage caching for faster page loads.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, title tags, and content relevance for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure smoother transitions between pages to enhance overall interactivity.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required form fields.",
+    "tips": [
+        "Consider adding more customer reviews to enhance trust.",
+        "Ensure the website has proper structured data for enhanced SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases Hotel June, a boutique hotel in West Los Angeles offering stylish accommodations and dining experiences."
+}

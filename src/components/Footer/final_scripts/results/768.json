@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "424 321 7000"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and layout for faster mobile performance.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize heavy images and scripts to improve page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Incorporate more targeted keywords and meta descriptions on pages.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all content is accessible and provide clearer call-to-action buttons.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Optimize the booking form for quicker input and easy navigation.",
+    "tips": [
+        "Improve mobile performance and load speed for better engagement.",
+        "Optimize SEO for better discoverability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Palihotel Culver City, a boutique hotel offering a stylish stay with restaurant and bar amenities."
+}

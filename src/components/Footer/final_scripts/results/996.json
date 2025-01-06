@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 617-300-0956"
+    ],
+    "emails": [
+        "team@sonder.com",
+        "sales@sonder.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure faster mobile navigation by optimizing image loading and compressing assets.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Consider reducing the number of HTTP requests by combining JavaScript and CSS files.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve page titles and meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add more interactive elements like maps or personalized suggestions for guests.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Optimize images for faster loading on mobile.",
+        "Improve SEO by refining meta tags and keyword integration."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers stylish, tech-savvy hotel accommodations and booking in Chicago."
+}

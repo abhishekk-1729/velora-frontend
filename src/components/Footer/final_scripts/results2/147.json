@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure elements resize correctly on smaller screens and navigation is more intuitive for mobile users.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and reduce unnecessary scripts to improve page loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve the use of meta tags, alt text for images, and integrate schema markup to enhance SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure that important content is more easily accessible without excessive scrolling.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required and improving visual cues.",
+    "tips": [
+        "Optimize images for faster loading.",
+        "Ensure the website is fully mobile-friendly.",
+        "Improve on-page SEO with more structured content.",
+        "Reduce unnecessary pop-ups to enhance user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to make hotel reservations for The Rumi through a booking platform."
+}

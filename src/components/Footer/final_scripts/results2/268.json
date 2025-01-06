@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(773) 288-5800",
+        "(773) 288-5700"
+    ],
+    "emails": [
+        "info@chicagolakeshorehotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive design for better mobile viewing.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and minify JavaScript to improve loading times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keywords, alt text for images, and optimizing meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation with clearer calls-to-action and less cluttered content.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary form fields and steps.",
+    "tips": [
+        "Improve mobile responsiveness by ensuring the site adapts smoothly on different screen sizes.",
+        "Optimize page speed by implementing caching and reducing the number of HTTP requests.",
+        "Enhance SEO by improving on-page content and keyword targeting."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is the official site for Chicago Lake Shore Hotel, offering information and booking services."
+}

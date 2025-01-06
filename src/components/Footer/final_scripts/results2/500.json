@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-850-9898"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve font readability and button size on mobile devices to enhance touch usability.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich content and meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Consider simplifying the navigation for quicker access to key pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and providing clearer calls to action.",
+    "tips": [
+        "Enhance mobile responsiveness by improving touch-target sizes and ensuring smooth navigation on smaller screens.",
+        "Improve loading speed by optimizing media files and utilizing a content delivery network (CDN).",
+        "Focus on enhancing SEO by including more relevant keywords and ensuring metadata is optimized.",
+        "Simplify user experience by reducing unnecessary pop-ups and ensuring intuitive site navigation.",
+        "Enhance booking flow by providing clear next steps and minimizing form fields."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for extended stay accommodations at InTown Suites in Elk Grove Village, IL."
+}

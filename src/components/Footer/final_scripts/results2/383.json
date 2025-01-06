@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-645-4646",
+        "+1 877-718-4544"
+    ],
+    "emails": [
+        "highline@standardhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure buttons and forms are more touch-friendly and adjust for various screen sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and implement lazy loading to improve load times on mobile.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more optimized content, such as keyword-rich meta descriptions and alt tags for images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve site navigation by reducing clutter on the homepage for a cleaner layout.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by minimizing the number of steps and enhancing form usability.",
+    "tips": [
+        "Consider reducing the overall page load time by compressing assets.",
+        "Improve mobile form interactions to enhance user experience on smaller screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and facilitates bookings for The Standard Hotel in New York, showcasing its amenities and rooms."
+}

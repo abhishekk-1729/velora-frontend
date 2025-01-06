@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-201-1630",
+        "+1 866-478-8666"
+    ],
+    "emails": [
+        "reservations@clubquarters.com",
+        "support@clubquarters.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and minimize pop-ups for smoother mobile navigation.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the size of high-resolution images and implement lazy loading.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Improve on-page content by adding more keyword-focused text, especially in headings.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Simplify the navigation menu to make key pages more accessible with fewer clicks.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps or form fields.",
+    "tips": [
+        "Improve site speed by compressing images and utilizing browser caching.",
+        "Ensure all contact information is up-to-date and easily accessible.",
+        "Consider implementing a live chat feature to enhance customer service responsiveness."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking services for Club Quarters Hotel in Times Square, New York."
+}

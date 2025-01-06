@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (212) 676-3500",
+        "+1 (212) 676-3501"
+    ],
+    "emails": [
+        "info@stayaka.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Optimize images for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of large images and use lazy loading for non-critical resources.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and include more relevant keywords on pages.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure that all interactive elements are easily tappable on mobile devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required for booking.",
+    "tips": [
+        "Improve image optimization for faster loading times.",
+        "Consider adding more customer reviews to enhance trustworthiness.",
+        "Use more structured data (e.g., schema.org) for better SEO."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Hotel AKA NoMad and allows users to book rooms directly."
+}

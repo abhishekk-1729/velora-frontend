@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-310-823-0876",
+        "1-800-424-6423"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for faster load times and adjust layout elements for better accessibility on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce the number of large images or use image compression tools to decrease page load time.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Ensure all images have alt text and optimize meta descriptions for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Make navigation more intuitive by simplifying menu options and adding clear call-to-action buttons.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking form is visible without scrolling and offers easy, step-by-step guidance.",
+    "tips": [
+        "Improve mobile responsiveness for smoother navigation.",
+        "Optimize page speed to reduce bounce rate.",
+        "Enhance SEO to improve search engine rankings."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers motel bookings near Venice Beach, providing accommodation details and contact information."
+}

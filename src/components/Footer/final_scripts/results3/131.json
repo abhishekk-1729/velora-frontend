@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-840-3080",
+        "+1 800-225-6336"
+    ],
+    "emails": [
+        "info@iroquoisny.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Improve mobile navigation by making interactive elements more touch-friendly and ensuring content scales correctly across all screen sizes.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and reduce the number of HTTP requests to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Ensure all pages have unique and descriptive meta titles and descriptions to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance the clarity of call-to-action buttons and reduce clutter on the homepage to improve user navigation.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Ensure the booking process has a clear progress bar and provide more visible options for modifying bookings.",
+    "tips": [
+        "Ensure consistent branding across all pages.",
+        "Add more internal links to relevant hotel services to improve navigation.",
+        "Increase mobile optimization for forms and interactive features."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about The Iroquois New York hotel and facilitates bookings."
+}

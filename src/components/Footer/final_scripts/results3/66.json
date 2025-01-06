@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "212.925.3600"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "reservations.travelclick.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile navigation by making menu options more accessible and adjusting image sizes for quicker loading.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and utilize lazy loading to reduce load time, especially on mobile.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Enhance on-page SEO by including more keyword-rich content and optimizing meta descriptions and alt tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve site navigation by providing clearer call-to-action buttons and enhancing accessibility features.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking flow by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Improve mobile experience for smoother navigation on small screens.",
+        "Enhance website loading speed with image compression.",
+        "Improve SEO by focusing on long-tail keywords for better visibility.",
+        "Simplify booking process for faster reservations."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Solita Soho Hotel in New York and facilitates hotel bookings."
+}

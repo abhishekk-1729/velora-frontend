@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-467-4400"
+    ],
+    "emails": [
+        "info@eurostarshotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images scale appropriately and avoid large pop-ups that hinder navigation on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage caching strategies to reduce loading times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword usage in headings and meta tags to better target your audience.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all calls-to-action (CTAs) are clearly visible and easily accessible across devices.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of required fields and offering guest checkout options.",
+    "tips": [
+        "Consider adding a clearer site navigation for quicker access to key information.",
+        "Improve mobile loading speed to prevent potential bounce rates from mobile users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information and booking options for Eurostars Magnificent Mile, a hotel in Chicago."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (213) 327-1800"
+    ],
+    "emails": [
+        "info@stayinglevel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and ensure fast load times to enhance performance on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider implementing image compression and lazy loading for better page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve metadata, including alt text for images, and optimize heading structure for better SEO.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistency in navigation and improve CTA button visibility for a smoother experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Make the booking process even more intuitive by reducing the number of steps or required fields.",
+    "tips": [
+        "Improve mobile responsiveness by optimizing large images.",
+        "Enhance SEO by adding more local content and keywords related to Downtown Los Angeles."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers accommodation options and booking for Level Los Angeles - Downtown South Olive."
+}

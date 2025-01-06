@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that all interactive elements (e.g., buttons, forms) are easily tappable on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to reduce loading time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve meta tags, header tags, and alt text for better search engine indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing excessive pop-ups and focusing on key information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Provide clearer instructions and progress indicators during the booking process.",
+    "tips": [
+        "Improve page load speed by reducing unnecessary JavaScript and CSS.",
+        "Ensure contact information is easily accessible on the site.",
+        "Use structured data to enhance SEO visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for Hyatt Grand Hotel in Chicago, providing hotel information and online booking options."
+}

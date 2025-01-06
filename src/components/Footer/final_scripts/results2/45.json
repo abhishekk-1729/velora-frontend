@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile layout by ensuring content fits without horizontal scrolling and optimizing image sizes for faster loading.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize images, use browser caching, and minimize HTTP requests to reduce load times.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Ensure all pages have unique meta tags (title, description) and optimize content for relevant keywords.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity and make sure important information is easily accessible with fewer clicks.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing clear visual cues for users.",
+    "tips": [
+        "Consider adding a contact number and email address to improve customer service accessibility.",
+        "Add more SEO-friendly content to boost organic traffic."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a hotel booking platform offering rooms at the Royal Inn."
+}

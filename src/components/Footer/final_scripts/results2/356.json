@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-800-555-1234",
+        "+1-800-555-5678"
+    ],
+    "emails": [
+        "info@acmehotelcompany.com",
+        "reservations@acmehotelcompany.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images for mobile devices to improve loading times and user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider reducing the size of large images and scripts to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Implement structured data (schema markup) to improve search engine visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure all interactive elements are clearly visible and accessible on smaller screens.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required for a reservation.",
+    "tips": [
+        "Consider adding more visible calls-to-action on the homepage.",
+        "Ensure that the site is fully accessible by following WCAG guidelines.",
+        "Improve content readability with better font contrast."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about ACME Hotel and allows users to book rooms online."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and ensuring the website adapts better across all device sizes.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Optimize the website by compressing images, minifying CSS/JS, and utilizing browser caching to improve load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Enhance SEO by adding relevant keywords, improving metadata, and ensuring proper use of header tags.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Streamline navigation by simplifying the menu and providing clearer call-to-action buttons for better usability.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Make the booking flow more intuitive by reducing the number of steps and ensuring a smooth transition between pages.",
+    "tips": [
+        "Consider updating the website design for a more modern look and feel.",
+        "Ensure the contact information is easily accessible on all pages.",
+        "Add a clear privacy policy and terms of service link at the footer."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Best Inn Montebello."
+}

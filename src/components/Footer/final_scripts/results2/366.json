@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Facebook page",
+    "mobileResponsivenessOutOf10": 1,
+    "mobileResponsivenessTip": "Ensure the page is optimized for mobile by using a responsive layout or a dedicated mobile app.",
+    "loadingSpeedOutOf10": 1,
+    "loadingSpeedTip": "Optimize images and reduce page scripts to improve loading speed.",
+    "seoOptimizationOutOf10": 1,
+    "seoOptimizationTip": "Improve SEO by adding proper meta tags, descriptions, and relevant keywords to increase search engine visibility.",
+    "userExperienceOutOf10": 2,
+    "userExperienceTip": "Streamline the design and navigation to ensure users can easily access information.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider creating a dedicated website for better user experience and SEO.",
+        "Use an official booking system for smoother customer transactions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is a Facebook page, likely not offering direct hotel information or booking capabilities."
+}

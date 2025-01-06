@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(315) 712-4000"
+    ],
+    "emails": [
+        "info@thegouldhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "res.windsurfercrs.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize touch target sizes and improve layout scalability for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize the use of large image files and leverage browser caching.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Enhance meta descriptions and ensure consistent use of header tags.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Add a search bar to improve navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Integrate the booking system directly into the website to eliminate redirection.",
+    "tips": [
+        "Improve website loading speed by enabling gzip compression.",
+        "Integrate an onsite booking platform to streamline the process.",
+        "Enhance mobile navigation by reducing menu complexity."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website serves as an elegant platform for showcasing hotel amenities, booking options, and local attractions."
+}

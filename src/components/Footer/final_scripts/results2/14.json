@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 818-843-5400"
+    ],
+    "emails": [
+        "info@glencapri.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure buttons and links are larger for easier tapping on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading for better performance.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Use more targeted keywords in headings and meta descriptions to improve search ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Improve navigation by adding more visual hierarchy to enhance user interaction.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Consider adding guest reviews or ratings to the booking page to improve confidence.",
+    "tips": [
+        "Consider integrating more interactive elements like a room configurator or virtual tour."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for Glen Capri Burbank Universal hotel."
+}

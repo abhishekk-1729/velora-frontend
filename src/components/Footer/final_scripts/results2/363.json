@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Consider optimizing images for mobile to reduce load times and enhance performance.",
+    "loadingSpeedOutOf10": 8,
+    "loadingSpeedTip": "Minimize large JavaScript and CSS files to improve page load speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Improve on-page SEO elements like meta descriptions, alt text for images, and structured data for better indexing.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the site even more accessible by including more clear call-to-action buttons for better navigation.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing unnecessary steps or making the calendar selection more intuitive.",
+    "tips": [
+        "Consider adding a live chat feature for quick customer service.",
+        "Ensure consistent mobile optimization across all device types."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a boutique hotel experience with easy booking and hotel information."
+}

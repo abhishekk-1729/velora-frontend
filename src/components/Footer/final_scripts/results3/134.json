@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 802-229-2383"
+    ],
+    "emails": [
+        "info@idlwildeinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure the booking widget and key information are easily accessible and legible on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and reduce unnecessary scripts to improve page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add alt text to images, use proper header tags, and ensure meta descriptions are unique for each page.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying navigation and making the booking process more intuitive with fewer steps.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of required fields and steps before confirmation.",
+    "tips": [
+        "Consider adding a live chat feature to enhance customer support.",
+        "Improve mobile menu layout to make navigation smoother on smaller screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about and allows booking for the Idlwilde Inn in Vermont."
+}

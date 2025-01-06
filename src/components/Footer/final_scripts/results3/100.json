@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": "NA",
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "NA",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": "NA",
+    "mobileResponsivenessTip": "NA",
+    "loadingSpeedOutOf10": "NA",
+    "loadingSpeedTip": "NA",
+    "seoOptimizationOutOf10": "NA",
+    "seoOptimizationTip": "NA",
+    "userExperienceOutOf10": "NA",
+    "userExperienceTip": "NA",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Ensure the website is accessible to users by resolving verification issues.",
+        "Conduct usability testing to ensure core features work smoothly."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website currently has a verification barrier preventing evaluation."
+}

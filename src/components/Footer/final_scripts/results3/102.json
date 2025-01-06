@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-786-7869"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "kayak.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve mobile navigation by optimizing the header and footer for smaller screens, and reducing text overlap.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and implement lazy loading for faster initial load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase keyword usage in meta tags, headings, and content to improve search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance user experience by adding clearer call-to-action buttons and improving the booking section layout.",
+    "bookingFlowOutOf10": 6,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and integrating a more intuitive form.",
+    "tips": [
+        "Improve site loading speed by compressing images and optimizing JavaScript.",
+        "Ensure a clear contact section with easily accessible emails and phone numbers."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Feather Factory Hotel in Long Island City, Queens."
+}

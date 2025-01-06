@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "310-677-1088"
+    ],
+    "emails": [
+        "dockweiler@parks.lacounty.gov"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "RV Park",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize image sizes and ensure buttons are larger for easier interaction on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Consider implementing lazy loading for images and reducing the number of heavy scripts to improve speed.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add more relevant keywords to titles and meta descriptions, and improve heading structure for better indexing.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing the number of steps needed to find key information like park features or reservations.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Ensure consistency in design elements across all pages for a cohesive look.",
+        "Provide clearer calls-to-action for key services or features."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and resources for booking and visiting Dockweiler RV Park."
+}

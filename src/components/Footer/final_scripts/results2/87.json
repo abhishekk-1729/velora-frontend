@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "845-657-0400",
+        "877-657-0400"
+    ],
+    "emails": [
+        "info@deermountaininn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Improve the mobile experience by optimizing images and layout for faster load times and better readability on smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and enable lazy loading to improve overall page loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more internal linking and ensure that title tags and meta descriptions are optimized for relevant keywords.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Streamline the navigation menu and ensure that important information like location and amenities is easy to find.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Improve the booking flow by simplifying the form fields and making the booking button more prominent.",
+    "tips": [
+        "Improve image loading times by using compressed formats.",
+        "Ensure all key pages have unique, optimized title tags and meta descriptions.",
+        "Simplify the user interface for a smoother browsing experience on mobile devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases Deer Mountain Inn, a charming hotel offering accommodations in the Catskills."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 847-671-7600",
+        "+1 847-671-4600"
+    ],
+    "emails": [
+        "info@ohareinnsuites.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Consider optimizing images and elements for smaller screens to improve mobile performance.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Minimize image sizes and use caching to reduce page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content and optimizing meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance navigation by adding a clearer menu structure and ensuring quick access to key pages.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and making the form more intuitive.",
+    "tips": [
+        "Ensure all images are optimized for faster load times.",
+        "Add more content to improve SEO ranking, including location-based keywords."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about O'Hare Inn and Suites and offers online booking services."
+}

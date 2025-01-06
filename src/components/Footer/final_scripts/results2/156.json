@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (323) 848-6000",
+        "+1 (800) 273-7677"
+    ],
+    "emails": [
+        "info@westinnhollywood.com",
+        "reservations@westinnhollywood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and reduce large files to improve load time and responsiveness on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Implement lazy loading for images and asynchronous loading for scripts to improve page load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add more keyword-rich content on key pages like the homepage and the booking page for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Streamline the navigation menu and ensure key sections are accessible with fewer clicks.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Simplify the booking form and reduce the number of steps in the reservation process for a smoother user experience.",
+    "tips": [
+        "Ensure that the mobile experience mirrors the desktop experience in terms of content availability and visual appeal.",
+        "Improve page speed by minimizing HTTP requests and combining CSS/JS files where possible."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Hotel West Inn Hollywood and facilitates direct bookings."
+}

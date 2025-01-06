@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-561-5500"
+    ],
+    "emails": [
+        "info@jaslinhotel.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure that text and images are properly scaled on mobile devices for a smoother experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and scripts to improve load time, especially on mobile networks.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more keyword-rich content and meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider adding more interactive elements like virtual tours or reviews to enhance user engagement.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete a reservation.",
+    "tips": [
+        "Optimize website images for faster loading",
+        "Ensure all links are mobile-friendly",
+        "Add more SEO-focused content on the homepage"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the Jaslin Hotel, providing booking information and contact details."
+}

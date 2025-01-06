@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "info@podlifeusa.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "booking.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Improve layout scalability for smaller screens, especially for buttons and images, which are currently not fully responsive.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Optimize image sizes and minimize HTTP requests to speed up load time on mobile devices.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more structured data and optimize meta descriptions for all pages to improve search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation by reducing clutter and making key information more easily accessible.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Integrate an inline booking form to reduce friction and allow users to book without redirecting to an external site.",
+    "tips": [
+        "Enhance mobile responsiveness to ensure seamless browsing experience.",
+        "Optimize website images and code to improve loading speed.",
+        "Improve SEO by enhancing content and meta tags.",
+        "Simplify the booking process by reducing reliance on third-party services."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for a pod hotel with a focus on affordable and minimalist accommodations."
+}

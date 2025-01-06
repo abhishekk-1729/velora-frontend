@@ -1,0 +1,28 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 4,
+    "mobileResponsivenessTip": "Optimize images and design for mobile screens to enhance responsiveness.",
+    "loadingSpeedOutOf10": 3,
+    "loadingSpeedTip": "Compress large files and minimize unnecessary scripts to improve load times.",
+    "seoOptimizationOutOf10": 2,
+    "seoOptimizationTip": "Implement proper meta tags, keywords, and a structured URL format to improve search rankings.",
+    "userExperienceOutOf10": 5,
+    "userExperienceTip": "Improve navigation and provide clearer calls to action to enhance user experience.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Improve mobile design and functionality.",
+        "Increase website speed by optimizing assets.",
+        "Improve SEO practices to rank higher in search engines.",
+        "Enhance user interface for better usability."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Little Caesars Motel, but lacks booking functionality and suffers from performance issues."
+}

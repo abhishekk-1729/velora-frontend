@@ -1,0 +1,33 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-324-4000",
+        "+1 312-324-4020"
+    ],
+    "emails": [
+        "info@sofitelchicago.com",
+        "reservations@sofitelchicago.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing image sizes and reducing unnecessary elements on the mobile version.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress images and leverage browser caching to enhance loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Optimize meta descriptions, alt tags for images, and improve internal linking structure for better SEO performance.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Ensure consistent navigation options across all pages and enhance the visibility of key actions, such as booking and contact options.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of required fields and adding a progress indicator during booking.",
+    "tips": [
+        "Ensure that all images are compressed and optimized for faster loading times.",
+        "Consider adding a chat feature to assist visitors with quick answers to their queries.",
+        "Improve SEO through better keyword targeting and on-page optimization."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers detailed information about Sofitel Chicago Magnificent Mile with booking capabilities for accommodations."
+}

@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-357-1200"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that all interactive elements are touch-friendly and optimized for smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and leverage browser caching to improve load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve use of meta descriptions and alt text for images to enhance SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility features like font size adjustments and contrast settings for better usability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Simplify the booking form by reducing unnecessary fields to enhance user ease.",
+    "tips": [
+        "Improve loading speed by optimizing media files and using asynchronous scripts.",
+        "Consider adding a live chat feature for better customer support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides online booking and information for LondonHouse Chicago, Curio Collection by Hilton."
+}

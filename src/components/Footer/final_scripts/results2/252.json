@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (310) 674-3444",
+        "+1 (310) 674-0100"
+    ],
+    "emails": [
+        "info@hollycrestinglewood.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by optimizing images and reducing large assets that slow down loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce page load time by compressing images and leveraging browser caching.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Ensure all images have proper alt text and optimize meta tags for better search engine ranking.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation flow and readability by simplifying the menu structure and reducing clutter on key pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Enhance the booking flow by providing more visible call-to-action buttons and offering a clearer room selection process.",
+    "tips": [
+        "Ensure all contact information is easily accessible across all pages.",
+        "Improve mobile site load speed to prevent user frustration.",
+        "Consider adding more personalized content on the homepage for better engagement."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about the Holly Crest Hotel and facilitates online bookings."
+}

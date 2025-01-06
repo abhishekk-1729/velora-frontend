@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-649-1010"
+    ],
+    "emails": [
+        "info@losangelesinnlax.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and elements for quicker load times and improved mobile experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching to improve page load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve keyword targeting in headings and meta descriptions to increase search visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and reduce clutter to enhance user flow.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Make the booking process more intuitive by providing clear steps and fewer fields to fill.",
+    "tips": [
+        "Improve page speed for better mobile and desktop performance.",
+        "Focus on SEO by adding more location-based keywords to attract more organic traffic.",
+        "Enhance booking flow with easier navigation and clearer calls to action."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers hotel booking and information for Los Angeles Inn & Suites near LAX."
+}

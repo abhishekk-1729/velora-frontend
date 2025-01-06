@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-708-728-0160",
+        "+1-800-446-4656"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that images and buttons scale appropriately on smaller devices and improve touch responsiveness for ease of use.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and minify JavaScript and CSS files to reduce loading time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta descriptions, alt text for images, and integrate structured data for better SEO ranking.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Enhance accessibility features like text size options and better contrast for readability.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "",
+    "tips": [
+        "Consider implementing a chatbot for customer support.",
+        "Add more high-quality photos to better showcase hotel amenities and rooms."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes and allows booking at Sleep Inn Midway Airport hotel."
+}

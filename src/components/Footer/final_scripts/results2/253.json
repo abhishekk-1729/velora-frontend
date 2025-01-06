@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-877-2080"
+    ],
+    "emails": [
+        "info@santafeinnlosangeles.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "expedia.com",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 6,
+    "mobileResponsivenessTip": "Optimize images and streamline CSS for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 5,
+    "loadingSpeedTip": "Compress images and enable browser caching to improve page load speed.",
+    "seoOptimizationOutOf10": 7,
+    "seoOptimizationTip": "Add more relevant keywords and optimize meta descriptions for better visibility on search engines.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify the navigation and ensure all content is easily accessible on all devices.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Integrate a clearer booking process with fewer steps to encourage conversions.",
+    "tips": [
+        "Improve mobile responsiveness to enhance user experience on smaller screens.",
+        "Focus on speeding up page load times to decrease bounce rates.",
+        "Work on enhancing SEO with better keyword targeting and meta tags."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking services for the Santa Fe Inn in Los Angeles."
+}

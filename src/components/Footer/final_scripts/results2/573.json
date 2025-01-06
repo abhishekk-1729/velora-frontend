@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1-914-241-2600"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that images and videos are optimized for mobile to improve loading speed and user experience.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Compress large images and use lazy loading to improve page loading speed.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve metadata with better-targeted keywords for local SEO and add structured data markup for better visibility.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve clarity in navigation and ensure CTAs are prominent and easy to access.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps required to complete the reservation.",
+    "tips": [
+        "Optimize images for faster loading times.",
+        "Improve mobile navigation for ease of access.",
+        "Enhance structured data for better search engine visibility."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information and booking options for Hotel MTK Mount Kisco, a Hilton property."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 212-563-1800"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and enable caching for quicker page loads.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta tags and use descriptive alt text for images to boost SEO.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu for easier access to key information.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Reduce the number of steps in the booking process to streamline the user experience.",
+    "tips": [
+        "Ensure that all images are optimized for mobile and desktop devices.",
+        "Add social proof such as guest reviews or ratings to improve trust.",
+        "Offer a clearer call-to-action on the homepage to drive more conversions."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website showcases a hotel offering accommodations in the Hudson Yards area of New York City, with booking options directly on the site."
+}

@@ -1,0 +1,29 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "(888) 393-5916",
+        "(312) 960-8500"
+    ],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and scripts for faster loading on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce the number of high-resolution images and large files on the homepage.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Ensure meta descriptions and title tags are fully optimized for key search terms.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve content hierarchy for easier navigation on all pages.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Make the booking button more prominent and easily accessible across the site.",
+    "tips": [
+        "Improve mobile site speed and performance.",
+        "Enhance SEO with more structured data."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes the L7 Chicago hotel by Lotte, offering booking and hotel services for travelers."
+}

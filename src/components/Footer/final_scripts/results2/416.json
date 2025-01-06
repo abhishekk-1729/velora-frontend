@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (212) 401-9660"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that interactive elements like buttons and forms are more touch-friendly and accessible on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and consider implementing lazy loading to improve page speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve the meta tags, header tags, and add schema markup to enhance SEO visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Consider simplifying the navigation for faster access to key sections like booking or contact information.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Add clearer progress indicators during the booking process to improve user clarity and reduce abandonment.",
+    "tips": [
+        "Optimize the website's accessibility features for users with disabilities.",
+        "Ensure the site is compatible with all modern browsers and devices."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes Placemakr Wall Street as a short-term stay hotel offering flexible booking options."
+}

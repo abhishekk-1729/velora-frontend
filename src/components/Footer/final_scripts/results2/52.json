@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-641-2000",
+        "+1 310-641-2111"
+    ],
+    "emails": [
+        "info@laxstadiuminn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure that text and buttons are fully legible without zooming on smaller screens by optimizing font sizes and scaling elements accordingly.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Consider compressing image files and utilizing browser caching to improve page load times, especially on mobile networks.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add more relevant keywords in your page titles, meta descriptions, and alt tags to improve search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing the number of clicks needed to find key information such as room rates and amenities.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider adding a progress bar to indicate the steps in the booking process to make users feel more informed and comfortable.",
+    "tips": [
+        "Ensure the site is fully optimized for mobile users by testing it on a variety of devices and screen sizes.",
+        "Implement structured data (schema markup) to help search engines understand your content and enhance visibility.",
+        "Improve image compression and utilize lazy loading to reduce page load times, especially for users with slower internet connections."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides booking information and services for the LAX Stadium Inn located near the airport in El Segundo/Inglewood."
+}

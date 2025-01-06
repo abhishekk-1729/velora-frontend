@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (847) 298-0100",
+        "+1 (800) 780-7234"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure buttons and text are optimized for mobile to improve ease of navigation on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and optimize JavaScript to improve page load time, especially on mobile networks.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Add more unique, keyword-rich content in the main pages to enhance search engine rankings.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify the navigation menu to reduce user decision fatigue, especially for first-time visitors.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of required fields and offering more visible incentives for booking.",
+    "tips": [
+        "Consider adding live chat support to assist users in real time.",
+        "Ensure all images are high quality and relevant to the offerings of the hotel."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to view and book rooms at the Best Western Plus O'Hare International South Hotel."
+}

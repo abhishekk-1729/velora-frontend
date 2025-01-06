@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213-866-3589"
+    ],
+    "emails": [
+        "reservations@oneluxstay.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize image sizes and ensure faster load times for mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize the use of heavy scripts and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Add relevant meta tags and optimize the content for targeted keywords to improve SEO ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve accessibility by adding more clear navigation cues for users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process with fewer steps to enhance user convenience.",
+    "tips": [
+        "Consider adding customer reviews or testimonials for better engagement.",
+        "Improve image optimization for faster loading on mobile."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers luxury apartments for extended stays in Los Angeles with premium amenities and services."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-310-642-7500"
+    ],
+    "emails": [
+        "reservations.lax@sonesta.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Ensure images are properly optimized for mobile to enhance load times and responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Minimize the use of heavy scripts and optimize images to speed up page loading times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Increase the use of relevant keywords in headings and meta descriptions to improve visibility on search engines.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the clarity of the navigation menu by making it more accessible and intuitive.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps and providing a progress bar.",
+    "tips": [
+        "Optimize images and assets for faster mobile performance.",
+        "Ensure that booking flow is as simple and user-friendly as possible.",
+        "Add more visible contact information in the footer for ease of access."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is for booking rooms at Sonesta Los Angeles Airport LAX."
+}

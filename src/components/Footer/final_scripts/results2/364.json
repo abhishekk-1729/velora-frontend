@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 732-499-8200"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and UI elements to load faster and be more responsive on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Improve image compression and minimize HTTP requests to enhance the overall speed of the website.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Implement structured data (schema.org) and optimize meta tags to improve search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Provide more intuitive navigation for easier access to key information and services.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps to completion.",
+    "tips": [
+        "Optimize image sizes for faster loading times.",
+        "Improve mobile navigation for better accessibility on smaller screens.",
+        "Enhance SEO by adding alt text for images and improving internal linking."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about Spark by Hilton Rahway and allows for direct hotel bookings."
+}

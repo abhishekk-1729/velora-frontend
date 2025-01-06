@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 5,
+    "mobileResponsivenessTip": "Improve mobile responsiveness by using responsive design frameworks like Bootstrap or media queries.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize images and leverage browser caching to improve loading speed.",
+    "seoOptimizationOutOf10": 4,
+    "seoOptimizationTip": "Add relevant meta tags, optimize page titles, and ensure keyword-rich content to boost SEO.",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Improve navigation and provide clear call-to-action buttons for a better user experience.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Consider adding booking functionality on the website to improve user engagement.",
+        "Regularly update content to enhance SEO and user experience."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Orchid Motel but does not have a booking feature."
+}

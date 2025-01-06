@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "1-855-972-9090"
+    ],
+    "emails": [
+        "info@minthouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images and elements for faster mobile load times to enhance responsiveness.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Reduce image sizes and leverage caching strategies to improve loading speed.",
+    "seoOptimizationOutOf10": 9,
+    "seoOptimizationTip": "Focus on improving keyword density and ensuring alt text for all images.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve site navigation by simplifying menus for a smoother experience.",
+    "bookingFlowOutOf10": 9,
+    "bookingFlowTip": "Integrate clearer call-to-action buttons for quicker booking steps.",
+    "tips": [
+        "Optimize image compression and lazy loading for faster page load.",
+        "Enhance accessibility features like screen reader support."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers upscale, flexible accommodations in a historical NYC landmark with modern amenities."
+}

@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 310-399-4500"
+    ],
+    "emails": [
+        "info@venicebeachhouse.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Consider optimizing images for mobile to reduce loading times and improve layout scaling.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images, reduce the number of HTTP requests, and consider lazy loading for better speed.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve meta tags, use more descriptive alt text for images, and add more relevant keywords in headings.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Make the navigation menu more prominent and easy to access for mobile users.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps required to complete the reservation.",
+    "tips": [
+        "Improve image optimization for faster load times.",
+        "Add more local content to improve SEO.",
+        "Consider adding a chat feature to improve customer interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers a boutique hotel experience at Venice Beach with booking options available on-site."
+}

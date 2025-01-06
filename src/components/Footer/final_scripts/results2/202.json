@@ -1,0 +1,32 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 (818) 845-7700",
+        "+1 (818) 845-1061"
+    ],
+    "emails": [
+        "info@portofinoburbank.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Improve touch targets and ensure better readability on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize images and leverage browser caching for faster load times.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Incorporate more keywords in headings and meta descriptions for better search engine ranking.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Streamline the navigation menu to make it easier for users to find key information.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Consider reducing the number of steps required to complete the booking process.",
+    "tips": [
+        "Optimize image sizes",
+        "Improve page speed for mobile users",
+        "Enhance keyword use in on-page content"
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Portofino Inn Burbank and allows users to book rooms directly."
+}

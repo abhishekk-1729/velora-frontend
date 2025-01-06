@@ -1,0 +1,27 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize images and use responsive frameworks like Bootstrap to enhance mobile experience.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Compress and optimize images, minify CSS/JS files to improve loading time.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Improve keyword usage and meta tags, and implement schema markup for rich results.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation and ensure consistent branding across pages.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Add clearer call-to-action buttons and streamline the booking form to reduce friction.",
+    "tips": [
+        "Ensure faster loading times by optimizing resources.",
+        "Improve SEO by enhancing meta information and adding more relevant content.",
+        "Enhance mobile responsiveness to ensure a seamless experience on smaller screens."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers booking services for a hotel in Hollywood Hills."
+}

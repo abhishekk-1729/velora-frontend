@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 718-855-7600"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure that images scale properly on all mobile devices, as some images seem slightly stretched on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize large image files and consider lazy loading to improve page load time.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve title tags and meta descriptions for better keyword targeting and clarity.",
+    "userExperienceOutOf10": 9,
+    "userExperienceTip": "Improve the navigation by making the menu more accessible with sticky navigation for easier access to key sections.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Streamline the booking process by reducing the number of steps and ensuring that form fields are clearly labeled.",
+    "tips": [
+        "Optimize images for faster loading.",
+        "Implement structured data to improve SEO.",
+        "Ensure that the website is fully accessible with keyboard navigation."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website allows users to book rooms at Hilton Brooklyn New York, providing essential hotel information and services."
+}

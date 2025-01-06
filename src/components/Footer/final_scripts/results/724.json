@@ -1,0 +1,26 @@
+{
+    "isSiteFunctional": false,
+    "belongsToThisHotel": false,
+    "contactNumbers": [],
+    "emails": [],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "others",
+    "ifOthersThenWhat": "Not Available",
+    "mobileResponsivenessOutOf10": 0,
+    "mobileResponsivenessTip": "Ensure the website allows access by removing restrictions in the robots.txt file for user agents.",
+    "loadingSpeedOutOf10": 0,
+    "loadingSpeedTip": "Remove potential blocking scripts or large files causing loading issues.",
+    "seoOptimizationOutOf10": 0,
+    "seoOptimizationTip": "Enable indexing for search engine crawlers to analyze the website.",
+    "userExperienceOutOf10": 0,
+    "userExperienceTip": "Fix accessibility restrictions and provide content visible to users.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Resolve issues with the robots.txt file to enable search engine crawling.",
+        "Ensure the website is accessible and functional for all user agents."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website is inaccessible due to restrictions on robots.txt, making it non-functional for users."
+}

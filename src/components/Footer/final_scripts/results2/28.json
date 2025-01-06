@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 323-467-5240",
+        "+1 323-467-5241"
+    ],
+    "emails": [
+        "info@hollywoodstarsinn.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Ensure images and buttons resize properly on mobile screens for better usability.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Optimize image sizes and consider lazy loading to improve page load times.",
+    "seoOptimizationOutOf10": 5,
+    "seoOptimizationTip": "Add alt text to images and improve meta tags for better search engine visibility.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Improve navigation clarity, such as making the booking process more intuitive and reducing clutter.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify form fields and reduce steps in the booking process for quicker completions.",
+    "tips": [
+        "Ensure consistent branding across all pages.",
+        "Add more engaging visual elements to increase user interaction."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website promotes hotel booking services for Hollywood Stars Inn."
+}

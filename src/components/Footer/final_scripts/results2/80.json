@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 312-979-1900"
+    ],
+    "emails": [
+        "reservations.chicago@nobuhotels.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 9,
+    "mobileResponsivenessTip": "Ensure buttons and navigation elements are larger and easier to interact with on smaller screens.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Optimize image sizes and use modern image formats like WebP to speed up load times.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Improve meta descriptions and title tags for better search engine visibility.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Provide clearer navigation and a more prominent call-to-action button for bookings.",
+    "bookingFlowOutOf10": 8,
+    "bookingFlowTip": "Simplify the booking process by reducing the number of steps or pages involved.",
+    "tips": [
+        "Consider adding more localized content for better search rankings.",
+        "Improve mobile navigation responsiveness.",
+        "Enhance image optimization for faster load times."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website offers information about booking stays at Nobu Hotel Chicago and its services."
+}

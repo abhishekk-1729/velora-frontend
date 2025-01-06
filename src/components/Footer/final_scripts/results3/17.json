@@ -1,0 +1,30 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": true,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 8,
+    "mobileResponsivenessTip": "Optimize images and elements for faster load times on mobile devices.",
+    "loadingSpeedOutOf10": 7,
+    "loadingSpeedTip": "Implement lazy loading for images and scripts to speed up page load time.",
+    "seoOptimizationOutOf10": 6,
+    "seoOptimizationTip": "Improve on-page SEO by adding more keyword-rich content and optimizing meta tags.",
+    "userExperienceOutOf10": 8,
+    "userExperienceTip": "Simplify navigation by reducing unnecessary steps to find important information.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Reduce the number of steps in the booking process to make it quicker and more intuitive.",
+    "tips": [
+        "Ensure all contact details (phone, email) are easily accessible.",
+        "Regularly check the site for broken links."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website helps users book stays at the Motel 6 Glendale, CA, with details about rooms and amenities."
+}

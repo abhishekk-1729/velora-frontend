@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "NA"
+    ],
+    "emails": [
+        "NA"
+    ],
+    "hotelBookingAvailable": false,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "NA",
+    "category": "motel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 5,
+    "mobileResponsivenessTip": "Improve touch-target sizes and ensure all content is fully visible without horizontal scrolling on mobile devices.",
+    "loadingSpeedOutOf10": 4,
+    "loadingSpeedTip": "Optimize image sizes and minimize JavaScript to improve page load speed.",
+    "seoOptimizationOutOf10": 3,
+    "seoOptimizationTip": "Ensure all pages have unique and relevant meta descriptions, title tags, and implement structured data (schema markup).",
+    "userExperienceOutOf10": 6,
+    "userExperienceTip": "Simplify the navigation and improve the clarity of information such as room rates and amenities.",
+    "bookingFlowOutOf10": "NA",
+    "bookingFlowTip": "NA",
+    "tips": [
+        "Focus on mobile optimization to provide a seamless experience across devices.",
+        "Improve loading speed by optimizing page assets and using caching.",
+        "Enhance SEO by ensuring proper metadata and on-page content strategies are in place."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides information about Motel 6 Glendale Pasadena but does not offer online booking."
+}

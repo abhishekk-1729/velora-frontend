@@ -1,0 +1,31 @@
+{
+    "isSiteFunctional": true,
+    "belongsToThisHotel": true,
+    "contactNumbers": [
+        "+1 213 384 7788"
+    ],
+    "emails": [
+        "info@example.com"
+    ],
+    "hotelBookingAvailable": true,
+    "sameDomainBooking": false,
+    "thirdPartyBookingDomain": "asiwebres.com",
+    "category": "hotel",
+    "ifOthersThenWhat": "NA",
+    "mobileResponsivenessOutOf10": 7,
+    "mobileResponsivenessTip": "Optimize layout scaling and touch targets for smaller screens.",
+    "loadingSpeedOutOf10": 6,
+    "loadingSpeedTip": "Reduce image sizes and leverage browser caching.",
+    "seoOptimizationOutOf10": 8,
+    "seoOptimizationTip": "Add meta descriptions and alt text for all images.",
+    "userExperienceOutOf10": 7,
+    "userExperienceTip": "Simplify navigation and add more intuitive call-to-action buttons.",
+    "bookingFlowOutOf10": 7,
+    "bookingFlowTip": "Integrate booking directly into the main domain for a seamless experience.",
+    "tips": [
+        "Ensure SSL is applied sitewide to improve security and SEO.",
+        "Include consistent branding across all pages.",
+        "Improve accessibility features for visually impaired users."
+    ],
+    "whatThisWebsiteDoesInOneLine": "We found that your website provides hotel information, amenities, and booking options for Hometel Suites in Los Angeles."
+}
