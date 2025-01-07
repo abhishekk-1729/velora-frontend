@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import endpoints from "../../configs/apiConfigs";
+import "./Chat.css";
+import { useNavigate } from "react-router-dom";
+import { ThreeDots } from "react-loader-spinner";
+import SmoothTextSwitcher from "./TextSwitch"
 
 const Chat = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,27 +14,41 @@ const Chat = () => {
   const [input, setInput] = useState("");
   const [aiLoading, setAiLoading] = useState(false);
   const [aiCurrentResponse, setAiCurrentResponse] = useState("");
-  const [humanLoading, setHumanLoading] = useState(false);
+  // const [humanLoading, setHumanLoading] = useState(false);
   const [humanCurrentResponse, setHumanCurrentResponse] = useState("");
-  const socket = io("https://www.backend.thefirstweb.com");
+  const socket = io("http://localhost:8000");
   // const socket = io("http://localhost:8000");
   const [chatId, setChatId] = useState(null);
   const [showQuickQuestionsAi, setShowQuickQuestionsAi] = useState(true);
   const [showQuickQuestionsHuman, setShowQuickQuestionsHuman] = useState(true);
+  const navigate = useNavigate();
+  const [humanLoading, setHumanLoading] = useState(false);
+  const messagesEndRef = useRef(null);
+  const [humanText, setHumanText] = useState("");
 
+  
+
+  // Scroll to the bottom of the messages container
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [aiMessages, humanMessages]);
   const dummyQuestions = [
     "What services do you offer?",
     "How much does it cost to build a website?",
     "Can I customize my website?",
   ];
 
-  const sendMessage = (message=null) => {
+  const sendMessage = (message = null) => {
     console.log(input);
     console.log(chatId);
-    console.log(message)
-    console.log(input)
-    const input1 = input.trim() || message
-    console.log(input1)
+    console.log(message);
+    console.log(input);
+    const input1 = input.trim() || message;
+    console.log(input1);
     if (!input1.trim()) return;
 
     socket.emit("sendMessage", {
@@ -121,18 +139,20 @@ const Chat = () => {
     if (!chatId) {
       console.log("new chat");
       try {
-        const response = await fetch(
-          endpoints.chatStart,
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ userId: "guest" }),
-          }
-        );
+        const response = await fetch(endpoints.chatStart, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ userId: "guest" }),
+        });
         const data = await response.json();
         setChatId(data.chatId);
         socket.emit("joinChat", data.chatId);
         socket.on("newMessage", (message) => {
+          if (message.sender != "admin") {
+            setHumanLoading(true);
+          } else {
+            setHumanLoading(false);
+          }
           setHumanMessages((prev) => [...prev, message]);
         });
       } catch (error) {
@@ -142,23 +162,20 @@ const Chat = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4" style={{ zIndex: 200 }}>
+    <div className="fixed bottom-8 right-4 md:right-16" style={{ zIndex: 200 }}>
       {!isOpen && (
-        <div
-          className="bg-blue-500 text-white px-4 py-2 rounded-full text-center cursor-pointer shadow-lg"
-          onClick={() => setIsOpen(true)}
-        >
+        <div className="pulsating-button" onClick={() => setIsOpen(true)}>
           Help & Support
         </div>
       )}
       {isOpen && (
         <div
-          className="w-80 md:w-96 bg-white border border-gray-300 rounded-lg shadow-lg flex flex-col"
+          className="w-80 md:w-96 bg-white border border-gray-300 rounded-xl shadow-lg flex flex-col"
           style={{ height: "600px" }}
         >
           <div className="flex justify-between items-center border-b border-gray-300 p-3">
-            <h2 className="text-lg font-semibold text-blue-500">
-              Chat Assistant
+            <h2 className="text-lg font-semibold text-[#783ec7] text-500">
+              Chat with us
             </h2>
             <button
               className="text-gray-500 text-lg focus:outline-none"
@@ -167,22 +184,38 @@ const Chat = () => {
               &times;
             </button>
           </div>
+          <div class="scrolling-banner">
+            <span>
+              Get 20% OFF with the coupon code FIRSTWEB25. Coupon code is valid
+              till Jan 31st, 2025. Go to{" "}
+              <button
+                className="underline"
+                onClick={() => {
+                  navigate("/pricing");
+                  setIsOpen(false);
+                }}
+              >
+                pricing
+              </button>
+              {". "}Let's go live today!
+            </span>
+          </div>
 
           <div className="flex justify-around border-b border-gray-300 p-3">
             <div
               className={`cursor-pointer px-3 py-1 ${
                 activeTab === "ai"
-                  ? "border-b-2 border-blue-500 text-blue-500"
+                  ? "border-b-2 border-[#783ec7] border-500 text-[#783ec7] text-500"
                   : "text-gray-500"
               }`}
               onClick={() => setActiveTab("ai")}
             >
-              AI Chat
+              Ask FirstAI👋
             </div>
             <div
               className={`cursor-pointer px-3 py-1 ${
                 activeTab === "human"
-                  ? "border-b-2 border-blue-500 text-blue-500"
+                  ? "border-b-2 border-[#783ec7] border-500 text-[#783ec7] text--500"
                   : "text-gray-500"
               }`}
               onClick={() => {
@@ -190,7 +223,7 @@ const Chat = () => {
                 startChat();
               }}
             >
-              Human Chat
+              <SmoothTextSwitcher/>
             </div>
           </div>
 
@@ -203,7 +236,7 @@ const Chat = () => {
                 {dummyQuestions.map((question, index) => (
                   <button
                     key={index}
-                    className="bg-gray-100 text-blue-500 px-2 py-1 rounded-lg text-sm hover:bg-blue-500 hover:text-white"
+                    className="bg-gray-100 text-[#783ec7] text-500 px-2 py-1 rounded-lg text-sm hover:bg-[#783ec7] hover:bg-500 hover:text-white"
                     onClick={(e) => handleSendMessage(e, question)}
                   >
                     {question}
@@ -222,7 +255,7 @@ const Chat = () => {
                 {dummyQuestions.map((question, index) => (
                   <button
                     key={index}
-                    className="bg-gray-100 text-blue-500 px-2 py-1 rounded-lg text-sm hover:bg-blue-500 hover:text-white"
+                    className="bg-gray-100 text-[#783ec7] text-500 px-2 py-1 rounded-lg text-sm hover:bg-[#783ec7] hover:bg-500 hover:text-white"
                     onClick={(e) => handleSendMessage(e, question)}
                   >
                     {question}
@@ -251,7 +284,11 @@ const Chat = () => {
                     } items-start mb-2`}
                   >
                     {message.type === "ai" && (
-                      <span className="text-2xl mr-2">🤖</span>
+                      <img
+                        src="/robot.png"
+                        alt="Admin"
+                        className="w-6 h-6  mr-2 object-cover object-center mt-2"
+                      />
                     )}
                     <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
                       <p className="text-sm">{message.text}</p>
@@ -270,78 +307,101 @@ const Chat = () => {
                         : "justify-start"
                     } items-start mb-2`}
                   >
-                    {/* message.type === "human" && */}
-                    {/* { (
-                      <img
-                        src="/human-icon.png"
-                        alt="Human"
-                        className="w-6 h-6 rounded-full mr-2"
-                      />
-                    )} */}
-                    {/* {message.sender === "admin"?<span className="text-2xl mr-2">🧑</span>:<></>}
-                    <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
-                      <p className="text-sm">{message.message}</p>
-                      <span className="text-xs text-gray-400 block text-right mt-1">
-                        {"12:11"}
-                      </span>
-                    </div> */}
                     <div className="flex items-start">
                       {message.sender === "admin" ? (
                         <img
                           src="/founder.jpeg"
                           alt="Admin"
-                          className="w-10 h-10 rounded-full mr-2 object-cover object-center"
+                          className="w-10 h-10 rounded-full mr-2 object-cover object-center mt-2"
                         />
                       ) : null}
                       <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
                         <p className="text-sm">{message.message}</p>
                         <span className="text-xs text-gray-400 block text-right mt-1">
-                          {"12:11"}
+                          {new Date(message.createdAt).toLocaleString()}
                         </span>
                       </div>
                     </div>
                   </div>
                 ))}
+            {activeTab === "human" &&humanLoading && (
+              <>
+                <div
+                  className={`flex "justify-start"
+                  items-start mb-2`}
+                >
+                  <div className="flex items-center align-items">
+                    <img
+                      src="/founder.jpeg"
+                      alt="Admin"
+                      className="w-10 h-10 rounded-full mr-2 object-cover object-center mt-2"
+                    />
+
+                    <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
+                    <p className="text-sm text-gray-500">
+                        <span>
+                          <ThreeDots
+                            visible={true}
+                            height="24"
+                            width="24"
+                            color="grey"
+                            radius="9"
+                            ariaLabel="three-dots-loading"
+                            wrapperStyle={{}}
+                            wrapperClass=""
+                          />
+                        </span>
+                      </p>
+                      {/* <span className="text-xs text-gray-400 block text-right mt-1">
+                        {new Date().toLocaleString()}
+                      </span> */}
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
             {activeTab === "ai" && (
               <>
                 {aiLoading && (
                   <div className="flex items-start mb-2">
-                    <span className="text-2xl mr-2">🤖</span>
+                    <img
+                      src="/robot.png"
+                      alt="Admin"
+                      className="w-6 h-6  mr-2 object-cover object-center mt-2"
+                    />
                     <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
-                      <p className="text-sm text-gray-500">Typing...</p>
+                      <p className="text-sm text-gray-500">
+                        <span>
+                          <ThreeDots
+                            visible={true}
+                            height="18"
+                            width="18"
+                            color="grey"
+                            radius="9"
+                            ariaLabel="three-dots-loading"
+                            wrapperStyle={{}}
+                            wrapperClass=""
+                          />
+                        </span>
+                      </p>
                     </div>
                   </div>
                 )}
                 {aiCurrentResponse && (
                   <div className="flex items-start mb-2">
-                    <span className="text-2xl mr-2">🤖</span>
+                    <img
+                      src="/robot.png"
+                      alt="Admin"
+                      className="w-6 h-6  mr-2 object-cover object-center mt-2"
+                    />
                     <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
                       <p className="text-sm">{aiCurrentResponse}</p>
                     </div>
                   </div>
                 )}
               </>
-            )}
-            {/* {activeTab === "human" && (
-              <>
-                {humanLoading && (
-                  <div className="flex items-start mb-2">
-                    <span className="text-2xl mr-2">🧑</span>
-                    <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
-                      <p className="text-sm text-gray-500">Typing...</p>
-                    </div>
-                  </div>
-                )}
-                {humanCurrentResponse && (
-                  <div className="flex items-start mb-2">
-                    <span className="text-2xl mr-2">🧑</span>
-                    <div className="bg-gray-100 p-2 rounded-lg max-w-xs">
-                      <p className="text-sm">{humanCurrentResponse}</p>
-                    </div>
-                  </div>
-                )}
-              </>
-            )} */}
+            )}{" "}
+            <div ref={messagesEndRef} />
           </div>
 
           <form
@@ -353,16 +413,24 @@ const Chat = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type a message..."
-              className="flex-grow p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="flex-grow p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#783ec7] focus:ring-500"
               required
             />
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="bg-[#783ec7] bg-500 text-white px-4 py-2 rounded-lg hover:bg-[#783ec7] hover:bg-700 focus:outline-none focus:ring-2 focus:ring-[#783ec7] focus:ring-500"
             >
               Send
             </button>
           </form>
+          {activeTab === "ai" && (
+            <div className="flex justify-center align-items text-[8px] mx-6 text-center my-2">
+              FirstAI Chatbot (powered by GPT-4) is experimental and may provide
+              inaccurate or misleading responses. User discretion is advised.
+              The First Web cannot be held responsible for any consequences
+              arising from the information provided by this bot.
+            </div>
+          )}
         </div>
       )}
     </div>

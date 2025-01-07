@@ -1,0 +1,63 @@
+/* styles.css */
+
+@keyframes pulse-glow {
+    0% {
+      box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.8), 0 0 20px 4px rgba(59, 130, 246, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 20px 4px rgba(59, 130, 246, 1), 0 0 30px 6px rgba(59, 130, 246, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.8), 0 0 20px 4px rgba(59, 130, 246, 0.6);
+    }
+  }
+  
+  .pulsating-button {
+    background-color: #3b82f6; /* Blue background */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 9999px; /* Fully rounded button */
+    text-align: center;
+    cursor: pointer;
+    animation: pulse-glow 4s infinite;
+    box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.8), 0 0 20px 4px rgba(59, 130, 246, 0.6);
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .pulsating-button:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+  
+
+  .scrolling-banner {
+    width: 100%;
+    height: 28px; /* Ensure sufficient height for the text */
+    min-height: 28px;
+    max-height: 28px;
+    background: linear-gradient(to right, #783EC7, red);
+    color: white;
+    font-size: 12px;
+    /* font-weight: bold; Optional for better readability */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .scrolling-banner span {
+    display: inline-block;
+    padding-left: 100%; /* Start off-screen */
+    animation: scroll-text 20s linear infinite;
+  }
+
+  @keyframes scroll-text {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  
