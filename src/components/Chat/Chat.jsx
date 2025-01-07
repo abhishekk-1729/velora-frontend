@@ -13,6 +13,7 @@ const Chat = () => {
   const [humanLoading, setHumanLoading] = useState(false);
   const [humanCurrentResponse, setHumanCurrentResponse] = useState("");
   const socket = io("https://www.backend.thefirstweb.com");
+  // const socket = io("http://localhost:8000");
   const [chatId, setChatId] = useState(null);
   const [showQuickQuestionsAi, setShowQuickQuestionsAi] = useState(true);
   const [showQuickQuestionsHuman, setShowQuickQuestionsHuman] = useState(true);
