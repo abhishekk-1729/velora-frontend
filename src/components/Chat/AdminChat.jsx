@@ -6,7 +6,7 @@ const AdminChat = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [activeChats, setActiveChats] = useState([]);
-  const socket = io("http://localhost:8000");
+  const socket = io("https://www.backend.thefirstweb.com");
 
   // Fetch active chats on mount
   useEffect(() => {

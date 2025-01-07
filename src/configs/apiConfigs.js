@@ -1,9 +1,9 @@
 // src/config/apiConfig.js
 
-const API_BASE_URL = 'http://localhost:8000/api/v1'; // Replace with your actual API base URL
-// const API_BASE_URL = 'https://www.backend.thefirstweb.com/api/v1'; // Replace with your actual API base URL
-// const API_BASE_URL_PY = 'https://www.backendpy.thefirstweb.com/api/v1'; // Replace with your actual API base URL
-const API_BASE_URL_PY = 'http://127.0.0.1:8000/api/v1'; // Replace with your actual API base URL
+// const API_BASE_URL = 'http://localhost:8000/api/v1'; // Replace with your actual API base URL
+const API_BASE_URL = 'https://www.backend.thefirstweb.com/api/v1'; // Replace with your actual API base URL
+const API_BASE_URL_PY = 'https://www.backendpy.thefirstweb.com/api/v1'; // Replace with your actual API base URL
+// const API_BASE_URL_PY = 'http://127.0.0.1:8000/api/v1'; // Replace with your actual API base URL
 
 // Define your endpoints
 const endpoints = {

@@ -16,7 +16,7 @@ const Chat = () => {
   const [aiCurrentResponse, setAiCurrentResponse] = useState("");
   // const [humanLoading, setHumanLoading] = useState(false);
   const [humanCurrentResponse, setHumanCurrentResponse] = useState("");
-  const socket = io("http://localhost:8000");
+  const socket = io("https://www.backend.thefirstweb.com");
   // const socket = io("http://localhost:8000");
   const [chatId, setChatId] = useState(null);
   const [showQuickQuestionsAi, setShowQuickQuestionsAi] = useState(true);
