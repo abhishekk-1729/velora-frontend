@@ -142,7 +142,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="fixed bottom-5 right-5" style={{ zIndex: 500 }}>
+    <div className="fixed bottom-4 right-4" style={{ zIndex: 200 }}>
       {!isOpen && (
         <div
           className="bg-blue-500 text-white px-4 py-2 rounded-full text-center cursor-pointer shadow-lg"
@@ -153,7 +153,7 @@ const Chat = () => {
       )}
       {isOpen && (
         <div
-          className="w-96 bg-white border border-gray-300 rounded-lg shadow-lg flex flex-col"
+          className="w-80 md:w-96 bg-white border border-gray-300 rounded-lg shadow-lg flex flex-col"
           style={{ height: "600px" }}
         >
           <div className="flex justify-between items-center border-b border-gray-300 p-3">
