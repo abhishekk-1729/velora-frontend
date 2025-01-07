@@ -2,6 +2,7 @@
 
 // const API_BASE_URL = 'http://localhost:8000/api/v1'; // Replace with your actual API base URL
 const API_BASE_URL = 'https://www.backend.thefirstweb.com/api/v1'; // Replace with your actual API base URL
+const API_BASE_URL_PY = 'https://www.backendpy.thefirstweb.com/api/v1'; // Replace with your actual API base URL
 
 // Define your endpoints
 const endpoints = {
@@ -42,7 +43,11 @@ const endpoints = {
     
     // 
     verifyPayment: `${API_BASE_URL}/payment/verify-payment`,
-    create_Order: `${API_BASE_URL}/payment/create-order`
+    create_Order: `${API_BASE_URL}/payment/create-order`,
+
+    //chat
+    getChatAnswer: `${API_BASE_URL_PY}/chat/chat/`,
+    chatStart: `${API_BASE_URL}/chat/start`,
 };
 
 export default endpoints;

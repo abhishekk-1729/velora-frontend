@@ -63,7 +63,7 @@ const ChatBot = () => {
 
   const startNewChat = async () => {
     // Start a new chat
-    await fetch("http://localhost:8000/api/v1/chat/start", {
+    await fetch("https://www.backend.thefirstweb.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ userId: "guest" }),

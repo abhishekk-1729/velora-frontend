@@ -15,6 +15,7 @@ import { matchPath } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import About from "./components/About/aboutus";
 import Popup from "./components/Popup/Popup"
+import Chat from "./components/Chat/Chat";
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(true);
@@ -60,6 +61,7 @@ const App = () => {
       </Routes>
       {/* Conditionally render Footer */}
       {!shouldHideNavFooter() && <Footer />}
+      <Chat/>
     </main>
   );
 };

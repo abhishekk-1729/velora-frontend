@@ -15,15 +15,6 @@ const AdminChat = () => {
     socket.on("activeChats", (chats) => {
       setActiveChats(chats);
     });
-
-    socket.on("newMessage", (message) => {
-      setMessages((prev) => [...prev, message]);
-    });
-
-    socket.on("chatHistory", (history) => {
-      setMessages(history);
-    });
-
     return () => {
       socket.disconnect();
     };
@@ -39,6 +30,8 @@ const AdminChat = () => {
     });
   };
 
+
+
   // Send message to the selected chat room
   const sendMessage = () => {
     if (!input.trim()) return;
@@ -49,10 +42,6 @@ const AdminChat = () => {
       sender: "admin", // You can specify the sender as 'admin'
     };
 
-    // Update messages locally before sending
-    setMessages((prev) => [...prev, newMessage]);
-
-    // Emit message to the server
     socket.emit("adminSendMessage", {
       chatId,
       message: input,
@@ -102,7 +91,7 @@ const AdminChat = () => {
           className="input-box flex-1 p-2 border rounded-lg"
         />
         <button
-          onClick={sendMessage}
+          onClick={()=>{sendMessage()}}
           className="send-button bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-700"
         >
           Send
