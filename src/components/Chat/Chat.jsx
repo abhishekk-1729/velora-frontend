@@ -405,7 +405,7 @@ const Chat = () => {
           </div>
 
           <form
-            className="border-t border-gray-300 p-3 flex items-center space-x-2"
+            className="border-t border-gray-300 p-3 flex items-center justify-between gap-2"
             onSubmit={handleSendMessage}
           >
             <input
@@ -413,7 +413,7 @@ const Chat = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type a message..."
-              className="flex-grow p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#783ec7] focus:ring-500"
+              className="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#783ec7] focus:ring-500"
               required
             />
             <button
