@@ -25,6 +25,7 @@ const Chat = () => {
   const [humanLoading, setHumanLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const [humanText, setHumanText] = useState("");
+  const [memory, setMemory] = useState(null);
 
   
 
@@ -91,10 +92,13 @@ const Chat = () => {
       const response = await fetch(endpoints.getChatAnswer, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ user_input: userInput }),
+        body: JSON.stringify({ user_input: userInput, memory: memory }),
       });
       const data = await response.json();
-      const aiResponse = data?.response || "Sorry, I couldn't process that.";
+      const data_response = data?.response
+      const data_memory = data?.memory
+      setMemory(data_memory);
+      const aiResponse = data_response || "Sorry, I couldn't process that.";
       animateTyping(aiResponse, "ai");
     } catch (error) {
       console.error("Error fetching AI response:", error);
