@@ -5,10 +5,10 @@ import endpoints from "../../configs/apiConfigs";
 import { useAuth } from "../../store/auth";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import "./ContactUs.css";
+import "./GetAllRecommendations.css";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import EnterPhone from "../EnterPhone/EnterPhone";
-function ContactUs() {
+function GetAllRecommendations() {
 
   const [message, setMessage] = useState("");
   const [textState, setTextState] = useState(0);
@@ -60,8 +60,8 @@ function ContactUs() {
         <Navbar />
         <div className="flex flex-col   mx-4 lg:mx-16 p-2 md:p-20 text-[#8a919a] gap-16 mb-16 ">
          
-         <h1 className="text-[40px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
-            We would love to hear from you!
+         <h1 className="text-[36px] md:text-[60px] font-semibold md:leading-[80px] text-[#F0F6FC] text-center ">
+         Complete Your Details to Get Expert Suggestions
           </h1>
 
           <div className="flex flex-col gap-4 md:flex-row md:gap-8 lg:gap-20 md:w-full">
@@ -238,4 +238,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default GetAllRecommendations;

@@ -21,6 +21,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy.jsx";
 import Logout from "./components/Logout/Logout.jsx";
 import AdminChat from "./components/Chat/AdminChat.jsx"
 import Chat from "./components/Chat/ChatBot.jsx"
+import GetAllRecommendations from "./components/GetAllRecommendations/GetAllRecommendations.jsx"
 
 const routes = [
     { path: "/", element: <Home />, noNavFooter:true },
@@ -32,6 +33,7 @@ const routes = [
     { path: "/signup/emailverify", element: <EmailVerify />,noNavFooter: true },
     { path: "/login/emailverify", element: <EmailVerify />,noNavFooter: true },
     { path: "/contact", element: <ContactUs /> ,noNavFooter: true},
+    { path: "/getAllRecommendations", element: <GetAllRecommendations /> ,noNavFooter: true},
     { path: "/dashboard", element: <Dashboard /> ,noNavFooter: true},
     { path: "/status/:id", element: <Status />, noNavFooter: true},
     { path: "/signup/enterDetails", element: <EnterDetails />,noNavFooter:true },
