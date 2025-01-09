@@ -110,36 +110,42 @@ const Chat = () => {
 
   const animateTyping = (response, tab) => {
     const words = response.split(" ");
-    let index = 0;
-
-    const interval = setInterval(() => {
+    let currentText = ""; // Temporary variable to manage state
+  
+    const typeWord = (index) => {
       if (index < words.length) {
+        currentText += (currentText ? " " : "") + words[index];
+  
+        // Update the respective state
         if (tab === "ai") {
-          setAiCurrentResponse((prev) => prev + " " + words[index]);
+          setAiCurrentResponse(currentText);
         } else if (tab === "human") {
-          setHumanCurrentResponse((prev) => prev + " " + words[index]);
+          setHumanCurrentResponse(currentText);
         }
-        index++;
+  
+        // Call the next word after 150ms
+        setTimeout(() => typeWord(index + 1), 150);
       } else {
-        clearInterval(interval);
+        // When done, save the final message and reset
         const finalMessage = {
           type: tab,
           text: response,
           time: new Date().toLocaleString(),
         };
-
+  
         if (tab === "ai") {
           setAiMessages((prev) => [...prev, finalMessage]);
           setAiCurrentResponse("");
         } else if (tab === "human") {
           setHumanMessages((prev) => [...prev, finalMessage]);
-          //   setHumanCurrentResponse("");
         }
       }
-    }, 150);
+    };
+  
+    // Start typing from the first word
+    typeWord(0);
   };
-
-  const startChat = async () => {
+    const startChat = async () => {
     if (!chatId) {
       console.log("new chat");
       try {
